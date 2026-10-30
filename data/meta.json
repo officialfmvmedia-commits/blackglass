@@ -4,7 +4,7 @@
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 400,
+  "alerts": 130,
   "candidates": 1313,
   "alerts_30d": 4,
   "txs_scanned": 2779

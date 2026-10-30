@@ -1,0 +1,188 @@
+{
+ "generated": "2026-10-30T22:18:18.295382Z",
+ "scenarios": [
+  {
+   "id": "C010-20261013",
+   "cluster": "C010",
+   "title": "OFAC-sanctioned wallets: BOYKOV, Ilya Aleksandrovich",
+   "start": "2026-10-13T14:56:23Z",
+   "end": "2026-10-13T14:56:23Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Oct 13, 2026. Latest: An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop from cluster C010. Resemblance score 55/100.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "C006-20261001",
+   "cluster": "C006",
+   "title": "OFAC-sanctioned wallets: LAZARUS GROUP",
+   "start": "2026-10-01T13:34:11Z",
+   "end": "2026-10-01T13:34:11Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Oct 1, 2026. Latest: An address OFAC lists under \"LAZARUS GROUP\" received 0.006438 ETH from 0x36B4\u2026DE7a.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 15,
+   "confidence_label": "low",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #27307 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
+    }
+   ]
+  },
+  {
+   "id": "C001-20260327",
+   "cluster": "C001",
+   "title": "Harmony bridge hack funds (FBI-published wallets)",
+   "start": "2026-03-27T13:45:59Z",
+   "end": "2026-03-27T13:45:59Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Mar 27, 2026. Latest: A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 50,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127"
+   ],
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "C003-20260116",
+   "cluster": "C003",
+   "title": "OFAC-sanctioned wallets: TIAN, Yinyin",
+   "start": "2026-01-16T06:14:28Z",
+   "end": "2026-01-16T06:14:28Z",
+   "chain": "BTC",
+   "events": 1,
+   "what": "1 logged movement on Jan 16, 2026. Latest: An address OFAC lists under \"LI, Jiadong\" just spent BTC: 0.0008602 BTC split across 1 output(s), 1 hop from cluster C003.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 60,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://mempool.space/tx/5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #28263 (DPRK3] [CYBER2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28263"
+    }
+   ]
+  },
+  {
+   "id": "C008-20250913",
+   "cluster": "C008",
+   "title": "OFAC-sanctioned wallets: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+   "start": "2025-09-13T15:25:47Z",
+   "end": "2025-09-13T15:30:35Z",
+   "chain": "ETH",
+   "events": 2,
+   "what": "2 logged movements on Sep 13, 2025. Latest: An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
+    "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "C014-20250812",
+   "cluster": "C014",
+   "title": "OFAC-sanctioned wallets: ANDREYEV, Vitaliy Sergeyevich",
+   "start": "2025-08-12T14:38:20Z",
+   "end": "2025-08-12T16:53:36Z",
+   "chain": "BTC",
+   "events": 3,
+   "what": "3 logged movements on Aug 12, 2025. Latest: An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 0 BTC split across 0 output(s), 1 hop from cluster C014.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 60,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://mempool.space/tx/aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
+    "https://mempool.space/tx/0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
+    "https://mempool.space/tx/d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "C013-20250728",
+   "cluster": "C013",
+   "title": "OFAC-sanctioned wallets: YUN, Song Guk",
+   "start": "2025-07-28T13:41:35Z",
+   "end": "2025-07-28T13:41:35Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Jul 28, 2025. Latest: An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C013. Resemblance score 55/100.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "C002-20250303",
+   "cluster": "C002",
+   "title": "Bybit hack funds (FBI-published wallets)",
+   "start": "2025-03-03T08:39:59Z",
+   "end": "2025-03-03T18:13:47Z",
+   "chain": "ETH",
+   "events": 17,
+   "what": "17 logged movements on Mar 3, 2025. Latest: A wallet the FBI tied to the Bybit hack just sent 135.7 ETH to address 0x5c8C\u2026Cffa, 1 hop from cluster C002. Resemblance score 65/100. About 1609 ETH went out to 7 new addresses one hop away.",
+   "why": "Fast fan-out: funds split across many wallets quickly.",
+   "confidence": 80,
+   "confidence_label": "high",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xa2e4935c2a3c191bd4d5ac13f2649a2840cc3a4e6ac57228a376156f72e5f9cf",
+    "https://eth.blockscout.com/tx/0xc9df63b6eda8fcd3a56df9ba138761415813628a2e8b06a9dc709a25e1c76b2e",
+    "https://eth.blockscout.com/tx/0x3b6504cbbd147c6d4a661a3104f8b2b4ffebd6bc114c9d511ea9fa44adf72d28",
+    "https://eth.blockscout.com/tx/0x167228e4dd78e962562b56df3049b5d83ea58f6f44fb61e5df6cc4d45ffb9287",
+    "https://eth.blockscout.com/tx/0x02b6747ef9bb55411229343cd26baafb567fdeb72680441121ad255550f0a61d"
+   ],
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  }
+ ]
+}

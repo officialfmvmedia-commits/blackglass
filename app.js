@@ -1,22 +1,34 @@
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const J=u=>fetch(u+'?t='+Date.now()).then(r=>r.json());
-let A=[],C=[],K=[],M={},shown=20,filt='all',seen=new Set(),pings=[];
+let A=[],C=[],K=[],M={},S=[],q='',lastVisit=+localStorage.bgLastVisit||0,shown=20,filt='all',seen=new Set(),pings=[];
 const col=l=>l>=60?'#ff2a3d':l>=40?'#ff7a45':'#b46bff';
 const ago=t=>{const s=(Date.now()-new Date(t))/1e3;return s<3600?Math.round(s/60)+'m ago':s<86400?Math.round(s/3600)+'h ago':Math.round(s/86400)+'d ago'};
 const hash=s=>{let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))|0;return Math.abs(h)};
 async function load(first){
- const [m,a,c]=await Promise.all([J('data/meta.json'),J('data/alerts.json'),J('data/clusters.json')]);M=m;C=c.clusters;K=c.candidates;
+ const [m,a,c,s]=await Promise.all([J('data/meta.json'),J('data/alerts.json'),J('data/clusters.json'),J('data/scenarios.json').catch(()=>({scenarios:[]}))]);M=m;C=c.clusters;K=c.candidates;S=s.scenarios;
  const fresh=a.alerts.filter(x=>!seen.has(x.id));
- if(!first&&fresh.length){fresh.forEach(x=>{ping(x.cluster);notify(x)})}
+ if(!first&&fresh.length){fresh.forEach(x=>{ping(x.cluster);notify(x);toast(x)})}
  a.alerts.forEach(x=>seen.add(x.id));A=a.alerts;render();
 }
 function render(){
- const n=M.counts;$('#stats').innerHTML=[['ADDRESSES',n.addresses],['CLUSTERS',n.clusters],['DISPATCHES',n.alerts],['SCORED CHILDREN',n.candidates]].map(([k,v])=>`<div><b>${v.toLocaleString()}</b><span>${k}</span></div>`).join('');
- $('#tl').textContent=M.threat+'/100';setTimeout(()=>$('#tlb').style.width=M.threat+'%',200);$('#tlw').textContent=`heuristic · ${n.alerts_30d} dispatches in last 30 days`;
+ const n=M.counts;$('#stats').innerHTML=[['ADDRESSES',n.addresses],['CLUSTERS',n.clusters],['LOGGED EVENTS',A.length],['SCORED CHILDREN',n.candidates]].map(([k,v])=>`<div><b>${v.toLocaleString()}</b><span>${k}</span></div>`).join('');
+ $('#tl').textContent=M.threat+'/100';setTimeout(()=>$('#tlb').style.width=M.threat+'%',200);
  $('#gen').textContent=new Date(M.generated).toLocaleString();
  $('#ticker').textContent=A.slice(0,15).map(a=>`▲ ${ago(a.time).toUpperCase()} // ${a.message}`).join('     ');
- const L=A.filter(a=>filt=='all'||a.chain==filt||(filt=='hi'&&a.level>=50));
- $('#alerts').innerHTML=L.slice(0,shown).map(a=>`<article class="d" style="--c:${col(a.level)}"><div class="dh"><span class="tag" style="color:${col(a.level)}">INTERCEPT · ${a.chain}</span><span>${esc(a.cluster)}</span><span>${new Date(a.time).toUTCString().slice(5,22)} UTC · ${ago(a.time)}</span><span>HEURISTIC ${a.level}/100</span></div><p>${esc(a.message)}</p><div class="dl"><a href="${esc(a.tx_url)}" target="_blank" rel="noopener">tx ↗</a><a href="${esc(a.address_url)}" target="_blank" rel="noopener">address ↗</a>${a.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">source: ${esc(s.name)} ↗</a>`).join('')}</div></article>`).join('')||'<p class="mono tiny">No dispatches for this filter.</p>';
+ const isNew=a=>new Date(a.time)>lastVisit&&lastVisit>0||Date.now()-new Date(a.time)<864e5;
+ const last=A[0],h=last?(Date.now()-new Date(last.time))/36e5:1e9,in6=A.filter(a=>Date.now()-new Date(a.time)<6*36e5),in72=A.filter(a=>Date.now()-new Date(a.time)<72*36e5);
+ const st=h<6?'a':h<72?'w':'q',wal=x=>new Set(x.map(a=>a.address)).size;
+ $('#status').className='status '+st;$('#slab').textContent=st=='a'?'● ACTIVE':st=='w'?'● WATCH':'● ALL QUIET';
+ $('#shead').textContent=st=='a'?`${wal(in6)} tracked wallet${wal(in6)>1?'s':''} moved funds in the last 6 hours`:st=='w'?`${wal(in72)} tracked wallet${wal(in72)>1?'s':''} moved funds in the last 3 days`:'No new movement from tracked wallets in the last 72 hours';
+ $('#ssub').textContent=last?`Most recent: ${last.message}`:'';
+ const mins=Math.round((Date.now()-new Date(M.generated))/6e4);$('#schk').innerHTML=`Last checked <b>${mins<1?'just now':mins<120?mins+' min ago':Math.round(mins/60)+' h ago'}</b>`;
+ $('#slast').innerHTML=last?`Last real movement <b>${ago(last.time)}</b>`:'';
+ const nw=A.filter(isNew);$('#newnote').textContent=nw.length?`${nw.length} new since your last visit or in the last 24h.`:`Nothing new since your last visit. Showing the latest ${Math.min(5,A.length)} anyway.`;
+ const card=a=>`<article class="d${isNew(a)?' new':''}" style="--c:${col(a.level)}"><div class="dh">${isNew(a)?'<span class="nb">NEW</span>':''}<span class="tag" style="color:${col(a.level)}">INTERCEPT · ${a.chain}</span><span>${esc(a.cluster)}</span><span>${new Date(a.time).toUTCString().slice(5,22)} UTC · ${ago(a.time)}</span><span title="Pattern-match score, not proof">SCORE ${a.level}/100</span></div><p>${esc(a.message)}</p><div class="dl"><a href="${esc(a.tx_url)}" target="_blank" rel="noopener">tx ↗</a><a href="${esc(a.address_url)}" target="_blank" rel="noopener">address ↗</a>${a.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">source: ${esc(s.name)} ↗</a>`).join('')}</div></article>`;
+ $('#alerts').innerHTML=(nw.length?nw.slice(0,8):A.slice(0,5)).map(card).join('');
+ $('#scen').innerHTML=S.slice(0,6).map(c=>`<div class="sc"><div class="dh"><span class="tag">${esc(c.cluster)} · ${c.chain}</span><span>${new Date(c.end).toDateString().slice(4)} · ${ago(c.end)}</span><span class="conf ${c.confidence_label}" title="Highest pattern-match score in this storyline">${c.confidence_label.toUpperCase()} · ${c.confidence}/100</span></div><h3>${esc(c.title)}</h3><div class="lb">WHAT HAPPENED</div><p>${esc(c.what)}</p><div class="lb">WHY IT MATTERS</div><p>${esc(c.why)}</p><div class="dl">${c.tx_links.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">tx ${i+1} ↗</a>`).join('')}${c.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">source: ${esc(s.name)} ↗</a>`).join('')}</div></div>`).join('')||'<p class="tiny mono">No storylines yet.</p>';
+ const L=A.filter(a=>(filt=='all'||a.chain==filt||(filt=='hi'&&a.level>=50))&&(!q||(a.message+a.address+a.cluster).toLowerCase().includes(q)));
+ $('#log').innerHTML='<div class="tr th"><span>WHEN (UTC)</span><span>CHAIN</span><span>SCORE</span><span>WHAT HAPPENED</span><span>LINKS</span></div>'+L.slice(0,shown).map(a=>`<div class="tr"><span class="mono">${a.time.slice(0,16).replace('T',' ')}</span><span class="mono hm">${a.chain}</span><span class="sc0 hm" style="color:${col(a.level)}">${a.level}</span><span>${esc(a.message)}</span><span><a href="${esc(a.tx_url)}" target="_blank" rel="noopener">tx</a> · <a href="${esc(a.sources[0].url)}" target="_blank" rel="noopener">src</a></span></div>`).join('');
  $('#more').style.display=L.length>shown?'':'none';
  $('#clist').innerHTML=C.map(c=>`<div class="cl"><b>${c.id} · ${esc(c.label)}</b><br>${c.size} addr · ${c.children} children · ${c.chains.join('/')} · bal ${c.balance.ETH} ETH / ${c.balance.BTC} BTC<br>${c.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join(' ')}</div>`).join('');
  $('#cands').innerHTML=K.slice(0,12).map(k=>`<div class="cd"><span class="s">${k.score}</span><b>${k.chain} · ${k.cluster}</b><br><a href="${k.chain=='BTC'?'https://mempool.space/address/':'https://eth.blockscout.com/address/'}${esc(k.address)}" target="_blank" rel="noopener">${esc(k.address)}</a><ul>${k.reasons.map(r=>`<li>${esc(r)}</li>`).join('')}</ul><a href="${esc(k.via[0].url)}" target="_blank" rel="noopener">first link tx ↗</a></div>`).join('');
@@ -24,6 +36,9 @@ function render(){
  if(!G.nodes.length)buildGraph();
 }
 document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));b.classList.add('on');filt=b.dataset.f;shown=20;render()});
+$('#q').oninput=e=>{q=e.target.value.toLowerCase();shown=20;render()};
+addEventListener('beforeunload',()=>localStorage.bgLastVisit=Date.now());
+function toast(a){const t=document.createElement('div');t.className='toast';t.innerHTML=`<b>NEW ALERT</b>${esc(a.message)}`;$('#toasts').append(t);setTimeout(()=>t.remove(),9000)}
 $('#more').onclick=()=>{shown+=20;render()};
 $('#notify').onclick=async()=>{if(!('Notification'in window))return alert('Notifications not supported');const p=await Notification.requestPermission();$('#notify').textContent=p=='granted'?'Alerts on':'Alerts blocked'};
 function notify(a){if(window.Notification&&Notification.permission=='granted')new Notification('BLACKGLASS intercept',{body:a.message,icon:'logo.svg'})}
