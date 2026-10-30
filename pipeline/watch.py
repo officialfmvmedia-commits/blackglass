@@ -210,6 +210,7 @@ for e,p in sorted(per.items(),key=lambda kv:-kv[1]['wallets']):
       'flow_in_usd':round(sum(v['in'] for v in f)),'flow_out_usd':round(sum(v['out'] for v in f)),'biggest':big,'alerts_24h':len(ea),'anomaly':any('anomaly' in a['tags'] for a in ea)})
 W('exchanges.json',{'generated':NOW,'note':'Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.','exchanges':ex})
 W('incidents.json',{'generated':NOW,'incidents':incidents})
+W('flagged.json',{'generated':NOW,'note':'Addresses flagged by public hack post-mortems/blocklists','flagged':flagged})
 m=L('meta.json',{}); m['generated']=NOW
 m['sources']=[s for s in m.get('sources',[]) if not any(s['name']==x['name'] for x in sources)]+sources
 c=collections.Counter(a.get('type') for a in al); m.setdefault('counts',{}).update({'alerts':len(al),'alerts_by_type':dict(c),'registry_wallets':len(regl),'exchanges':len(ex),'incidents':len(incidents),'new_this_run':len(new),'flagged_hack_addresses':len(flagged)})
