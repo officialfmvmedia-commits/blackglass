@@ -1,0 +1,368 @@
+{
+ "generated": "2026-10-30T23:04:52.395714Z",
+ "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
+ "exchanges": [
+  {
+   "entity": "Binance",
+   "wallets": 102,
+   "chains": {
+    "ETH": 64,
+    "ARB": 1,
+    "OP": 1,
+    "POLYGON": 5,
+    "BSC": 27,
+    "AVAX": 3,
+    "FTM": 1
+   },
+   "types": {
+    "deposit": 11,
+    "unspecified": 66,
+    "cold": 1,
+    "hot": 24
+   },
+   "monitored": true,
+   "flow_in_usd": 42807683,
+   "flow_out_usd": 1979606126,
+   "biggest": {
+    "usd": 1598563200.0,
+    "text": "1.60B USDT out to Binance 14",
+    "tx": "https://eth.blockscout.com/tx/0xf2feb4d0e246571edbd08aa4b8a963f32fe0b716d941452d33f1cf63e10732be"
+   },
+   "alerts_24h": 5,
+   "anomaly": false
+  },
+  {
+   "entity": "HTX",
+   "wallets": 90,
+   "chains": {
+    "ETH": 88,
+    "POLYGON": 1,
+    "BSC": 1
+   },
+   "types": {
+    "unspecified": 84,
+    "deposit": 6
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Bitfinex",
+   "wallets": 36,
+   "chains": {
+    "ETH": 33,
+    "POLYGON": 1,
+    "AVAX": 2
+   },
+   "types": {
+    "unspecified": 33,
+    "cold": 1,
+    "hot": 1,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 6984160,
+   "flow_out_usd": 13259439,
+   "biggest": {
+    "usd": 8991918.0,
+    "text": "9.00M USDT out to 0xda3BB6\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x569404b07ae58a6a37b4843dae0d07c743c3b52efcce063ad8a96be8ce57a534"
+   },
+   "alerts_24h": 1,
+   "anomaly": false
+  },
+  {
+   "entity": "KuCoin",
+   "wallets": 28,
+   "chains": {
+    "ETH": 21,
+    "ARB": 3,
+    "OP": 3,
+    "BSC": 1
+   },
+   "types": {
+    "unspecified": 26,
+    "deposit": 1,
+    "hot": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 264292,
+   "flow_out_usd": 418899,
+   "biggest": {
+    "usd": 183906.1258376973,
+    "text": "82.3 ETH out to 0x719ddd\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0xbfbfcf286531159c624f958bba380c07b3f6c5af0d68710040f6a63128fa30f0"
+   },
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "OKX",
+   "wallets": 28,
+   "chains": {
+    "ETH": 27,
+    "BSC": 1
+   },
+   "types": {
+    "unspecified": 24,
+    "deposit": 4
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Coinbase",
+   "wallets": 27,
+   "chains": {
+    "ETH": 27
+   },
+   "types": {
+    "unspecified": 25,
+    "deposit": 2
+   },
+   "monitored": true,
+   "flow_in_usd": 267872,
+   "flow_out_usd": 117101,
+   "biggest": {
+    "usd": 259901.14744097998,
+    "text": "260,000 USDC in from 0xE282dC\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x1f8d08fbc2ab98db96d1adb9af9fdc788a6aef7dc088acb08ed3adad32e03dcb"
+   },
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Poloniex",
+   "wallets": 21,
+   "chains": {
+    "ETH": 21
+   },
+   "types": {
+    "unspecified": 20,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Kraken",
+   "wallets": 20,
+   "chains": {
+    "ETH": 18,
+    "AVAX": 2
+   },
+   "types": {
+    "cold": 1,
+    "unspecified": 18,
+    "hot": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Crypto.com",
+   "wallets": 20,
+   "chains": {
+    "ETH": 20
+   },
+   "types": {
+    "unspecified": 19,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Bithumb",
+   "wallets": 18,
+   "chains": {
+    "ETH": 18
+   },
+   "types": {
+    "unspecified": 17,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Gemini",
+   "wallets": 13,
+   "chains": {
+    "ETH": 13
+   },
+   "types": {
+    "cold": 1,
+    "unspecified": 12
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Bybit",
+   "wallets": 12,
+   "chains": {
+    "ETH": 12
+   },
+   "types": {
+    "unspecified": 12
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "MEXC",
+   "wallets": 11,
+   "chains": {
+    "ETH": 4,
+    "POLYGON": 2,
+    "BSC": 3,
+    "AVAX": 1,
+    "FTM": 1
+   },
+   "types": {
+    "unspecified": 10,
+    "hot": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Bitstamp",
+   "wallets": 9,
+   "chains": {
+    "ETH": 9
+   },
+   "types": {
+    "unspecified": 9
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Gate",
+   "wallets": 8,
+   "chains": {
+    "ETH": 7,
+    "BSC": 1
+   },
+   "types": {
+    "unspecified": 7,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Bittrex",
+   "wallets": 5,
+   "chains": {
+    "ETH": 5
+   },
+   "types": {
+    "unspecified": 4,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Coinone",
+   "wallets": 4,
+   "chains": {
+    "ETH": 4
+   },
+   "types": {
+    "unspecified": 3,
+    "deposit": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "Upbit",
+   "wallets": 4,
+   "chains": {
+    "ETH": 4
+   },
+   "types": {
+    "cold": 1,
+    "unspecified": 3
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  },
+  {
+   "entity": "WhiteBIT",
+   "wallets": 1,
+   "chains": {
+    "ETH": 1
+   },
+   "types": {
+    "unspecified": 1
+   },
+   "monitored": true,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 0,
+   "anomaly": false
+  }
+ ]
+}

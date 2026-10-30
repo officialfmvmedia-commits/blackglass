@@ -12,12 +12,13 @@ def name(c):
     if c['kind']=='sanctioned': return f'OFAC-sanctioned wallets: {l}'
     return l
 by=collections.defaultdict(list)
-for a in al: by[a['cluster']].append(a)
+for a in al:
+    if a.get('type','lazarus') in ('lazarus','hack'): by[a['cluster']].append(a)
 out=[]
 for cid,A in by.items():
     A.sort(key=lambda a:a['time'],reverse=True); last=P(A[0]['time'])
     W=[a for a in A if (last-P(a['time'])).days<=7]  # the latest 7-day burst
-    first=P(W[-1]['time']); c=cl.get(cid,{'label':cid,'kind':'','sources':[]})
+    first=P(W[-1]['time']); c=cl.get(cid) or {'label':cid,'kind':'incident','sources':A[0].get('sources',[])}
     kids=[k for k in cj['candidates'] if k.get('cluster')==cid and any(first<=P(v['time'])<=last+dt.timedelta(seconds=1) for v in k['via'])]
     unit='BTC' if W[0]['chain']=='BTC' else 'ETH'
     moved=sum(v['value'] for k in kids for v in k['via'] if first<=P(v['time'])<=last+dt.timedelta(seconds=1))
@@ -38,7 +39,7 @@ for cid,A in by.items():
     top=max([a['level'] for a in W]+[0])
     out.append({'id':f'{cid}-{last:%Y%m%d}','cluster':cid,'title':name(c),'start':first.isoformat().replace('+00:00','Z'),'end':A[0]['time'],'chain':unit,'events':len(W),
       'what':what,'why':' '.join(why),'confidence':top,'confidence_label':'high' if top>=70 else 'medium' if top>=45 else 'low',
-      'tx_links':[a['tx_url'] for a in W[:5]],'sources':c['sources']})
+      'type':A[0].get('type','lazarus'),'tx_links':[a['tx_url'] for a in W[:5]],'sources':c['sources']})
 out.sort(key=lambda s:s['end'],reverse=True)
 json.dump({'generated':meta['generated'],'scenarios':out[:20]},open(os.path.join(D,'scenarios.json'),'w'),indent=1)
 print(len(out))

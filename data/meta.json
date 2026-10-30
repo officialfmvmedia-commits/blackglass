@@ -1,13 +1,23 @@
 {
- "generated": "2026-10-30T22:18:18.295382Z",
- "threat": 19,
+ "generated": "2026-10-30T23:04:52.395714Z",
+ "threat": 23,
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 130,
-  "candidates": 1313,
-  "alerts_30d": 4,
-  "txs_scanned": 2779
+  "alerts": 1540,
+  "candidates": 1311,
+  "alerts_30d": 2,
+  "txs_scanned": 2752,
+  "alerts_by_type": {
+   "exchange": 13,
+   "hack": 5,
+   "lazarus": 1522
+  },
+  "registry_wallets": 457,
+  "exchanges": 19,
+  "incidents": 40,
+  "new_this_run": 18,
+  "flagged_hack_addresses": 1819
  },
  "sources": [
   {
@@ -45,8 +55,92 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 163,
-   "failed": 0
+   "count": 161,
+   "failed": 2
+  },
+  {
+   "name": "etherscan-labels: etherscan",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/etherscan/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 391
+  },
+  {
+   "name": "etherscan-labels: arbiscan",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/arbiscan/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "etherscan-labels: optimism",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/optimism/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "etherscan-labels: polygonscan",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/polygonscan/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 9
+  },
+  {
+   "name": "etherscan-labels: bscscan",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/bscscan/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 34
+  },
+  {
+   "name": "etherscan-labels: avalanche",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/avalanche/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 8
+  },
+  {
+   "name": "etherscan-labels: ftmscan",
+   "url": "https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/ftmscan/combined/combinedAccountLabels.json",
+   "ok": true,
+   "count": 2
+  },
+  {
+   "name": "dawsbot/eth-labels exchange",
+   "url": "https://raw.githubusercontent.com/dawsbot/eth-labels/master/src/mainnet/exchange/all.json",
+   "ok": true,
+   "count": 5
+  },
+  {
+   "name": "DefiLlama hacks API",
+   "url": "https://api.llama.fi/hacks",
+   "ok": true,
+   "count": 1330
+  },
+  {
+   "name": "Elliptic Binance-hack blocklist (CSV)",
+   "url": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
+   "ok": true,
+   "count": 1818
+  },
+  {
+   "name": "DefiLlama coin prices",
+   "url": "https://coins.llama.fi/",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "Blockscout Ethereum (exchange + incident polling)",
+   "url": "https://eth.blockscout.com/api/v2/",
+   "ok": true,
+   "count": 71
+  },
+  {
+   "name": "Blockscout Optimism (exchange polling)",
+   "url": "https://optimism.blockscout.com/api/v2/",
+   "ok": true,
+   "count": 4
+  },
+  {
+   "name": "Blockscout Polygon (Polymarket incident wallets)",
+   "url": "https://polygon.blockscout.com/api/v2/",
+   "ok": true,
+   "count": 4
   }
  ],
  "disclaimer": "Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution."

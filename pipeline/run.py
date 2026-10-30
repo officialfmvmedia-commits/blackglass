@@ -158,7 +158,7 @@ for x in txs:
             msg=f"{who} received {v:.4g} BTC."; lvl=15
     old[aid]={'id':aid,'time':iso(x['time']),'chain':x['chain'],'level':lvl,'cluster':t.get('cluster'),'message':msg,'tx_url':x['url'],
         'address':t['address'],'address_url':(f"https://mempool.space/address/{t['address']}" if x['chain']=='BTC' else f"https://eth.blockscout.com/address/{t['address']}"),'sources':t['sources'][:2]}
-alerts=sorted(old.values(),key=lambda a:a['time'],reverse=True)[:400]
+alerts=sorted(old.values(),key=lambda a:a['time'],reverse=True)[:3000]
 gen=now().isoformat().replace('+00:00','Z')
 recent=[a for a in alerts if a['time']>(now()-dt.timedelta(days=30)).isoformat()]
 threat=min(100,round(sum(a['level'] for a in recent[:50])/max(1,min(50,len(recent)))*0.6+min(40,len(recent))))
@@ -175,4 +175,3 @@ e=lambda s:html.escape(s,quote=True)
 items=''.join(f"<entry><id>urn:blackglass:{e(a['id'])}</id><title>{e(a['message'][:110])}</title><link href=\"{e(a['tx_url'])}\"/><updated>{a['time']}</updated><summary>{e(a['message'])} Source: {e(a['sources'][0]['url'])}. Heuristic score {a['level']}/100, not attribution.</summary></entry>" for a in alerts[:100])
 open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>BLACKGLASS — Lazarus on-chain dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{gen}</updated>{items}</feed>')
 print(json.dumps({'counts':json.load(open(os.path.join(D,'meta.json')))['counts'],'threat':threat,'sources':[(s['name'],s['ok'],s.get('count')) for s in sources]},indent=1))
-import runpy,os;runpy.run_path(os.path.join(os.path.dirname(os.path.abspath(__file__)),"scenarios.py"))

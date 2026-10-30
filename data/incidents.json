@@ -1,0 +1,975 @@
+{
+ "generated": "2026-10-30T23:04:52.395714Z",
+ "incidents": [
+  {
+   "id": "H711",
+   "name": "Polymarket International",
+   "date": "2026-10-29",
+   "amount_usd": 2700000,
+   "chains": [
+    "Polygon"
+   ],
+   "technique": "Supply Chain Attack",
+   "classification": "Frontend & Infrastructure",
+   "description": "Attackers reportedly compromised a third-party website monitoring service used by Polymarket, allowing malicious JavaScript to execute on its international trading platform. The script hijacked authenticated trading sessions to sell prediction-market positions and transfer assets to attacker-controlled wallets. Polymarket temporarily suspended trading, removed the affected integration, and committed to reimbursing impacted users",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    },
+    {
+     "name": "ohey.ca research",
+     "url": "https://ohey.ca/research/polymarket-debugbear-wallet-drainer/"
+    }
+   ],
+   "addresses": [
+    {
+     "address": "0x3F99139F1C5854bb628c2e576Aaf638e99dFfc18",
+     "role": "drainer recipient"
+    },
+    {
+     "address": "0xe4c4c39c1733e1c7c06b79f97ed442b68df41ec6",
+     "role": "onward wallet"
+    },
+    {
+     "address": "0x5392587814ce8c6af6789764f88e5e9ab0b9962c",
+     "role": "onward wallet"
+    },
+    {
+     "address": "0xc91ee0574a14446de200923729c349b9cae19b60",
+     "role": "onward wallet"
+    }
+   ]
+  },
+  {
+   "id": "H2269",
+   "name": "Binance CEX",
+   "date": "2026-10-29",
+   "amount_usd": 6360000000,
+   "chains": [
+    "Ethereum",
+    "Bitcoin",
+    "TRON",
+    "Avalanche",
+    "Optimism",
+    "Arbitrum",
+    "Base"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "On October 29, attackers exploited Binance\u2019s operational infrastructure to execute unauthorized withdrawals across multiple blockchains, resulting in approximately $6.3 billion in losses. Binance\u2019s preliminary investigation identified a potentially compromised DevOps engineer\u2019s laptop that allowed access to a service container, with no evidence of wallet private key leakage. Approximately $3 billion in stolen assets were subsequently frozen with assistance from blockchain partners. Binance committed to covering all losses using its SAFU fund and company reserves",
+   "returned": null,
+   "attribution": "Analyst-attributed",
+   "actor": "TraderTraitor / DPRK (per Chainalysis, Elliptic)",
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    },
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    },
+    {
+     "name": "Blockaid",
+     "url": "https://blockaid.io/blog/binance-55b-hack-using-advanced-ai-models-blockaid-detects-the-biggest-theft-in-crypto-history"
+    },
+    {
+     "name": "HaskDetect Case 001",
+     "url": "https://hasky00.github.io/haskDetect/"
+    }
+   ],
+   "addresses": [
+    {
+     "address": "0x7C8601d4645b93cea45F71e118A729332e6B5CA0",
+     "role": "operator (funded via Tornado Cash)"
+    },
+    {
+     "address": "0x63e842B054Bd624a465454D533C33F573e9c6fAe",
+     "role": "sweeper contract"
+    },
+    {
+     "address": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+     "role": "collection address (USDT frozen)"
+    },
+    {
+     "address": "0x8532FA14ACAf483729C449b8458aedDb900543D4",
+     "role": "parked ETH"
+    }
+   ]
+  },
+  {
+   "id": "H4335",
+   "name": "zkLink Nova",
+   "date": "2026-10-28",
+   "amount_usd": 783100,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Cross-Chain Message Spoofing",
+   "classification": "Bridge & Cross-Chain",
+   "description": "An attacker exploited zkLink\u2019s Arbitrator contract, which failed to clear a previously authenticated message hash after processing a claim. By reusing that hash through the publicly accessible SyncL2TxHashRelayer, the attacker impersonated an authorized gateway message and installed a malicious L2 logs root. The attacker then submitted forged withdrawal proofs against the compromised root to drain approximately $783,100 from zkLink\u2019s Ethereum bridge",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HHifi Finance",
+   "name": "Hifi Finance",
+   "date": "2026-10-28",
+   "amount_usd": null,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Malicious Proposal",
+   "classification": "Governance",
+   "description": "An attacker acquired HIFI governance tokens and used four coordinated votes shortly before voting closed to pass a malicious governance proposal. Proposal 21 would upgrade Hifi\u2019s BalanceSheet contract to introduce a function that incorrectly treats existing collateral as untracked funds, allowing it to be transferred to an attacker-controlled Safe. The proposal would also mint 25 million HIFI tokens to the attacker. At the time of reporting, the proposal was queued but had not been executed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H6201",
+   "name": "Fence Finance",
+   "date": "2026-10-27",
+   "amount_usd": 1010000,
+   "chains": [
+    "Avalanche"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "An attacker exploited a tranche vault associated with Fence Finance and Valinor Digital by using a flash loan to obtain an inflated allocation of vault shares. The attacker subsequently redeemed those shares to withdraw approximately $1.01 million in USDC from the vault",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HZilliqa X-Bridge",
+   "name": "Zilliqa X-Bridge",
+   "date": "2026-10-27",
+   "amount_usd": null,
+   "chains": [
+    "Zilliqa"
+   ],
+   "technique": "Private Key Compromised",
+   "classification": "Key Compromise",
+   "description": "Zilliqa confirmed a security incident affecting its X-Bridge and ZRC2 proxy contracts associated with certain liquidity pools, including PlunderSwap. The affected assets include zUSDT, SEED, kUSD, and Zoge, while native ZIL and the Zilliqa EVM network reportedly remain unaffected. X-Bridge remains paused while operational keys are rotated and investigations continue",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H5129",
+   "name": "Predict Fun",
+   "date": "2026-10-27",
+   "amount_usd": 400000,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Frontend Compromise",
+   "classification": "Frontend & Infrastructure",
+   "description": "Several Predict.fun users experienced unauthorized wallet transfers totaling approximately 400,000 USDT. Preliminary findings suggest a possible compromise of the project\u2019s API documentation website, which was hosted by a third-party provider. Predict.fun took the documentation site offline as a precaution and committed to reimbursing affected users",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H5806",
+   "name": "Bloom Trading Bot",
+   "date": "2026-10-26",
+   "amount_usd": 953000,
+   "chains": [
+    "Solana"
+   ],
+   "technique": "Supply Chain Attack",
+   "classification": "Frontend & Infrastructure",
+   "description": "An attacker exploited a reported remote code execution vulnerability in a third-party software module used by Bloom\u2019s trading infrastructure, enabling unauthorized transfers from user wallets. Approximately 9,408 SOL was drained from 48 wallets belonging to nine traders within 94 seconds. Bloom attributed the incident to the third-party module and denied that private keys were exposed, while Bitquery confirmed that the transactions were signed using the affected wallets\u2019 keys",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H6649",
+   "name": "Myriad Markets",
+   "date": "2026-10-26",
+   "amount_usd": 0,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "An attacker exploited a previously exposed private key belonging to Myriad\u2019s automated market management wallet. The key had reportedly been leaked through a vulnerability in a third-party library used by a backend service. The attacker used the wallet\u2019s privileges to manipulate positions and force incorrect resolutions across 10 prediction markets on BNB Chain. Myriad revoked the wallet\u2019s permissions, secured the remaining funds, and announced that all affected markets would be voided and users refunded",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H478",
+   "name": "Yapeswap",
+   "date": "2026-10-25",
+   "amount_usd": 21900,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Malicious Proposal",
+   "classification": "Governance",
+   "description": "YapeSwap\u2019s WorkersUnion governance contract allowed proposals to pass with zero quorum, enabling an attacker controlling approximately 0.000055% of voting power to transfer YapeFactory\u2019s feeToSetter role to themselves. The attacker then installed a malicious Registry that returned fake vault addresses through latestVault(), while vaults() continued listing legitimate vaults. This redirected deposits into attacker-controlled destinations while YapePair incorrectly accounted for them as farming assets, resulting in approximately $21,900 in losses",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HX100",
+   "name": "X100",
+   "date": "2026-10-24",
+   "amount_usd": 4750000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Flashloan Governance Attack",
+   "classification": "Governance",
+   "description": "X100\u2019s governance system allowed an attacker to obtain two of three Senate seats using flash-loan-funded X tokens. The attacker immediately used this majority to approve and execute a malicious treasury proposal within the same transaction. The proposal forced the Freezer to swap 400,000 X tokens into an attacker-controlled liquidity pool with zero minimum output, allowing the attacker to extract treasury value through a manipulated trade",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "Hchain#initia",
+   "name": "Initia",
+   "date": "2026-10-23",
+   "amount_usd": 2600000,
+   "chains": [
+    "Initia"
+   ],
+   "technique": "Infinite Mint",
+   "classification": "Token & Share Accounting",
+   "description": "Initia suffered a security incident involving the unauthorized minting of multiple assets on its L1. The attacker reportedly transferred and converted some of the minted assets into Ethereum-based holdings. Initia halted its L1 and rollups while investigating the vulnerability and coordinating with validators, exchanges, and security teams",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HWAX Multi-Chain Bridge",
+   "name": "WAX Multi-Chain Bridge",
+   "date": "2026-10-22",
+   "amount_usd": 90500,
+   "chains": [
+    "Solana",
+    "Ethereum",
+    "WAX"
+   ],
+   "technique": "Missing Input Validation",
+   "classification": "Input Validation",
+   "description": "WAX\u2019s eth.token::withdraw function failed to validate that max_fee was nonnegative. By setting max_fee = -quantity, the attacker reduced the total account debit to zero while retaining the full withdrawal amount. Because the configured withdrawal fee was zero, the fee check did not reject the transaction. The resulting withdrawal logs triggered real payouts from the bridge on Solana and Ethereum",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HSwell",
+   "name": "Swell",
+   "date": "2026-10-21",
+   "amount_usd": null,
+   "chains": [
+    "Ethereum",
+    "Arbitrum",
+    "Base",
+    "Hyperliquid L1"
+   ],
+   "technique": "Hot Wallet Key Compromised",
+   "classification": "Key Compromise",
+   "description": "An attacker gained control of approximately 30 Swell operational keys across multiple networks, including the swETH/rswETH oracle bot. The attacker drained wallet balances, artificially increased swETH and rswETH exchange rates by submitting unbacked reserve values, and redirected EigenLayer reward claims. They also deployed malicious upgrade contracts capable of draining approximately 2,513 ETH, although these upgrades had not been approved or executed when the investigation was published",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H4042",
+   "name": "CoinDCX",
+   "date": "2026-10-21",
+   "amount_usd": 16000000,
+   "chains": [
+    "TRON"
+   ],
+   "technique": "Hot Wallet Key Compromised",
+   "classification": "Key Compromise",
+   "description": "CoinDCX experienced approximately $16 million in suspicious outflows from TRON addresses associated with its exchange infrastructure. The exchange attributed the incident to addresses compromised during its July 2025 security breach, which continued receiving deposits after being deprecated. CoinDCX acknowledged that its deposit-sweeping process failed temporarily and stated that it absorbed the resulting losses while crediting affected users. Investigators disputed whether the addresses had genuinely been removed from active operations",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HAlpsCon AI Trade Hub",
+   "name": "AlpsCon AI Trade Hub",
+   "date": "2026-10-19",
+   "amount_usd": 152809.36,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "AlpsCon AI Trade Hub\u2019s V7\u2013V9 contracts incorrectly applied accumulated historical profit-per-share values to balances imported from preceding versions, allowing newly deposited funds to claim rewards accrued before the deposits existed. The attacker used a flash loan to create temporary ALPS service credits and exploited the accounting flaw to extract USDC. The attack was facilitated by an authorization whitelist containing a publicly known Hardhat test account, which the attacker used through EIP-7702 delegation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H7798",
+   "name": "Coffer",
+   "date": "2026-10-18",
+   "amount_usd": 0.7,
+   "chains": [
+    "Solana"
+   ],
+   "technique": "Rounding Error",
+   "classification": "Token & Share Accounting",
+   "description": "Coffer\u2019s BTC pool incorrectly rounded tiny deposits to zero while still minting LP tokens, allowing an attacker to repeatedly obtain shares without providing equivalent assets. The attacker submitted thousands of minimal deposits, diluting existing liquidity providers and minting approximately $18 in illegitimate LP tokens. Coffer paused its pools on October 18, preventing further withdrawals, and deployed a fix on October 19",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "Hchain#qubic",
+   "name": "Qubic",
+   "date": "2026-10-17",
+   "amount_usd": 1300000,
+   "chains": [
+    "Qubic"
+   ],
+   "technique": "Weak Key Generation",
+   "classification": "Key Compromise",
+   "description": "An attacker exploited predictable wallet seeds generated with insufficient randomness in Qubic\u2019s wallet software, compromising 1,404 user wallets and stealing approximately 2.94 trillion QU. The vulnerability affected certain wallets created on Apple devices and Safari browsers. Qubic halted its network at tick 85,371,949, while MEXC froze the account receiving the remaining stolen funds. Seed generation was corrected in wallet version 4.26.4",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HPirate Chain",
+   "name": "Pirate Chain",
+   "date": "2026-10-16",
+   "amount_usd": null,
+   "chains": [
+    "Pirate Chain"
+   ],
+   "technique": "Unbacked Mint",
+   "classification": "Token & Share Accounting",
+   "description": "Pirate Chain suffered an exploit in the transparent supply-accounting layer introduced with its Ironwood upgrade. Two transaction-validation failures reportedly allowed an attacker to bypass issuance restrictions and exploit incorrect output-script interpretation, creating approximately 39.8 million unauthorized ARRR. The tokens were transferred into the Sapling shielded pool, obscuring subsequent transfers. The team initially proposed a blockchain rollback but later confirmed that it could not execute one unilaterally",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H5726",
+   "name": "Affluent",
+   "date": "2026-10-16",
+   "amount_usd": 1053000,
+   "chains": [
+    "TON"
+   ],
+   "technique": "Unbacked Mint",
+   "classification": "Token & Share Accounting",
+   "description": "Affluent\u2019s lending vaults reportedly suffered unauthorized share minting that allowed attackers to redeem vault assets without providing corresponding deposits. The supplied analysis identifies suspicious transactions on September 30, October 12, and October 16, 2026, involving multiple wallets. Extracted assets were reportedly transferred through exchanges, swaps, and cross-chain services",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H1765",
+   "name": "UNCX Network V2",
+   "date": "2026-10-14",
+   "amount_usd": 86000,
+   "chains": [
+    "Ethereum",
+    "Base",
+    "BSC",
+    "Robinhood Chain"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "An attacker exploited UNCX Vesting V2\u2019s shared token accounting by creating vesting positions, releasing a large position, donating tokens into the pool, and cancelling a topped-up vest. This sequence allowed a small remaining vesting position to withdraw tokens belonging to other users. UNCX confirmed additional affected assets across four chains and introduced emergency fees and restrictions to contain the exploit",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HGamdom",
+   "name": "Gamdom",
+   "date": "2026-10-13",
+   "amount_usd": 4208000,
+   "chains": [
+    "Ethereum",
+    "BSC",
+    "Polygon",
+    "Arbitrum",
+    "Optimism",
+    "Solana",
+    "TRON",
+    "Bitcoin"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "Gamdom suffered a multichain hot-wallet compromise following unauthorized access to an automation server. Investigators traced approximately $4.21M in stolen assets across eight networks. The attacker subsequently bridged, swapped, and distributed funds through multiple wallets and services, including Mayan, Hyperliquid, and THORChain. The precise mechanism used to obtain control of the wallets remains unconfirmed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H9065",
+   "name": "Papertrade",
+   "date": "2026-10-10",
+   "amount_usd": 1280000,
+   "chains": [
+    "Hyperliquid L1"
+   ],
+   "technique": "Spot Price Manipulation",
+   "classification": "Oracle Manipulation",
+   "description": "Papertrade, a perpetual trading protocol on HyperEVM, reportedly suffered an oracle manipulation attack shortly after launch. The attacker manipulated Hyperliquid\u2019s ETH order-book midpoint through external trades while opening and closing highly leveraged synthetic positions on Papertrade. Because the protocol used the instantaneous BBO midpoint without TWAP, deviation limits, or independent price validation, manipulated prices were accepted for execution and PnL settlement, transferring approximately $1.28M from the Martingaler LP",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HLedger (Supply Chain)",
+   "name": "Ledger (Supply Chain)",
+   "date": "2026-10-09",
+   "amount_usd": 93000000,
+   "chains": [],
+   "technique": "Supply Chain Attack",
+   "classification": "Frontend & Infrastructure",
+   "description": "Attackers purchased genuine Ledger hardware wallets, installed concealed components capable of capturing recovery phrases, and redistributed the modified devices through resellers. The implants monitored the wallets\u2019 displays during initialization and transmitted captured recovery phrases through cellular connections. Attackers subsequently derived users\u2019 private keys and drained their cryptocurrency holdings. Ledger confirmed that its Secure Element, operating system, and internal infrastructure were not compromised",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HBitBay",
+   "name": "BitBay",
+   "date": "2026-10-08",
+   "amount_usd": 14838.47,
+   "chains": [
+    "Polygon"
+   ],
+   "technique": "Withdrawal Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "BitBay\u2019s vault contained a vulnerability in _withdraw() that transferred the contract\u2019s entire token balance whenever liquidity == 0, without restricting withdrawals to the user\u2019s proportional entitlement. The attacker triggered this condition through reposition() and subsequently redeemed one minimal share unit, receiving approximately 14,838.47 DAI belonging to the vault",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H5092",
+   "name": "Ethervista",
+   "date": "2026-10-08",
+   "amount_usd": 18600,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Arithmetic Error",
+   "classification": "Token & Share Accounting",
+   "description": "EtherVista\u2019s EtherVistaPair.swap() contained an integer overflow vulnerability in its constant-product invariant check. Because the contract multiplied two uint112 reserves without sufficient overflow protection, the calculation could wrap around and incorrectly validate swaps that reduced the pool\u2019s actual reserve product. An attacker registered a malicious contract as an authorized router and executed two crafted swaps to withdraw WETH and VISTA from the pool",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H3371",
+   "name": "Locus Finance",
+   "date": "2026-10-07",
+   "amount_usd": 18000,
+   "chains": [
+    "Arbitrum"
+   ],
+   "technique": null,
+   "classification": null,
+   "description": "",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H266",
+   "name": "Set Protocol",
+   "date": "2026-10-06",
+   "amount_usd": 21872.67,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Rounding Error",
+   "classification": "Token & Share Accounting",
+   "description": "ETHMACOAPY\u2019s actualizeFee() rounded redemption backing upward even when no fee was payable. Attackers donated collateral to trigger recalculation, temporarily acquired Set tokens, then redeemed them for more collateral than they contributed, with the difference coming from existing holders\u2019 backing. Two separate EOAs repeated the process across two transactions, draining approximately 8.11 WETH",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HMakerDAO ETH-A Liquidation Keeper Bot",
+   "name": "MakerDAO ETH-A Liquidation Keeper Bot",
+   "date": "2026-10-06",
+   "amount_usd": 538000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Improper Access Control",
+   "classification": "Access Control",
+   "description": "A dormant third-party MakerDAO ETH-A liquidation keeper had an unprotected drain routine that lacked ds-auth authorization. Any caller could invoke the function and provide the withdrawal recipient. The attacker triggered Flipper.deal() for four auctions the keeper had won in 2020, causing 200 WETH of previously unclaimed collateral to move through Vat.flux to the keeper, then used GemJoin.exit() to send it to an attacker-controlled recipient and unwrap it to ETH. MakerDAO\u2019s core contracts behaved as designed; the vulnerability was in the third-party keeper",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HGoldPesa",
+   "name": "GoldPesa",
+   "date": "2026-10-02",
+   "amount_usd": 114900,
+   "chains": [
+    "Base"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "GoldPesa\u2019s GPXHooks rebalanced protocol-owned GPX/USDC liquidity through Uniswap v4\u2019s shared PositionManager without ensuring its currency deltas were isolated and settled. An attacker created an unpaid WETH/USDC position within the same PoolManager unlock and then triggered GoldPesa\u2019s hourly rebalance. Because TAKE_PAIR operated on the PositionManager\u2019s net credit, GoldPesa\u2019s legitimate USDC credit offset the attacker\u2019s outstanding debt, allowing the attacker to burn their position and withdraw the resulting USDC. Uniswap v4 itself behaved as designed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HFlashLoopAdapter",
+   "name": "FlashLoopAdapter",
+   "date": "2026-10-01",
+   "amount_usd": 305000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Improper Access Control",
+   "classification": "Access Control",
+   "description": "FlashLoopAdapter\u2019s open()/close() authorization trusted any caller whose isModuleEnabled() response returned true, allowing an attacker-controlled fake Safe to pass the check. The attacker then supplied each real victim Safe as swapRouter and encoded execTransactionFromModule(...) as arbitrary swapCalldata. Because FlashLoopAdapter was already an enabled module on those Safes, they accepted the calls and transferred or withdrew collateral to the attacker",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H6225",
+   "name": "NEAR Intents",
+   "date": "2026-10-01",
+   "amount_usd": 3800000,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Bridge Logic Flaw",
+   "classification": "Bridge & Cross-Chain",
+   "description": "NEAR Intents was exploited through a bug in the interaction between its Omni deposit and withdrawal infrastructure and the NEAR Intents smart contract, allowing unauthorized withdrawals. The team stopped services, patched the contract-side vulnerability, and temporarily suspended deposits and withdrawals across multiple networks while completing fixes to the Omni infrastructure. The stolen funds were traced toward KuCoin and then BTC, and NEAR Intents said the losses would be compensated in full",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HSKYDAO",
+   "name": "SKYDAO",
+   "date": "2026-09-30",
+   "amount_usd": 183482.88,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Swap Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "SKYDAO\u2019s taxed sell flow called its pool controller before the seller\u2019s net tokens were credited to the PancakeSwap V2 pair. The controller sold the 35% tax, moved the gross sell amount from the pair to the dead address through controlburn(), and called pair.sync(), causing the pair to record an almost-zero SKYDAO reserve. When the original transfer subsequently credited the net SKYDAO to the pair without updating that recorded reserve, the attacker exploited the balance/reserve mismatch through pair.swap() to extract USDT liquidity",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HFake GIWA Bridge",
+   "name": "Fake GIWA Bridge",
+   "date": "2026-09-27",
+   "amount_usd": 2080000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Impersonation Scam",
+   "classification": "Social Engineering",
+   "description": "Scammers deployed a counterfeit OP Stack-style network impersonating GIWA, including an RPC endpoint, Ethereum bridge and batch-posting infrastructure. The fake network reported GIWA\u2019s expected mainnet Chain ID 9134, causing DYORSWAP and users to mistake it for the legitimate GIWA mainnet. Users voluntarily deposited ETH into the fraudulent bridge. After accumulating deposits, the scammers drained 766.25 ETH to an attacker-controlled address. GIWA\u2019s actual mainnet had not launched, and neither GIWA nor DYORSWAP\u2019s smart contracts were exploited",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H2001",
+   "name": "Demex Perp",
+   "date": "2026-09-25",
+   "amount_usd": 191929,
+   "chains": [
+    "Demex",
+    "Ethereum",
+    "BSC"
+   ],
+   "technique": "Cross-Chain Message Spoofing",
+   "classification": "Bridge & Cross-Chain",
+   "description": "Demex\u2019s bridge was exploited through insufficient verification between its bridge module and external-chain contract system. The attacker used a helper contract to falsify token-deployment reports, registering the low-value nLEND token against canonical WETH and WBNB contracts. Subsequent withdrawals released approximately $191,929 in bridge reserves despite deducting only $10.47 worth of nLEND. The withdrawal limiter also failed because it valued the deducted tokens rather than the assets released",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HDuelbits",
+   "name": "Duelbits",
+   "date": "2026-09-24",
+   "amount_usd": 7000000,
+   "chains": [
+    "Ethereum",
+    "BSC",
+    "Bitcoin",
+    "Tron"
+   ],
+   "technique": "Hot Wallet Key Compromised",
+   "classification": "Key Compromise",
+   "description": "Duelbits suffered unauthorized transfers from hot wallets across Ethereum, BSC, Bitcoin, and Tron. Stolen assets were rapidly moved, bridged and largely consolidated into ETH and DAI on Ethereum. Duelbits took its platform offline while investigating and stated that user funds were safe. Security researchers suspect compromise of hot-wallet private keys, but Duelbits has not yet published a technical root cause",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H2352",
+   "name": "Bitget",
+   "date": "2026-09-24",
+   "amount_usd": 387000000,
+   "chains": [
+    "Ethereum",
+    "XRP",
+    "Tron",
+    "Zcash"
+   ],
+   "technique": "Hot Wallet Key Compromised",
+   "classification": "Key Compromise",
+   "description": "Bitget detected unauthorized transfers involving a limited number of hot wallets at 18:31 UTC on September 24. Subsequent tracing identified approximately $387.5M transferred to attacker-controlled addresses across Ethereum and other EVM networks, XRP Ledger, Zcash and Tron. Bitget states that the incident has been contained and no further unauthorized transfers are possible",
+   "returned": null,
+   "attribution": "Analyst-attributed",
+   "actor": "North Korea (per Chainalysis, referenced in Binance analysis)",
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    },
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HLimit Break Payment Processor",
+   "name": "Limit Break Payment Processor",
+   "date": "2026-09-24",
+   "amount_usd": 1800000,
+   "chains": [
+    "Ethereum",
+    "ApeChain",
+    "Polygon",
+    "Base"
+   ],
+   "technique": "Token Approval Abuse",
+   "classification": "Access Control",
+   "description": "A vulnerability in Limit Break\u2019s Payment Processor allowed an attacker to abuse users\u2019 existing token and NFT approvals to transfer assets without a legitimate marketplace purchase. Payment Processor V2 on Ethereum was exploited first, and V3 contained the same vulnerability. Limit Break paused V3 where possible, while whitehats transferred vulnerable NFTs to safe custody because V2 could not be paused and ApeChain V3 could not immediately be paused. The same underlying approval flaw could be used in reverse against WETH approvals, resulting in 660 WETH being stolen along with other tokens before whitehats could secure it ",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HPayy Network",
+   "name": "Payy Network",
+   "date": "2026-09-24",
+   "amount_usd": 1828589.378132,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Bridge Logic Flaw",
+   "classification": "Bridge & Cross-Chain",
+   "description": "Payy\u2019s RollupV1 bridge processed a malicious verifyRollup batch containing an unauthorized 1,828,589.378132 USDC withdrawal to the attacker alongside ordinary withdrawals. The batch was submitted using Payy\u2019s prover and validator infrastructure. ExVul reports that the malicious withdrawal had an all-zero burn hash that users cannot normally generate through Payy\u2019s public circuits, indicating that the forged withdrawal entered during proving or aggregation rather than through an ordinary user withdrawal. Payy has confirmed the bridge exploit but has not yet established whether the cause was compromised prover/validator credentials or a proof-aggregation verification flaw",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "Hchain#meter",
+   "name": "Meter",
+   "date": "2026-09-23",
+   "amount_usd": null,
+   "chains": [
+    "Meter",
+    "BSC",
+    "Ethereum"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On September 23 at 21:14 UTC, an attacker exploited a block-validation flaw on Meter mainnet that allowed unbacked MTR and MTRG to be created. The attacker dumped the counterfeit assets through DEXs and bridged proceeds out of Meter. Meter paused both mainnet and its bridge and warned that transactions after block 100731417 may not be honored. The team preserved chain state and is determining a recovery method",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  }
+ ]
+}

@@ -1,6 +1,33 @@
 {
- "generated": "2026-10-30T22:18:18.295382Z",
+ "generated": "2026-10-30T23:04:52.395714Z",
  "scenarios": [
+  {
+   "id": "Polymarket International incident-20261029",
+   "cluster": "Polymarket International incident",
+   "title": "Polymarket International incident",
+   "start": "2026-10-29T18:28:32Z",
+   "end": "2026-10-29T18:38:16.000000Z",
+   "chain": "ETH",
+   "events": 5,
+   "what": "5 logged movements on Oct 29, 2026. Latest: Polymarket International hack wallet (drainer recipient) moved $543,357 (5.73M POL) to a wallet flagged in the Polymarket International hack on POLYGON.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 80,
+   "confidence_label": "high",
+   "type": "hack",
+   "tx_links": [
+    "https://polygonscan.com/tx/0xe8b8ee79a0e507b88027506f4098cbbcab6557272fb59becc42b53574b3e9f66",
+    "https://polygonscan.com/tx/0x56936d41de696cd0120c22a2478656be9af1673c6d1a76fdd55c1e0b9ae50881",
+    "https://polygonscan.com/tx/0x69e1c3f6c3cc1cacbc145ba0a7b475532d0856522b112add36d4eeb5d84fc0c5",
+    "https://polygonscan.com/tx/0x269f47684f7c88a157df151ef48d2abd9aef5b66f4716cae3a3a65567a1c9bcd",
+    "https://polygonscan.com/tx/0x2629289569ea8be042b6706ba0a9e0d76f069247bb115f973fcedc556e8a4f88"
+   ],
+   "sources": [
+    {
+     "name": "ohey.ca research",
+     "url": "https://ohey.ca/research/polymarket-debugbear-wallet-drainer/"
+    }
+   ]
+  },
   {
    "id": "C010-20261013",
    "cluster": "C010",
@@ -9,10 +36,11 @@
    "end": "2026-10-13T14:56:23Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Oct 13, 2026. Latest: An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop from cluster C010. Resemblance score 55/100.",
+   "what": "1 logged movement on Oct 13, 2026. Latest: An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop from cluster C010. Resemblance score 55/100. About 0.03118 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9"
    ],
@@ -35,6 +63,7 @@
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 15,
    "confidence_label": "low",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b"
    ],
@@ -57,6 +86,7 @@
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 50,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127"
    ],
@@ -79,6 +109,7 @@
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 60,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://mempool.space/tx/5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c"
    ],
@@ -97,10 +128,11 @@
    "end": "2025-09-13T15:30:35Z",
    "chain": "ETH",
    "events": 2,
-   "what": "2 logged movements on Sep 13, 2025. Latest: An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100.",
+   "what": "2 logged movements on Sep 13, 2025. Latest: An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100. About 4 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
     "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db"
@@ -124,6 +156,7 @@
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 60,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://mempool.space/tx/aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
     "https://mempool.space/tx/0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
@@ -144,10 +177,11 @@
    "end": "2025-07-28T13:41:35Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Jul 28, 2025. Latest: An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C013. Resemblance score 55/100.",
+   "what": "1 logged movement on Jul 28, 2025. Latest: An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C013. Resemblance score 55/100. About 0.002 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1"
    ],
@@ -162,14 +196,15 @@
    "id": "C002-20250303",
    "cluster": "C002",
    "title": "Bybit hack funds (FBI-published wallets)",
-   "start": "2025-03-03T08:39:59Z",
+   "start": "2025-02-25T07:52:59Z",
    "end": "2025-03-03T18:13:47Z",
    "chain": "ETH",
-   "events": 17,
-   "what": "17 logged movements on Mar 3, 2025. Latest: A wallet the FBI tied to the Bybit hack just sent 135.7 ETH to address 0x5c8C\u2026Cffa, 1 hop from cluster C002. Resemblance score 65/100. About 1609 ETH went out to 7 new addresses one hop away.",
+   "events": 240,
+   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: A wallet the FBI tied to the Bybit hack just sent 135.7 ETH to address 0x5c8C\u2026Cffa, 1 hop from cluster C002. Resemblance score 65/100. About 4756 ETH went out to 20 new addresses one hop away.",
    "why": "Fast fan-out: funds split across many wallets quickly.",
    "confidence": 80,
    "confidence_label": "high",
+   "type": "lazarus",
    "tx_links": [
     "https://eth.blockscout.com/tx/0xa2e4935c2a3c191bd4d5ac13f2649a2840cc3a4e6ac57228a376156f72e5f9cf",
     "https://eth.blockscout.com/tx/0xc9df63b6eda8fcd3a56df9ba138761415813628a2e8b06a9dc709a25e1c76b2e",
@@ -181,6 +216,145 @@
     {
      "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "C016-20240910",
+   "cluster": "C016",
+   "title": "OFAC-sanctioned wallets: KIM, Ki Hyok",
+   "start": "2024-09-09T06:52:11Z",
+   "end": "2024-09-10T09:39:35Z",
+   "chain": "ETH",
+   "events": 2,
+   "what": "2 logged movements between Sep 9, 2024 \u2013 Sep 10, 2024. Latest: An address OFAC lists under \"KIM, Ki Hyok\" called transfer on Dai (no ETH moved).",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 50,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xb0fdf122ab567b82e2aa764146f3888c3880f4e4034776e6c30c3274d7b9544e",
+    "https://eth.blockscout.com/tx/0xe39ba0d1028cbd5e64db17d9361a3f5ac203a49d6d53c67f58ce9a433dbd6799"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #58887 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58887"
+    }
+   ]
+  },
+  {
+   "id": "C007-20240625",
+   "cluster": "C007",
+   "title": "OFAC-sanctioned wallets: SEMENOV, Roman",
+   "start": "2024-06-25T17:47:35Z",
+   "end": "2024-06-25T17:47:35Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Jun 25, 2024. Latest: An address OFAC lists under \"SEMENOV, Roman\" just sent 0.003538 ETH to address 0x6C9F\u20261a24, 1 hop from cluster C007. Resemblance score 55/100. About 0.003538 ETH went out to 1 new address one hop away.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0x8e73f0c0d8bdeab7e9f85e4fc84e0e3d3e956e3e15584fc28222e9126d9ce716"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #44718 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718"
+    }
+   ]
+  },
+  {
+   "id": "C015-20240620",
+   "cluster": "C015",
+   "title": "OFAC-sanctioned wallets: HOANG, Minh Quang",
+   "start": "2024-06-20T15:56:53Z",
+   "end": "2024-06-20T15:56:53Z",
+   "chain": "BTC",
+   "events": 1,
+   "what": "1 logged movement on Jun 20, 2024. Latest: An address OFAC lists under \"HOANG, Minh Quang\" just spent BTC: 0.0001368 BTC split across 1 output(s), 1 hop from cluster C015. About 0.0001368 BTC went out to 1 new address one hop away.",
+   "why": "Peel-chain pattern: small amounts are peeled off step by step, a classic laundering shape.",
+   "confidence": 65,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://mempool.space/tx/91b7160b51457abacb015214bca2f4f80f788c705c75811929be268e002309b9"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #57035 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57035"
+    }
+   ]
+  },
+  {
+   "id": "C012-20240216",
+   "cluster": "C012",
+   "title": "OFAC-sanctioned wallets: SINBAD",
+   "start": "2024-02-16T11:18:35Z",
+   "end": "2024-02-16T11:18:35Z",
+   "chain": "BTC",
+   "events": 1,
+   "what": "1 logged movement on Feb 16, 2024. Latest: An address OFAC lists under \"SINBAD\" just spent BTC: 0.3511 BTC split across 2 output(s), 1 hop from cluster C012. About 0.3511 BTC went out to 2 new addresses one hop away.",
+   "why": "Peel-chain pattern: small amounts are peeled off step by step, a classic laundering shape.",
+   "confidence": 65,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://mempool.space/tx/d4011dc9aa2c2a05cef3b1d66448b34ac2f17074c6432dba5811f9e985e3123a"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #44437 (DPRK3] [CYBER2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44437"
+    }
+   ]
+  },
+  {
+   "id": "C004-20230415",
+   "cluster": "C004",
+   "title": "OFAC-sanctioned wallets: WU, Huihui",
+   "start": "2023-04-15T02:29:56Z",
+   "end": "2023-04-15T02:29:56Z",
+   "chain": "BTC",
+   "events": 1,
+   "what": "1 logged movement on Apr 15, 2023. Latest: An address OFAC lists under \"WU, Huihui\" just spent BTC: 0.06 BTC split across 1 output(s), 1 hop from cluster C004. About 0.06 BTC went out to 1 new address one hop away.",
+   "why": "Peel-chain pattern: small amounts are peeled off step by step, a classic laundering shape.",
+   "confidence": 75,
+   "confidence_label": "high",
+   "type": "lazarus",
+   "tx_links": [
+    "https://mempool.space/tx/955a4451d6c55557721bceb4a6763e215d4bb1fb4d9246f09ca1a8885c8dac42"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #42496 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=42496"
+    }
+   ]
+  },
+  {
+   "id": "C009-20220314",
+   "cluster": "C009",
+   "title": "OFAC-sanctioned wallets: KIM, Sang Man",
+   "start": "2022-03-14T14:21:20Z",
+   "end": "2022-03-14T14:21:20Z",
+   "chain": "BTC",
+   "events": 1,
+   "what": "1 logged movement on Mar 14, 2022. Latest: An address OFAC lists under \"KIM, Sang Man\" just spent BTC: 100.1 BTC split across 2 output(s), 1 hop from cluster C009. About 100.1 BTC went out to 2 new addresses one hop away.",
+   "why": "Peel-chain pattern: small amounts are peeled off step by step, a classic laundering shape.",
+   "confidence": 85,
+   "confidence_label": "high",
+   "type": "lazarus",
+   "tx_links": [
+    "https://mempool.space/tx/bba549e7aadb353649955f564a2a0bd803408f5f3c1a09d8664c3d0acee4d38d"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #43377 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=43377"
     }
    ]
   }
