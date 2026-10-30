@@ -5,6 +5,29 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "ETH:0x3666e9cbd4b0f581f15cc3a7a9f5ad2386eb890885b0fad384e6f4c73ce61d39:2555.1149",
+   "url": "https://eth.blockscout.com/tx/0x3666e9cbd4b0f581f15cc3a7a9f5ad2386eb890885b0fad384e6f4c73ce61d39",
+   "title": "Coinbase 10 received $5.7M (2,555 ETH) from Coinbase 5.",
+   "content_text": "Coinbase 10 received $5.7M (2,555 ETH) from Coinbase 5. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-30T23:15:11Z",
+   "tags": [
+    "exchange",
+    "large"
+   ]
+  },
+  {
+   "id": "ETH:0x601d011be4b47a841d3c3e767b6622f5023c5bf358afbfb90bf5ea02f902d990:10522.7881",
+   "url": "https://eth.blockscout.com/tx/0x601d011be4b47a841d3c3e767b6622f5023c5bf358afbfb90bf5ea02f902d990",
+   "title": "Coinbase 5 received $23.6M (10,523 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
+   "content_text": "Coinbase 5 received $23.6M (10,523 ETH) from an unlabeled address 0x6Bb9\u2026bc4c. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels (heuristic, not attribution)",
+   "date_published": "2026-10-30T22:24:11Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
    "id": "ETH:0x569404b07ae58a6a37b4843dae0d07c743c3b52efcce063ad8a96be8ce57a534:9000000.0",
    "url": "https://eth.blockscout.com/tx/0x569404b07ae58a6a37b4843dae0d07c743c3b52efcce063ad8a96be8ce57a534",
    "title": "Bitfinex: Hot Wallet sent $9.0M (9.00M USDT) to an unlabeled address 0xda3B\u20262e0b.",
@@ -80,6 +103,18 @@
    "title": "Bitfinex 2 sent $67.1M (30,000 ETH) to Bitfinex: Hot Wallet.",
    "content_text": "Bitfinex 2 sent $67.1M (30,000 ETH) to Bitfinex: Hot Wallet. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels (heuristic, not attribution)",
    "date_published": "2026-10-30T11:59:47Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
+   "id": "ETH:0xec22922e36899fdaf73608e7bfaa7d53e0e85e3f65de5faf090eaa372c5621d6:5690.0",
+   "url": "https://eth.blockscout.com/tx/0xec22922e36899fdaf73608e7bfaa7d53e0e85e3f65de5faf090eaa372c5621d6",
+   "title": "Coinone 2 received $12.8M (5,690 ETH) from an unlabeled address 0x687c\u2026459e.",
+   "content_text": "Coinone 2 received $12.8M (5,690 ETH) from an unlabeled address 0x687c\u2026459e. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels (heuristic, not attribution)",
+   "date_published": "2026-10-30T08:08:11Z",
    "tags": [
     "exchange",
     "large",
@@ -1509,36 +1544,6 @@
    "title": "A wallet the FBI tied to the Bybit hack just sent 226.7 ETH to address 0xd6Ce\u2026E1d7, 1 hop from cluster C002. Resemblance",
    "content_text": "A wallet the FBI tied to the Bybit hack just sent 226.7 ETH to address 0xd6Ce\u2026E1d7, 1 hop from cluster C002. Resemblance score 80/100. Sources: https://www.ic3.gov/PSA/2025/PSA250226 (heuristic, not attribution)",
    "date_published": "2025-03-03T14:22:47Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
-   "url": "https://eth.blockscout.com/tx/0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
-   "title": "A wallet the FBI tied to the Bybit hack just sent 252.8 ETH to address 0x8B62\u20261cA1, 1 hop from cluster C002. Resemblance",
-   "content_text": "A wallet the FBI tied to the Bybit hack just sent 252.8 ETH to address 0x8B62\u20261cA1, 1 hop from cluster C002. Resemblance score 80/100. Sources: https://www.ic3.gov/PSA/2025/PSA250226 (heuristic, not attribution)",
-   "date_published": "2025-03-03T14:22:35Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0x036d430495e4a78a2585d2ac40600815e497264bda131251d0acdc83de9272cc",
-   "url": "https://eth.blockscout.com/tx/0x036d430495e4a78a2585d2ac40600815e497264bda131251d0acdc83de9272cc",
-   "title": "A wallet the FBI tied to the Bybit hack just sent 272.6 ETH to address 0xc80d\u202669F8, 1 hop from cluster C002. Resemblance",
-   "content_text": "A wallet the FBI tied to the Bybit hack just sent 272.6 ETH to address 0xc80d\u202669F8, 1 hop from cluster C002. Resemblance score 80/100. Sources: https://www.ic3.gov/PSA/2025/PSA250226 (heuristic, not attribution)",
-   "date_published": "2025-03-03T14:22:23Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0xf7640819fff5d09830b2f615664954dfcec1f890e8571d02637526aed0323243",
-   "url": "https://eth.blockscout.com/tx/0xf7640819fff5d09830b2f615664954dfcec1f890e8571d02637526aed0323243",
-   "title": "A wallet the FBI tied to the Bybit hack just sent 66.79 ETH to address 0x9a99\u20266A7B, 1 hop from cluster C002. Resemblance",
-   "content_text": "A wallet the FBI tied to the Bybit hack just sent 66.79 ETH to address 0x9a99\u20266A7B, 1 hop from cluster C002. Resemblance score 80/100. Sources: https://www.ic3.gov/PSA/2025/PSA250226 (heuristic, not attribution)",
-   "date_published": "2025-03-03T14:22:11Z",
    "tags": [
     "lazarus"
    ]

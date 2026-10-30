@@ -1,6 +1,59 @@
 {
- "generated": "2026-10-30T23:15:17.330679Z",
+ "generated": "2026-10-30T23:39:37.875539Z",
  "alerts": [
+  {
+   "id": "ETH:0x3666e9cbd4b0f581f15cc3a7a9f5ad2386eb890885b0fad384e6f4c73ce61d39:2555.1149",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-10-30T23:15:11Z",
+   "chain": "ETH",
+   "usd": 5733122,
+   "level": 20,
+   "message": "Coinbase 10 received $5.7M (2,555 ETH) from Coinbase 5.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x3666e9cbd4b0f581f15cc3a7a9f5ad2386eb890885b0fad384e6f4c73ce61d39",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase"
+  },
+  {
+   "id": "ETH:0x601d011be4b47a841d3c3e767b6622f5023c5bf358afbfb90bf5ea02f902d990:10522.7881",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-10-30T22:24:11Z",
+   "chain": "ETH",
+   "usd": 23610849,
+   "level": 30,
+   "message": "Coinbase 5 received $23.6M (10,523 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x601d011be4b47a841d3c3e767b6622f5023c5bf358afbfb90bf5ea02f902d990",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase"
+  },
   {
    "id": "ETH:0x569404b07ae58a6a37b4843dae0d07c743c3b52efcce063ad8a96be8ce57a534:9000000.0",
    "type": "exchange",
@@ -197,6 +250,35 @@
     }
    ],
    "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0xec22922e36899fdaf73608e7bfaa7d53e0e85e3f65de5faf090eaa372c5621d6:5690.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinone",
+   "time": "2026-10-30T08:08:11Z",
+   "chain": "ETH",
+   "usd": 12767123,
+   "level": 30,
+   "message": "Coinone 2 received $12.8M (5,690 ETH) from an unlabeled address 0x687c\u2026459e.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xec22922e36899fdaf73608e7bfaa7d53e0e85e3f65de5faf090eaa372c5621d6",
+   "address": "0x1e2fcfd26d36183f1a5d90f0e6296915b02bcb40",
+   "address_url": "https://eth.blockscout.com/address/0x1e2fcfd26d36183f1a5d90f0e6296915b02bcb40",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinone"
   },
   {
    "id": "ETH:0xf7656604c48b6f29667fcd6f052c9a7a35ddd9a23e341380d6137848e4e56f74:581964.938",
