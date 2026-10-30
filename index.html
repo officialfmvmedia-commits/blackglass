@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLACKGLASS // Signals Bureau — Lazarus on-chain watch</title>
+<meta name="description" content="Independent public-data OSINT tracking on-chain movement of addresses publicly tied to the Lazarus Group. Heuristic scores, not attribution.">
+<link rel="icon" href="logo.svg"><link rel="alternate" type="application/atom+xml" title="BLACKGLASS dispatches" href="feed.xml"><link rel="alternate" type="application/feed+json" href="feed.json">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="grain"></div><div class="scan"></div>
+<header class="nav"><a class="brand" href="#"><img src="logo.svg" alt=""><span><b>BLACKGLASS</b><i>SIGNALS BUREAU // CASE LZR-38</i></span></a>
+<nav><a href="#feed">Dispatches</a><a href="#clusters">Clusters</a><a href="#sources">Sources</a><a class="pill hot" href="#subscribe">Subscribe</a></nav></header>
+<div class="ticker"><div class="tk" id="ticker">LOADING INTERCEPTS…</div></div>
+<section class="hero">
+ <div class="hl">
+  <div class="stamp">CLASSIFIED<small>PUBLIC SOURCES ONLY</small></div>
+  <p class="kicker mono">FILE № LZR-38 · SUBJECT: <span class="redact">LAZARUS</span> GROUP · RGB / DPRK</p>
+  <h1>We watch the <em>wallets</em> they can't hide.</h1>
+  <p class="lede">An independent dossier on every address the public record ties to North Korea's Lazarus Group: OFAC designations and FBI attributions, tracked live on-chain. Each move gets a plain-English dispatch and a source link.</p>
+  <div class="stats mono" id="stats"></div>
+  <div class="row"><a class="pill hot" href="#feed">Read dispatches</a><button class="pill" id="notify">Enable alerts</button><a class="pill" href="feed.xml">RSS</a></div>
+ </div>
+ <div class="hr"><canvas id="radar"></canvas>
+  <div class="meter"><div class="mlab mono">THREAT LEVEL <b id="tl">--</b></div><div class="bar"><div id="tlb"></div></div><div class="mono tiny" id="tlw">heuristic · 30-day activity</div></div></div>
+</section>
+<section id="feed" class="sec"><div class="sh"><h2>Intercepted dispatches</h2><div class="chips" id="filters"><button class="chip on" data-f="all">ALL</button><button class="chip" data-f="ETH">ETH</button><button class="chip" data-f="BTC">BTC</button><button class="chip" data-f="hi">SCORE ≥50</button></div></div>
+<div id="alerts" class="alerts"></div><button class="pill" id="more">Load more</button></section>
+<section id="clusters" class="sec"><div class="sh"><h2>Cluster board</h2><p class="mono tiny">Nodes = tracked clusters (size = addresses). Satellites = scored child/counterparty addresses. Drag to explore.</p></div>
+<div class="cgrid"><canvas id="graph"></canvas><div id="clist" class="clist"></div></div>
+<h3 class="mono">Top resemblance scores</h3><div id="cands" class="cands"></div></section>
+<section id="subscribe" class="sec sub"><h2>Get the dispatches</h2><p>No email list, no tracking. Subscribe in any reader, or let this tab alert you.</p>
+<div class="row"><a class="pill hot" href="feed.xml">Atom / RSS</a><a class="pill" href="feed.json">JSON Feed</a><a class="pill" href="data/alerts.json">Raw alerts.json</a></div></section>
+<section id="sources" class="sec"><div class="sh"><h2>Source ledger</h2></div><div id="srcs" class="srcs"></div>
+<p class="method">METHOD. Ingestion pulls the OFAC SDN list (DPRK programs) and addresses published in FBI statements, then reads each address's recent transactions from Blockstream (BTC) and Blockscout (ETH). Clustering uses common-input co-spend on BTC, shared designation entries, and direct transfers between tracked ETH addresses. Child addresses score 0-100 on hop distance, peel-chain shape, fan-out speed, mixer, bridge or swap hops, and value. The pipeline runs about every 15 minutes on GitHub Actions.</p></section>
+<footer class="disc"><img src="logo.svg" alt=""><p><b>DISCLAIMER.</b> BLACKGLASS is an independent public-data OSINT project. It is not affiliated with, endorsed by or acting for any government or agency. All scores are <b>heuristic resemblance, not attribution</b>: an address showing up here is not proof that it belongs to anyone. Only addresses already published by official sources are labeled. Nothing here is legal or financial advice. Updated <span id="gen" class="mono"></span>.</p></footer>
+<script src="app.js"></script></body></html>

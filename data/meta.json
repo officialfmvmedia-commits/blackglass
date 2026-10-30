@@ -1,0 +1,53 @@
+{
+ "generated": "2026-10-30T22:18:18.295382Z",
+ "threat": 19,
+ "counts": {
+  "addresses": 221,
+  "clusters": 16,
+  "alerts": 400,
+  "candidates": 1313,
+  "alerts_30d": 4,
+  "txs_scanned": 2779
+ },
+ "sources": [
+  {
+   "name": "OFAC SDN list (DPRK programs)",
+   "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+   "ok": true,
+   "count": 87
+  },
+  {
+   "name": "FBI IC3 PSA250226 \u2014 Bybit attribution",
+   "url": "https://www.ic3.gov/PSA/2025/PSA250226",
+   "ok": true,
+   "count": 51
+  },
+  {
+   "name": "FBI Harmony Horizon attribution (Jan 2023)",
+   "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft",
+   "ok": true,
+   "count": 86
+  },
+  {
+   "name": "FBI Atomic Wallet / 2023 heists PSA",
+   "url": "https://www.ic3.gov/PSA/2023/PSA230822",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Blockstream Esplora (BTC)",
+   "url": "https://blockstream.info/api/",
+   "ok": true,
+   "count": 39,
+   "failed": 0
+  },
+  {
+   "name": "Blockscout Ethereum API",
+   "url": "https://eth.blockscout.com/api/v2/",
+   "ok": true,
+   "count": 163,
+   "failed": 0
+  }
+ ],
+ "disclaimer": "Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution."
+}

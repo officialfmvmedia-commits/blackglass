@@ -1,0 +1,708 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "BLACKGLASS \u2014 Lazarus on-chain dispatches",
+ "home_page_url": "https://officialfmvmedia-commits.github.io/blackglass/",
+ "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
+ "items": [
+  {
+   "id": "ETH:0xb677c6e615ea9720384fc7bd013b4b0c079e5cf9d53ff457dca9ffc73020c59f",
+   "url": "https://eth.blockscout.com/tx/0xb677c6e615ea9720384fc7bd013b4b0c079e5cf9d53ff457dca9ffc73020c59f",
+   "title": "An address OFAC lists under \"SEMENOV, Roman\" received 0 ETH from 0x7f2e\u20266671.",
+   "content_text": "An address OFAC lists under \"SEMENOV, Roman\" received 0 ETH from 0x7f2e\u20266671. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718 (heuristic, not attribution)",
+   "date_published": "2026-10-15T17:54:35Z"
+  },
+  {
+   "id": "ETH:0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
+   "url": "https://eth.blockscout.com/tx/0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop ",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop from cluster C010. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2026-10-13T14:56:23Z"
+  },
+  {
+   "id": "ETH:0x9547939458d8d15e4a2d8662ccc345ece4d93b0e33fcb6d9309464b159874d27",
+   "url": "https://eth.blockscout.com/tx/0x9547939458d8d15e4a2d8662ccc345ece4d93b0e33fcb6d9309464b159874d27",
+   "title": "An address OFAC lists under \"SEMENOV, Roman\" received 0 ETH from 0x3b89\u2026AcCE.",
+   "content_text": "An address OFAC lists under \"SEMENOV, Roman\" received 0 ETH from 0x3b89\u2026AcCE. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718 (heuristic, not attribution)",
+   "date_published": "2026-10-02T13:31:35Z"
+  },
+  {
+   "id": "ETH:0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
+   "url": "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
+   "title": "An address OFAC lists under \"LAZARUS GROUP\" received 0.006438 ETH from 0x36B4\u2026DE7a.",
+   "content_text": "An address OFAC lists under \"LAZARUS GROUP\" received 0.006438 ETH from 0x36B4\u2026DE7a. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 (heuristic, not attribution)",
+   "date_published": "2026-10-01T13:34:11Z"
+  },
+  {
+   "id": "ETH:0xf73f5e1e52cf519df3df19d169568b883d441c5c9c8ea3907c77a0d167da3104",
+   "url": "https://eth.blockscout.com/tx/0xf73f5e1e52cf519df3df19d169568b883d441c5c9c8ea3907c77a0d167da3104",
+   "title": "An address OFAC lists under \"SEMENOV, Roman\" received 1.12e-05 ETH from 0x3d4d\u20261690.",
+   "content_text": "An address OFAC lists under \"SEMENOV, Roman\" received 1.12e-05 ETH from 0x3d4d\u20261690. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718 (heuristic, not attribution)",
+   "date_published": "2026-07-29T10:09:23Z"
+  },
+  {
+   "id": "ETH:0x099206ae3a0d96bab0ec89d03d020bbd8c922387790c7e73cef2ff7f44666111",
+   "url": "https://eth.blockscout.com/tx/0x099206ae3a0d96bab0ec89d03d020bbd8c922387790c7e73cef2ff7f44666111",
+   "title": "An address OFAC lists under \"SEMENOV, Roman\" received 1.1e-05 ETH from 0x951D\u2026175f.",
+   "content_text": "An address OFAC lists under \"SEMENOV, Roman\" received 1.1e-05 ETH from 0x951D\u2026175f. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718 (heuristic, not attribution)",
+   "date_published": "2026-07-27T12:48:11Z"
+  },
+  {
+   "id": "ETH:0xbc3a69bf79866e0ef87fa819aa9e3f236669c10c4919b73019611c54adc90588",
+   "url": "https://eth.blockscout.com/tx/0xbc3a69bf79866e0ef87fa819aa9e3f236669c10c4919b73019611c54adc90588",
+   "title": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0xB365\u2026d81d.",
+   "content_text": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0xB365\u2026d81d. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 (heuristic, not attribution)",
+   "date_published": "2026-07-27T12:43:23Z"
+  },
+  {
+   "id": "ETH:0x3d1eabc980971d777d362785dcab89d468908c13ed52164240e774bfc880c033",
+   "url": "https://eth.blockscout.com/tx/0x3d1eabc980971d777d362785dcab89d468908c13ed52164240e774bfc880c033",
+   "title": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0xedB6\u202645a6.",
+   "content_text": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0xedB6\u202645a6. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 (heuristic, not attribution)",
+   "date_published": "2026-07-27T12:43:23Z"
+  },
+  {
+   "id": "ETH:0x0a094420b6ffe21698776a4dc5a2566c6d82ff8efcb9576016b5061ae4a53c60",
+   "url": "https://eth.blockscout.com/tx/0x0a094420b6ffe21698776a4dc5a2566c6d82ff8efcb9576016b5061ae4a53c60",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1.1e-05 ETH from 0xcB74\u2026bA2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1.1e-05 ETH from 0xcB74\u2026bA2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2026-07-27T11:11:47Z"
+  },
+  {
+   "id": "ETH:0xd33ef30ec1599aa18e14db9de153659d01c336c6e828eaadc559d62d8c793480",
+   "url": "https://eth.blockscout.com/tx/0xd33ef30ec1599aa18e14db9de153659d01c336c6e828eaadc559d62d8c793480",
+   "title": "An address OFAC lists under \"SEMENOV, Roman\" received 1.1e-05 ETH from 0x2E44\u2026Ef0F.",
+   "content_text": "An address OFAC lists under \"SEMENOV, Roman\" received 1.1e-05 ETH from 0x2E44\u2026Ef0F. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718 (heuristic, not attribution)",
+   "date_published": "2026-07-27T11:08:35Z"
+  },
+  {
+   "id": "ETH:0x1b25e6ad8a3344a18a23cffeda2759e8e7d7848115d7196045a5cff0ad2c77fa",
+   "url": "https://eth.blockscout.com/tx/0x1b25e6ad8a3344a18a23cffeda2759e8e7d7848115d7196045a5cff0ad2c77fa",
+   "title": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0x0872\u20267243.",
+   "content_text": "An address OFAC lists under \"LAZARUS GROUP\" received 1.1e-05 ETH from 0x0872\u20267243. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 (heuristic, not attribution)",
+   "date_published": "2026-07-27T10:14:47Z"
+  },
+  {
+   "id": "ETH:0x3ea22b4718f60851bdf4e54a2529bf9759775a419d7d8343f1b4381b2e151796",
+   "url": "https://eth.blockscout.com/tx/0x3ea22b4718f60851bdf4e54a2529bf9759775a419d7d8343f1b4381b2e151796",
+   "title": "An address OFAC lists under \"LAZARUS GROUP\" received 4.585e-05 ETH from 0x8C75\u2026BF29.",
+   "content_text": "An address OFAC lists under \"LAZARUS GROUP\" received 4.585e-05 ETH from 0x8C75\u2026BF29. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 (heuristic, not attribution)",
+   "date_published": "2026-04-09T12:21:35Z"
+  },
+  {
+   "id": "ETH:0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
+   "url": "https://eth.blockscout.com/tx/0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
+   "title": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-03-27T13:45:59Z"
+  },
+  {
+   "id": "ETH:0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
+   "url": "https://eth.blockscout.com/tx/0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
+   "title": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. ",
+   "content_text": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:39:35Z"
+  },
+  {
+   "id": "ETH:0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
+   "url": "https://eth.blockscout.com/tx/0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
+   "title": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. ",
+   "content_text": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:39:11Z"
+  },
+  {
+   "id": "ETH:0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
+   "url": "https://eth.blockscout.com/tx/0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
+   "title": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. ",
+   "content_text": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:32:59Z"
+  },
+  {
+   "id": "ETH:0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
+   "url": "https://eth.blockscout.com/tx/0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
+   "title": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. ",
+   "content_text": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:32:11Z"
+  },
+  {
+   "id": "ETH:0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
+   "url": "https://eth.blockscout.com/tx/0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
+   "title": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. ",
+   "content_text": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:30:11Z"
+  },
+  {
+   "id": "ETH:0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
+   "url": "https://eth.blockscout.com/tx/0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
+   "title": "A wallet in an FBI attribution called swap on MetaSwap (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called swap on MetaSwap (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:16:35Z"
+  },
+  {
+   "id": "ETH:0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
+   "url": "https://eth.blockscout.com/tx/0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
+   "title": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:16:35Z"
+  },
+  {
+   "id": "ETH:0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
+   "url": "https://eth.blockscout.com/tx/0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
+   "title": "A wallet in an FBI attribution called claimWithdraw on UUPSProxy (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called claimWithdraw on UUPSProxy (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-29T12:09:47Z"
+  },
+  {
+   "id": "BTC:5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
+   "url": "https://mempool.space/tx/5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
+   "title": "An address OFAC lists under \"LI, Jiadong\" just spent BTC: 0.0008602 BTC split across 1 output(s), 1 hop from c",
+   "content_text": "An address OFAC lists under \"LI, Jiadong\" just spent BTC: 0.0008602 BTC split across 1 output(s), 1 hop from cluster C003. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28264 (heuristic, not attribution)",
+   "date_published": "2026-01-16T06:14:28Z"
+  },
+  {
+   "id": "ETH:0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
+   "url": "https://eth.blockscout.com/tx/0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
+   "title": "A wallet in an FBI attribution called requestWithdraw on UUPSProxy (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called requestWithdraw on UUPSProxy (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-13T12:16:59Z"
+  },
+  {
+   "id": "ETH:0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
+   "url": "https://eth.blockscout.com/tx/0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
+   "title": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-13T12:11:23Z"
+  },
+  {
+   "id": "ETH:0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
+   "url": "https://eth.blockscout.com/tx/0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
+   "title": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
+   "content_text": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved). Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft (heuristic, not attribution)",
+   "date_published": "2026-01-13T11:40:59Z"
+  },
+  {
+   "id": "ETH:0xfb044faec806bf6792fab8b88807c77d28e7e59e5bb1c468d94b59982a2228e6",
+   "url": "https://eth.blockscout.com/tx/0xfb044faec806bf6792fab8b88807c77d28e7e59e5bb1c468d94b59982a2228e6",
+   "title": "A wallet the FBI tied to the Bybit hack received 9.49e-05 ETH from 0x3212\u2026173e.",
+   "content_text": "A wallet the FBI tied to the Bybit hack received 9.49e-05 ETH from 0x3212\u2026173e. Sources: https://www.ic3.gov/PSA/2025/PSA250226 (heuristic, not attribution)",
+   "date_published": "2025-12-04T03:52:23Z"
+  },
+  {
+   "id": "ETH:0xc0dab732a93bcbba1df4c0befd9302f49d35986541085258e30ebed6f6905fd7",
+   "url": "https://eth.blockscout.com/tx/0xc0dab732a93bcbba1df4c0befd9302f49d35986541085258e30ebed6f6905fd7",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-06 ETH from 0xCB74\u2026Ba2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-06 ETH from 0xCB74\u2026Ba2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:41:35Z"
+  },
+  {
+   "id": "ETH:0xc3adc29623b188233186cdca279d3697efae4295231837d8813fbe97cb3a07b6",
+   "url": "https://eth.blockscout.com/tx/0xc3adc29623b188233186cdca279d3697efae4295231837d8813fbe97cb3a07b6",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-07 ETH from 0xCb75\u2026BA2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-07 ETH from 0xCb75\u2026BA2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:39:23Z"
+  },
+  {
+   "id": "ETH:0x53ea62470a0e8de188560d22b66ecc0f9a93a7798a14616f51c666c298b10169",
+   "url": "https://eth.blockscout.com/tx/0x53ea62470a0e8de188560d22b66ecc0f9a93a7798a14616f51c666c298b10169",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:38:59Z"
+  },
+  {
+   "id": "ETH:0x01cbb59c5f33cadfd0b1a533a684767f571e6fe7fc921e5795dda1b7bd64574c",
+   "url": "https://eth.blockscout.com/tx/0x01cbb59c5f33cadfd0b1a533a684767f571e6fe7fc921e5795dda1b7bd64574c",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcB74\u2026bA2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcB74\u2026bA2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:36:11Z"
+  },
+  {
+   "id": "ETH:0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
+   "url": "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23,",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:30:35Z"
+  },
+  {
+   "id": "ETH:0x04d0f0ada9e8c7ee6d66445d4082562502d0b71afb2d6b2a905f2fcfdc8fb1f6",
+   "url": "https://eth.blockscout.com/tx/0x04d0f0ada9e8c7ee6d66445d4082562502d0b71afb2d6b2a905f2fcfdc8fb1f6",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:29:35Z"
+  },
+  {
+   "id": "ETH:0x72dd25cd1626f12e263fbc93fd2ff5b65d93f1cbdfac6d1f33cea58ec9c67159",
+   "url": "https://eth.blockscout.com/tx/0x72dd25cd1626f12e263fbc93fd2ff5b65d93f1cbdfac6d1f33cea58ec9c67159",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-08 ETH from 0x9bE5\u20265573.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-08 ETH from 0x9bE5\u20265573. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:27:47Z"
+  },
+  {
+   "id": "ETH:0xb8e469c4b1dc6c5fa54c7fae3a7e6e1d12319ff2a095e3ffc8e471c2e7d2d85a",
+   "url": "https://eth.blockscout.com/tx/0xb8e469c4b1dc6c5fa54c7fae3a7e6e1d12319ff2a095e3ffc8e471c2e7d2d85a",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0x9Be0\u20265573.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0x9Be0\u20265573. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:26:59Z"
+  },
+  {
+   "id": "ETH:0xb6e563b28999c3fc44da6650c18d96e84cb5a4616d3ef3071e67b143eb972837",
+   "url": "https://eth.blockscout.com/tx/0xb6e563b28999c3fc44da6650c18d96e84cb5a4616d3ef3071e67b143eb972837",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcB72\u2026aA2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcB72\u2026aA2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:26:47Z"
+  },
+  {
+   "id": "ETH:0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
+   "url": "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 4 ETH from 0x9Be5\u20265573.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 4 ETH from 0x9Be5\u20265573. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-09-13T15:25:47Z"
+  },
+  {
+   "id": "ETH:0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
+   "url": "https://eth.blockscout.com/tx/0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-09-09T08:48:23Z"
+  },
+  {
+   "id": "ETH:0x7a8614f2512ef969740ea9de9e45b91270b2d2d651071ce2271d2341e3b3a40c",
+   "url": "https://eth.blockscout.com/tx/0x7a8614f2512ef969740ea9de9e45b91270b2d2d651071ce2271d2341e3b3a40c",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-09-08T06:35:59Z"
+  },
+  {
+   "id": "ETH:0x59f3432140018e3e4edbc8a25015b82ea60266cc8db0e7d99c7153900a6675fb",
+   "url": "https://eth.blockscout.com/tx/0x59f3432140018e3e4edbc8a25015b82ea60266cc8db0e7d99c7153900a6675fb",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-09-06T21:09:59Z"
+  },
+  {
+   "id": "ETH:0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
+   "url": "https://eth.blockscout.com/tx/0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-09-06T20:53:47Z"
+  },
+  {
+   "id": "ETH:0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
+   "url": "https://eth.blockscout.com/tx/0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH ",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-08-28T01:12:47Z"
+  },
+  {
+   "id": "ETH:0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
+   "url": "https://eth.blockscout.com/tx/0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-25T05:17:35Z"
+  },
+  {
+   "id": "ETH:0x84148501d3d122c5a9f8701fde8052b28df644712b7105973b7a167fcc6ca45e",
+   "url": "https://eth.blockscout.com/tx/0x84148501d3d122c5a9f8701fde8052b28df644712b7105973b7a167fcc6ca45e",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-25T05:04:47Z"
+  },
+  {
+   "id": "ETH:0x271f914702eab47dd9a4a9a6613022fe3f0e474fd86b70e79d4bf826ab42a14c",
+   "url": "https://eth.blockscout.com/tx/0x271f914702eab47dd9a4a9a6613022fe3f0e474fd86b70e79d4bf826ab42a14c",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-25T04:40:59Z"
+  },
+  {
+   "id": "ETH:0x9f8b134477e2776fe585c32d5bc7a0b3e95d37998fc814ebf11090d4b390fce1",
+   "url": "https://eth.blockscout.com/tx/0x9f8b134477e2776fe585c32d5bc7a0b3e95d37998fc814ebf11090d4b390fce1",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-25T02:51:47Z"
+  },
+  {
+   "id": "BTC:aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
+   "url": "https://mempool.space/tx/aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
+   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 0 BTC split across 0 output(s), 1 ",
+   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 0 BTC split across 0 output(s), 1 hop from cluster C014. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
+   "date_published": "2025-08-12T16:53:36Z"
+  },
+  {
+   "id": "BTC:0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
+   "url": "https://mempool.space/tx/0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
+   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.03699 BTC.",
+   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.03699 BTC. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
+   "date_published": "2025-08-12T14:38:20Z"
+  },
+  {
+   "id": "BTC:d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
+   "url": "https://mempool.space/tx/d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
+   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.103 BTC.",
+   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.103 BTC. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
+   "date_published": "2025-08-12T14:38:20Z"
+  },
+  {
+   "id": "ETH:0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
+   "url": "https://eth.blockscout.com/tx/0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.05389 ETH to address 0xa1ab\u2026DF09, 1 hop ",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.05389 ETH to address 0xa1ab\u2026DF09, 1 hop from cluster C010. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-08-10T02:04:11Z"
+  },
+  {
+   "id": "ETH:0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
+   "url": "https://eth.blockscout.com/tx/0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-08-07T00:53:47Z"
+  },
+  {
+   "id": "ETH:0xef5aa125b8efae2775e143c944e717eb453fc1814505708c4ba4cbe073ff7fe9",
+   "url": "https://eth.blockscout.com/tx/0xef5aa125b8efae2775e143c944e717eb453fc1814505708c4ba4cbe073ff7fe9",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-08-07T00:48:23Z"
+  },
+  {
+   "id": "ETH:0x1dd1100980fd396f4d4e432cf1c7df879ec31715d1e2cf9a8cb5044478aa786f",
+   "url": "https://eth.blockscout.com/tx/0x1dd1100980fd396f4d4e432cf1c7df879ec31715d1e2cf9a8cb5044478aa786f",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-08-07T00:42:59Z"
+  },
+  {
+   "id": "ETH:0x01b465715e8de15cc8ddcd6fdb3db93654a21b1b084350839be697af85405fec",
+   "url": "https://eth.blockscout.com/tx/0x01b465715e8de15cc8ddcd6fdb3db93654a21b1b084350839be697af85405fec",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-08-07T00:37:47Z"
+  },
+  {
+   "id": "ETH:0x44a7d0ad509289c1e6acd1b289011bbfebcbb922e4fe4d350be520a803df7589",
+   "url": "https://eth.blockscout.com/tx/0x44a7d0ad509289c1e6acd1b289011bbfebcbb922e4fe4d350be520a803df7589",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-06T05:28:11Z"
+  },
+  {
+   "id": "ETH:0xb42c02f20207293048511bcb54dfe36a0e3e8348ca538f101786dc79b9ae1360",
+   "url": "https://eth.blockscout.com/tx/0xb42c02f20207293048511bcb54dfe36a0e3e8348ca538f101786dc79b9ae1360",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-06T01:52:23Z"
+  },
+  {
+   "id": "ETH:0xb506518549044ce9097ee9971d921401f8a890b5018531e28dced51446d4849e",
+   "url": "https://eth.blockscout.com/tx/0xb506518549044ce9097ee9971d921401f8a890b5018531e28dced51446d4849e",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-08-05T21:42:59Z"
+  },
+  {
+   "id": "ETH:0x00f8cb8af585e14ee5853ccbaf6258af4116aa0b9a6be9bfd612b0e94d1b039e",
+   "url": "https://eth.blockscout.com/tx/0x00f8cb8af585e14ee5853ccbaf6258af4116aa0b9a6be9bfd612b0e94d1b039e",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-30T02:33:35Z"
+  },
+  {
+   "id": "ETH:0x2eb740239b9c025bf87d58c5be5b36dc2491682177955fc19b234848a0371f91",
+   "url": "https://eth.blockscout.com/tx/0x2eb740239b9c025bf87d58c5be5b36dc2491682177955fc19b234848a0371f91",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-29T02:25:23Z"
+  },
+  {
+   "id": "ETH:0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1",
+   "url": "https://eth.blockscout.com/tx/0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C01",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C013. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-28T13:41:35Z"
+  },
+  {
+   "id": "ETH:0xdb36f547ebfed2c96aec164a389552d318f8094de3282ae773ee1999dc94e1c9",
+   "url": "https://eth.blockscout.com/tx/0xdb36f547ebfed2c96aec164a389552d318f8094de3282ae773ee1999dc94e1c9",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xCB74\u2026Ba2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:49:11Z"
+  },
+  {
+   "id": "ETH:0xe4edca98657fb4c1b5ae30fe7880176be1599a40bad5c7782638c6f1c95b241f",
+   "url": "https://eth.blockscout.com/tx/0xe4edca98657fb4c1b5ae30fe7880176be1599a40bad5c7782638c6f1c95b241f",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcb74\u2026ba2d.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0xcb74\u2026ba2d. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:46:23Z"
+  },
+  {
+   "id": "ETH:0x400ac97e90f8f2846563567679fbe33e12e4888f51d735ddffc8a251fea7617d",
+   "url": "https://eth.blockscout.com/tx/0x400ac97e90f8f2846563567679fbe33e12e4888f51d735ddffc8a251fea7617d",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-06 ETH from 0xCB74\u2026Ba2D.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 1e-06 ETH from 0xCB74\u2026Ba2D. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:16:47Z"
+  },
+  {
+   "id": "ETH:0x7d9a204e02e771833e8ed858062a8c37b386dd820f8206d0aa94f537fe039e50",
+   "url": "https://eth.blockscout.com/tx/0x7d9a204e02e771833e8ed858062a8c37b386dd820f8206d0aa94f537fe039e50",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 8.997 ETH to address 0x1AB4\u20268",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 8.997 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:15:35Z"
+  },
+  {
+   "id": "ETH:0xf473dcab3b3ee3c7a69120ffff368f893967a5eb14f4e34662756ebe19ca95d2",
+   "url": "https://eth.blockscout.com/tx/0xf473dcab3b3ee3c7a69120ffff368f893967a5eb14f4e34662756ebe19ca95d2",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0x9Be0\u20265573.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0 ETH from 0x9Be0\u20265573. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:10:47Z"
+  },
+  {
+   "id": "ETH:0x19a577628bf00aa1a88f19e9904e6393ddf7f03fff691de0bf4ed4741e75675b",
+   "url": "https://eth.blockscout.com/tx/0x19a577628bf00aa1a88f19e9904e6393ddf7f03fff691de0bf4ed4741e75675b",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 9 ETH from 0x9Be5\u20265573.",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 9 ETH from 0x9Be5\u20265573. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:09:47Z"
+  },
+  {
+   "id": "ETH:0xcc92c6c1d33a686da9bb880e580776b661c75a48786988282b28b5a15de7e2eb",
+   "url": "https://eth.blockscout.com/tx/0xcc92c6c1d33a686da9bb880e580776b661c75a48786988282b28b5a15de7e2eb",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-28T04:01:59Z"
+  },
+  {
+   "id": "ETH:0x114e25633cb791c6b264959c0bacd0abe4c1ecf8c806e30482c6a0f07bbde312",
+   "url": "https://eth.blockscout.com/tx/0x114e25633cb791c6b264959c0bacd0abe4c1ecf8c806e30482c6a0f07bbde312",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-27T01:48:11Z"
+  },
+  {
+   "id": "ETH:0x352a647160571abcacf4915e258c31fb10da90165e238d949572085ae0c16870",
+   "url": "https://eth.blockscout.com/tx/0x352a647160571abcacf4915e258c31fb10da90165e238d949572085ae0c16870",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-26T21:46:23Z"
+  },
+  {
+   "id": "ETH:0xf637c6a042deff7bf1af590c22ab3315da1138de7df367c7778e732ab8477bcc",
+   "url": "https://eth.blockscout.com/tx/0xf637c6a042deff7bf1af590c22ab3315da1138de7df367c7778e732ab8477bcc",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-26T02:23:35Z"
+  },
+  {
+   "id": "ETH:0x8e22801bbb80bb752b09c9a0634b906f342e4b2c5436a3cbc15accb3f9867640",
+   "url": "https://eth.blockscout.com/tx/0x8e22801bbb80bb752b09c9a0634b906f342e4b2c5436a3cbc15accb3f9867640",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-25T02:44:23Z"
+  },
+  {
+   "id": "ETH:0xafa8990495543cf3bceb9757be8ffdbc56acc8874099797c5fdf6514ccb73051",
+   "url": "https://eth.blockscout.com/tx/0xafa8990495543cf3bceb9757be8ffdbc56acc8874099797c5fdf6514ccb73051",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-25T02:22:11Z"
+  },
+  {
+   "id": "ETH:0x96854cf613f85dc636d45cfda3f8dd2d77be0a273fc0c12e6e2e74c7dea16a25",
+   "url": "https://eth.blockscout.com/tx/0x96854cf613f85dc636d45cfda3f8dd2d77be0a273fc0c12e6e2e74c7dea16a25",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-25T02:19:11Z"
+  },
+  {
+   "id": "ETH:0x9f556399c65887c357f09433a1b852115fc06729c18f4b4d4384e5ffb5e683b8",
+   "url": "https://eth.blockscout.com/tx/0x9f556399c65887c357f09433a1b852115fc06729c18f4b4d4384e5ffb5e683b8",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH ",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-24T10:54:11Z"
+  },
+  {
+   "id": "ETH:0xd089c21b61eea2be355c2f058c521d7829f162b64010aaebf7bff6b4b75e4ada",
+   "url": "https://eth.blockscout.com/tx/0xd089c21b61eea2be355c2f058c521d7829f162b64010aaebf7bff6b4b75e4ada",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called multiClaim on On-Chain Staked Et",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called multiClaim on On-Chain Staked Ethereum (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-23T10:34:59Z"
+  },
+  {
+   "id": "ETH:0xf521eae33bab0f7085c4f63d33eb70e02523647202297080719034154a05cb26",
+   "url": "https://eth.blockscout.com/tx/0xf521eae33bab0f7085c4f63d33eb70e02523647202297080719034154a05cb26",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-21T13:20:11Z"
+  },
+  {
+   "id": "ETH:0x63f8fa8d7b43fd806de0a72a1867fba75156d504a18099f0bf4ec7f85260cea5",
+   "url": "https://eth.blockscout.com/tx/0x63f8fa8d7b43fd806de0a72a1867fba75156d504a18099f0bf4ec7f85260cea5",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T13:03:59Z"
+  },
+  {
+   "id": "ETH:0xb6385887e69ab0929a1e1e08294b3eea117ac25a719b99e8b849ae4adf596c45",
+   "url": "https://eth.blockscout.com/tx/0xb6385887e69ab0929a1e1e08294b3eea117ac25a719b99e8b849ae4adf596c45",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T13:03:23Z"
+  },
+  {
+   "id": "ETH:0xa54c87ddce524f2a3e1e3356bb21f7b25d69978b559a51fd86a418d7527efb11",
+   "url": "https://eth.blockscout.com/tx/0xa54c87ddce524f2a3e1e3356bb21f7b25d69978b559a51fd86a418d7527efb11",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T13:02:59Z"
+  },
+  {
+   "id": "ETH:0xdcb19e6bf5b2b45e5a5bc7549041eaf6de4884f57a72ada95fd4c068facf47fa",
+   "url": "https://eth.blockscout.com/tx/0xdcb19e6bf5b2b45e5a5bc7549041eaf6de4884f57a72ada95fd4c068facf47fa",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-21T02:45:59Z"
+  },
+  {
+   "id": "ETH:0xf492bc2a1e1c967a35576113a00c52eefe751005b428a9a079d290e5108bfb76",
+   "url": "https://eth.blockscout.com/tx/0xf492bc2a1e1c967a35576113a00c52eefe751005b428a9a079d290e5108bfb76",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T02:26:11Z"
+  },
+  {
+   "id": "ETH:0x28159b740954a3b87da1d32840ec01ffb4a971eaaa7d5dafb7d8586ba967a981",
+   "url": "https://eth.blockscout.com/tx/0x28159b740954a3b87da1d32840ec01ffb4a971eaaa7d5dafb7d8586ba967a981",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T02:24:23Z"
+  },
+  {
+   "id": "ETH:0x2d003d4c35d4d4d5fff148bede4e07164e18f0eaada1137b6e63da68c669a603",
+   "url": "https://eth.blockscout.com/tx/0x2d003d4c35d4d4d5fff148bede4e07164e18f0eaada1137b6e63da68c669a603",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-21T02:23:23Z"
+  },
+  {
+   "id": "ETH:0xbaa2bf2885827474e7dc8bbb39131b1fcc5dd46d80c8ebb3a7858884b64439d8",
+   "url": "https://eth.blockscout.com/tx/0xbaa2bf2885827474e7dc8bbb39131b1fcc5dd46d80c8ebb3a7858884b64439d8",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-19T08:56:47Z"
+  },
+  {
+   "id": "ETH:0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
+   "url": "https://eth.blockscout.com/tx/0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-19T08:38:23Z"
+  },
+  {
+   "id": "ETH:0x6a40f4f4669e2cedc80e9689afa8cec81440e94a4f035a709dfd5cf2927896d7",
+   "url": "https://eth.blockscout.com/tx/0x6a40f4f4669e2cedc80e9689afa8cec81440e94a4f035a709dfd5cf2927896d7",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-19T07:34:11Z"
+  },
+  {
+   "id": "ETH:0x5914c91b460a1d234b1a4dd7c5125263fa6b6b0138422a2eb893897ad23e2199",
+   "url": "https://eth.blockscout.com/tx/0x5914c91b460a1d234b1a4dd7c5125263fa6b6b0138422a2eb893897ad23e2199",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-19T03:28:47Z"
+  },
+  {
+   "id": "ETH:0x092f74224272a302103768544e6c2d862cdb932327d71895bdd866031dc68b62",
+   "url": "https://eth.blockscout.com/tx/0x092f74224272a302103768544e6c2d862cdb932327d71895bdd866031dc68b62",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-19T03:10:23Z"
+  },
+  {
+   "id": "ETH:0xb8787fb82a7dd30d22a30dec734931afd9eeccb00a14e346e2c678d0e76e0613",
+   "url": "https://eth.blockscout.com/tx/0xb8787fb82a7dd30d22a30dec734931afd9eeccb00a14e346e2c678d0e76e0613",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-19T00:09:47Z"
+  },
+  {
+   "id": "ETH:0x775a877ae3116d5bc25b571b7ed498134b2f3e919079e9b3a7340efe586abd98",
+   "url": "https://eth.blockscout.com/tx/0x775a877ae3116d5bc25b571b7ed498134b2f3e919079e9b3a7340efe586abd98",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-18T23:48:11Z"
+  },
+  {
+   "id": "ETH:0xcb87605980dc50d0a54e08e2a7713a2258d9f6615eea1ebaca74cab9e1ed1938",
+   "url": "https://eth.blockscout.com/tx/0xcb87605980dc50d0a54e08e2a7713a2258d9f6615eea1ebaca74cab9e1ed1938",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-18T23:47:11Z"
+  },
+  {
+   "id": "ETH:0x1fc730ff08e036dacc0e63b74f93fac9ec3da8c5c2fd40fa39182e74c005dd45",
+   "url": "https://eth.blockscout.com/tx/0x1fc730ff08e036dacc0e63b74f93fac9ec3da8c5c2fd40fa39182e74c005dd45",
+   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called requestExit on On-Chain Staked E",
+   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called requestExit on On-Chain Staked Ethereum (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
+   "date_published": "2025-07-17T08:12:47Z"
+  },
+  {
+   "id": "ETH:0x7da70e2b050b743564c5dc3b6a03e881d607e5687b77d65a1ca57796105d8b97",
+   "url": "https://eth.blockscout.com/tx/0x7da70e2b050b743564c5dc3b6a03e881d607e5687b77d65a1ca57796105d8b97",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-15T13:31:35Z"
+  },
+  {
+   "id": "ETH:0x9f2133fc00861c16a480052bbdc59181449b20bb062aa2f522f480fcbcad8a28",
+   "url": "https://eth.blockscout.com/tx/0x9f2133fc00861c16a480052bbdc59181449b20bb062aa2f522f480fcbcad8a28",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-15T13:29:47Z"
+  },
+  {
+   "id": "ETH:0xb47226146faf3d52cc1a2f3c23afef5ce35730429bc9e277ac6960209b98202e",
+   "url": "https://eth.blockscout.com/tx/0xb47226146faf3d52cc1a2f3c23afef5ce35730429bc9e277ac6960209b98202e",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-11T22:47:47Z"
+  },
+  {
+   "id": "ETH:0xed26207e3ebd09144efe13f51993445bb89cf2ad44f11e063b6321765f08b8d7",
+   "url": "https://eth.blockscout.com/tx/0xed26207e3ebd09144efe13f51993445bb89cf2ad44f11e063b6321765f08b8d7",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-11T16:57:11Z"
+  },
+  {
+   "id": "ETH:0x67244fda31c9932f03927385665c12b20dff616988e41c47fb683e377691e792",
+   "url": "https://eth.blockscout.com/tx/0x67244fda31c9932f03927385665c12b20dff616988e41c47fb683e377691e792",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-11T16:24:59Z"
+  },
+  {
+   "id": "ETH:0x0c710390eaa094889c4b3a3c4670fce5eb7f3759843a2a1edb195fe8aa5145e0",
+   "url": "https://eth.blockscout.com/tx/0x0c710390eaa094889c4b3a3c4670fce5eb7f3759843a2a1edb195fe8aa5145e0",
+   "title": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "content_text": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
+   "date_published": "2025-07-11T16:22:35Z"
+  },
+  {
+   "id": "ETH:0x4c0064afadaa35472afdef693c165863e0dfbd622def5a7968c9115287240e9e",
+   "url": "https://eth.blockscout.com/tx/0x4c0064afadaa35472afdef693c165863e0dfbd622def5a7968c9115287240e9e",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-10T05:31:11Z"
+  },
+  {
+   "id": "ETH:0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
+   "url": "https://eth.blockscout.com/tx/0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 (heuristic, not attribution)",
+   "date_published": "2025-07-10T05:12:47Z"
+  },
+  {
+   "id": "ETH:0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
+   "url": "https://eth.blockscout.com/tx/0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
+   "title": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "content_text": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 (heuristic, not attribution)",
+   "date_published": "2025-07-10T04:07:35Z"
+  }
+ ]
+}

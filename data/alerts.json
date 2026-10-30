@@ -1,0 +1,2315 @@
+{
+ "generated": "2026-10-30T22:18:18.295382Z",
+ "alerts": [
+  {
+   "id": "ETH:0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
+   "time": "2026-10-13T14:56:23Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.03118 ETH to address 0x6242\u2026dc9f, 1 hop from cluster C010. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
+   "time": "2026-10-01T13:34:11Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C006",
+   "message": "An address OFAC lists under \"LAZARUS GROUP\" received 0.006438 ETH from 0x36B4\u2026DE7a.",
+   "tx_url": "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
+   "address": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+   "address_url": "https://eth.blockscout.com/address/0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+   "sources": [
+    {
+     "name": "OFAC SDN #27307 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
+   "time": "2026-03-27T13:45:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
+   "time": "2026-01-29T12:39:35Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
+   "time": "2026-01-29T12:39:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
+   "time": "2026-01-29T12:32:59Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
+   "time": "2026-01-29T12:32:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
+   "time": "2026-01-29T12:30:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution just sent 1e-18 ETH to ConsolidationRequestPredeploy, 1 hop from cluster C001. Resemblance score 75/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
+   "time": "2026-01-29T12:16:35Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
+   "time": "2026-01-29T12:16:35Z",
+   "chain": "ETH",
+   "level": 65,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
+   "time": "2026-01-29T12:09:47Z",
+   "chain": "ETH",
+   "level": 65,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called claimWithdraw on UUPSProxy (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "BTC:5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
+   "time": "2026-01-16T06:14:28Z",
+   "chain": "BTC",
+   "level": 60,
+   "cluster": "C003",
+   "message": "An address OFAC lists under \"LI, Jiadong\" just spent BTC: 0.0008602 BTC split across 1 output(s), 1 hop from cluster C003.",
+   "tx_url": "https://mempool.space/tx/5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
+   "address": "17UVSMegvrzfobKC82dHXpZLtLcqzW9stF",
+   "address_url": "https://mempool.space/address/17UVSMegvrzfobKC82dHXpZLtLcqzW9stF",
+   "sources": [
+    {
+     "name": "OFAC SDN #28264 (DPRK3] [CYBER2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28264"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
+   "time": "2026-01-13T12:16:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called requestWithdraw on UUPSProxy (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
+   "time": "2026-01-13T12:11:23Z",
+   "chain": "ETH",
+   "level": 65,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called approve on ether.fi Staked ETH (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
+   "time": "2026-01-13T11:40:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C001",
+   "message": "A wallet in an FBI attribution called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
+   "address": "0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "address_url": "https://eth.blockscout.com/address/0x61193aeC68C90f8Ad52365Ef3973e57f5519E109",
+   "sources": [
+    {
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
+   "time": "2025-09-13T15:30:35Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 4 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
+   "address": "0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "address_url": "https://eth.blockscout.com/address/0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
+   "time": "2025-09-13T15:25:47Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 4 ETH from 0x9Be5\u20265573.",
+   "tx_url": "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
+   "address": "0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "address_url": "https://eth.blockscout.com/address/0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
+   "time": "2025-09-09T08:48:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x7a8614f2512ef969740ea9de9e45b91270b2d2d651071ce2271d2341e3b3a40c",
+   "time": "2025-09-08T06:35:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x7a8614f2512ef969740ea9de9e45b91270b2d2d651071ce2271d2341e3b3a40c",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x59f3432140018e3e4edbc8a25015b82ea60266cc8db0e7d99c7153900a6675fb",
+   "time": "2025-09-06T21:09:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x59f3432140018e3e4edbc8a25015b82ea60266cc8db0e7d99c7153900a6675fb",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
+   "time": "2025-09-06T20:53:47Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "tx_url": "https://eth.blockscout.com/tx/0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
+   "time": "2025-08-28T01:12:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
+   "address": "0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "address_url": "https://eth.blockscout.com/address/0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
+   "time": "2025-08-25T05:17:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x84148501d3d122c5a9f8701fde8052b28df644712b7105973b7a167fcc6ca45e",
+   "time": "2025-08-25T05:04:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x84148501d3d122c5a9f8701fde8052b28df644712b7105973b7a167fcc6ca45e",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x271f914702eab47dd9a4a9a6613022fe3f0e474fd86b70e79d4bf826ab42a14c",
+   "time": "2025-08-25T04:40:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x271f914702eab47dd9a4a9a6613022fe3f0e474fd86b70e79d4bf826ab42a14c",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x9f8b134477e2776fe585c32d5bc7a0b3e95d37998fc814ebf11090d4b390fce1",
+   "time": "2025-08-25T02:51:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x9f8b134477e2776fe585c32d5bc7a0b3e95d37998fc814ebf11090d4b390fce1",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "BTC:aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
+   "time": "2025-08-12T16:53:36Z",
+   "chain": "BTC",
+   "level": 60,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 0 BTC split across 0 output(s), 1 hop from cluster C014.",
+   "tx_url": "https://mempool.space/tx/aa00c1725cd8ba76840a03df576d56b4755ec3ee7d137b16ee9890761d7bbb0d",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "BTC:0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
+   "time": "2025-08-12T14:38:20Z",
+   "chain": "BTC",
+   "level": 15,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.03699 BTC.",
+   "tx_url": "https://mempool.space/tx/0f3fafa67cba33bf2f6dc6f51aa2943aadfb413a74567570b88fcb9f341aeee5",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "BTC:d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
+   "time": "2025-08-12T14:38:20Z",
+   "chain": "BTC",
+   "level": 15,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 0.103 BTC.",
+   "tx_url": "https://mempool.space/tx/d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
+   "time": "2025-08-10T02:04:11Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" just sent 0.05389 ETH to address 0xa1ab\u2026DF09, 1 hop from cluster C010. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
+   "time": "2025-08-07T00:53:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xef5aa125b8efae2775e143c944e717eb453fc1814505708c4ba4cbe073ff7fe9",
+   "time": "2025-08-07T00:48:23Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "tx_url": "https://eth.blockscout.com/tx/0xef5aa125b8efae2775e143c944e717eb453fc1814505708c4ba4cbe073ff7fe9",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x1dd1100980fd396f4d4e432cf1c7df879ec31715d1e2cf9a8cb5044478aa786f",
+   "time": "2025-08-07T00:42:59Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "tx_url": "https://eth.blockscout.com/tx/0x1dd1100980fd396f4d4e432cf1c7df879ec31715d1e2cf9a8cb5044478aa786f",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x01b465715e8de15cc8ddcd6fdb3db93654a21b1b084350839be697af85405fec",
+   "time": "2025-08-07T00:37:47Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" received 0.018 ETH from 0xab97\u2026ee2B.",
+   "tx_url": "https://eth.blockscout.com/tx/0x01b465715e8de15cc8ddcd6fdb3db93654a21b1b084350839be697af85405fec",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x44a7d0ad509289c1e6acd1b289011bbfebcbb922e4fe4d350be520a803df7589",
+   "time": "2025-08-06T05:28:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x44a7d0ad509289c1e6acd1b289011bbfebcbb922e4fe4d350be520a803df7589",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb42c02f20207293048511bcb54dfe36a0e3e8348ca538f101786dc79b9ae1360",
+   "time": "2025-08-06T01:52:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb42c02f20207293048511bcb54dfe36a0e3e8348ca538f101786dc79b9ae1360",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb506518549044ce9097ee9971d921401f8a890b5018531e28dced51446d4849e",
+   "time": "2025-08-05T21:42:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb506518549044ce9097ee9971d921401f8a890b5018531e28dced51446d4849e",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x00f8cb8af585e14ee5853ccbaf6258af4116aa0b9a6be9bfd612b0e94d1b039e",
+   "time": "2025-07-30T02:33:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x00f8cb8af585e14ee5853ccbaf6258af4116aa0b9a6be9bfd612b0e94d1b039e",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x2eb740239b9c025bf87d58c5be5b36dc2491682177955fc19b234848a0371f91",
+   "time": "2025-07-29T02:25:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x2eb740239b9c025bf87d58c5be5b36dc2491682177955fc19b234848a0371f91",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1",
+   "time": "2025-07-28T13:41:35Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.002 ETH to address 0xB42a\u20267D89, 1 hop from cluster C013. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x7d9a204e02e771833e8ed858062a8c37b386dd820f8206d0aa94f537fe039e50",
+   "time": "2025-07-28T04:15:35Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 8.997 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C008. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x7d9a204e02e771833e8ed858062a8c37b386dd820f8206d0aa94f537fe039e50",
+   "address": "0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "address_url": "https://eth.blockscout.com/address/0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x19a577628bf00aa1a88f19e9904e6393ddf7f03fff691de0bf4ed4741e75675b",
+   "time": "2025-07-28T04:09:47Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 9 ETH from 0x9Be5\u20265573.",
+   "tx_url": "https://eth.blockscout.com/tx/0x19a577628bf00aa1a88f19e9904e6393ddf7f03fff691de0bf4ed4741e75675b",
+   "address": "0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "address_url": "https://eth.blockscout.com/address/0xcB74874f1e06Fcf80A306e06e5379A44B488bA2D",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xcc92c6c1d33a686da9bb880e580776b661c75a48786988282b28b5a15de7e2eb",
+   "time": "2025-07-28T04:01:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xcc92c6c1d33a686da9bb880e580776b661c75a48786988282b28b5a15de7e2eb",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x114e25633cb791c6b264959c0bacd0abe4c1ecf8c806e30482c6a0f07bbde312",
+   "time": "2025-07-27T01:48:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on USDC (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x114e25633cb791c6b264959c0bacd0abe4c1ecf8c806e30482c6a0f07bbde312",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x352a647160571abcacf4915e258c31fb10da90165e238d949572085ae0c16870",
+   "time": "2025-07-26T21:46:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x352a647160571abcacf4915e258c31fb10da90165e238d949572085ae0c16870",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf637c6a042deff7bf1af590c22ab3315da1138de7df367c7778e732ab8477bcc",
+   "time": "2025-07-26T02:23:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xf637c6a042deff7bf1af590c22ab3315da1138de7df367c7778e732ab8477bcc",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x8e22801bbb80bb752b09c9a0634b906f342e4b2c5436a3cbc15accb3f9867640",
+   "time": "2025-07-25T02:44:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x8e22801bbb80bb752b09c9a0634b906f342e4b2c5436a3cbc15accb3f9867640",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xafa8990495543cf3bceb9757be8ffdbc56acc8874099797c5fdf6514ccb73051",
+   "time": "2025-07-25T02:22:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xafa8990495543cf3bceb9757be8ffdbc56acc8874099797c5fdf6514ccb73051",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x96854cf613f85dc636d45cfda3f8dd2d77be0a273fc0c12e6e2e74c7dea16a25",
+   "time": "2025-07-25T02:19:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x96854cf613f85dc636d45cfda3f8dd2d77be0a273fc0c12e6e2e74c7dea16a25",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x9f556399c65887c357f09433a1b852115fc06729c18f4b4d4384e5ffb5e683b8",
+   "time": "2025-07-24T10:54:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x9f556399c65887c357f09433a1b852115fc06729c18f4b4d4384e5ffb5e683b8",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xd089c21b61eea2be355c2f058c521d7829f162b64010aaebf7bff6b4b75e4ada",
+   "time": "2025-07-23T10:34:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called multiClaim on On-Chain Staked Ethereum (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xd089c21b61eea2be355c2f058c521d7829f162b64010aaebf7bff6b4b75e4ada",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf521eae33bab0f7085c4f63d33eb70e02523647202297080719034154a05cb26",
+   "time": "2025-07-21T13:20:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xf521eae33bab0f7085c4f63d33eb70e02523647202297080719034154a05cb26",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x63f8fa8d7b43fd806de0a72a1867fba75156d504a18099f0bf4ec7f85260cea5",
+   "time": "2025-07-21T13:03:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x63f8fa8d7b43fd806de0a72a1867fba75156d504a18099f0bf4ec7f85260cea5",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb6385887e69ab0929a1e1e08294b3eea117ac25a719b99e8b849ae4adf596c45",
+   "time": "2025-07-21T13:03:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb6385887e69ab0929a1e1e08294b3eea117ac25a719b99e8b849ae4adf596c45",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xa54c87ddce524f2a3e1e3356bb21f7b25d69978b559a51fd86a418d7527efb11",
+   "time": "2025-07-21T13:02:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xa54c87ddce524f2a3e1e3356bb21f7b25d69978b559a51fd86a418d7527efb11",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xdcb19e6bf5b2b45e5a5bc7549041eaf6de4884f57a72ada95fd4c068facf47fa",
+   "time": "2025-07-21T02:45:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xdcb19e6bf5b2b45e5a5bc7549041eaf6de4884f57a72ada95fd4c068facf47fa",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf492bc2a1e1c967a35576113a00c52eefe751005b428a9a079d290e5108bfb76",
+   "time": "2025-07-21T02:26:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xf492bc2a1e1c967a35576113a00c52eefe751005b428a9a079d290e5108bfb76",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x28159b740954a3b87da1d32840ec01ffb4a971eaaa7d5dafb7d8586ba967a981",
+   "time": "2025-07-21T02:24:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x28159b740954a3b87da1d32840ec01ffb4a971eaaa7d5dafb7d8586ba967a981",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x2d003d4c35d4d4d5fff148bede4e07164e18f0eaada1137b6e63da68c669a603",
+   "time": "2025-07-21T02:23:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x2d003d4c35d4d4d5fff148bede4e07164e18f0eaada1137b6e63da68c669a603",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xbaa2bf2885827474e7dc8bbb39131b1fcc5dd46d80c8ebb3a7858884b64439d8",
+   "time": "2025-07-19T08:56:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xbaa2bf2885827474e7dc8bbb39131b1fcc5dd46d80c8ebb3a7858884b64439d8",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
+   "time": "2025-07-19T08:38:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x6a40f4f4669e2cedc80e9689afa8cec81440e94a4f035a709dfd5cf2927896d7",
+   "time": "2025-07-19T07:34:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x6a40f4f4669e2cedc80e9689afa8cec81440e94a4f035a709dfd5cf2927896d7",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x5914c91b460a1d234b1a4dd7c5125263fa6b6b0138422a2eb893897ad23e2199",
+   "time": "2025-07-19T03:28:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x5914c91b460a1d234b1a4dd7c5125263fa6b6b0138422a2eb893897ad23e2199",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x092f74224272a302103768544e6c2d862cdb932327d71895bdd866031dc68b62",
+   "time": "2025-07-19T03:10:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x092f74224272a302103768544e6c2d862cdb932327d71895bdd866031dc68b62",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb8787fb82a7dd30d22a30dec734931afd9eeccb00a14e346e2c678d0e76e0613",
+   "time": "2025-07-19T00:09:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb8787fb82a7dd30d22a30dec734931afd9eeccb00a14e346e2c678d0e76e0613",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x775a877ae3116d5bc25b571b7ed498134b2f3e919079e9b3a7340efe586abd98",
+   "time": "2025-07-18T23:48:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x775a877ae3116d5bc25b571b7ed498134b2f3e919079e9b3a7340efe586abd98",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xcb87605980dc50d0a54e08e2a7713a2258d9f6615eea1ebaca74cab9e1ed1938",
+   "time": "2025-07-18T23:47:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xcb87605980dc50d0a54e08e2a7713a2258d9f6615eea1ebaca74cab9e1ed1938",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x1fc730ff08e036dacc0e63b74f93fac9ec3da8c5c2fd40fa39182e74c005dd45",
+   "time": "2025-07-17T08:12:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called requestExit on On-Chain Staked Ethereum (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x1fc730ff08e036dacc0e63b74f93fac9ec3da8c5c2fd40fa39182e74c005dd45",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x7da70e2b050b743564c5dc3b6a03e881d607e5687b77d65a1ca57796105d8b97",
+   "time": "2025-07-15T13:31:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x7da70e2b050b743564c5dc3b6a03e881d607e5687b77d65a1ca57796105d8b97",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x9f2133fc00861c16a480052bbdc59181449b20bb062aa2f522f480fcbcad8a28",
+   "time": "2025-07-15T13:29:47Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x9f2133fc00861c16a480052bbdc59181449b20bb062aa2f522f480fcbcad8a28",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb47226146faf3d52cc1a2f3c23afef5ce35730429bc9e277ac6960209b98202e",
+   "time": "2025-07-11T22:47:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb47226146faf3d52cc1a2f3c23afef5ce35730429bc9e277ac6960209b98202e",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xed26207e3ebd09144efe13f51993445bb89cf2ad44f11e063b6321765f08b8d7",
+   "time": "2025-07-11T16:57:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xed26207e3ebd09144efe13f51993445bb89cf2ad44f11e063b6321765f08b8d7",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x67244fda31c9932f03927385665c12b20dff616988e41c47fb683e377691e792",
+   "time": "2025-07-11T16:24:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x67244fda31c9932f03927385665c12b20dff616988e41c47fb683e377691e792",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x0c710390eaa094889c4b3a3c4670fce5eb7f3759843a2a1edb195fe8aa5145e0",
+   "time": "2025-07-11T16:22:35Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x0c710390eaa094889c4b3a3c4670fce5eb7f3759843a2a1edb195fe8aa5145e0",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x4c0064afadaa35472afdef693c165863e0dfbd622def5a7968c9115287240e9e",
+   "time": "2025-07-10T05:31:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x4c0064afadaa35472afdef693c165863e0dfbd622def5a7968c9115287240e9e",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
+   "time": "2025-07-10T05:12:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
+   "address": "0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "address_url": "https://eth.blockscout.com/address/0x12Ea80238C7d805D003ce793594e92d84A6f4E8d",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
+   "time": "2025-07-10T04:07:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xe0362c4444ac992a007cad814be9f866ad6dbd60eb3bb26a2f5d7cab0b6fdab9",
+   "time": "2025-07-09T05:36:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xe0362c4444ac992a007cad814be9f866ad6dbd60eb3bb26a2f5d7cab0b6fdab9",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xcbdb9cc34c6e556eabef817d651e2d4bccba2198639fd9976cd1f898ea6ba194",
+   "time": "2025-07-08T13:13:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xcbdb9cc34c6e556eabef817d651e2d4bccba2198639fd9976cd1f898ea6ba194",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x22e7336c0a162928d6900208a8d69653862a7ac43aa8c8cd86259d4c83a4ef27",
+   "time": "2025-07-08T13:09:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x22e7336c0a162928d6900208a8d69653862a7ac43aa8c8cd86259d4c83a4ef27",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x069e33a3ea5250ea63fcd6ee808305a62260914a27ef2defdbbe22410a69e8ad",
+   "time": "2025-07-08T05:48:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x069e33a3ea5250ea63fcd6ee808305a62260914a27ef2defdbbe22410a69e8ad",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xd4beb8fb139a0710b4fbc6698fb50552f9919f11f9454ed6f303275fde5fd4d8",
+   "time": "2025-07-05T11:22:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xd4beb8fb139a0710b4fbc6698fb50552f9919f11f9454ed6f303275fde5fd4d8",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x584e83d409b1cc1a11dcd4e453c92cc61242695bcce5dac838fa481908cf9ac3",
+   "time": "2025-07-04T12:59:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C010",
+   "message": "An address OFAC lists under \"BOYKOV, Ilya Aleksandrovich\" called transfer on Dai (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x584e83d409b1cc1a11dcd4e453c92cc61242695bcce5dac838fa481908cf9ac3",
+   "address": "0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "address_url": "https://eth.blockscout.com/address/0x761edd5e4546229a0bd35ae99b4d3d01cf4a3510",
+   "sources": [
+    {
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+    },
+    {
+     "name": "OFAC SDN #58889 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x431098d638a6480d0445ad77c94b1eda705fd845b1c163e7bb71c3ba7a9a1827",
+   "time": "2025-06-27T13:50:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x431098d638a6480d0445ad77c94b1eda705fd845b1c163e7bb71c3ba7a9a1827",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x0fc7d743013186d5798ebd77e3b804472ddd82647046201c8dc6eb8290c04ea8",
+   "time": "2025-06-27T13:48:47Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x0fc7d743013186d5798ebd77e3b804472ddd82647046201c8dc6eb8290c04ea8",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xed211e077b0817b7a0a2e27ed479709799888269451b8cba93c29b7d234b6de7",
+   "time": "2025-06-27T13:27:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xed211e077b0817b7a0a2e27ed479709799888269451b8cba93c29b7d234b6de7",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x8e8123171e3877235e9941506f4c54a9dd7b62bf0d27d385477c965298ff39d4",
+   "time": "2025-06-27T13:25:35Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x8e8123171e3877235e9941506f4c54a9dd7b62bf0d27d385477c965298ff39d4",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x6195fb022313c294f1a8bcd5662bf15f45251f28d7871045299e5e4f965e812a",
+   "time": "2025-06-23T15:20:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x6195fb022313c294f1a8bcd5662bf15f45251f28d7871045299e5e4f965e812a",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x0bea1890af7db960e696b1a2b7ed26b9d87a6fcc1f51adf03769043efdc84882",
+   "time": "2025-06-23T15:17:47Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x0bea1890af7db960e696b1a2b7ed26b9d87a6fcc1f51adf03769043efdc84882",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x4f7d5be39e59a26a37c3470d264516abba4a66b16137f489f98dfd60f0f627b6",
+   "time": "2025-06-17T18:14:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x4f7d5be39e59a26a37c3470d264516abba4a66b16137f489f98dfd60f0f627b6",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x6f436fa9f180ab444a0c43f5e607e53d34ba731b120df3719062eda1b96e4c91",
+   "time": "2025-06-17T18:13:23Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x6f436fa9f180ab444a0c43f5e607e53d34ba731b120df3719062eda1b96e4c91",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x7d513d098e2f442b5f52da16788b8cb5e1abee16c10a5fdaa0b923c5d1f32107",
+   "time": "2025-06-17T14:11:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x7d513d098e2f442b5f52da16788b8cb5e1abee16c10a5fdaa0b923c5d1f32107",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf4f3d5773505f19f47e50a0db28f4a5238bffc88926d3e03a6269efa7d4b49f1",
+   "time": "2025-06-12T17:52:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xf4f3d5773505f19f47e50a0db28f4a5238bffc88926d3e03a6269efa7d4b49f1",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xcb32c2ae58f3e4cb81a7b5539d94f340de0335fa4e4958ab90a58a65ae55461e",
+   "time": "2025-06-04T14:20:35Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xcb32c2ae58f3e4cb81a7b5539d94f340de0335fa4e4958ab90a58a65ae55461e",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x30603068e353073ffd030426eeb99c3943b071c1d02217310895e3a86eb220a2",
+   "time": "2025-06-04T14:17:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x30603068e353073ffd030426eeb99c3943b071c1d02217310895e3a86eb220a2",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x72afdbc1f7621dd46cf31836a4e5b51e4c3a6ad27b43a76ef92d857d13032792",
+   "time": "2025-06-04T14:13:23Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x72afdbc1f7621dd46cf31836a4e5b51e4c3a6ad27b43a76ef92d857d13032792",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x6aa64ae3ac14c45c39f4ae8fd2cbf0ad40b698783590e20b11a8c0c1c4a72a77",
+   "time": "2025-06-03T17:01:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x6aa64ae3ac14c45c39f4ae8fd2cbf0ad40b698783590e20b11a8c0c1c4a72a77",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x4079253efbc524844934f7166b74287ec35114916b1d620de26a9e0b822e56a1",
+   "time": "2025-06-02T17:32:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x4079253efbc524844934f7166b74287ec35114916b1d620de26a9e0b822e56a1",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xff629884d8edd5f9a1f98c37cca8c4a599ffd7273c84f7a9cc921ac53f8bf967",
+   "time": "2025-06-02T17:30:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xff629884d8edd5f9a1f98c37cca8c4a599ffd7273c84f7a9cc921ac53f8bf967",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x998d5229a7b754e657d757e5638f45c3c935d41a9a975386b83c49233b61faa9",
+   "time": "2025-06-01T19:04:11Z",
+   "chain": "ETH",
+   "level": 75,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called swap on MetaSwap (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x998d5229a7b754e657d757e5638f45c3c935d41a9a975386b83c49233b61faa9",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x09cff39975a904fb8fa09daeea2ca63ad4f2944cdfc222eeecee75a55e0d8d60",
+   "time": "2025-05-31T12:53:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x09cff39975a904fb8fa09daeea2ca63ad4f2944cdfc222eeecee75a55e0d8d60",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x62a5e1bec9675d23a7e0e0dfe520b9822d3989deace916d485cc185098a93c25",
+   "time": "2025-05-30T15:53:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0x62a5e1bec9675d23a7e0e0dfe520b9822d3989deace916d485cc185098a93c25",
+   "address": "0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "address_url": "https://eth.blockscout.com/address/0x95584C303FCd48AF5c6B9873015f2AD0ca84EaE3",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb1fec2a53c26ab566dc394deb55bdb11f3e47b57c34ae2dd342fcfb2695cd663",
+   "time": "2025-05-14T10:47:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xb1fec2a53c26ab566dc394deb55bdb11f3e47b57c34ae2dd342fcfb2695cd663",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xfee7b935cfed02f39569802e9694ea9af26c9508ad755408bfc5da3365abd184",
+   "time": "2025-05-13T09:18:59Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xfee7b935cfed02f39569802e9694ea9af26c9508ad755408bfc5da3365abd184",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xa0762d16bccdf68af0a8b407b6aca72e3ed0a7beff12004d5be423e218894f42",
+   "time": "2025-05-13T09:05:23Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called approve on TetherToken (no ETH moved).",
+   "tx_url": "https://eth.blockscout.com/tx/0xa0762d16bccdf68af0a8b407b6aca72e3ed0a7beff12004d5be423e218894f42",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x67c177dc77015770942c1c688944fb0c5b9da7f3af6793b9b19327a84d483bd0",
+   "time": "2025-05-13T09:01:35Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0.009803 ETH from 0x95fC\u2026cb1f.",
+   "tx_url": "https://eth.blockscout.com/tx/0x67c177dc77015770942c1c688944fb0c5b9da7f3af6793b9b19327a84d483bd0",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x1bffc0f38aefd5aab570e407ef18498267f1fa97165b7785a44957be10b256e8",
+   "time": "2025-05-13T08:57:23Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 0.01 ETH to address 0x95fC\u2026cb1f, 1 hop from cluster C008. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x1bffc0f38aefd5aab570e407ef18498267f1fa97165b7785a44957be10b256e8",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "BTC:283007f4adbd31c27957abd4b281b55f09dcb1b7cfbbc1506fdd72e4847c0e6a",
+   "time": "2025-05-02T14:18:09Z",
+   "chain": "BTC",
+   "level": 70,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 10.85 BTC split across 3 output(s), 1 hop from cluster C014.",
+   "tx_url": "https://mempool.space/tx/283007f4adbd31c27957abd4b281b55f09dcb1b7cfbbc1506fdd72e4847c0e6a",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "BTC:1e05bcb239c270e8c04fb61c624d2dda1bc46f993411bc8a84ff88cfbd745da7",
+   "time": "2025-05-02T10:09:20Z",
+   "chain": "BTC",
+   "level": 15,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.686 BTC.",
+   "tx_url": "https://mempool.space/tx/1e05bcb239c270e8c04fb61c624d2dda1bc46f993411bc8a84ff88cfbd745da7",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x2277894b1ac6d21000e22bb39c46f32955e63a0db4ef451446fd140532bef02b",
+   "time": "2025-04-08T00:12:47Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C013",
+   "message": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.007746 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C013. Resemblance score 55/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x2277894b1ac6d21000e22bb39c46f32955e63a0db4ef451446fd140532bef02b",
+   "address": "0xb637f84b66876ebf609c2a4208905f9ddac9d075",
+   "address_url": "https://eth.blockscout.com/address/0xb637f84b66876ebf609c2a4208905f9ddac9d075",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
+  {
+   "id": "BTC:5ac6a08ddf8496486716a3f953f279fa350589191e45becd7a6eee7a1615d8db",
+   "time": "2025-03-20T10:49:27Z",
+   "chain": "BTC",
+   "level": 70,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 1.903 BTC split across 5 output(s), 1 hop from cluster C014.",
+   "tx_url": "https://mempool.space/tx/5ac6a08ddf8496486716a3f953f279fa350589191e45becd7a6eee7a1615d8db",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "BTC:ebf0a2ccd756749436e451a0c8fcc8afd0d02e6db94a134325ffc2954f419335",
+   "time": "2025-03-20T10:11:47Z",
+   "chain": "BTC",
+   "level": 15,
+   "cluster": "C014",
+   "message": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.523 BTC.",
+   "tx_url": "https://mempool.space/tx/ebf0a2ccd756749436e451a0c8fcc8afd0d02e6db94a134325ffc2954f419335",
+   "address": "1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "address_url": "https://mempool.space/address/1HmqvgSXUVES1jn4TQPzk9dxo1NE8wim2T",
+   "sources": [
+    {
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x58ba8d68ff9af66381c003c8c48a7ece91346d2c2149bf9cfb5597603af311fd",
+   "time": "2025-03-20T02:22:11Z",
+   "chain": "ETH",
+   "level": 50,
+   "cluster": "C008",
+   "message": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 36 ETH to On-Chain Staked Ethereum, 1 hop from cluster C008. Resemblance score 50/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x58ba8d68ff9af66381c003c8c48a7ece91346d2c2149bf9cfb5597603af311fd",
+   "address": "0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "address_url": "https://eth.blockscout.com/address/0x9Be599d7867f5E1a2D7Ec6dB9710dF2b98A15573",
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xa2e4935c2a3c191bd4d5ac13f2649a2840cc3a4e6ac57228a376156f72e5f9cf",
+   "time": "2025-03-03T18:13:47Z",
+   "chain": "ETH",
+   "level": 65,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 135.7 ETH to address 0x5c8C\u2026Cffa, 1 hop from cluster C002. Resemblance score 65/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xa2e4935c2a3c191bd4d5ac13f2649a2840cc3a4e6ac57228a376156f72e5f9cf",
+   "address": "0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "address_url": "https://eth.blockscout.com/address/0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xc9df63b6eda8fcd3a56df9ba138761415813628a2e8b06a9dc709a25e1c76b2e",
+   "time": "2025-03-03T17:59:35Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 74.21 ETH to address 0x9a99\u20266A7B, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xc9df63b6eda8fcd3a56df9ba138761415813628a2e8b06a9dc709a25e1c76b2e",
+   "address": "0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "address_url": "https://eth.blockscout.com/address/0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x3b6504cbbd147c6d4a661a3104f8b2b4ffebd6bc114c9d511ea9fa44adf72d28",
+   "time": "2025-03-03T17:59:11Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 286.3 ETH to address 0x1E3f\u20268f25, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x3b6504cbbd147c6d4a661a3104f8b2b4ffebd6bc114c9d511ea9fa44adf72d28",
+   "address": "0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "address_url": "https://eth.blockscout.com/address/0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x167228e4dd78e962562b56df3049b5d83ea58f6f44fb61e5df6cc4d45ffb9287",
+   "time": "2025-03-03T17:58:59Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 561.1 ETH to address 0x1A45\u2026702f, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x167228e4dd78e962562b56df3049b5d83ea58f6f44fb61e5df6cc4d45ffb9287",
+   "address": "0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "address_url": "https://eth.blockscout.com/address/0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x02b6747ef9bb55411229343cd26baafb567fdeb72680441121ad255550f0a61d",
+   "time": "2025-03-03T17:10:59Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 79.43 ETH to address 0x9a99\u20266A7B, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x02b6747ef9bb55411229343cd26baafb567fdeb72680441121ad255550f0a61d",
+   "address": "0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "address_url": "https://eth.blockscout.com/address/0xdD90071D52F20e85c89802e5Dc1eC0A7B6475f92",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xd12b82e97f56401f1152c84bb17535892fa7bf920ae845922537505ae330328f",
+   "time": "2025-03-03T14:30:47Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 271.6 ETH to address 0x4766\u202686E2, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xd12b82e97f56401f1152c84bb17535892fa7bf920ae845922537505ae330328f",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf2c421effb400c0beedc34ca95aef31181166bf7a5d791794f84c3cd560b7eb7",
+   "time": "2025-03-03T14:23:59Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 251.3 ETH to address 0xBD94\u2026386f, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xf2c421effb400c0beedc34ca95aef31181166bf7a5d791794f84c3cd560b7eb7",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x2ad9e411d003a77397e0456fa377dc930354864194182bef57c8bbfd8a8b379e",
+   "time": "2025-03-03T14:23:11Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 113.2 ETH to address 0x1C79\u2026E82C, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x2ad9e411d003a77397e0456fa377dc930354864194182bef57c8bbfd8a8b379e",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x7c92b8744d6c8a876d85d4f093d435df95f0dd124eed19261f56a8290530c8fd",
+   "time": "2025-03-03T14:22:47Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 226.7 ETH to address 0xd6Ce\u2026E1d7, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x7c92b8744d6c8a876d85d4f093d435df95f0dd124eed19261f56a8290530c8fd",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
+   "time": "2025-03-03T14:22:35Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 252.8 ETH to address 0x8B62\u20261cA1, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x036d430495e4a78a2585d2ac40600815e497264bda131251d0acdc83de9272cc",
+   "time": "2025-03-03T14:22:23Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 272.6 ETH to address 0xc80d\u202669F8, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x036d430495e4a78a2585d2ac40600815e497264bda131251d0acdc83de9272cc",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xf7640819fff5d09830b2f615664954dfcec1f890e8571d02637526aed0323243",
+   "time": "2025-03-03T14:22:11Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 66.79 ETH to address 0x9a99\u20266A7B, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0xf7640819fff5d09830b2f615664954dfcec1f890e8571d02637526aed0323243",
+   "address": "0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "address_url": "https://eth.blockscout.com/address/0x55CCa2f5eB07907696afe4b9Db5102bcE5feB734",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x128fee4757a476942b0eca44dd467e68002144729ed6728e2af34d849adbaa0d",
+   "time": "2025-03-03T12:16:23Z",
+   "chain": "ETH",
+   "level": 30,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 158.4 ETH to address 0x55CC\u2026B734, 1 hop from cluster C002.",
+   "tx_url": "https://eth.blockscout.com/tx/0x128fee4757a476942b0eca44dd467e68002144729ed6728e2af34d849adbaa0d",
+   "address": "0xf03AfB1c6A11A7E370920ad42e6eE735dBedF0b1",
+   "address_url": "https://eth.blockscout.com/address/0xf03AfB1c6A11A7E370920ad42e6eE735dBedF0b1",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0xe68f1518340d8b49545da482d6e8251a46f96b60fc935fd6538f4133130e7b03",
+   "time": "2025-03-03T12:04:35Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack received 1e-10 ETH from 0xCdc2\u2026ce73.",
+   "tx_url": "https://eth.blockscout.com/tx/0xe68f1518340d8b49545da482d6e8251a46f96b60fc935fd6538f4133130e7b03",
+   "address": "0xf03AfB1c6A11A7E370920ad42e6eE735dBedF0b1",
+   "address_url": "https://eth.blockscout.com/address/0xf03AfB1c6A11A7E370920ad42e6eE735dBedF0b1",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x42810a9cb96352f2d940422d82b7ec5b3be2a105725d890714695c23c8bb0fc3",
+   "time": "2025-03-03T08:50:23Z",
+   "chain": "ETH",
+   "level": 30,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 301.8 ETH to address 0xf03A\u2026F0b1, 1 hop from cluster C002.",
+   "tx_url": "https://eth.blockscout.com/tx/0x42810a9cb96352f2d940422d82b7ec5b3be2a105725d890714695c23c8bb0fc3",
+   "address": "0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "address_url": "https://eth.blockscout.com/address/0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x1f8874c40871c11b86491343cf41a0f975cce54572e9270f94ec25670387c3be",
+   "time": "2025-03-03T08:41:47Z",
+   "chain": "ETH",
+   "level": 15,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack received 1e-10 ETH from 0xFD94\u2026CD3F.",
+   "tx_url": "https://eth.blockscout.com/tx/0x1f8874c40871c11b86491343cf41a0f975cce54572e9270f94ec25670387c3be",
+   "address": "0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "address_url": "https://eth.blockscout.com/address/0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  },
+  {
+   "id": "ETH:0x99d1196d0913ff55ee091dd8cd468265d7563eaae49d335cbba260b402e94caa",
+   "time": "2025-03-03T08:39:59Z",
+   "chain": "ETH",
+   "level": 80,
+   "cluster": "C002",
+   "message": "A wallet the FBI tied to the Bybit hack just sent 243.5 ETH to address 0x7929\u2026ca38, 1 hop from cluster C002. Resemblance score 80/100.",
+   "tx_url": "https://eth.blockscout.com/tx/0x99d1196d0913ff55ee091dd8cd468265d7563eaae49d335cbba260b402e94caa",
+   "address": "0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "address_url": "https://eth.blockscout.com/address/0xEB0bAA3A556586192590CAD296b1e48dF62a8549",
+   "sources": [
+    {
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+    }
+   ]
+  }
+ ]
+}
