@@ -77,3 +77,6 @@ abbr{text-decoration:underline dotted var(--v);cursor:help}.k{font:700 11px Plex
 .ec .kv{display:grid;grid-template-columns:1fr 1fr;gap:6px;font:12px Plex;color:var(--m);margin:8px 0}.ec .kv b{color:var(--t);display:block;font:700 14px Chakra}
 .inp{appearance:none}select.inp{padding:8px 12px}
 @media(max-width:860px){.sgrid{grid-template-columns:1fr}}
+
+.tagq{margin-top:18px;color:var(--v,#b46bff);letter-spacing:.25em;text-transform:uppercase;font-size:12px;text-shadow:0 0 12px #b46bff66}
+.askq{text-align:center;font:700 clamp(18px,2.4vw,26px)/1.2 Chakra,sans-serif;letter-spacing:.04em;text-transform:uppercase;margin:10px auto 16px;color:#e9e6ef}
