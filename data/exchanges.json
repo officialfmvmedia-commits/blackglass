@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:38:22.887860Z",
+ "generated": "2026-10-31T01:43:49.786733Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 99940114,
-   "flow_out_usd": 3659,
+   "flow_in_usd": 14033,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 99915700.0,
-    "text": "100.00M USDT in from Bitfinex 2",
-    "tx": "https://eth.blockscout.com/tx/0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069"
+    "usd": 14033.384474274962,
+    "text": "6.25 ETH in from 0x3a4245\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xe1b5968b75007312005ea774fe2790cc438615ee48a3d276dbb38f3f618ff476"
    },
    "alerts_24h": 18,
    "anomaly": false
@@ -87,8 +87,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 6205,
+   "biggest": {
+    "usd": 4984.88891704,
+    "text": "41,311 OP out to 0x5950ba\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x1a3912822db086b02abc513ba9b23df71589ef6455a75c2507991509b1741b89"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 130353,
-   "flow_out_usd": 148210,
+   "flow_in_usd": 704465,
+   "flow_out_usd": 5540,
    "biggest": {
-    "usd": 123095.79914387001,
-    "text": "54.8 ETH in from Coinbase: Miscellaneous",
-    "tx": "https://eth.blockscout.com/tx/0x4a67091c68baf8308ee6ee992f445e883407106b0a703e6cb5ae86ecd152a1eb"
+    "usd": 680353.5336,
+    "text": "5,182 AAVE in from 0x8052B3\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xe5a6bf06822a377311c33f5eaf7d013b6d748784625d68a42914c8580dfdd969"
    },
    "alerts_24h": 3,
    "anomaly": false
@@ -249,13 +253,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 9196,
-   "flow_out_usd": 1035,
-   "biggest": {
-    "usd": 4876.65360481657,
-    "text": "114,210 RIO in from 0x60F4ac\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x1b538019d3dbb9190a8cf75a6c4f3395545801fd4cb07c110c518dae5205571e"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
