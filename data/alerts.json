@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:05:15.995528Z",
+ "generated": "2026-10-31T18:13:29.320158Z",
  "alerts": [
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T18",
@@ -8,11 +8,11 @@
     "anomaly"
    ],
    "entity": "Coinbase",
-   "time": "2026-10-31T18:05:15.995528Z",
+   "time": "2026-10-31T18:13:29.320158Z",
    "chain": "ETH",
-   "usd": 7190680,
+   "usd": 7212809,
    "level": 70,
-   "message": "Coinbase 10 (ETH) balance down 54%: $13.2M \u2192 $6.02M between checks.",
+   "message": "Coinbase 10 (ETH) balance down 55%: $13.2M \u2192 $5.99M between checks.",
    "reasons": [
     "balance drop \u226540% between runs"
    ],

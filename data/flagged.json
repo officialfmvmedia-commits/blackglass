@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:05:15.995528Z",
+ "generated": "2026-10-31T18:13:29.320158Z",
  "note": "Addresses flagged by public hack post-mortems/blocklists",
  "flagged": {
   "0x001851999de3072a538951efbb2250fffed286e3": {
@@ -2411,6 +2411,10 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "0x4a0e5814a2227f06a4cce69737383b497f161931": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x4a1ef7232c9a77c8c5df55a72804f7c58bbbd4c6": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -7490,10 +7494,6 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "0xe8b3c390874271322db86711d6c59a04660fd490": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
   "0xe8c3a0ef288b3b29e9990f43f6371759f2fc9083": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
@@ -7987,10 +7987,6 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "0xfa75bec23c9c5879a103f1f777ed1fc2bfd402f0": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0xfaa51cb2ce0d4ba9dd198401564d1509a3018405": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -18615,10 +18611,6 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "TRshfHZwd3vmEqh3gWwiWTccSWquuRtLG6": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "TRsqznGXF7mSYhRxU49L3HY13QW1v9yBZa": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },

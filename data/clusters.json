@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:05:15.887545Z",
+ "generated": "2026-10-31T18:13:29.160039Z",
  "clusters": [
   {
    "id": "C001",
@@ -71,7 +71,7 @@
     "ETH"
    ],
    "size": 51,
-   "children": 179,
+   "children": 176,
    "balance": {
     "BTC": 0,
     "ETH": 0.1067
@@ -12870,7 +12870,6 @@
     "large value (63.0 ETH)",
     "large value (63.1 ETH)",
     "large value (63.6 ETH)",
-    "large value (65.3 ETH)",
     "rapid fan-out: 5+ outgoing tx within one hour",
     "received from a tracked address (1 hop)"
    ],
@@ -12952,12 +12951,6 @@
      "url": "https://eth.blockscout.com/tx/0x885006759ad7e4d09eeedda9bd59a5847c166f604545075409bbeefcfdc1aff1",
      "value": 38.91983057349098,
      "time": "2025-03-02T12:38:47Z"
-    },
-    {
-     "tx": "0x2cc46d95eaa3d51c490e6a9cbd922bf211b18ef2eff5027dbcdca8f4896ac672",
-     "url": "https://eth.blockscout.com/tx/0x2cc46d95eaa3d51c490e6a9cbd922bf211b18ef2eff5027dbcdca8f4896ac672",
-     "value": 65.28064817104882,
-     "time": "2025-03-02T16:55:35Z"
     }
    ],
    "parent": "0x21032176b43d9f7e9410fb37290a78f4fed6044c",

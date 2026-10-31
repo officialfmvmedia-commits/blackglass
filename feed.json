@@ -7,9 +7,9 @@
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T18",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
-   "title": "[MONITORING] Coinbase 10 (ETH) balance down 54%: $13.2M \u2192 $6.02M between checks.",
-   "content_text": "Coinbase 10 (ETH) balance down 54%: $13.2M \u2192 $6.02M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-10-31T18:05:15.995528Z",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 55%: $13.2M \u2192 $5.99M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 55%: $13.2M \u2192 $5.99M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T18:13:29.320158Z",
    "tags": [
     "exchange",
     "MONITORING",
