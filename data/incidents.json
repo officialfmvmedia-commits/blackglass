@@ -1,6 +1,48 @@
 {
- "generated": "2026-10-31T18:13:29.320158Z",
+ "generated": "2026-10-31T19:49:47.500424Z",
  "incidents": [
+  {
+   "id": "H5541",
+   "name": "b14g",
+   "date": "2026-10-31",
+   "amount_usd": null,
+   "chains": [
+    "CORE"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On October 31, 2026, an attacker withdrew approximately 97 million CORE from assets staked through b14g and transferred them to attacker-controlled addresses. The protocol paused the affected contracts and coordinated with security partners and exchanges to trace the stolen funds. Approximately 68 million CORE remained on Core, while exchanges froze another 9 million CORE. BTC staked through b14g was unaffected and remained time-locked on Bitcoin",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H4952",
+   "name": "Troves",
+   "date": "2026-10-31",
+   "amount_usd": 666935,
+   "chains": [],
+   "technique": "Improper Access Control",
+   "classification": "Access Control",
+   "description": "On October 31, an attacker exploited permissions retained by a legacy rebalancing contract after it had been replaced, resulting in approximately 8.6 BTC in losses from Troves' xWBTC/WBTC vault. Troves revoked the legacy contract's permissions and paused three vaults as a precaution. No impact on other vaults has been identified",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H711",
    "name": "Polymarket International",
@@ -385,6 +427,28 @@
    "technique": "Hot Wallet Key Compromised",
    "classification": "Key Compromise",
    "description": "CoinDCX experienced approximately $16 million in suspicious outflows from TRON addresses associated with its exchange infrastructure. The exchange attributed the incident to addresses compromised during its July 2025 security breach, which continued receiving deposits after being deprecated. CoinDCX acknowledged that its deposit-sweeping process failed temporarily and stated that it absorbed the resulting losses while crediting affected users. Investigators disputed whether the addresses had genuinely been removed from active operations",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H7911",
+   "name": "Vara Bridge",
+   "date": "2026-10-19",
+   "amount_usd": 12776,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Proof Verifier Bug",
+   "classification": "Bridge & Cross-Chain",
+   "description": "An attacker reportedly exploited Vara Bridge's cross-chain proof verification process to submit fraudulent Merkle roots representing outbound messages from Vara. These roots allegedly enabled unauthorized messages to be processed on Ethereum, resulting in approximately $12,776 in losses",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -896,77 +960,6 @@
     {
      "name": "Chainalysis",
      "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HLimit Break Payment Processor",
-   "name": "Limit Break Payment Processor",
-   "date": "2026-09-24",
-   "amount_usd": 1800000,
-   "chains": [
-    "Ethereum",
-    "ApeChain",
-    "Polygon",
-    "Base"
-   ],
-   "technique": "Token Approval Abuse",
-   "classification": "Access Control",
-   "description": "A vulnerability in Limit Break\u2019s Payment Processor allowed an attacker to abuse users\u2019 existing token and NFT approvals to transfer assets without a legitimate marketplace purchase. Payment Processor V2 on Ethereum was exploited first, and V3 contained the same vulnerability. Limit Break paused V3 where possible, while whitehats transferred vulnerable NFTs to safe custody because V2 could not be paused and ApeChain V3 could not immediately be paused. The same underlying approval flaw could be used in reverse against WETH approvals, resulting in 660 WETH being stolen along with other tokens before whitehats could secure it ",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HPayy Network",
-   "name": "Payy Network",
-   "date": "2026-09-24",
-   "amount_usd": 1828589.378132,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Bridge Logic Flaw",
-   "classification": "Bridge & Cross-Chain",
-   "description": "Payy\u2019s RollupV1 bridge processed a malicious verifyRollup batch containing an unauthorized 1,828,589.378132 USDC withdrawal to the attacker alongside ordinary withdrawals. The batch was submitted using Payy\u2019s prover and validator infrastructure. ExVul reports that the malicious withdrawal had an all-zero burn hash that users cannot normally generate through Payy\u2019s public circuits, indicating that the forged withdrawal entered during proving or aggregation rather than through an ordinary user withdrawal. Payy has confirmed the bridge exploit but has not yet established whether the cause was compromised prover/validator credentials or a proof-aggregation verification flaw",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "Hchain#meter",
-   "name": "Meter",
-   "date": "2026-09-23",
-   "amount_usd": null,
-   "chains": [
-    "Meter",
-    "BSC",
-    "Ethereum"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On September 23 at 21:14 UTC, an attacker exploited a block-validation flaw on Meter mainnet that allowed unbacked MTR and MTRG to be created. The attacker dumped the counterfeit assets through DEXs and bridged proceeds out of Meter. Meter paused both mainnet and its bridge and warned that transactions after block 100731417 may not be honored. The team preserved chain state and is determining a recovery method",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
     }
    ],
    "addresses": []

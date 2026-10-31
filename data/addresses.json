@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:13:29.160039Z",
+ "generated": "2026-10-31T19:49:47.337984Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -1878,7 +1878,6 @@
    ],
    "balance": 0.0004689904311122,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -2074,7 +2073,6 @@
    ],
    "balance": 0.08383559025707749,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2090,7 +2088,6 @@
    ],
    "balance": 0.00159131236750034,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2194,7 +2191,8 @@
      "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 5.803066292935582,
+   "tags": [],
    "cluster": "C001"
   },
   {
@@ -2240,7 +2238,6 @@
    ],
    "balance": 0.00259543926769052,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2271,7 +2268,6 @@
    ],
    "balance": 0.002002190583027084,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2285,7 +2281,8 @@
      "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 3.295745351154118,
+   "tags": [],
    "cluster": "C001"
   },
   {
@@ -2301,7 +2298,6 @@
    ],
    "balance": 8.39205336083557,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2392,7 +2388,6 @@
    ],
    "balance": 0.00119119632489312,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2888,7 +2883,6 @@
    ],
    "balance": 99.68289521628868,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
