@@ -41,7 +41,7 @@ function render(){
  $('#shead').textContent=st=='a'?`${hot.length} hack or unusual-outflow alert${hot.length>1?'s':''} in the last 6 hours`:st=='w'?(recInc.length?`${recInc.length} hack${recInc.length>1?'s':''} reported in the last 3 days${big?`. The largest is ${big.name} (${usd(big.amount_usd)}).`:''}`:'Tracked hacker wallets moved in the last 3 days.'):'Nothing unusual in the last 72 hours.';
  const last=A.find(a=>a.type!='exchange'||(a.tags||[]).includes('anomaly'));
  $('#ssub').textContent=last?`Latest hack or Lazarus signal, ${ago(last.time)}: ${last.message}`:'';
- const mins=Math.round((Date.now()-new Date(M.generated))/6e4);$('#schk').textContent=`Last checked ${mins<1?'just now':mins<120?mins+' min ago':Math.round(mins/60)+' h ago'} · updates every 10 min`;
+ const mins=Math.round((Date.now()-new Date(M.generated))/6e4);$('#schk').textContent=`Last checked ${mins<1?'just now':mins<120?mins+' min ago':Math.round(mins/60)+' h ago'} · updates every few minutes`;
  const cell=(t,arr,ex)=>`<div>${t}<b>${arr.filter(a=>H(a.time)<24).length} alerts in 24h</b>${arr[0]?'Last '+ago(arr[0].time):'None yet'}${ex||''}</div>`;
  const an24=an.filter(a=>H(a.time)<24).length;
  $('#sgrid').innerHTML=cell('Exchanges',ex,an24?` · <span style="color:var(--a)">${an24} unusual</span>`:'')+cell('Hacks',hk,recInc.length?` · ${recInc.length} new incident${recInc.length>1?'s':''}`:'')+cell('Lazarus',lz);
