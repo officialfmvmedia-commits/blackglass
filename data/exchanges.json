@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:24:04.730978Z",
+ "generated": "2026-10-31T06:31:36.624307Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,13 +61,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 11722,
-   "flow_out_usd": 10031,
-   "biggest": {
-    "usd": 11191.6112,
-    "text": "11,200 USDT in from 0xb579a1\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xd2e57728a04793aa5ba4ad5160b61c7c58196a21de9f2b2ee0726bdaddf730e4"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 20,
    "anomaly": false
   },
@@ -121,12 +117,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 66439,
-   "flow_out_usd": 84458,
+   "flow_in_usd": 304988,
+   "flow_out_usd": 48166,
    "biggest": {
-    "usd": 29996.891725690515,
-    "text": "30,000 USDC out to 0x7245f4\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x0a18376ac2bf21bbb7dae3642e0c451c4a35d6dd81d72a1b634c5e00225110f2"
+    "usd": 300930.636732,
+    "text": "300,931 PYUSD in from 0x6c8e3b\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x832fe3e500fe39b7d24157dbbbda4ee7779e5cd37ad1a19a130e0dc1fc9bad13"
    },
    "alerts_24h": 8,
    "anomaly": true
@@ -213,12 +209,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 83,
-   "biggest": {
-    "usd": 82.937833,
-    "text": "83 USDT out to 0x589221\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc153c49474bd1647a8932fee7580f69d05b621336c7799d8e5c8b3c702cd8bca"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -287,13 +279,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 185088,
-   "flow_out_usd": 154599,
-   "biggest": {
-    "usd": 88542.68182155001,
-    "text": "88,609 USDT in from 0xECd3b4\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x869ee54c2a65a567c960ca83af56f13beb8bbd61c748682586c138e31aaca2d8"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 2,
    "anomaly": false
   },
