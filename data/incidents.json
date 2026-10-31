@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:14:08.497772Z",
+ "generated": "2026-10-31T01:20:26.525466Z",
  "incidents": [
   {
    "id": "H711",
@@ -60,7 +60,7 @@
    ],
    "technique": "Key Leaked via Infrastructure",
    "classification": "Frontend & Infrastructure",
-   "description": "On October 29, attackers exploited Binance\u2019s operational infrastructure to execute unauthorized withdrawals across multiple blockchains, resulting in approximately $6.3 billion in losses. Binance\u2019s preliminary investigation identified a potentially compromised DevOps engineer\u2019s laptop that allowed access to a service container, with no evidence of wallet private key leakage. Approximately $3 billion in stolen assets were subsequently frozen with assistance from blockchain partners. Binance committed to covering all losses using its SAFU fund and company reserves",
+   "description": "On October 29, attackers exploited Binance\u2019s operational infrastructure to execute unauthorized withdrawals across multiple blockchains, resulting in approximately $6.3 billion in losses. Binance\u2019s preliminary investigation identified a potentially compromised DevOps engineer\u2019s laptop that allowed access to a service container, with no evidence of wallet private key leakage. Approximately $3 billion in stolen assets were later frozen with help from industry partners. Binance committed to covering all losses using its SAFU fund and company reserves",
    "returned": null,
    "attribution": "Analyst-attributed",
    "actor": "TraderTraitor / DPRK (per Chainalysis, Elliptic)",

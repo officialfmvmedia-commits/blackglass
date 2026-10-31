@@ -1,6 +1,56 @@
 {
- "generated": "2026-10-31T01:14:08.497772Z",
+ "generated": "2026-10-31T01:20:26.525466Z",
  "alerts": [
+  {
+   "id": "ETH:0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5:71275673.4573",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:19:23Z",
+   "chain": "ETH",
+   "usd": 71215588,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $71.2M (71.28M USDT) to Bitfinex 2.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0xddc0ebfcf8d089c9bce91303ae38b41186b4a7e332b7ac0717b2af6cbc06de62:200000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:18:47Z",
+   "chain": "ETH",
+   "usd": 199831400,
+   "level": 35,
+   "message": "Bitfinex: Hot Wallet received $199.8M (200.00M USDT) from Bitfinex 2.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xddc0ebfcf8d089c9bce91303ae38b41186b4a7e332b7ac0717b2af6cbc06de62",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
   {
    "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-10-31T01",
    "type": "exchange",

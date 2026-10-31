@@ -5,6 +5,30 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "ETH:0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5:71275673.4573",
+   "url": "https://eth.blockscout.com/tx/0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5",
+   "title": "Bitfinex: Hot Wallet sent $71.2M (71.28M USDT) to Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet sent $71.2M (71.28M USDT) to Bitfinex 2. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:19:23Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
+   "id": "ETH:0xddc0ebfcf8d089c9bce91303ae38b41186b4a7e332b7ac0717b2af6cbc06de62:200000000.0",
+   "url": "https://eth.blockscout.com/tx/0xddc0ebfcf8d089c9bce91303ae38b41186b4a7e332b7ac0717b2af6cbc06de62",
+   "title": "Bitfinex: Hot Wallet received $199.8M (200.00M USDT) from Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet received $199.8M (200.00M USDT) from Bitfinex 2. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:18:47Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
    "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-10-31T01",
    "url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
    "title": "Unusual outflow: Bitstamp 2 native balance fell 60% ($17.2M \u2192 $6.9M) since the last check. That's the classic hot-wallet",
@@ -1542,26 +1566,6 @@
    "title": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.007746 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C013. Rese",
    "content_text": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.007746 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C013. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
    "date_published": "2025-04-08T00:12:47Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "BTC:5ac6a08ddf8496486716a3f953f279fa350589191e45becd7a6eee7a1615d8db",
-   "url": "https://mempool.space/tx/5ac6a08ddf8496486716a3f953f279fa350589191e45becd7a6eee7a1615d8db",
-   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 1.903 BTC split across 5 output(s), 1 hop fr",
-   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 1.903 BTC split across 5 output(s), 1 hop from cluster C014. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
-   "date_published": "2025-03-20T10:49:27Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "BTC:ebf0a2ccd756749436e451a0c8fcc8afd0d02e6db94a134325ffc2954f419335",
-   "url": "https://mempool.space/tx/ebf0a2ccd756749436e451a0c8fcc8afd0d02e6db94a134325ffc2954f419335",
-   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.523 BTC.",
-   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.523 BTC. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
-   "date_published": "2025-03-20T10:11:47Z",
    "tags": [
     "lazarus"
    ]
