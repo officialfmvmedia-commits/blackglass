@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T00:34:08.710855Z",
+ "generated": "2026-10-31T00:49:50.071360Z",
  "clusters": [
   {
    "id": "C001",
@@ -71,10 +71,10 @@
     "ETH"
    ],
    "size": 51,
-   "children": 176,
+   "children": 179,
    "balance": {
     "BTC": 0,
-    "ETH": 0.1061
+    "ETH": 0.1067
    },
    "sources": [
     {
@@ -12923,6 +12923,7 @@
    "reasons": [
     "EOA recipient (possible fresh hop wallet)",
     "large value (197.0 ETH)",
+    "large value (226.7 ETH)",
     "rapid fan-out: 5+ outgoing tx within one hour",
     "received from a tracked address (1 hop)"
    ],
@@ -12932,6 +12933,12 @@
      "url": "https://eth.blockscout.com/tx/0x500691b162bbf174ecf9c08e91a338452bb8017ed371163c1e6caeaee5c30003",
      "value": 197.01162576177552,
      "time": "2025-03-03T06:16:23Z"
+    },
+    {
+     "tx": "0x7c92b8744d6c8a876d85d4f093d435df95f0dd124eed19261f56a8290530c8fd",
+     "url": "https://eth.blockscout.com/tx/0x7c92b8744d6c8a876d85d4f093d435df95f0dd124eed19261f56a8290530c8fd",
+     "value": 226.74037976021796,
+     "time": "2025-03-03T14:22:47Z"
     }
    ],
    "parent": "0x1512fcb09463a61862b73ec09b9b354af1790268",
@@ -12945,6 +12952,7 @@
     "EOA recipient (possible fresh hop wallet)",
     "large value (207.1 ETH)",
     "large value (221.6 ETH)",
+    "large value (252.8 ETH)",
     "rapid fan-out: 5+ outgoing tx within one hour",
     "received from a tracked address (1 hop)"
    ],
@@ -12954,6 +12962,12 @@
      "url": "https://eth.blockscout.com/tx/0xea1079f7e4c72c3694a066c19912b5cf70b425c33a5f824a44b3ad43900db52d",
      "value": 221.64804790455744,
      "time": "2025-03-03T06:16:11Z"
+    },
+    {
+     "tx": "0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
+     "url": "https://eth.blockscout.com/tx/0xb05442b84227b3e542a02212f85d7f954e3d0ed575da257c9dc564ba5b8e2cf9",
+     "value": 252.78853715676127,
+     "time": "2025-03-03T14:22:35Z"
     },
     {
      "tx": "0xda01342abb567ead5078cd9ad2847e426184147f8ceff27b17960b2aea5c4a72",
@@ -13000,6 +13014,7 @@
    "reasons": [
     "EOA recipient (possible fresh hop wallet)",
     "large value (100.4 ETH)",
+    "large value (113.2 ETH)",
     "large value (60.7 ETH)",
     "large value (80.5 ETH)",
     "rapid fan-out: 5+ outgoing tx within one hour",
@@ -13017,6 +13032,12 @@
      "url": "https://eth.blockscout.com/tx/0x63d2dfae7e9c7d6d791f53c7840f0d122415a183f572062ba84bd27b62002dfc",
      "value": 60.747479307669565,
      "time": "2025-02-28T06:30:59Z"
+    },
+    {
+     "tx": "0x2ad9e411d003a77397e0456fa377dc930354864194182bef57c8bbfd8a8b379e",
+     "url": "https://eth.blockscout.com/tx/0x2ad9e411d003a77397e0456fa377dc930354864194182bef57c8bbfd8a8b379e",
+     "value": 113.15314366295306,
+     "time": "2025-03-03T14:23:11Z"
     },
     {
      "tx": "0x291f02d51c2513af295f93660566edd39b3f11e04487f5b8241f08cfb63af990",
