@@ -1,6 +1,56 @@
 {
- "generated": "2026-10-31T00:49:50.260640Z",
+ "generated": "2026-10-31T01:02:04.385657Z",
  "alerts": [
+  {
+   "id": "ETH:0x919c5108e459a892f50113d3e8779bd813713df4740f2332ca51e458d3f4d851:341289578.0316",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T00:59:23Z",
+   "chain": "ETH",
+   "usd": 341001871,
+   "level": 35,
+   "message": "Bitfinex: Hot Wallet sent $341.0M (341.29M USDT) to Bitfinex 2.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x919c5108e459a892f50113d3e8779bd813713df4740f2332ca51e458d3f4d851",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0xb9618bf109e122b376d080f3af0464338465e2c5a3e7f1bf4389079efffc5522:25000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T00:57:35Z",
+   "chain": "ETH",
+   "usd": 24978925,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $25.0M (25.00M USDT) from an unlabeled address 0x5754\u2026B949.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xb9618bf109e122b376d080f3af0464338465e2c5a3e7f1bf4389079efffc5522",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
   {
    "id": "ETH:0x4677f6529d57946e6ca405d209767e9938ac872025aec07066e9b41bbfeb0ad4:141446626.8521",
    "type": "exchange",
