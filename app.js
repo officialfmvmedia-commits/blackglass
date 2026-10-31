@@ -73,7 +73,7 @@ addEventListener('beforeunload',()=>localStorage.bgLastVisit=Date.now());addEven
 function toast(a){const t=document.createElement('div');t.className='toast';t.innerHTML=`<b>New ${TL[a.type]||''} alert</b>${esc(a.message)}`;$('#toasts').append(t);setTimeout(()=>t.remove(),9000)}
 async function en(){if(!('Notification'in window))return alert('Your browser does not support notifications.');const p=await Notification.requestPermission();['#notify','#notify2'].forEach(s=>$(s).textContent=p=='granted'?'Notifications on':'Notifications blocked')}
 $('#notify').onclick=en;$('#notify2').onclick=en;
-function notify(a){if(window.Notification&&Notification.permission=='granted')new Notification('BLACKGLASS: '+(TL[a.type]||'')+' alert',{body:a.message,icon:'logo.svg'})}
+function notify(a){if(window.Notification&&Notification.permission=='granted')new Notification('GLASSBREAK: '+(TL[a.type]||'')+' alert',{body:a.message,icon:'logo.svg'})}
 // address lookup: registry, Lazarus list, hack-flagged list, connected wallets
 $('#look').onsubmit=async e=>{e.preventDefault();const v=$('#lq').value.trim();if(!v)return;const k=v.startsWith('0x')?v.toLowerCase():v,box=$('#lres');box.hidden=false;box.textContent='Checking…';
  try{if(!R.length)R=(await J('data/registry.json')).wallets;if(!LZ.length)LZ=(await J('data/addresses.json')).addresses;if(!FL)FL=(await J('data/flagged.json').catch(()=>({flagged:{}}))).flagged}catch(x){}
@@ -83,7 +83,7 @@ $('#look').onsubmit=async e=>{e.preventDefault();const v=$('#lq').value.trim();i
  if(FL&&FL[k])hits.push(`<li><b>Hack-flagged:</b> named in the ${esc(FL[k].incident)} hack. Source: <a href="${esc(FL[k].source)}" target="_blank" rel="noopener">${esc(FL[k].source)}</a></li>`);
  K.filter(c=>eq(c.address)).forEach(c=>hits.push(`<li><b>Connected wallet</b>, one hop from Lazarus cluster ${esc(c.cluster)}. Pattern score ${c.score}/100, not attribution.</li>`));
  const n=A.filter(a=>eq(a.address)).length;if(n)hits.push(`<li>${n} logged alert${n>1?'s':''} involve this wallet. <a href="#alerts" onclick="document.getElementById('q').value='${esc(v)}';document.getElementById('q').dispatchEvent(new Event('input'))">Show them</a></li>`);
- box.innerHTML=hits.length?`<b>Found in BLACKGLASS data:</b><ul>${hits.join('')}</ul>`:`<b>Not on any of our lists.</b> <span class="muted">That doesn't mean it's safe or unsafe, only that no public source we use names it. We check ${(M.counts.registry_wallets||0).toLocaleString()} exchange wallets, ${(M.counts.addresses||0)} Lazarus-linked addresses and ${(M.counts.flagged_hack_addresses||0).toLocaleString()} hack-flagged addresses.</span>`};
+ box.innerHTML=hits.length?`<b>Found in GLASSBREAK data:</b><ul>${hits.join('')}</ul>`:`<b>Not on any of our lists.</b> <span class="muted">That doesn't mean it's safe or unsafe, only that no public source we use names it. We check ${(M.counts.registry_wallets||0).toLocaleString()} exchange wallets, ${(M.counts.addresses||0)} Lazarus-linked addresses and ${(M.counts.flagged_hack_addresses||0).toLocaleString()} hack-flagged addresses.</span>`};
 // force graph
 const Gc=$('#graph'),gx=Gc.getContext('2d'),G={nodes:[],links:[]};let drag=null,off={x:0,y:0};
 function buildGraph(){const w=Gc.clientWidth,h=Gc.clientHeight;
