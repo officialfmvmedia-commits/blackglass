@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-31T15:42:08.755889Z",
- "threat": 60,
+ "generated": "2026-10-31T18:05:15.995528Z",
+ "threat": 59,
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 1604,
-  "candidates": 1307,
-  "alerts_30d": 56,
-  "txs_scanned": 2717,
+  "alerts": 1606,
+  "candidates": 1313,
+  "alerts_30d": 57,
+  "txs_scanned": 2686,
   "alerts_by_type": {
-   "exchange": 51,
+   "exchange": 53,
    "hack": 5,
    "lazarus": 1548
   },
   "registry_wallets": 457,
   "exchanges": 19,
   "incidents": 40,
-  "new_this_run": 0,
-  "flagged_hack_addresses": 5246
+  "new_this_run": 2,
+  "flagged_hack_addresses": 5920
  },
  "sources": [
   {
@@ -55,8 +55,8 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 160,
-   "failed": 3
+   "count": 154,
+   "failed": 9
   },
   {
    "name": "etherscan-labels: etherscan",
@@ -116,7 +116,7 @@
    "name": "Elliptic Binance-hack blocklist (CSV)",
    "url": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
    "ok": true,
-   "count": 5245
+   "count": 5919
   },
   {
    "name": "DefiLlama coin prices",
@@ -128,13 +128,13 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 23
+   "count": 71
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
    "url": "https://optimism.blockscout.com/api/v2/",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 4
   },
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",
