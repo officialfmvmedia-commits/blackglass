@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T05:18:23.068377Z",
+ "generated": "2026-10-31T05:24:07.088408Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,13 +61,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 20698,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 5199.4852,
-    "text": "5,200 USDC in from 0xa4f006\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x3442bde0b6ef75dba93868bfcee21fd2e7b9268fe1cc8b7a59fdb71bfcab91a8"
-   },
+   "biggest": null,
    "alerts_24h": 20,
    "anomaly": false
   },
@@ -88,7 +84,11 @@
    "monitored": true,
    "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 0.17345361364714817,
+    "text": "7.748e-05 ETH out to ERC1967Proxy",
+    "tx": "https://eth.blockscout.com/tx/0xb6202c1358183cc166615c7786ae29899a5a854585e86d269df18b3bc865caa3"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -105,8 +105,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 1,
+   "biggest": {
+    "usd": 0.40833796051270127,
+    "text": "0.0001824 ETH out to 0xA9Ac43\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x680de3f99b71b016d84e0535af6cc11f6ba000b8fac9cc94fd6ffbee7716e5c4"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 174378,
-   "flow_out_usd": 2868770,
+   "flow_in_usd": 138337,
+   "flow_out_usd": 126226,
    "biggest": {
-    "usd": 1175577.0452318878,
-    "text": "1.18M USDT out to 0xe92e65\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xd8f54b30c4c8d103159c5a8daee7165afdfc358b2576a01685a7a5b7da78af9c"
+    "usd": 128153.87647606837,
+    "text": "128,167 USDC in from 0xda978A\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x5ebe9d3c1ff00be357878a45934b1f75233d65deb7b06118aec383471ad08318"
    },
    "alerts_24h": 6,
    "anomaly": true
