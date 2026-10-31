@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:43:01.569141Z",
+ "generated": "2026-10-31T06:44:42.831444Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,8 +62,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 299775,
+   "biggest": {
+    "usd": 299775.3,
+    "text": "300,000 USDT out to TransparentUpgradeableProxy",
+    "tx": "https://eth.blockscout.com/tx/0x7b2ab7808bf7b811c085392b8ee01a29d84f38a0c2d1a679dd1356f727bce726"
+   },
    "alerts_24h": 20,
    "anomaly": false
   },
@@ -117,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 4715,
-   "flow_out_usd": 19497,
+   "flow_in_usd": 39502,
+   "flow_out_usd": 7092,
    "biggest": {
-    "usd": 5339.111082669007,
-    "text": "5,340 USDC out to 0x061EC7\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x01b501218ecc404a5303fcda58c246646cd6b2524c6bf314c75f57de6eecd345"
+    "usd": 16659.323193396285,
+    "text": "7.431 ETH in from 0xCF28d8\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xed02c35d90bb1e8e9228568a549c4fda574dd9928d21adcaf38c78606d851206"
    },
    "alerts_24h": 8,
    "anomaly": true
