@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T05:31:36.682878Z",
+ "generated": "2026-10-31T05:38:37.668402Z",
  "threat": 62,
  "counts": {
   "addresses": 221,
@@ -7,7 +7,7 @@
   "alerts": 1597,
   "candidates": 1313,
   "alerts_30d": 51,
-  "txs_scanned": 2775,
+  "txs_scanned": 2779,
   "alerts_by_type": {
    "exchange": 44,
    "hack": 5,
@@ -55,8 +55,8 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 162,
-   "failed": 1
+   "count": 163,
+   "failed": 0
   },
   {
    "name": "etherscan-labels: etherscan",
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 73
+   "count": 74
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
