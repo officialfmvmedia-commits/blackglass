@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:32:47.411382Z",
+ "generated": "2026-10-31T01:38:22.887860Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,10 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
-   "alerts_24h": 17,
+   "flow_in_usd": 99940114,
+   "flow_out_usd": 3659,
+   "biggest": {
+    "usd": 99915700.0,
+    "text": "100.00M USDT in from Bitfinex 2",
+    "tx": "https://eth.blockscout.com/tx/0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069"
+   },
+   "alerts_24h": 18,
    "anomaly": false
   },
   {
@@ -82,13 +86,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 31403,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 31403.407636055905,
-    "text": "260,350 OP in from 0x5c4C6c\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x12b2d2afa637fdcf4601b210dea954e0b023f0c631c55c094da3b7953bf9a23c"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 35730,
-   "flow_out_usd": 31545,
+   "flow_in_usd": 130353,
+   "flow_out_usd": 148210,
    "biggest": {
-    "usd": 18603.920685,
-    "text": "131,509 DIA in from 0x872CfA\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x1d413719b645a19afa62f3a025b0a83a31a5430b4d11c62e4673e2fc28befa05"
+    "usd": 123095.79914387001,
+    "text": "54.8 ETH in from Coinbase: Miscellaneous",
+    "tx": "https://eth.blockscout.com/tx/0x4a67091c68baf8308ee6ee992f445e883407106b0a703e6cb5ae86ecd152a1eb"
    },
    "alerts_24h": 3,
    "anomaly": false
@@ -249,9 +249,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 9196,
+   "flow_out_usd": 1035,
+   "biggest": {
+    "usd": 4876.65360481657,
+    "text": "114,210 RIO in from 0x60F4ac\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x1b538019d3dbb9190a8cf75a6c4f3395545801fd4cb07c110c518dae5205571e"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },

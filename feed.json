@@ -5,6 +5,18 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "ETH:0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069:100000000.0",
+   "url": "https://eth.blockscout.com/tx/0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069",
+   "title": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:27:35Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
    "id": "ETH:0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58:2505.2544",
    "url": "https://eth.blockscout.com/tx/0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58",
    "title": "Coinbase 10 received $5.6M (2,505 ETH) from Coinbase 5.",
@@ -1561,16 +1573,6 @@
    "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0.009803 ETH from 0x95fC\u2026cb1f.",
    "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0.009803 ETH from 0x95fC\u2026cb1f. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
    "date_published": "2025-05-13T09:01:35Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0x1bffc0f38aefd5aab570e407ef18498267f1fa97165b7785a44957be10b256e8",
-   "url": "https://eth.blockscout.com/tx/0x1bffc0f38aefd5aab570e407ef18498267f1fa97165b7785a44957be10b256e8",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 0.01 ETH to address 0x95fC\u2026cb1f, 1 hop ",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 0.01 ETH to address 0x95fC\u2026cb1f, 1 hop from cluster C008. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-05-13T08:57:23Z",
    "tags": [
     "lazarus"
    ]
