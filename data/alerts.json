@@ -1,6 +1,82 @@
 {
- "generated": "2026-10-31T03:16:35.611827Z",
+ "generated": "2026-10-31T04:26:45.735140Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T04",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-10-31T04:26:45.735140Z",
+   "chain": "ETH",
+   "usd": 4959768,
+   "level": 70,
+   "message": "Unusual outflow: Coinbase 10 native balance fell 88% ($5.7M \u2192 $699,680) since the last check. That's the classic hot-wallet drain signature, though it's often just routine rebalancing.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase"
+  },
+  {
+   "id": "ETH:0x935283dac760a242b5b6e04d5ef8a19c7db8250305706310764ea9f445cd0541:22464376.3282",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T04:09:23Z",
+   "chain": "ETH",
+   "usd": 22445439,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $22.4M (22.46M USDT) to Bitfinex 2.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x935283dac760a242b5b6e04d5ef8a19c7db8250305706310764ea9f445cd0541",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0x57cafcf696c4f4f35dc07a907fc68cdea5f3d4b14aadefdd0c31365215be9ed8:28702326.25",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T04:08:35Z",
+   "chain": "ETH",
+   "usd": 28678130,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $28.7M (28.70M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x57cafcf696c4f4f35dc07a907fc68cdea5f3d4b14aadefdd0c31365215be9ed8",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
   {
    "id": "ETH:0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069:100000000.0",
    "type": "exchange",

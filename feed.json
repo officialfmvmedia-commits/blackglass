@@ -5,6 +5,41 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T04",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "Unusual outflow: Coinbase 10 native balance fell 88% ($5.7M \u2192 $699,680) since the last check. That's the classic hot-wal",
+   "content_text": "Unusual outflow: Coinbase 10 native balance fell 88% ($5.7M \u2192 $699,680) since the last check. That's the classic hot-wallet drain signature, though it's often just routine rebalancing. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T04:26:45.735140Z",
+   "tags": [
+    "exchange",
+    "anomaly"
+   ]
+  },
+  {
+   "id": "ETH:0x935283dac760a242b5b6e04d5ef8a19c7db8250305706310764ea9f445cd0541:22464376.3282",
+   "url": "https://eth.blockscout.com/tx/0x935283dac760a242b5b6e04d5ef8a19c7db8250305706310764ea9f445cd0541",
+   "title": "Bitfinex: Hot Wallet sent $22.4M (22.46M USDT) to Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet sent $22.4M (22.46M USDT) to Bitfinex 2. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T04:09:23Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
+   "id": "ETH:0x57cafcf696c4f4f35dc07a907fc68cdea5f3d4b14aadefdd0c31365215be9ed8:28702326.25",
+   "url": "https://eth.blockscout.com/tx/0x57cafcf696c4f4f35dc07a907fc68cdea5f3d4b14aadefdd0c31365215be9ed8",
+   "title": "Bitfinex: Hot Wallet received $28.7M (28.70M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $28.7M (28.70M USDT) from an unlabeled address 0x386F\u20267F03. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T04:08:35Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
    "id": "ETH:0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069:100000000.0",
    "url": "https://eth.blockscout.com/tx/0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069",
    "title": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2.",
@@ -1543,36 +1578,6 @@
    "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved)",
    "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
    "date_published": "2025-05-14T10:47:23Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0xfee7b935cfed02f39569802e9694ea9af26c9508ad755408bfc5da3365abd184",
-   "url": "https://eth.blockscout.com/tx/0xfee7b935cfed02f39569802e9694ea9af26c9508ad755408bfc5da3365abd184",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved)",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-05-13T09:18:59Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0xa0762d16bccdf68af0a8b407b6aca72e3ed0a7beff12004d5be423e218894f42",
-   "url": "https://eth.blockscout.com/tx/0xa0762d16bccdf68af0a8b407b6aca72e3ed0a7beff12004d5be423e218894f42",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called approve on TetherToken (no ETH moved).",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called approve on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-05-13T09:05:23Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0x67c177dc77015770942c1c688944fb0c5b9da7f3af6793b9b19327a84d483bd0",
-   "url": "https://eth.blockscout.com/tx/0x67c177dc77015770942c1c688944fb0c5b9da7f3af6793b9b19327a84d483bd0",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0.009803 ETH from 0x95fC\u2026cb1f.",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" received 0.009803 ETH from 0x95fC\u2026cb1f. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-05-13T09:01:35Z",
    "tags": [
     "lazarus"
    ]
