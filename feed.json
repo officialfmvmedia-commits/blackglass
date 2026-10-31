@@ -5,6 +5,42 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x2e36eeb2c6d235eeb9c170316147c3080f443bcf108aa178b94573c49b2555ec:6207.6789",
+   "url": "https://eth.blockscout.com/tx/0x2e36eeb2c6d235eeb9c170316147c3080f443bcf108aa178b94573c49b2555ec",
+   "title": "[SAFE] Coinbase 10 received $13.9M (6,208 ETH) from an unlabeled address 0xAae3\u20261Cfe.",
+   "content_text": "Coinbase 10 received $13.9M (6,208 ETH) from an unlabeled address 0xAae3\u20261Cfe. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T13:31:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x0840a80058fa0e50d52d8ecb39b3a96ad6c4bb461ed2a992e3828d76eb2f873c:14999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x0840a80058fa0e50d52d8ecb39b3a96ad6c4bb461ed2a992e3828d76eb2f873c",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "content_text": "Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T10:02:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "ETH:0x4f7d536e353e5e739f818ee46c78d10aafc6a5e09833c16d54dbe26819ef5591:50000000.06",
    "url": "https://eth.blockscout.com/tx/0x4f7d536e353e5e739f818ee46c78d10aafc6a5e09833c16d54dbe26819ef5591",
    "title": "[SAFE] Coinbase 10 received $50.0M (50.00M USDC) from an unlabeled address 0x28C5\u2026151A.",
@@ -2449,38 +2485,6 @@
    "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
    "date_published": "2025-06-04T14:17:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x72afdbc1f7621dd46cf31836a4e5b51e4c3a6ad27b43a76ef92d857d13032792",
-   "url": "https://eth.blockscout.com/tx/0x72afdbc1f7621dd46cf31836a4e5b51e4c3a6ad27b43a76ef92d857d13032792",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-04T14:13:23Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x6aa64ae3ac14c45c39f4ae8fd2cbf0ad40b698783590e20b11a8c0c1c4a72a77",
-   "url": "https://eth.blockscout.com/tx/0x6aa64ae3ac14c45c39f4ae8fd2cbf0ad40b698783590e20b11a8c0c1c4a72a77",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-03T17:01:59Z",
    "tags": [
     "lazarus",
     "MONITORING"
