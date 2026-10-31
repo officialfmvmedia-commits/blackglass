@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T03:01:36.763756Z",
+ "generated": "2026-10-31T03:10:37.326113Z",
  "clusters": [
   {
    "id": "C001",
@@ -15031,40 +15031,6 @@
    "cluster": "C001"
   },
   {
-   "address": "0x6b495032c880C441C34749b29171Bd402C1D5d7e",
-   "chain": "ETH",
-   "score": 70,
-   "reasons": [
-    "DEX/swap router (0xd0e30db0)",
-    "large value (233.6 ETH)",
-    "large value (300.1 ETH)",
-    "large value (63.8 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0x51cc31b074c1f1c238498a1b9cc946ae461c76680f09be58a40820f366f56427",
-     "url": "https://eth.blockscout.com/tx/0x51cc31b074c1f1c238498a1b9cc946ae461c76680f09be58a40820f366f56427",
-     "value": 63.81480791319523,
-     "time": "2023-02-07T12:07:35Z"
-    },
-    {
-     "tx": "0x8d922fb1617aeda553bb87c1734633b4ef65769678eca530a1badf917c7e8111",
-     "url": "https://eth.blockscout.com/tx/0x8d922fb1617aeda553bb87c1734633b4ef65769678eca530a1badf917c7e8111",
-     "value": 233.60860790675395,
-     "time": "2023-02-07T12:00:35Z"
-    },
-    {
-     "tx": "0x21ebaf5ac40cffc82e0de4e1d5ba76aacf10d445c3beceba3965983eed9960da",
-     "url": "https://eth.blockscout.com/tx/0x21ebaf5ac40cffc82e0de4e1d5ba76aacf10d445c3beceba3965983eed9960da",
-     "value": 300.13075549148795,
-     "time": "2023-02-07T11:54:59Z"
-    }
-   ],
-   "parent": "0x14af799188c318d8c72a5b64388ad39589ce0b2a",
-   "cluster": "C001"
-  },
-  {
    "address": "0xE007eF4E063291ad6788D52e8486333bBA99217f",
    "chain": "ETH",
    "score": 70,
@@ -16205,6 +16171,25 @@
      "url": "https://eth.blockscout.com/tx/0x851b0b0a65280cccd9dcdaa09c06c3f63a00d7e924d5a43f3b04373fa2a633e6",
      "value": 0.0,
      "time": "2024-03-06T18:17:11Z"
+    }
+   ],
+   "parent": "0x7e151657ba502d720ecbcdae500e511d1635a568",
+   "cluster": "C001"
+  },
+  {
+   "address": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
+   "chain": "ETH",
+   "score": 65,
+   "reasons": [
+    "rapid fan-out: 5+ outgoing tx within one hour",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x5087ad9d845185ee66cdd3786bdcf88bf8f7cfb23d7769e8a848a28956183cbe",
+     "url": "https://eth.blockscout.com/tx/0x5087ad9d845185ee66cdd3786bdcf88bf8f7cfb23d7769e8a848a28956183cbe",
+     "value": 0.0,
+     "time": "2024-03-06T18:00:23Z"
     }
    ],
    "parent": "0x7e151657ba502d720ecbcdae500e511d1635a568",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T03:01:36.954046Z",
+ "generated": "2026-10-31T03:10:37.523733Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,9 +61,13 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 137,
+   "flow_out_usd": 4995785,
+   "biggest": {
+    "usd": 4995785.0,
+    "text": "5.00M USDT out to 0xA105a3\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x575bd5b91898415c1805bbefa137a7890a9e6294dd31d60b4f759061fcd75504"
+   },
    "alerts_24h": 18,
    "anomaly": false
   },
@@ -117,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 64268,
-   "flow_out_usd": 43990,
+   "flow_in_usd": 4127,
+   "flow_out_usd": 64751,
    "biggest": {
-    "usd": 49992.700499927,
-    "text": "50,000 USDC in from 0x730e00\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x7e72fbc2c80a0ff7a1f69c30854ee799a799cba8e98bc4114c3431414fe8f2c9"
+    "usd": 35731.1824395016,
+    "text": "20,774 ZRO out to 0x84b38B\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xf9fb64cec4b313a938ada0c70d7f9d929dfb953e0512bd8578214da8026d3a61"
    },
    "alerts_24h": 3,
    "anomaly": false
@@ -209,12 +213,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 4776,
-   "biggest": {
-    "usd": 1999.708,
-    "text": "2,000 USDC out to 0xF3AAc0\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x3c155f97fffd9c8af230770aea586c213b53c4bbe9d311070a2d2e6c75e64930"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -283,13 +283,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 43717,
-   "flow_out_usd": 757292,
-   "biggest": {
-    "usd": 215294.353732,
-    "text": "215,476 USDT out to 0x521a11\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x57c49fccd886fb62d16de5df8441454ab85b4bc47fd74f8f5b44613e7635a867"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 1,
    "anomaly": false
   },
