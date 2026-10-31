@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:27:06.997291Z",
+ "generated": "2026-10-31T01:32:47.214942Z",
  "clusters": [
   {
    "id": "C001",
@@ -12,7 +12,7 @@
    "children": 36,
    "balance": {
     "BTC": 0,
-    "ETH": 667.7756
+    "ETH": 667.7792
    },
    "sources": [
     {
@@ -242,7 +242,7 @@
     "ETH"
    ],
    "size": 8,
-   "children": 37,
+   "children": 34,
    "balance": {
     "BTC": 0,
     "ETH": 241.907
@@ -14275,6 +14275,151 @@
    "cluster": "C001"
   },
   {
+   "address": "0x181EcDD78372B07eCb68d6A2d7582EEA90274311",
+   "chain": "ETH",
+   "score": 70,
+   "reasons": [
+    "DEX/swap router (0xd0e30db0)",
+    "large value (197.7 ETH)",
+    "large value (198.2 ETH)",
+    "large value (223.6 ETH)",
+    "large value (224.1 ETH)",
+    "large value (230.1 ETH)",
+    "large value (241.0 ETH)",
+    "large value (298.7 ETH)",
+    "large value (403.9 ETH)",
+    "large value (409.4 ETH)",
+    "large value (456.0 ETH)",
+    "large value (466.8 ETH)",
+    "large value (472.9 ETH)",
+    "large value (473.3 ETH)",
+    "large value (494.5 ETH)",
+    "large value (498.7 ETH)",
+    "large value (499.3 ETH)",
+    "large value (88.4 ETH)",
+    "large value (93.9 ETH)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x629f2a4beb8f060b70c1740db224cde7bdf774db0fbe26f21f8afaf6bcf65810",
+     "url": "https://eth.blockscout.com/tx/0x629f2a4beb8f060b70c1740db224cde7bdf774db0fbe26f21f8afaf6bcf65810",
+     "value": 197.69484774493725,
+     "time": "2023-02-07T14:54:23Z"
+    },
+    {
+     "tx": "0xfbafedfd7c1dbf004459837d3423302ecc582d56002e020d2010cdf982dd8437",
+     "url": "https://eth.blockscout.com/tx/0xfbafedfd7c1dbf004459837d3423302ecc582d56002e020d2010cdf982dd8437",
+     "value": 499.2697174052022,
+     "time": "2023-02-07T14:36:35Z"
+    },
+    {
+     "tx": "0x08b202f2793b0032dfd32909378b9103f14928f2a5f841df1208dcac0edda916",
+     "url": "https://eth.blockscout.com/tx/0x08b202f2793b0032dfd32909378b9103f14928f2a5f841df1208dcac0edda916",
+     "value": 88.38647956000014,
+     "time": "2023-02-07T14:26:11Z"
+    },
+    {
+     "tx": "0x844bbb37d3e2dcff4bb421d6de5d008d68c22d4f529ad98812847d1013e6b98d",
+     "url": "https://eth.blockscout.com/tx/0x844bbb37d3e2dcff4bb421d6de5d008d68c22d4f529ad98812847d1013e6b98d",
+     "value": 409.42200391585123,
+     "time": "2023-02-07T14:20:47Z"
+    },
+    {
+     "tx": "0x3b04b3dd6ec4677ab1244392f7a783a0ee2d56d6ea10e9da12216cc07395f47b",
+     "url": "https://eth.blockscout.com/tx/0x3b04b3dd6ec4677ab1244392f7a783a0ee2d56d6ea10e9da12216cc07395f47b",
+     "value": 298.662962751705,
+     "time": "2023-02-07T14:44:59Z"
+    },
+    {
+     "tx": "0xfb1ace78e821eb45d84ae89425fa9ea193edae59babeb2a1ad91eb9e87bcee3a",
+     "url": "https://eth.blockscout.com/tx/0xfb1ace78e821eb45d84ae89425fa9ea193edae59babeb2a1ad91eb9e87bcee3a",
+     "value": 198.236368083315,
+     "time": "2023-02-07T14:34:23Z"
+    },
+    {
+     "tx": "0x40bf642b4233f38292d3018f703e627ecf5a598b34a3ef67a34c28141072fa91",
+     "url": "https://eth.blockscout.com/tx/0x40bf642b4233f38292d3018f703e627ecf5a598b34a3ef67a34c28141072fa91",
+     "value": 498.67930445603224,
+     "time": "2023-02-07T14:17:11Z"
+    },
+    {
+     "tx": "0xd9442f28af14c872bbd82f2a0d177a4b308f3369f78acc9d61ea79b23bfd37ae",
+     "url": "https://eth.blockscout.com/tx/0xd9442f28af14c872bbd82f2a0d177a4b308f3369f78acc9d61ea79b23bfd37ae",
+     "value": 223.6452050212633,
+     "time": "2023-02-07T14:32:11Z"
+    },
+    {
+     "tx": "0xb6060703e311e6480d1933050343a0d1fac279e144dfec4b4ad684622b4126ad",
+     "url": "https://eth.blockscout.com/tx/0xb6060703e311e6480d1933050343a0d1fac279e144dfec4b4ad684622b4126ad",
+     "value": 473.32849437304554,
+     "time": "2023-02-07T14:28:47Z"
+    },
+    {
+     "tx": "0x92cad343c3efc70976261c6bad1dacf796692ab3ddf63fb553e44a8fb5ebbb46",
+     "url": "https://eth.blockscout.com/tx/0x92cad343c3efc70976261c6bad1dacf796692ab3ddf63fb553e44a8fb5ebbb46",
+     "value": 224.06143844562743,
+     "time": "2023-02-07T14:47:11Z"
+    },
+    {
+     "tx": "0xa7738a728045b1f76184c392915ce9956b4b7f47de4efb624244814ebfd0eea4",
+     "url": "https://eth.blockscout.com/tx/0xa7738a728045b1f76184c392915ce9956b4b7f47de4efb624244814ebfd0eea4",
+     "value": 472.9203520359775,
+     "time": "2023-02-07T14:39:23Z"
+    },
+    {
+     "tx": "0xc28f02368ccd4dbd976779a5f5d709b8da0e727dfe3635441b44df095c0f1149",
+     "url": "https://eth.blockscout.com/tx/0xc28f02368ccd4dbd976779a5f5d709b8da0e727dfe3635441b44df095c0f1149",
+     "value": 3.258516539176748,
+     "time": "2023-02-07T14:23:47Z"
+    },
+    {
+     "tx": "0x3675abd000f7e23f4210e3f7a8b7b22bf9b3ec080a070a7bac626f7b2dab3e6a",
+     "url": "https://eth.blockscout.com/tx/0x3675abd000f7e23f4210e3f7a8b7b22bf9b3ec080a070a7bac626f7b2dab3e6a",
+     "value": 494.5420340875841,
+     "time": "2023-02-07T14:08:59Z"
+    },
+    {
+     "tx": "0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
+     "url": "https://eth.blockscout.com/tx/0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
+     "value": 93.90239038487422,
+     "time": "2023-02-07T14:42:35Z"
+    },
+    {
+     "tx": "0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
+     "url": "https://eth.blockscout.com/tx/0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
+     "value": 403.93739305106806,
+     "time": "2023-02-07T14:14:11Z"
+    },
+    {
+     "tx": "0xb518447528e5782fa3259655da0b3a4273699bf73965d706e11c7bb2720f394d",
+     "url": "https://eth.blockscout.com/tx/0xb518447528e5782fa3259655da0b3a4273699bf73965d706e11c7bb2720f394d",
+     "value": 241.04674316026473,
+     "time": "2023-02-07T14:11:59Z"
+    },
+    {
+     "tx": "0x257b05336c72f0629e565f28018c19e1360f657fbbb2b21f9bb20c119eb4277a",
+     "url": "https://eth.blockscout.com/tx/0x257b05336c72f0629e565f28018c19e1360f657fbbb2b21f9bb20c119eb4277a",
+     "value": 456.0013665400506,
+     "time": "2023-02-07T14:05:59Z"
+    },
+    {
+     "tx": "0xfc42f9bbccad90018866f0511d7f85b5cbcfb9cb684d061cdc7098edb6708195",
+     "url": "https://eth.blockscout.com/tx/0xfc42f9bbccad90018866f0511d7f85b5cbcfb9cb684d061cdc7098edb6708195",
+     "value": 230.13258060627237,
+     "time": "2023-02-07T14:51:59Z"
+    },
+    {
+     "tx": "0x40b69a910f1988a99f0393e87dcf74e2171dd36fe721d8504132132c2d4f753f",
+     "url": "https://eth.blockscout.com/tx/0x40b69a910f1988a99f0393e87dcf74e2171dd36fe721d8504132132c2d4f753f",
+     "value": 466.83469343126114,
+     "time": "2023-02-07T14:49:23Z"
+    }
+   ],
+   "parent": "0x044a30ad507dd69f8ea141f20423696f17bd7b66",
+   "cluster": "C001"
+  },
+  {
    "address": "0x1272441D556A2B409833333b343b6AAa943e54BF",
    "chain": "ETH",
    "score": 70,
@@ -15014,137 +15159,6 @@
    "cluster": "C001"
   },
   {
-   "address": "0x181EcDD78372B07eCb68d6A2d7582EEA90274311",
-   "chain": "ETH",
-   "score": 70,
-   "reasons": [
-    "DEX/swap router (0xd0e30db0)",
-    "large value (198.2 ETH)",
-    "large value (223.6 ETH)",
-    "large value (224.1 ETH)",
-    "large value (230.1 ETH)",
-    "large value (241.0 ETH)",
-    "large value (298.7 ETH)",
-    "large value (403.9 ETH)",
-    "large value (409.4 ETH)",
-    "large value (456.0 ETH)",
-    "large value (466.8 ETH)",
-    "large value (472.9 ETH)",
-    "large value (473.3 ETH)",
-    "large value (494.5 ETH)",
-    "large value (498.7 ETH)",
-    "large value (88.4 ETH)",
-    "large value (93.9 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0x08b202f2793b0032dfd32909378b9103f14928f2a5f841df1208dcac0edda916",
-     "url": "https://eth.blockscout.com/tx/0x08b202f2793b0032dfd32909378b9103f14928f2a5f841df1208dcac0edda916",
-     "value": 88.38647956000014,
-     "time": "2023-02-07T14:26:11Z"
-    },
-    {
-     "tx": "0x844bbb37d3e2dcff4bb421d6de5d008d68c22d4f529ad98812847d1013e6b98d",
-     "url": "https://eth.blockscout.com/tx/0x844bbb37d3e2dcff4bb421d6de5d008d68c22d4f529ad98812847d1013e6b98d",
-     "value": 409.42200391585123,
-     "time": "2023-02-07T14:20:47Z"
-    },
-    {
-     "tx": "0x3b04b3dd6ec4677ab1244392f7a783a0ee2d56d6ea10e9da12216cc07395f47b",
-     "url": "https://eth.blockscout.com/tx/0x3b04b3dd6ec4677ab1244392f7a783a0ee2d56d6ea10e9da12216cc07395f47b",
-     "value": 298.662962751705,
-     "time": "2023-02-07T14:44:59Z"
-    },
-    {
-     "tx": "0xfb1ace78e821eb45d84ae89425fa9ea193edae59babeb2a1ad91eb9e87bcee3a",
-     "url": "https://eth.blockscout.com/tx/0xfb1ace78e821eb45d84ae89425fa9ea193edae59babeb2a1ad91eb9e87bcee3a",
-     "value": 198.236368083315,
-     "time": "2023-02-07T14:34:23Z"
-    },
-    {
-     "tx": "0x40bf642b4233f38292d3018f703e627ecf5a598b34a3ef67a34c28141072fa91",
-     "url": "https://eth.blockscout.com/tx/0x40bf642b4233f38292d3018f703e627ecf5a598b34a3ef67a34c28141072fa91",
-     "value": 498.67930445603224,
-     "time": "2023-02-07T14:17:11Z"
-    },
-    {
-     "tx": "0xd9442f28af14c872bbd82f2a0d177a4b308f3369f78acc9d61ea79b23bfd37ae",
-     "url": "https://eth.blockscout.com/tx/0xd9442f28af14c872bbd82f2a0d177a4b308f3369f78acc9d61ea79b23bfd37ae",
-     "value": 223.6452050212633,
-     "time": "2023-02-07T14:32:11Z"
-    },
-    {
-     "tx": "0xb6060703e311e6480d1933050343a0d1fac279e144dfec4b4ad684622b4126ad",
-     "url": "https://eth.blockscout.com/tx/0xb6060703e311e6480d1933050343a0d1fac279e144dfec4b4ad684622b4126ad",
-     "value": 473.32849437304554,
-     "time": "2023-02-07T14:28:47Z"
-    },
-    {
-     "tx": "0x92cad343c3efc70976261c6bad1dacf796692ab3ddf63fb553e44a8fb5ebbb46",
-     "url": "https://eth.blockscout.com/tx/0x92cad343c3efc70976261c6bad1dacf796692ab3ddf63fb553e44a8fb5ebbb46",
-     "value": 224.06143844562743,
-     "time": "2023-02-07T14:47:11Z"
-    },
-    {
-     "tx": "0xa7738a728045b1f76184c392915ce9956b4b7f47de4efb624244814ebfd0eea4",
-     "url": "https://eth.blockscout.com/tx/0xa7738a728045b1f76184c392915ce9956b4b7f47de4efb624244814ebfd0eea4",
-     "value": 472.9203520359775,
-     "time": "2023-02-07T14:39:23Z"
-    },
-    {
-     "tx": "0xc28f02368ccd4dbd976779a5f5d709b8da0e727dfe3635441b44df095c0f1149",
-     "url": "https://eth.blockscout.com/tx/0xc28f02368ccd4dbd976779a5f5d709b8da0e727dfe3635441b44df095c0f1149",
-     "value": 3.258516539176748,
-     "time": "2023-02-07T14:23:47Z"
-    },
-    {
-     "tx": "0x3675abd000f7e23f4210e3f7a8b7b22bf9b3ec080a070a7bac626f7b2dab3e6a",
-     "url": "https://eth.blockscout.com/tx/0x3675abd000f7e23f4210e3f7a8b7b22bf9b3ec080a070a7bac626f7b2dab3e6a",
-     "value": 494.5420340875841,
-     "time": "2023-02-07T14:08:59Z"
-    },
-    {
-     "tx": "0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
-     "url": "https://eth.blockscout.com/tx/0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
-     "value": 93.90239038487422,
-     "time": "2023-02-07T14:42:35Z"
-    },
-    {
-     "tx": "0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
-     "url": "https://eth.blockscout.com/tx/0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
-     "value": 403.93739305106806,
-     "time": "2023-02-07T14:14:11Z"
-    },
-    {
-     "tx": "0xb518447528e5782fa3259655da0b3a4273699bf73965d706e11c7bb2720f394d",
-     "url": "https://eth.blockscout.com/tx/0xb518447528e5782fa3259655da0b3a4273699bf73965d706e11c7bb2720f394d",
-     "value": 241.04674316026473,
-     "time": "2023-02-07T14:11:59Z"
-    },
-    {
-     "tx": "0x257b05336c72f0629e565f28018c19e1360f657fbbb2b21f9bb20c119eb4277a",
-     "url": "https://eth.blockscout.com/tx/0x257b05336c72f0629e565f28018c19e1360f657fbbb2b21f9bb20c119eb4277a",
-     "value": 456.0013665400506,
-     "time": "2023-02-07T14:05:59Z"
-    },
-    {
-     "tx": "0xfc42f9bbccad90018866f0511d7f85b5cbcfb9cb684d061cdc7098edb6708195",
-     "url": "https://eth.blockscout.com/tx/0xfc42f9bbccad90018866f0511d7f85b5cbcfb9cb684d061cdc7098edb6708195",
-     "value": 230.13258060627237,
-     "time": "2023-02-07T14:51:59Z"
-    },
-    {
-     "tx": "0x40b69a910f1988a99f0393e87dcf74e2171dd36fe721d8504132132c2d4f753f",
-     "url": "https://eth.blockscout.com/tx/0x40b69a910f1988a99f0393e87dcf74e2171dd36fe721d8504132132c2d4f753f",
-     "value": 466.83469343126114,
-     "time": "2023-02-07T14:49:23Z"
-    }
-   ],
-   "parent": "0x2828438463e84d2cd37b50cda3fd7fc545091ba4",
-   "cluster": "C001"
-  },
-  {
    "address": "0x25271e783Bc46E3CC6Cd04c9741Ac6C018e64DB9",
    "chain": "ETH",
    "score": 70,
@@ -15361,73 +15375,6 @@
     }
    ],
    "parent": "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b",
-   "cluster": "C006"
-  },
-  {
-   "address": "0xB3656C5ED7EF97b4C9097D416dF98e2e2a5Dd81d",
-   "chain": "ETH",
-   "score": 65,
-   "reasons": [
-    "EOA recipient (possible fresh hop wallet)",
-    "large value (1530.0 ETH)",
-    "large value (3881.3 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0xb3fcd906b8c3db47d7198a4cd1ef6fd67f6350afef1ec8ad9b1df69e388286c5",
-     "url": "https://eth.blockscout.com/tx/0xb3fcd906b8c3db47d7198a4cd1ef6fd67f6350afef1ec8ad9b1df69e388286c5",
-     "value": 1530.0,
-     "time": "2022-04-26T01:47:47Z"
-    },
-    {
-     "tx": "0xbc9cd35d028ca022aa774a1098783bbf2d347f2fae71eb1c3a651d87714200c0",
-     "url": "https://eth.blockscout.com/tx/0xbc9cd35d028ca022aa774a1098783bbf2d347f2fae71eb1c3a651d87714200c0",
-     "value": 3881.297,
-     "time": "2022-04-24T12:50:41Z"
-    }
-   ],
-   "parent": "0x3cffd56b47b7b41c56258d9c7731abadc360e073",
-   "cluster": "C006"
-  },
-  {
-   "address": "0x28F080Edf51145C3f511415b8C2afAeBb605A70b",
-   "chain": "ETH",
-   "score": 65,
-   "reasons": [
-    "EOA recipient (possible fresh hop wallet)",
-    "large value (3142.5 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0x007d395c79ab8ae041e452d4d724645f0d43cb9cd8edb20341f67e9de5e6099c",
-     "url": "https://eth.blockscout.com/tx/0x007d395c79ab8ae041e452d4d724645f0d43cb9cd8edb20341f67e9de5e6099c",
-     "value": 3142.48,
-     "time": "2022-04-23T11:25:58Z"
-    }
-   ],
-   "parent": "0x3cffd56b47b7b41c56258d9c7731abadc360e073",
-   "cluster": "C006"
-  },
-  {
-   "address": "0x8fA7B50Fc8306AB3DE028254Df72bf08216742B6",
-   "chain": "ETH",
-   "score": 65,
-   "reasons": [
-    "EOA recipient (possible fresh hop wallet)",
-    "large value (1528.2 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0x8823077d0facdf893a3102467137fffdb9eb13f5c4587d273ab3e4f1524308a2",
-     "url": "https://eth.blockscout.com/tx/0x8823077d0facdf893a3102467137fffdb9eb13f5c4587d273ab3e4f1524308a2",
-     "value": 1528.219,
-     "time": "2022-04-22T10:53:32Z"
-    }
-   ],
-   "parent": "0x3cffd56b47b7b41c56258d9c7731abadc360e073",
    "cluster": "C006"
   },
   {
@@ -15711,6 +15658,66 @@
      "url": "https://eth.blockscout.com/tx/0x8f652dbbc76173a326b9396b2a5b8352eb4fa3478f1d7cff7f22aada24e1f278",
      "value": 3003.2999999999997,
      "time": "2022-05-13T08:58:34Z"
+    }
+   ],
+   "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
+   "cluster": "C006"
+  },
+  {
+   "address": "0xc68B2c011f8df2190f239ddF5D49cB59324528e7",
+   "chain": "ETH",
+   "score": 65,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "large value (3003.3 ETH)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x54ad5b54ad10c5363b8e915c947f8714bdc26c6d4955d7a7f980474192e8c30b",
+     "url": "https://eth.blockscout.com/tx/0x54ad5b54ad10c5363b8e915c947f8714bdc26c6d4955d7a7f980474192e8c30b",
+     "value": 3003.2999999999997,
+     "time": "2022-05-13T03:33:27Z"
+    }
+   ],
+   "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
+   "cluster": "C006"
+  },
+  {
+   "address": "0xBad37a7dFea2Aa4Fa0198EE4C644632a2d7C91c2",
+   "chain": "ETH",
+   "score": 65,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "large value (3003.3 ETH)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0xf42d3cf8ba6142849c50bbd14e5d362a5d0b5404a03ca05a829a9f2341296d03",
+     "url": "https://eth.blockscout.com/tx/0xf42d3cf8ba6142849c50bbd14e5d362a5d0b5404a03ca05a829a9f2341296d03",
+     "value": 3003.2999999999997,
+     "time": "2022-05-12T13:31:58Z"
+    }
+   ],
+   "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
+   "cluster": "C006"
+  },
+  {
+   "address": "0xAb346EfEF1FFE377cDad686ABEAb62E83dF1099F",
+   "chain": "ETH",
+   "score": 65,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "large value (3003.3 ETH)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x66d24f0d2010ee047f1d30b29979be719355467dd210e60e768742e8ea0ac235",
+     "url": "https://eth.blockscout.com/tx/0x66d24f0d2010ee047f1d30b29979be719355467dd210e60e768742e8ea0ac235",
+     "value": 3003.2999999999997,
+     "time": "2022-05-12T02:26:53Z"
     }
    ],
    "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
