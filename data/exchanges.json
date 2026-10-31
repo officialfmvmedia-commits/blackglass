@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T04:26:45.735140Z",
+ "generated": "2026-10-31T04:49:35.174474Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -24,7 +24,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 5,
+   "alerts_24h": 0,
    "anomaly": false
   },
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 28929713,
-   "flow_out_usd": 23006561,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 28678130.188971248,
-    "text": "28.70M USDT in from 0x386F6B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x57cafcf696c4f4f35dc07a907fc68cdea5f3d4b14aadefdd0c31365215be9ed8"
+    "usd": 9.99157e-05,
+    "text": "0.0001 USDT in from 0x771368\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x63b089c3cd8f2f8972104a0263ac9f8e2a2ae67a59bd42b84200257875fb6155"
    },
    "alerts_24h": 20,
    "anomaly": false
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 1738,
+   "flow_in_usd": 26702,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 1738.2522324000001,
-    "text": "14,886 OP out to 0x5950ba\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x5aaa2cd0acf41f91288dfe750dd6aeb64044634f62ed91f6c56701629a627f24"
+    "usd": 22681.918503072993,
+    "text": "57,749 WLD in from 0xE3D54d\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0xd6e52c61f64a3c18b8282007ef3855082a929ee4f15e6654a3ecb4c3449f12b3"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -125,14 +125,14 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 319137,
-   "flow_out_usd": 28909,
+   "flow_in_usd": 6199273,
+   "flow_out_usd": 29671,
    "biggest": {
-    "usd": 239964.90787661113,
-    "text": "240,000 USDC in from 0xE282dC\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xf8bebcca86b26cbc003d9e32734befd992d119df5cdd6344d023dc74e60a6749"
+    "usd": 6021449.576728541,
+    "text": "2,693 ETH in from Coinbase 5",
+    "tx": "https://eth.blockscout.com/tx/0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e"
    },
-   "alerts_24h": 4,
+   "alerts_24h": 5,
    "anomaly": true
   },
   {
@@ -253,13 +253,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 55718,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 28730.25,
-    "text": "150,000 ENA in from 0xa33D7f\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x1dcb6935ccb37cfff079a2075668071b8fea893ab5448eb7730e7d761ffc24de"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -294,7 +290,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 1,
+   "alerts_24h": 0,
    "anomaly": false
   },
   {

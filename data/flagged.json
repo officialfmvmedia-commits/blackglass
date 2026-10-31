@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T04:26:45.735140Z",
+ "generated": "2026-10-31T04:49:35.174474Z",
  "note": "Addresses flagged by public hack post-mortems/blocklists",
  "flagged": {
   "0x001911db033d26170f9958215ed1ed9967e453a4": {
@@ -8054,6 +8054,34 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
+  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x42cdf00c85005630cc8605731b9364f712077810": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+   "incident": "Binance CEX",
+   "source": "https://hasky00.github.io/haskDetect/"
+  },
+  "0xa97bf7836f8a08f9ed91d41453d371493fae8d10": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x9749292d74fd460982d0912ea9515ea24736c762": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0xa3b3dee870f01560fdbe5af659c9c9135748886f": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
   "0xcf4ca2bdf21bc3a467a00b6afe72b833982723e0": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
@@ -8075,26 +8103,6 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "0x7f9dc988b46336ad536828fad50fa8fa1e5415e3": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0x42cdf00c85005630cc8605731b9364f712077810": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
-   "incident": "Binance CEX",
-   "source": "https://hasky00.github.io/haskDetect/"
-  },
-  "0x9749292d74fd460982d0912ea9515ea24736c762": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8194,23 +8202,11 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
   "0x0084847bb9384d2fc5e8836e663689467e3e4c81": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "TPBkSjkCMn2ckrMuAP8n2J1jdjbw76bKN4": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0xa97bf7836f8a08f9ed91d41453d371493fae8d10": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8226,7 +8222,7 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "0xa3b3dee870f01560fdbe5af659c9c9135748886f": {
+  "TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8234,13 +8230,17 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
-   "incident": "Binance CEX",
-   "source": "https://hasky00.github.io/haskDetect/"
-  },
   "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+   "incident": "Binance CEX",
+   "source": "https://hasky00.github.io/haskDetect/"
   },
   "TUsJgWZMa1LUsxbhAmo5jCA2n3wtwQnfV3": {
    "incident": "Binance CEX",
@@ -8255,6 +8255,10 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "0x600d6f00eadabdb514561ceeb43730a7103e8298": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8282,11 +8286,15 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
+  "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
   "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": {
+  "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8298,7 +8306,11 @@
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
-  "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx": {
+  "0xc39e690bea48448cc47e7acddfe30e6453e09824": {
+   "incident": "Binance CEX",
+   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
+  },
+  "9SkjwUs5pRRQQo5a6g4m5cciy1xLdDeFnaov24htTjdQ": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
@@ -8307,18 +8319,6 @@
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },
   "0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0xc39e690bea48448cc47e7acddfe30e6453e09824": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "0x600d6f00eadabdb514561ceeb43730a7103e8298": {
-   "incident": "Binance CEX",
-   "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
-  },
-  "9SkjwUs5pRRQQo5a6g4m5cciy1xLdDeFnaov24htTjdQ": {
    "incident": "Binance CEX",
    "source": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv"
   },

@@ -5,6 +5,17 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "ETH:0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e:2692.6263",
+   "url": "https://eth.blockscout.com/tx/0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e",
+   "title": "Coinbase 10 received $6.0M (2,693 ETH) from Coinbase 5.",
+   "content_text": "Coinbase 10 received $6.0M (2,693 ETH) from Coinbase 5. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T04:30:23Z",
+   "tags": [
+    "exchange",
+    "large"
+   ]
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T04",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "Unusual outflow: Coinbase 10 native balance fell 88% ($5.7M \u2192 $699,680) since the last check. That's the classic hot-wal",
@@ -1568,16 +1579,6 @@
    "title": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved).",
    "content_text": "An address OFAC lists under \"YUN, Song Guk\" called transfer on TetherToken (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
    "date_published": "2025-05-30T15:53:23Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0xb1fec2a53c26ab566dc394deb55bdb11f3e47b57c34ae2dd342fcfb2695cd663",
-   "url": "https://eth.blockscout.com/tx/0xb1fec2a53c26ab566dc394deb55bdb11f3e47b57c34ae2dd342fcfb2695cd663",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved)",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" called deposit on VaultBeaconProxy (no ETH moved). Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-05-14T10:47:23Z",
    "tags": [
     "lazarus"
    ]
