@@ -1,6 +1,63 @@
 {
- "generated": "2026-10-31T05:43:22.843598Z",
+ "generated": "2026-10-31T05:49:57.144948Z",
  "alerts": [
+  {
+   "id": "ETH:0x6caca1bacddd8eb9bc8fcdd56c2ec9b5c5c61f505b84a9b721fa822bdc33aed3:50000000.06",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-10-31T05:50:11Z",
+   "chain": "ETH",
+   "usd": 49995050,
+   "level": 30,
+   "message": "Coinbase 10 received $50.0M (50.00M USDC) from an unlabeled address 0x28C5\u2026151A.",
+   "counterparty_label": "an unlabeled address 0x28C5\u2026151A",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x6caca1bacddd8eb9bc8fcdd56c2ec9b5c5c61f505b84a9b721fa822bdc33aed3",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x7bebf4ad3b28f11d7b99158e69373e59881f10ad72ec26e708a661759e6df10f:4462.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Gate",
+   "time": "2026-10-31T05:12:11Z",
+   "chain": "ETH",
+   "usd": 9995247,
+   "level": 20,
+   "message": "Gate.io 5 sent $10.0M (4,462 ETH) to Gate.io.",
+   "counterparty_label": "Gate.io",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x7bebf4ad3b28f11d7b99158e69373e59881f10ad72ec26e708a661759e6df10f",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate",
+   "status": "SAFE",
+   "basis": "Counterparty is Gate.io (same exchange). Internal transfer."
+  },
   {
    "id": "ETH:0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e:2692.6263",
    "type": "exchange",
@@ -28,6 +85,34 @@
    "direction": "in",
    "status": "SAFE",
    "basis": "Counterparty is Coinbase 5 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0x0d3e6e339981b9bdc8853c9f595592416a98b779c6537227725b8e7a02f62533:1234762188628.2073",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Gate",
+   "time": "2026-10-31T04:27:47Z",
+   "chain": "ETH",
+   "usd": 5988597,
+   "level": 20,
+   "message": "Gate.io 5 sent $6.0M (1234.76B PEPE) to Gate.io.",
+   "counterparty_label": "Gate.io",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0d3e6e339981b9bdc8853c9f595592416a98b779c6537227725b8e7a02f62533",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate",
+   "status": "SAFE",
+   "basis": "Counterparty is Gate.io (same exchange). Internal transfer."
   },
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T04",

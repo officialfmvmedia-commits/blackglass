@@ -5,6 +5,41 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x6caca1bacddd8eb9bc8fcdd56c2ec9b5c5c61f505b84a9b721fa822bdc33aed3:50000000.06",
+   "url": "https://eth.blockscout.com/tx/0x6caca1bacddd8eb9bc8fcdd56c2ec9b5c5c61f505b84a9b721fa822bdc33aed3",
+   "title": "[SAFE] Coinbase 10 received $50.0M (50.00M USDC) from an unlabeled address 0x28C5\u2026151A.",
+   "content_text": "Coinbase 10 received $50.0M (50.00M USDC) from an unlabeled address 0x28C5\u2026151A. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T05:50:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x7bebf4ad3b28f11d7b99158e69373e59881f10ad72ec26e708a661759e6df10f:4462.0",
+   "url": "https://eth.blockscout.com/tx/0x7bebf4ad3b28f11d7b99158e69373e59881f10ad72ec26e708a661759e6df10f",
+   "title": "[SAFE] Gate.io 5 sent $10.0M (4,462 ETH) to Gate.io.",
+   "content_text": "Gate.io 5 sent $10.0M (4,462 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T05:12:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
    "id": "ETH:0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e:2692.6263",
    "url": "https://eth.blockscout.com/tx/0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e",
    "title": "[SAFE] Coinbase 10 received $6.0M (2,693 ETH) from Coinbase 5.",
@@ -18,6 +53,23 @@
    "_hackwatch": {
     "status": "SAFE",
     "basis": "Counterparty is Coinbase 5 (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0x0d3e6e339981b9bdc8853c9f595592416a98b779c6537227725b8e7a02f62533:1234762188628.2073",
+   "url": "https://eth.blockscout.com/tx/0x0d3e6e339981b9bdc8853c9f595592416a98b779c6537227725b8e7a02f62533",
+   "title": "[SAFE] Gate.io 5 sent $6.0M (1234.76B PEPE) to Gate.io.",
+   "content_text": "Gate.io 5 sent $6.0M (1234.76B PEPE) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T04:27:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
     "risk": 20
    }
   },
@@ -2427,54 +2479,6 @@
    "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
    "date_published": "2025-06-02T17:32:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xff629884d8edd5f9a1f98c37cca8c4a599ffd7273c84f7a9cc921ac53f8bf967",
-   "url": "https://eth.blockscout.com/tx/0xff629884d8edd5f9a1f98c37cca8c4a599ffd7273c84f7a9cc921ac53f8bf967",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-02T17:30:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x998d5229a7b754e657d757e5638f45c3c935d41a9a975386b83c49233b61faa9",
-   "url": "https://eth.blockscout.com/tx/0x998d5229a7b754e657d757e5638f45c3c935d41a9a975386b83c49233b61faa9",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-01T19:04:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x09cff39975a904fb8fa09daeea2ca63ad4f2944cdfc222eeecee75a55e0d8d60",
-   "url": "https://eth.blockscout.com/tx/0x09cff39975a904fb8fa09daeea2ca63ad4f2944cdfc222eeecee75a55e0d8d60",
-   "title": "[MONITORING] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
-   "date_published": "2025-05-31T12:53:23Z",
    "tags": [
     "lazarus",
     "MONITORING"
