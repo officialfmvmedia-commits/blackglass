@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:49:43.457466Z",
+ "generated": "2026-10-31T06:51:40.310338Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,8 +62,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 7974,
+   "biggest": {
+    "usd": 7974.2484110256,
+    "text": "7,980 USDT out to 0x51dBd9\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xfeed9568cc23dc7c9ff71bffe21804010e3428bcd257c13a2432b5717a29bdae"
+   },
    "alerts_24h": 20,
    "anomaly": false
   },
@@ -84,11 +88,7 @@
    "monitored": true,
    "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 0.007587152046843987,
-    "text": "3.379e-06 ETH out to 0xdC2426\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x9e9d6b3695e6d0bd81a4ce1cd6e89369fe55036f9b95e567f5c5bfaaecbca066"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 2739,
-   "flow_out_usd": 14735,
+   "flow_in_usd": 160046,
+   "flow_out_usd": 106503,
    "biggest": {
-    "usd": 3199.2584457683183,
-    "text": "61,758 APR out to 0x5950ba\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x72eae2f1e8cd3f7bb65a945d0025834ae24d4c30035832536d6b5361a0615683"
+    "usd": 97252.42333532001,
+    "text": "97,325 USDT in from 0xA71F8b\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x99d7583c93d3c3ea3c0e8a85bf0fa61274dd124553d2109986e352aadf3f3b35"
    },
    "alerts_24h": 8,
    "anomaly": true
@@ -249,9 +249,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 33054,
+   "flow_out_usd": 52199,
+   "biggest": {
+    "usd": 51857.88677039999,
+    "text": "13.4 XAUT out to 0x53CAe1\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xe735456226bc5f26ca0d63a023d732e9a1e69935718453d27bf9eec4c421cb11"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
