@@ -15,8 +15,7 @@
  <h1>Know the second a crypto exchange gets <em>hacked</em>.</h1>
  <p class="lede">HACKWATCH watches <b data-c="registry_wallets" data-plus>450+</b> exchange wallets, <b data-c="incidents">40</b> hacks and <b data-c="addresses">221</b> wallets tied to North Korea's Lazarus Group live, and alerts you in plain English with sources.</p>
  <p class="tagq">Hacks show up on-chain before they hit the news.</p>
- <form class="look" id="look" role="search"><label for="lq" class="sr">Look up an address</label><input id="lq" placeholder="Look up any wallet address (0x…, bc1…, T…)" autocomplete="off" spellcheck="false"><button class="btn">Check</button></form>
- <div id="lres" class="lres" hidden></div>
+ <div class="lstat" id="lstat" aria-live="polite"><div class="lsh"><span class="live"><i></i>LIVE STATUS</span><span id="lthreat" class="mono"></span><span id="lupd" class="mono muted small"></span></div><div id="llast" class="llast">Loading…</div></div>
 </section>
 <p class="askq" id="live">Is something happening on-chain right now?</p>
 <section id="status" class="status q" aria-live="polite">
@@ -32,7 +31,7 @@
  <a class="card" href="#incidents"><span class="ci">03</span><b>Follow stolen funds after a hack</b><p>Recent hacks with who's been blamed, and live moves from wallets named in public write-ups.</p></a>
  <a class="card" href="#lazarus"><span class="ci">04</span><b>Track North Korea's Lazarus Group</b><p>Every wallet the US Treasury (OFAC) or FBI has publicly tied to Lazarus, watched on Bitcoin and Ethereum.</p></a>
  <a class="card" href="#subscribe"><span class="ci">05</span><b>Get alerts</b><p>Browser notifications while the page is open, or subscribe by RSS or JSON feed. No sign-up.</p></a>
- <a class="card" href="#top" onclick="setTimeout(()=>document.getElementById('lq').focus(),300)"><span class="ci">06</span><b>Look up any address</b><p>Paste a wallet to check it against our exchange registry, hack lists and Lazarus list.</p></a>
+ <a class="card" href="#check" onclick="setTimeout(()=>document.getElementById('lq').focus(),300)"><span class="ci">06</span><b>Check a wallet</b><p>Compare an address with our exchange registry, hack lists and Lazarus list.</p></a>
 </div></section>
 <section class="sec"><div class="two">
  <div><h2 class="h2">How it works</h2><ol class="steps">
@@ -52,6 +51,9 @@
 <div id="scen" class="scen"></div>
 <div class="cgrid"><div class="panel"><div class="ph">Cluster map <span class="muted small">size = number of addresses · drag to explore</span></div><canvas id="graph"></canvas></div><div class="panel clist" id="clist"></div></div>
 <h3 class="h3">Highest-scoring connected wallets</h3><div id="cands" class="cands"></div></section>
+<section id="check" class="sec"><h2 class="h2">Check a wallet against our data</h2><p class="muted small">Compares an address with HACKWATCH's exchange registry, hack-flagged lists and the OFAC/FBI Lazarus list. Not a block explorer.</p>
+<form class="look" id="look" role="search"><label for="lq" class="sr">Wallet address</label><input id="lq" placeholder="Wallet address (0x…, bc1…, T…)" autocomplete="off" spellcheck="false"><button class="btn">Check</button></form>
+<div id="lres" class="lres" hidden></div></section>
 <section id="subscribe" class="sec"><div class="panel subp"><div><h2 class="h2">Get alerts</h2><p class="muted">No account, no email list. Pick what works for you.</p></div><div class="row"><button class="btn primary" id="notify2">Browser notifications</button><a class="btn" href="feed.xml">RSS / Atom</a><a class="btn" href="feed.json">JSON feed</a><a class="btn ghost" href="data/alerts.json">Raw data</a></div></div></section>
 <section id="method" class="sec"><h2 class="h2">Methodology</h2><div class="mgrid">
  <div><h3 class="h3">Terms</h3><dl class="terms"><dt>Tracked wallet</dt><dd>An address named by a public source. Every label links to it.</dd><dt>Hot / cold wallet</dt><dd>Hot wallets pay out withdrawals; cold wallets hold reserves. Big moves between them are often routine.</dd><dt>Status</dt><dd><b>Safe</b>: funds stayed with wallets labeled as the same exchange, moved between labeled exchanges, were an inbound deposit, or a balance drop was matched by an internal refill or transfer within 60 min. <b>Monitoring</b>: large move to an unlabeled address, or a drop with no matching internal transfer. <b>Risk</b>: funds sent by an OFAC/FBI-listed wallet or a wallet named in a hack post-mortem, or sent to a flagged wallet or mixer.</dd><dt>Risk score (0–100)</dt><dd>How closely a movement matches known hack and laundering patterns. A pattern match, not proof.</dd><dt>Peel chain</dt><dd>Funds moved step by step, peeling off a small slice each time.</dd><dt>Mixer</dt><dd>A service that pools coins to hide where they came from (e.g. Tornado Cash).</dd><dt>Bridge</dt><dd>A service that moves funds to another blockchain.</dd><dt>Fan-out</dt><dd>Money split across many new wallets very quickly.</dd></dl></div>

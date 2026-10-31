@@ -42,6 +42,9 @@ function render(){
  $('#sgrid').innerHTML=cell('Exchanges',ex,an24?` · ${an24} balance anomal${an24>1?'ies':'y'}`:'')+cell('Hacks',hk,recInc.length?` · ${recInc.length} new incident${recInc.length>1?'s':''}`:'')+cell('Lazarus',lz);
  const la=A[0];$('#latesttxt').innerHTML=la?`<b>Latest</b> · ${ago(la.time)} · ${chip(la)} ${esc(la.message)}`:'No alerts yet';
  heat();
+ const th=M.threat;$('#lthreat').textContent=th!=null?`Threat ${th}/100 · ${th>=60?'High':th>=30?'Elevated':'Low'}`:'';
+ $('#lupd').textContent='Updated '+new Date(M.generated).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+ $('#llast').innerHTML=la?`<div class="lm">${chip(la)} ${esc(la.message)}</div><div class="lmeta mono small muted">${esc(la.basis||'')}</div><div class="lmeta mono small">${esc(la.entity||TL[la.type]||'')} · Risk ${la.level}/100 · <span title="${esc(new Date(la.time).toLocaleString())}">${ago(la.time)}</span> · <a href="${esc(la.tx_url)}" target="_blank" rel="noopener">tx ↗</a></div>`:'No alerts yet';
  const chains=new Set([...(R.length?R:[]).map(w=>w.chain)]);
  const cov=[['Exchanges',n.exchanges||X.length],['Exchange wallets',n.registry_wallets],['Lazarus-linked addresses',n.addresses],['Hack-flagged addresses',n.flagged_hack_addresses],['Hacks logged',I.length],['Chains live-monitored','5 (ETH, BTC, OP, Polygon, + Lazarus BTC/ETH)'],['Update frequency','Every 10 min'],['Last updated',new Date(M.generated).toLocaleString([], {dateStyle:'medium',timeStyle:'short'})]];
  cov[5][1]='ETH · BTC · Optimism · Polygon';
