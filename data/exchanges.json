@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T21:17:02.252766Z",
+ "generated": "2026-10-31T22:46:49.265999Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 239509,
-   "flow_out_usd": 228235,
+   "flow_in_usd": 35867,
+   "flow_out_usd": 471827,
    "biggest": {
-    "usd": 105366.83858802875,
-    "text": "46.8 ETH in from 0x843d04\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xff1334918811657d3608fe05c37223320c7e615d8263c3c476112c890056a966"
+    "usd": 308349.8494526592,
+    "text": "308,488 USDT out to 0xA294cC\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x1fe1b51c142e6207e70999a6c6139c26b58b715a50a0a2f410a7950623f2bf2a"
    },
-   "alerts_24h": 17,
+   "alerts_24h": 16,
    "anomaly": false
   },
   {
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1645,
-   "flow_out_usd": 270,
+   "flow_in_usd": 0,
+   "flow_out_usd": 301,
    "biggest": {
-    "usd": 1047.73549251,
-    "text": "3,867 CYBER in from 0x2Ea90D\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x90bbb65cf717d37c84f7b2d0806b191b01b01f8dbe3478d0ff30d85035c54b6b"
+    "usd": 297.449732,
+    "text": "297.4 USDC out to 0xa48b33\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x89729807cf6002f68137b48eb33688c671b617a3ca01da4dfa62818e3c0da30d"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -125,14 +125,14 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 46897,
-   "flow_out_usd": 9609,
+   "flow_in_usd": 629322,
+   "flow_out_usd": 257348,
    "biggest": {
-    "usd": 7029.812981641778,
-    "text": "3.123 ETH in from 0x056127\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xdc85da096e36505b03de5f1e94515900c1f822b1ac6aee676c5b0e0f37c5f839"
+    "usd": 185566.23021964598,
+    "text": "82.21 ETH in from 0x056c1e\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x028d321f56081d93ee0628d9177494ce5feb31643be645fb75a7fda739da6d74"
    },
-   "alerts_24h": 10,
+   "alerts_24h": 9,
    "anomaly": true
   },
   {
@@ -183,8 +183,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 17115,
+   "biggest": {
+    "usd": 5262.486121139788,
+    "text": "2.331 ETH out to 0x995E80\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x76d6e12c5af9a1e413b378ca144fdff4f5a6357e789fde1d847eecf6ebe4a293"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -200,12 +204,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 34,
-   "biggest": {
-    "usd": 0.6753996184076717,
-    "text": "0.0003 ETH out to 0x806750\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xf4fd16d1426a279df2e6fa4aedce4ebf09f05e04fd2ba5781e3a5f0cc7646321"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },

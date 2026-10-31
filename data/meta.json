@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T21:17:02.252766Z",
+ "generated": "2026-10-31T22:46:49.265999Z",
  "threat": 59,
  "counts": {
   "addresses": 221,
@@ -17,7 +17,7 @@
   "exchanges": 19,
   "incidents": 40,
   "new_this_run": 0,
-  "flagged_hack_addresses": 6665
+  "flagged_hack_addresses": 7092
  },
  "sources": [
   {
@@ -116,7 +116,7 @@
    "name": "Elliptic Binance-hack blocklist (CSV)",
    "url": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
    "ok": true,
-   "count": 6664
+   "count": 7091
   },
   {
    "name": "DefiLlama coin prices",
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 62
+   "count": 63
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
