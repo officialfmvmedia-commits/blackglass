@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T23:39:37.875539Z",
+ "generated": "2026-10-31T00:15:16.738536Z",
  "alerts": [
   {
    "id": "ETH:0x3666e9cbd4b0f581f15cc3a7a9f5ad2386eb890885b0fad384e6f4c73ce61d39:2555.1149",
@@ -422,6 +422,31 @@
    "cluster": "Binance"
   },
   {
+   "id": "ETH:0x106c9d72f00fc43821496a9d899b3af497afbddfa35cc4f3a729e31fb8a6d0ed:4466.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Gate",
+   "time": "2026-10-30T04:29:23Z",
+   "chain": "ETH",
+   "usd": 10022448,
+   "level": 30,
+   "message": "Gate.io 5 sent $10.0M (4,466 ETH) to Gate.io.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x106c9d72f00fc43821496a9d899b3af497afbddfa35cc4f3a729e31fb8a6d0ed",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate"
+  },
+  {
    "id": "OP:0x5c24f554eb580624a059e5009797539e16e2097a1e48f0ebfb5beafc3605b6b1:11176713.0",
    "type": "exchange",
    "tags": [
@@ -619,6 +644,31 @@
     }
    ],
    "cluster": "Binance"
+  },
+  {
+   "id": "ETH:0xc737bb7b9dc776d95ae231ad9ce374992e57e2cf7a8b63be9ab621ac56469873:12259.0518",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Gate",
+   "time": "2026-10-29T22:19:23Z",
+   "chain": "ETH",
+   "usd": 27511355,
+   "level": 30,
+   "message": "Gate.io 5 sent $27.5M (12,259 ETH) to Gate.io.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xc737bb7b9dc776d95ae231ad9ce374992e57e2cf7a8b63be9ab621ac56469873",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate"
   },
   {
    "id": "POLYGON:0xe8b8ee79a0e507b88027506f4098cbbcab6557272fb59becc42b53574b3e9f66",
