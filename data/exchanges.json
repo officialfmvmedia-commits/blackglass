@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:37:37.324869Z",
+ "generated": "2026-10-31T02:42:21.885714Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,13 +61,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 4141,
-   "flow_out_usd": 345409,
-   "biggest": {
-    "usd": 300416.98690887965,
-    "text": "300,670 USDT out to 0xA294cC\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x158b92d3c21cdbfd65d1b311163f2d8964312dfcf14d9b52fed5d35aa70e593b"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 18,
    "anomaly": false
   },
@@ -86,13 +82,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1475533,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 392497.153848742,
-    "text": "33,518 LINK in from 0x58edF7\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x95125c1a0105a62c14cf1278ff6b7c319d275ae9be6efc599c6ee9e300233c5e"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -125,12 +117,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 113046,
-   "flow_out_usd": 356433,
+   "flow_in_usd": 16925,
+   "flow_out_usd": 49149,
    "biggest": {
-    "usd": 299746.9721648559,
-    "text": "300,000 USDT out to 0x95EC00\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x90297eddd3e6112fec9a81ee9d98b47cf3982c93b4127d8f9e3ad1cac61c07b6"
+    "usd": 19995.080292,
+    "text": "19,998 USDC out to 0x0c9658\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x7ffeac92d4bc8d7447f4b1a7ba2d0989b864b30d30287d9b7dabfa2368f89506"
    },
    "alerts_24h": 3,
    "anomaly": false
@@ -253,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 82089,
+   "flow_out_usd": 472046,
+   "biggest": {
+    "usd": 469931.38,
+    "text": "470,000 USDC out to 0x9642b2\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x16820bb45e5fc2383d1fd912803768b456a3689bdfba6c1485c7986f1aae2bda"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
