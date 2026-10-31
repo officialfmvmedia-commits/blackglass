@@ -15,7 +15,7 @@
  <h1>Know the second a crypto exchange gets <em>hacked</em>.</h1>
  <p class="lede">HACKWATCH watches <b data-c="registry_wallets" data-plus>450+</b> exchange wallets, <b data-c="incidents">40</b> hacks and <b data-c="addresses">221</b> wallets tied to North Korea's Lazarus Group live, and alerts you in plain English with sources.</p>
  <p class="tagq">Hacks show up on-chain before they hit the news.</p>
- <form class="look" id="look" role="search"><label for="lq" class="sr">Look up an address</label><input id="lq" placeholder="Look up any wallet address (0x…, bc1…, T…)" autocomplete="off" spellcheck="false"><button class="btn">Check</button></form>
+ <form class="look" id="look" role="search"><label for="lq" class="sr">Look up an address</label><input id="lq" placeholder="Look up any wallet address (0x…, bc1…, T…)" autocomplete="off" spellcheck="false"><button class="btn">Check</button></form><div class="ca"><span class="calab">$HACK CA</span><code id="caval">9uRBxzQjsNxpJ53xaoUMpqqdtTKhwpCoHuueE2Fpump</code><button class="btn sm" id="cacopy" type="button">Copy</button><a class="btn sm ghost" href="https://pump.fun/coin/9uRBxzQjsNxpJ53xaoUMpqqdtTKhwpCoHuueE2Fpump" target="_blank" rel="noopener">pump.fun</a></div>
  <div id="lres" class="lres" hidden></div>
 </section>
 <p class="askq" id="live">Is something happening on-chain right now?</p>
@@ -62,4 +62,4 @@
 <footer class="foot"><div class="wrap fgrid"><div><div class="brand"><span class="wm" aria-hidden="true">H<i class="tri"></i>CKWATCH</span><span class="sr">HACKWATCH</span></div><p class="muted small">Independent, open-source on-chain monitoring built only on public data. Data updated <span id="gen" class="mono"></span>.</p><p class="small"><a href="https://x.com/hackwatchinfo" target="_blank" rel="noopener">Follow on X</a> · <a href="https://github.com/officialfmvmedia-commits/blackglass">GitHub</a> · <a href="#method">Methodology</a> · <a href="#sources">Sources</a> · <a href="feed.xml">RSS</a></p></div>
 <p class="muted small disc"><b>Disclaimer.</b> Scores are heuristic pattern matches, not attribution. An address showing up here is not proof that it belongs to anyone. Exchange labels come from community datasets and may be outdated. Nothing here is financial or legal advice. HACKWATCH is not affiliated with any government, agency or exchange.</p></div></footer>
 <div id="toasts" aria-live="polite"></div>
-<script src="app.js"></script></body></html>
+<script src="app.js"></script><script>document.getElementById("cacopy").onclick=function(){navigator.clipboard.writeText(document.getElementById("caval").textContent).then(()=>{this.textContent="Copied";setTimeout(()=>this.textContent="Copy",1500)})}</script></body></html>

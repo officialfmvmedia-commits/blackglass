@@ -99,3 +99,8 @@ html,body{overflow-x:clip}
 @media(max-width:600px){.navin .btn.sm{padding-left:10px;padding-right:10px;font-size:13px}.look input{min-height:48px;width:100%}}
 @media(max-width:420px){.navin .btn.ghost{display:none}}
 .navin>.brand{margin-right:auto}
+
+.ca{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px auto 0;max-width:760px;padding:10px 14px;border:1px solid rgba(255,59,74,.45);border-radius:10px;background:rgba(255,59,74,.06)}
+.ca .calab{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#ff3b4a;font-weight:700}
+.ca code{font-family:'IBM Plex Mono',monospace;font-size:14px;color:#f2f2f2;word-break:break-all}
+@media(max-width:520px){.ca code{font-size:12px}}
