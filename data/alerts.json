@@ -1,6 +1,36 @@
 {
- "generated": "2026-10-31T01:08:39.141397Z",
+ "generated": "2026-10-31T01:14:08.497772Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-10-31T01",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Bitstamp",
+   "time": "2026-10-31T01:14:08.497772Z",
+   "chain": "ETH",
+   "usd": 10287982,
+   "level": 70,
+   "message": "Unusual outflow: Bitstamp 2 native balance fell 60% ($17.2M \u2192 $6.9M) since the last check. That's the classic hot-wallet drain signature, though it's often just routine rebalancing.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
+   "address": "0x1522900b6dafac587d499a862861c0869be6e428",
+   "address_url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitstamp"
+  },
   {
    "id": "ETH:0x5f568498a9deaee217080057fc84ad091a8084bdc6176711de25628178d05afc:158750000.0",
    "type": "exchange",

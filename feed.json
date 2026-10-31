@@ -5,6 +5,17 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-10-31T01",
+   "url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
+   "title": "Unusual outflow: Bitstamp 2 native balance fell 60% ($17.2M \u2192 $6.9M) since the last check. That's the classic hot-wallet",
+   "content_text": "Unusual outflow: Bitstamp 2 native balance fell 60% ($17.2M \u2192 $6.9M) since the last check. That's the classic hot-wallet drain signature, though it's often just routine rebalancing. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:14:08.497772Z",
+   "tags": [
+    "exchange",
+    "anomaly"
+   ]
+  },
+  {
    "id": "ETH:0x5f568498a9deaee217080057fc84ad091a8084bdc6176711de25628178d05afc:158750000.0",
    "url": "https://eth.blockscout.com/tx/0x5f568498a9deaee217080057fc84ad091a8084bdc6176711de25628178d05afc",
    "title": "Bitfinex: Hot Wallet sent $158.6M (158.75M USDT) to an unlabeled address 0x5754\u2026B949.",
@@ -1551,16 +1562,6 @@
    "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.523 BTC.",
    "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.523 BTC. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
    "date_published": "2025-03-20T10:11:47Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0x58ba8d68ff9af66381c003c8c48a7ece91346d2c2149bf9cfb5597603af311fd",
-   "url": "https://eth.blockscout.com/tx/0x58ba8d68ff9af66381c003c8c48a7ece91346d2c2149bf9cfb5597603af311fd",
-   "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 36 ETH to On-Chain Staked Ethereum, 1 h",
-   "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 36 ETH to On-Chain Staked Ethereum, 1 hop from cluster C008. Resemblance score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
-   "date_published": "2025-03-20T02:22:11Z",
    "tags": [
     "lazarus"
    ]
