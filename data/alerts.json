@@ -1,6 +1,80 @@
 {
- "generated": "2026-10-31T01:20:26.525466Z",
+ "generated": "2026-10-31T01:27:07.185542Z",
  "alerts": [
+  {
+   "id": "ETH:0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58:2505.2544",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-10-31T01:25:35Z",
+   "chain": "ETH",
+   "usd": 5619429,
+   "level": 20,
+   "message": "Coinbase 10 received $5.6M (2,505 ETH) from Coinbase 5.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase"
+  },
+  {
+   "id": "ETH:0xf5332d8be592428e86de71c7fb90a054f44a856c101c641c2ac01f1c442014ed:195900100.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:21:11Z",
+   "chain": "ETH",
+   "usd": 195734956,
+   "level": 45,
+   "message": "Bitfinex: Hot Wallet sent $195.7M (195.90M USDT) to an unlabeled address 0x5754\u2026B949.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xf5332d8be592428e86de71c7fb90a054f44a856c101c641c2ac01f1c442014ed",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0x5a9366e13da991fb29e039f8b880f547e263ae3730d799449ec7d29bb8358196:100000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:20:23Z",
+   "chain": "ETH",
+   "usd": 99915700,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x5a9366e13da991fb29e039f8b880f547e263ae3730d799449ec7d29bb8358196",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
   {
    "id": "ETH:0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5:71275673.4573",
    "type": "exchange",

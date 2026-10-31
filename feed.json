@@ -5,6 +5,41 @@
  "feed_url": "https://officialfmvmedia-commits.github.io/blackglass/feed.json",
  "items": [
   {
+   "id": "ETH:0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58:2505.2544",
+   "url": "https://eth.blockscout.com/tx/0x281cc133b3377b43079463845ad37749abdaa70f276ef88766f1fb3d2700fb58",
+   "title": "Coinbase 10 received $5.6M (2,505 ETH) from Coinbase 5.",
+   "content_text": "Coinbase 10 received $5.6M (2,505 ETH) from Coinbase 5. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:25:35Z",
+   "tags": [
+    "exchange",
+    "large"
+   ]
+  },
+  {
+   "id": "ETH:0xf5332d8be592428e86de71c7fb90a054f44a856c101c641c2ac01f1c442014ed:195900100.0",
+   "url": "https://eth.blockscout.com/tx/0xf5332d8be592428e86de71c7fb90a054f44a856c101c641c2ac01f1c442014ed",
+   "title": "Bitfinex: Hot Wallet sent $195.7M (195.90M USDT) to an unlabeled address 0x5754\u2026B949.",
+   "content_text": "Bitfinex: Hot Wallet sent $195.7M (195.90M USDT) to an unlabeled address 0x5754\u2026B949. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:21:11Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
+   "id": "ETH:0x5a9366e13da991fb29e039f8b880f547e263ae3730d799449ec7d29bb8358196:100000000.0",
+   "url": "https://eth.blockscout.com/tx/0x5a9366e13da991fb29e039f8b880f547e263ae3730d799449ec7d29bb8358196",
+   "title": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet received $99.9M (100.00M USDT) from Bitfinex 2. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan (heuristic, not attribution)",
+   "date_published": "2026-10-31T01:20:23Z",
+   "tags": [
+    "exchange",
+    "large",
+    "whale"
+   ]
+  },
+  {
    "id": "ETH:0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5:71275673.4573",
    "url": "https://eth.blockscout.com/tx/0xa1f92e66cb18fe176d5ad84e37b2efa72dc85426ffd41fc67f0e3a581f2fadf5",
    "title": "Bitfinex: Hot Wallet sent $71.2M (71.28M USDT) to Bitfinex 2.",
@@ -1536,36 +1571,6 @@
    "title": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 0.01 ETH to address 0x95fC\u2026cb1f, 1 hop ",
    "content_text": "An address OFAC lists under \"AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY\" just sent 0.01 ETH to address 0x95fC\u2026cb1f, 1 hop from cluster C008. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 (heuristic, not attribution)",
    "date_published": "2025-05-13T08:57:23Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "BTC:283007f4adbd31c27957abd4b281b55f09dcb1b7cfbbc1506fdd72e4847c0e6a",
-   "url": "https://mempool.space/tx/283007f4adbd31c27957abd4b281b55f09dcb1b7cfbbc1506fdd72e4847c0e6a",
-   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 10.85 BTC split across 3 output(s), 1 hop fr",
-   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" just spent BTC: 10.85 BTC split across 3 output(s), 1 hop from cluster C014. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
-   "date_published": "2025-05-02T14:18:09Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "BTC:1e05bcb239c270e8c04fb61c624d2dda1bc46f993411bc8a84ff88cfbd745da7",
-   "url": "https://mempool.space/tx/1e05bcb239c270e8c04fb61c624d2dda1bc46f993411bc8a84ff88cfbd745da7",
-   "title": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.686 BTC.",
-   "content_text": "An address OFAC lists under \"ANDREYEV, Vitaliy Sergeyevich\" received 1.686 BTC. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 (heuristic, not attribution)",
-   "date_published": "2025-05-02T10:09:20Z",
-   "tags": [
-    "lazarus"
-   ]
-  },
-  {
-   "id": "ETH:0x2277894b1ac6d21000e22bb39c46f32955e63a0db4ef451446fd140532bef02b",
-   "url": "https://eth.blockscout.com/tx/0x2277894b1ac6d21000e22bb39c46f32955e63a0db4ef451446fd140532bef02b",
-   "title": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.007746 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C013. Rese",
-   "content_text": "An address OFAC lists under \"YUN, Song Guk\" just sent 0.007746 ETH to address 0x1AB4\u20268F23, 1 hop from cluster C013. Resemblance score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 (heuristic, not attribution)",
-   "date_published": "2025-04-08T00:12:47Z",
    "tags": [
     "lazarus"
    ]
