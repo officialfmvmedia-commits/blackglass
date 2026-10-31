@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T03:10:37.523733Z",
+ "generated": "2026-10-31T03:16:35.611827Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 137,
-   "flow_out_usd": 4995785,
+   "flow_in_usd": 2228,
+   "flow_out_usd": 9096,
    "biggest": {
-    "usd": 4995785.0,
-    "text": "5.00M USDT out to 0xA105a3\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x575bd5b91898415c1805bbefa137a7890a9e6294dd31d60b4f759061fcd75504"
+    "usd": 9096.1491766209,
+    "text": "9,104 USDT out to 0x51dBd9\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xca77dcae5b7f723fcbbacc2f0e53d10d4471c76324d193aded04e8324d00ce6e"
    },
    "alerts_24h": 18,
    "anomaly": false
@@ -87,8 +87,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 1178,
+   "biggest": {
+    "usd": 1178.4317628000001,
+    "text": "9,939 OP out to 0x035AE7\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0xe8d6891276b1c522d392a272ed04dd1b2f1a689e032258bc4d4b57a267840dbc"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 4127,
-   "flow_out_usd": 64751,
+   "flow_in_usd": 23522,
+   "flow_out_usd": 44424,
    "biggest": {
-    "usd": 35731.1824395016,
-    "text": "20,774 ZRO out to 0x84b38B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xf9fb64cec4b313a938ada0c70d7f9d929dfb953e0512bd8578214da8026d3a61"
+    "usd": 25291.5869972822,
+    "text": "303,606 CAP out to 0x95EC00\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xaa7bebd82afcaef2391330f6dc9c7711f9a97b6f6f321635fb28aeaf6cbdd396"
    },
    "alerts_24h": 3,
    "anomaly": false
