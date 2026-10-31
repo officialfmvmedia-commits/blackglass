@@ -77,14 +77,20 @@
   {
    "id": "ETH:0xa769c8ba5affeb6f319dec1244ae68fae61b56477c02de3e88aebe64d4d85f1d:6365.8696",
    "url": "https://eth.blockscout.com/tx/0xa769c8ba5affeb6f319dec1244ae68fae61b56477c02de3e88aebe64d4d85f1d",
-   "title": "Coinbase 5 received $14.2M (6,366 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
-   "content_text": "Coinbase 5 received $14.2M (6,366 ETH) from an unlabeled address 0x6Bb9\u2026bc4c. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels (heuristic, not attribution)",
+   "title": "[SAFE] Coinbase 5 received $14.2M (6,366 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
+   "content_text": "Coinbase 5 received $14.2M (6,366 ETH) from an unlabeled address 0x6Bb9\u2026bc4c. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
    "date_published": "2026-10-31T04:07:11Z",
    "tags": [
     "exchange",
+    "SAFE",
     "large",
     "whale"
-   ]
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
   },
   {
    "id": "ETH:0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069:100000000.0",
@@ -2470,8 +2476,14 @@
    "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
    "date_published": "2025-05-31T12:53:23Z",
    "tags": [
-    "lazarus"
-   ]
+    "lazarus",
+    "MONITORING"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
+    "risk": 50
+   }
   }
  ]
 }

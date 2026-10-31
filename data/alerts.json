@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T05:06:02.297470Z",
+ "generated": "2026-10-31T05:12:31.054305Z",
  "alerts": [
   {
    "id": "ETH:0x5346c4f3fb8f6dcc2d4e0043fb4fbd639737fd15a8213e17d1faa3490360e89e:2692.6263",
@@ -142,7 +142,11 @@
      "url": "https://github.com/dawsbot/eth-labels"
     }
    ],
-   "cluster": "Coinbase"
+   "cluster": "Coinbase",
+   "counterparty_label": "an unlabeled address 0x6Bb9\u2026bc4c",
+   "direction": "in",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
   },
   {
    "id": "ETH:0x50486c01d24706b0586ee6b9f39fcaa5fb985fe0c64e6346930cbf7e92885069:100000000.0",
