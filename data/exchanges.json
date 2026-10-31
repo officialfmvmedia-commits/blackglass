@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:44:42.831444Z",
+ "generated": "2026-10-31T06:46:39.323443Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,12 +62,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 299775,
-   "biggest": {
-    "usd": 299775.3,
-    "text": "300,000 USDT out to TransparentUpgradeableProxy",
-    "tx": "https://eth.blockscout.com/tx/0x7b2ab7808bf7b811c085392b8ee01a29d84f38a0c2d1a679dd1356f727bce726"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 20,
    "anomaly": false
   },
@@ -121,12 +117,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 39502,
-   "flow_out_usd": 7092,
+   "flow_in_usd": 45126,
+   "flow_out_usd": 30720,
    "biggest": {
-    "usd": 16659.323193396285,
-    "text": "7.431 ETH in from 0xCF28d8\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xed02c35d90bb1e8e9228568a549c4fda574dd9928d21adcaf38c78606d851206"
+    "usd": 24997.525,
+    "text": "25,000 USDC out to 0xeb36D0\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xa8c002307977d771cf6053c38ca625c3e6c28d31fec8b032c2f00e53ec06b040"
    },
    "alerts_24h": 8,
    "anomaly": true
@@ -213,8 +209,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 30,
+   "biggest": {
+    "usd": 30.484194224044,
+    "text": "30.51 USDT out to 0x69Bf9e\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xcd346a6b21b4c817d7a73503174387443bde7e72502b6f218bc36399c5909e31"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -283,9 +283,13 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 638458,
+   "flow_out_usd": 761149,
+   "biggest": {
+    "usd": 599550.33020223,
+    "text": "600,000 USDT in from 0x0A059c\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x35a7c69844def9734a7e4e6e8f7f82130d820eab88e0ffe39427f3d0a7d6db00"
+   },
    "alerts_24h": 2,
    "anomaly": false
   },
