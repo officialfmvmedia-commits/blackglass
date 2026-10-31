@@ -1,6 +1,56 @@
 {
- "generated": "2026-10-31T01:02:04.385657Z",
+ "generated": "2026-10-31T01:08:39.141397Z",
  "alerts": [
+  {
+   "id": "ETH:0x5f568498a9deaee217080057fc84ad091a8084bdc6176711de25628178d05afc:158750000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:01:35Z",
+   "chain": "ETH",
+   "usd": 158616174,
+   "level": 45,
+   "message": "Bitfinex: Hot Wallet sent $158.6M (158.75M USDT) to an unlabeled address 0x5754\u2026B949.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x5f568498a9deaee217080057fc84ad091a8084bdc6176711de25628178d05afc",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
+  {
+   "id": "ETH:0x84059374b898b75dabae6aa86717de2e58f49363f52a302ee3f37032afa4e6cc:30000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-10-31T01:01:23Z",
+   "chain": "ETH",
+   "usd": 29974710,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $30.0M (30.00M USDT) from an unlabeled address 0x5754\u2026B949.",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x84059374b898b75dabae6aa86717de2e58f49363f52a302ee3f37032afa4e6cc",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex"
+  },
   {
    "id": "ETH:0x919c5108e459a892f50113d3e8779bd813713df4740f2332ca51e458d3f4d851:341289578.0316",
    "type": "exchange",
