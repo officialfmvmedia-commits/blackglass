@@ -1,6 +1,6 @@
 name: ingest
 on:
-  schedule: [{cron: "*/10 * * * *"}]
+  schedule: [{cron: "*/30 * * * *"}]
   workflow_dispatch:
 permissions: {contents: write}
 concurrency: {group: ingest, cancel-in-progress: false}

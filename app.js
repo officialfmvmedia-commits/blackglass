@@ -101,6 +101,6 @@ const pos=e=>{const b=Gc.getBoundingClientRect(),p=e.touches?e.touches[0]:e;retu
 Gc.addEventListener('pointerdown',e=>{const p=pos(e);drag=G.nodes.find(n=>Math.hypot(n.x-p.x,n.y-p.y)<n.r+6)});
 addEventListener('pointermove',e=>{if(drag){const p=pos(e);drag.x=p.x;drag.y=p.y}});addEventListener('pointerup',()=>drag=null);
 function fresh(){if(!M.generated)return;const m=Math.max(0,Math.round((Date.now()-new Date(M.generated))/6e4)),t=m<1?'just now':m+' min ago',w=((M.counts||{}).registry_wallets||0).toLocaleString();
- if($('#lupd'))$('#lupd').innerHTML=`<span class="gdot"></span>Last scan: ${t} · Scanning ${w} exchange wallets · next scan ~${Math.max(1,6-m)} min`;
+ if($('#lupd'))$('#lupd').innerHTML=`<span class="gdot"></span>Last scan: ${t} · Scanning ${w} exchange wallets · next scan ~${Math.max(1,(M.scan_interval_min||2)-m)} min`;
  if($('#tscan'))$('#tscan').innerHTML=`<b>Last scan ${t}</b>`;}
 load(true);setInterval(()=>load(false),60000);setInterval(fresh,30000);

@@ -5,6 +5,7 @@ import sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); impor
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(ROOT,'data')
 UA={'User-Agent':'Mozilla/5.0 (hackwatch-osint)'}
 SITE=os.environ.get('SITE_URL','https://hackwatch.info/')
+FAST=os.environ.get('FAST')=='1'
 BUDGET=float(os.environ.get('WATCH_BUDGET_S','420')); T0=time.time()
 def get(u,t=40,tries=2):
     e=None
@@ -37,8 +38,10 @@ def add(chain,addr,name,srcname,url,conf,labels=()):
     k=(chain,addr.lower() if addr.startswith('0x') else addr)
     if k in reg: reg[k]['sources'].append({'name':srcname,'url':url}); reg[k]['confidence']='high'; return
     reg[k]={'entity':e,'chain':chain,'address':addr,'name':name,'type':wtype(name,labels),'confidence':conf,'sources':[{'name':srcname,'url':url}]}
+if FAST:
+    for w in L('registry.json',{'wallets':[]})['wallets']: reg[(w['chain'],w['address'].lower() if w['address'].startswith('0x') else w['address'])]=w
 BL='https://raw.githubusercontent.com/brianleect/etherscan-labels/main/data/{}/combined/combinedAccountLabels.json'
-for ch,dir_ in [('ETH','etherscan'),('ARB','arbiscan'),('OP','optimism'),('POLYGON','polygonscan'),('BSC','bscscan'),('AVAX','avalanche'),('FTM','ftmscan')]:
+for ch,dir_ in ([] if FAST else [('ETH','etherscan'),('ARB','arbiscan'),('OP','optimism'),('POLYGON','polygonscan'),('BSC','bscscan'),('AVAX','avalanche'),('FTM','ftmscan')]):
     u=BL.format(dir_)
     try:
         d=gj(u); n0=len(reg)
@@ -49,9 +52,11 @@ for ch,dir_ in [('ETH','etherscan'),('ARB','arbiscan'),('OP','optimism'),('POLYG
     except Exception as e: src(f'etherscan-labels: {dir_}',u,False,err=e)
 DW='https://raw.githubusercontent.com/dawsbot/eth-labels/master/src/mainnet/exchange/all.json'
 try:
+    if FAST: raise StopIteration
     n0=len(reg)
     for x in gj(DW): add('ETH',x['address'],x.get('nameTag') or '','dawsbot/eth-labels (exchange, MIT)','https://github.com/dawsbot/eth-labels','medium')
     src('dawsbot/eth-labels exchange',DW,True,len(reg)-n0)
+except StopIteration: pass
 except Exception as e: src('dawsbot/eth-labels exchange',DW,False,err=e)
 REG={k[1]:v for k,v in reg.items() if k[0]=='ETH'}; REGOP={k[1]:v for k,v in reg.items() if k[0]=='OP'}
 # ---------- 2. hack incidents ----------
@@ -63,6 +68,7 @@ SEED={ # public post-mortems; attribution per cited source
    'addresses':[('0x3F99139F1C5854bb628c2e576Aaf638e99dFfc18','drainer recipient'),('0xe4c4c39c1733e1c7c06b79f97ed442b68df41ec6','onward wallet'),('0x5392587814ce8c6af6789764f88e5e9ab0b9962c','onward wallet'),('0xc91ee0574a14446de200923729c349b9cae19b60','onward wallet')]},
 }
 try:
+    if FAST: raise StopIteration
     hk=gj(LL); hk.sort(key=lambda x:-x['date']); src('DefiLlama hacks API',LL,True,len(hk))
     for h in hk[:40]:
         s=SEED.get(h['name'],{})
@@ -70,6 +76,7 @@ try:
           'chains':h.get('chain') or [],'technique':h.get('technique'),'classification':h.get('classification'),'description':h.get('description') or '','returned':h.get('returnedFunds'),
           'attribution':s.get('attribution','Unattributed'),'actor':s.get('actor'),'sources':[{'name':'DefiLlama hacks','url':'https://defillama.com/hacks'}]+([{'name':n,'url':u} for n,u in s.get('sources',[])]) + ([{'name':'Reported source','url':h['source']}] if h.get('source') else []),
           'addresses':[{'address':a,'role':r} for a,r in s.get('addresses',[])]})
+except StopIteration: incidents=L('incidents.json',{'incidents':[]})['incidents']
 except Exception as e: src('DefiLlama hacks API',LL,False,err=e)
 # Bitget Sep 2026: add attribution if present in DefiLlama list
 for i in incidents:
@@ -77,9 +84,11 @@ for i in incidents:
         i['attribution']='Analyst-attributed'; i['actor']='North Korea (per Chainalysis, referenced in Binance analysis)'; i['sources'].append({'name':'Chainalysis','url':'https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/'})
 ELL='https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv'; flagged={}
 try:
+    if FAST: flagged=L('flagged.json',{'flagged':{}})['flagged']; raise StopIteration
     rows=[r.strip() for r in get(ELL).decode().splitlines() if r.strip()]
     for a in rows: flagged[a.lower() if a.startswith('0x') else a]={'incident':'Binance CEX','source':ELL}
     src('Elliptic Binance-hack blocklist (CSV)',ELL,True,len(rows))
+except StopIteration: pass
 except Exception as e: src('Elliptic Binance-hack blocklist',ELL,False,err=e)
 for i in incidents:
     for a in i['addresses']: flagged[a['address'].lower()]={'incident':i['name'],'source':i['sources'][-1]['url']}
@@ -150,7 +159,7 @@ def poll_evm(chain,api,base,R,addrs,nat):
                 consider(chain,base,R,a,fr.get('hash'),to.get('hash'),o.get('name'),amt*rate,amt,tk.get('symbol') or '?',x['timestamp'],x['transaction_hash'],None)
             mon[chain]+=1
         except Exception as e: fail[chain]+=1
-  with ThreadPoolExecutor(6) as ex: list(ex.map(one,addrs))
+  with ThreadPoolExecutor(int(os.environ.get('WATCH_THREADS','6'))) as ex: list(ex.map(one,addrs))
 # priority: hot wallets + numbered big ones first, then rotate the rest
 def order(R):
     ks=list(R); pri=[k for k in ks if R[k]['type'] in('hot','cold','treasury') or re.search(r'binance 14|binance 8|coinbase 10|okx 73',R[k]['name'],re.I)]
@@ -181,7 +190,7 @@ poll_inc(ethinc,'ETH','https://eth.blockscout.com/api/v2','https://eth.blockscou
 try: poll_inc(polyinc,'POLYGON','https://polygon.blockscout.com/api/v2','https://polygonscan.com','POL')
 except Exception: pass
 poll_evm('ETH','https://eth.blockscout.com/api/v2','https://eth.blockscout.com',REG,order(REG),'ETH')
-BUDGET+=120
+BUDGET+=(20 if FAST else 120)
 poll_evm('OP','https://optimism.blockscout.com/api/v2','https://optimism.blockscout.com',REGOP,list(REGOP)[:25],'ETH')
 for ch in ('ETH','OP','POLYGON-incident','ETH-incident'): pass
 src('Blockscout Ethereum (exchange + incident polling)','https://eth.blockscout.com/api/v2/',mon['ETH']+mon['ETH-incident']>0,mon['ETH']+mon['ETH-incident'])
@@ -212,7 +221,7 @@ for e,p in sorted(per.items(),key=lambda kv:-kv[1]['wallets']):
 W('exchanges.json',{'generated':NOW,'note':'Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.','exchanges':ex})
 W('incidents.json',{'generated':NOW,'incidents':incidents})
 W('flagged.json',{'generated':NOW,'note':'Addresses flagged by public hack post-mortems/blocklists','flagged':flagged})
-m=L('meta.json',{}); m['generated']=NOW
+m=L('meta.json',{}); m['generated']=NOW; m['scan_interval_min']=2
 m['sources']=[s for s in m.get('sources',[]) if not any(s['name']==x['name'] for x in sources)]+sources
 c=collections.Counter(a.get('type') for a in al); m.setdefault('counts',{}).update({'alerts':len(al),'alerts_by_type':dict(c),'registry_wallets':len(regl),'exchanges':len(ex),'incidents':len(incidents),'new_this_run':len(new),'flagged_hack_addresses':len(flagged)})
 W('meta.json',m)

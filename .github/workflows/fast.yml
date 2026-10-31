@@ -1,0 +1,26 @@
+name: fast-scan
+on:
+  workflow_dispatch:
+permissions: {contents: write}
+concurrency: {group: ingest, cancel-in-progress: false}
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      SITE_URL: "https://hackwatch.info/"
+      FAST: "1"
+      WATCH_BUDGET_S: "45"
+      WATCH_THREADS: "8"
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 1}
+      - name: Exchange wallet scan (cached registry, no source refresh)
+        run: python3 pipeline/watch.py
+      - name: Commit data
+        run: |
+          git config user.name "blackglass-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data feed.xml feed.json
+          git diff --cached --quiet && exit 0
+          git commit -m "scan: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
