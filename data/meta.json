@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:34:04.275014Z",
+ "generated": "2026-10-31T02:37:37.324869Z",
  "threat": 62,
  "counts": {
   "addresses": 221,
@@ -35,8 +35,8 @@
   {
    "name": "FBI Harmony Horizon attribution (Jan 2023)",
    "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft",
-   "ok": true,
-   "count": 86
+   "ok": false,
+   "error": "HTTP Error 503: Service Unavailable"
   },
   {
    "name": "FBI Atomic Wallet / 2023 heists PSA",
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 63
+   "count": 74
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
