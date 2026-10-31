@@ -40,11 +40,12 @@ function render(){
  const cell=(t,arr,ex)=>`<div>${t}<b>${arr.filter(a=>H(a.time)<24).length} alerts in 24h</b>${arr[0]?'Last '+ago(arr[0].time):'None yet'}${ex||''}</div>`;
  const an24=an.filter(a=>H(a.time)<24).length;
  $('#sgrid').innerHTML=cell('Exchanges',ex,an24?` · ${an24} balance anomal${an24>1?'ies':'y'}`:'')+cell('Hacks',hk,recInc.length?` · ${recInc.length} new incident${recInc.length>1?'s':''}`:'')+cell('Lazarus',lz);
- const la=A[0];$('#latesttxt').innerHTML=la?`<b>Latest</b> · ${ago(la.time)} · ${chip(la)} ${esc(la.message)}`:'No alerts yet';
+ const la=A[0];$('#latesttxt').innerHTML=`<span id="tscan"></span>`+(la?` · ${H(la.time)>1/3?'Last alert':'Latest'} ${ago(la.time)} · ${chip(la)} ${esc(la.message)}`:'');
  heat();
  const th=M.threat;$('#lthreat').textContent=th!=null?`Threat ${th}/100 · ${th>=60?'High':th>=30?'Elevated':'Low'}`:'';
- $('#lupd').textContent='Updated '+new Date(M.generated).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
- $('#llast').innerHTML=la?`<div class="lm">${chip(la)} ${esc(la.message)}</div><div class="lmeta mono small muted">${esc(la.basis||'')}</div><div class="lmeta mono small">${esc(la.entity||TL[la.type]||'')} · Risk ${la.level}/100 · <span title="${esc(new Date(la.time).toLocaleString())}">${ago(la.time)}</span> · <a href="${esc(la.tx_url)}" target="_blank" rel="noopener">tx ↗</a></div>`:'No alerts yet';
+ fresh();
+ const old=la&&H(la.time)>1/3,lt=la&&new Date(la.time).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+ $('#llast').innerHTML=la?`${old?`<div class="lnone small">No new alerts since ${lt}. Last alert:</div>`:''}<div class="lm">${chip(la)} ${esc(la.message)}</div><div class="lmeta mono small muted">${esc(la.basis||'')}</div><div class="lmeta mono small">${esc(la.entity||TL[la.type]||'')} · Risk ${la.level}/100 · <span title="${esc(new Date(la.time).toLocaleString())}">${ago(la.time)}</span> · <a href="${esc(la.tx_url)}" target="_blank" rel="noopener">tx ↗</a></div>`:'No alerts yet';
  const chains=new Set([...(R.length?R:[]).map(w=>w.chain)]);
  const cov=[['Exchanges',n.exchanges||X.length],['Exchange wallets',n.registry_wallets],['Lazarus-linked addresses',n.addresses],['Hack-flagged addresses',n.flagged_hack_addresses],['Hacks logged',I.length],['Chains live-monitored','5 (ETH, BTC, OP, Polygon, + Lazarus BTC/ETH)'],['Update frequency','Every 10 min'],['Last updated',new Date(M.generated).toLocaleString([], {dateStyle:'medium',timeStyle:'short'})]];
  cov[5][1]='ETH · BTC · Optimism · Polygon';
@@ -99,4 +100,7 @@ requestAnimationFrame(step);
 const pos=e=>{const b=Gc.getBoundingClientRect(),p=e.touches?e.touches[0]:e;return{x:p.clientX-b.left,y:p.clientY-b.top}};
 Gc.addEventListener('pointerdown',e=>{const p=pos(e);drag=G.nodes.find(n=>Math.hypot(n.x-p.x,n.y-p.y)<n.r+6)});
 addEventListener('pointermove',e=>{if(drag){const p=pos(e);drag.x=p.x;drag.y=p.y}});addEventListener('pointerup',()=>drag=null);
-load(true);setInterval(()=>load(false),120000);
+function fresh(){if(!M.generated)return;const m=Math.max(0,Math.round((Date.now()-new Date(M.generated))/6e4)),t=m<1?'just now':m+' min ago',w=((M.counts||{}).registry_wallets||0).toLocaleString();
+ if($('#lupd'))$('#lupd').innerHTML=`<span class="gdot"></span>Last scan: ${t} · Scanning ${w} exchange wallets · next scan ~${Math.max(1,6-m)} min`;
+ if($('#tscan'))$('#tscan').innerHTML=`<b>Last scan ${t}</b>`;}
+load(true);setInterval(()=>load(false),60000);setInterval(fresh,30000);
