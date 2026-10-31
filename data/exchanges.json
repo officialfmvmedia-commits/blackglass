@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:04:10.221847Z",
+ "generated": "2026-10-31T02:27:04.343280Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,9 +61,13 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 2376650,
+   "flow_out_usd": 310198,
+   "biggest": {
+    "usd": 2089521.9320055032,
+    "text": "931 ETH in from 0x7f8233\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x964b00765b26eeaf7ed10229f45edc1bbae0c3e1ea3d5b20a22c370f5cf7e4ba"
+   },
    "alerts_24h": 18,
    "anomaly": false
   },
@@ -82,9 +86,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 3985,
+   "flow_out_usd": 3406,
+   "biggest": {
+    "usd": 3619.96897322,
+    "text": "30,000 OP in from 0xd7cb8a\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x33a03e3a984d476bf972294171329419b2c59983f3903ab91fb838a33d722a0b"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -117,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 16984,
-   "flow_out_usd": 19673,
+   "flow_in_usd": 20244,
+   "flow_out_usd": 426002,
    "biggest": {
-    "usd": 8879.9001,
-    "text": "8,000 EURC out to 0x49552a\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x10f98b36c61c2374955a18137eebbb3a344e2fcc1c28b0ad6164848a62beae5a"
+    "usd": 399662.6721458719,
+    "text": "400,000 USDT out to 0x878216\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xc6a2e1ccd21cf1e7327dd0bccc3ed8cb85c61d6efd62f756425fdf059b09d5c8"
    },
    "alerts_24h": 3,
    "anomaly": false
@@ -280,12 +288,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 54,
-   "biggest": {
-    "usd": 4.393845213256558,
-    "text": "0.00196 ETH out to 0x878216\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc419c2c595b3cd49d2c8bb0ddfea62a47050a2be1d83acbda64e81d4ca14a37c"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 1,
    "anomaly": false
   },
