@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""GLASSBREAK pipeline: ingest public sources -> cluster -> score -> alerts/feeds. Public data only. Heuristic, not attribution."""
+"""HACKWATCH pipeline: ingest public sources -> cluster -> score -> alerts/feeds. Public data only. Heuristic, not attribution."""
 import csv, io, json, os, re, time, html, datetime as dt, urllib.request, collections
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(ROOT,'data')
-UA={'User-Agent':'Mozilla/5.0 (glassbreak-osint)'}
+UA={'User-Agent':'Mozilla/5.0 (hackwatch-osint)'}
 SITE=os.environ.get('SITE_URL','https://officialfmvmedia-commits.github.io/blackglass/')
 def get(url,timeout=40,tries=3):
     for i in range(tries):
@@ -169,9 +169,9 @@ W('alerts.json',{'generated':gen,'alerts':alerts})
 W('meta.json',{'generated':gen,'threat':threat,'counts':{'addresses':len(tracked),'clusters':len(clusters),'alerts':len(alerts),'candidates':len(cand),'alerts_30d':len(recent),'txs_scanned':len(txs)},'sources':sources,
     'disclaimer':'Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution.'})
 # feeds
-W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'GLASSBREAK — Lazarus on-chain dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
+W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'HACKWATCH — Lazarus on-chain dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
   'items':[{'id':a['id'],'url':a['tx_url'],'title':a['message'][:110],'content_text':a['message']+' Sources: '+', '.join(s['url'] for s in a['sources'])+' (heuristic, not attribution)','date_published':a['time']} for a in alerts[:100]]})
 e=lambda s:html.escape(s,quote=True)
 items=''.join(f"<entry><id>urn:glassbreak:{e(a['id'])}</id><title>{e(a['message'][:110])}</title><link href=\"{e(a['tx_url'])}\"/><updated>{a['time']}</updated><summary>{e(a['message'])} Source: {e(a['sources'][0]['url'])}. Heuristic score {a['level']}/100, not attribution.</summary></entry>" for a in alerts[:100])
-open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>GLASSBREAK — Lazarus on-chain dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{gen}</updated>{items}</feed>')
+open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>HACKWATCH — Lazarus on-chain dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{gen}</updated>{items}</feed>')
 print(json.dumps({'counts':json.load(open(os.path.join(D,'meta.json')))['counts'],'threat':threat,'sources':[(s['name'],s['ok'],s.get('count')) for s in sources]},indent=1))

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""GLASSBREAK exchange + hack watch. Public, keyless sources only. Heuristic, not attribution."""
+"""HACKWATCH exchange + hack watch. Public, keyless sources only. Heuristic, not attribution."""
 import json, os, re, time, csv, io, html, collections, datetime as dt, urllib.request
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(ROOT,'data')
-UA={'User-Agent':'Mozilla/5.0 (glassbreak-osint)'}
+UA={'User-Agent':'Mozilla/5.0 (hackwatch-osint)'}
 SITE=os.environ.get('SITE_URL','https://officialfmvmedia-commits.github.io/blackglass/')
 BUDGET=float(os.environ.get('WATCH_BUDGET_S','420')); T0=time.time()
 def get(u,t=40,tries=2):
@@ -216,8 +216,8 @@ m['sources']=[s for s in m.get('sources',[]) if not any(s['name']==x['name'] for
 c=collections.Counter(a.get('type') for a in al); m.setdefault('counts',{}).update({'alerts':len(al),'alerts_by_type':dict(c),'registry_wallets':len(regl),'exchanges':len(ex),'incidents':len(incidents),'new_this_run':len(new),'flagged_hack_addresses':len(flagged)})
 W('meta.json',m)
 e=lambda s:html.escape(str(s),quote=True)
-W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'GLASSBREAK — hack & whale dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
+W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'HACKWATCH — hack & whale dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
   'items':[{'id':a['id'],'url':a['tx_url'],'title':a['message'][:120],'content_text':a['message']+' Sources: '+', '.join(s['url'] for s in a['sources'])+' (heuristic, not attribution)','date_published':a['time'],'tags':[a.get('type')]+a.get('tags',[])} for a in al[:150]]})
 items=''.join(f"<entry><id>urn:glassbreak:{e(a['id'])}</id><title>{e(a['message'][:120])}</title><link href=\"{e(a['tx_url'])}\"/><updated>{a['time']}</updated><category term=\"{e(a.get('type'))}\"/><summary>{e(a['message'])} Source: {e(a['sources'][0]['url'] if a['sources'] else a['tx_url'])}. Heuristic, not attribution.</summary></entry>" for a in al[:150])
-open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>GLASSBREAK — hack &amp; whale dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{NOW}</updated>{items}</feed>')
+open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>HACKWATCH — hack &amp; whale dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{NOW}</updated>{items}</feed>')
 print(json.dumps({'new':len(new),'by_type':dict(c),'monitored':dict(mon),'failed':dict(fail),'registry':len(regl),'per':{x['entity']:x['wallets'] for x in ex},'incidents':len(incidents),'secs':round(time.time()-T0)}))

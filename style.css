@@ -68,12 +68,12 @@ h1{font:700 clamp(40px,6vw,72px)/1.02 Chakra;letter-spacing:-.01em}h1 em{font-st
 
 .hero{position:relative;isolation:isolate}
 .herobg{position:absolute;z-index:-1;top:-64px;bottom:-40px;left:50%;width:100vw;transform:translateX(-50%);overflow:hidden;pointer-events:none}
-.herobg::before{content:"";position:absolute;inset:0;background:url(brand/hero-1600.jpg) center 45%/cover no-repeat;background-image:image-set(url(brand/hero-1600.webp) type("image/webp"),url(brand/hero-1600.jpg) type("image/jpeg"));opacity:.55;animation:gbz 40s ease-in-out infinite alternate}
+
 .herobg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 45% at 50% 45%,rgba(0,0,0,.78),rgba(0,0,0,.35) 70%,transparent),linear-gradient(180deg,rgba(0,0,0,.55) 0%,transparent 30%,transparent 60%,var(--bg) 100%)}
 @keyframes gbz{from{transform:scale(1)}to{transform:scale(1.08)}}
-@media(prefers-reduced-motion:reduce){.herobg::before{animation:none}}
-@media(max-width:900px){.herobg::before{background-image:image-set(url(brand/hero-900.webp) type("image/webp"),url(brand/hero-900.jpg) type("image/jpeg"))}}
-@media(max-width:600px){.herobg::before{opacity:.45}}
+
+
+
 .hero h1,.hero .lede{text-shadow:0 2px 24px rgba(0,0,0,.85)}
 .brand img.mark{border-radius:6px}
 html,body{overflow-x:clip}
@@ -81,3 +81,21 @@ html,body{overflow-x:clip}
 @media(max-width:600px){.herobg{-webkit-mask-image:none;mask-image:none}}
 
 .herobg{top:0;bottom:0}.askq,.latest{position:relative;z-index:2}
+
+/* HACKWATCH reskin */
+.herobg{background:#000;-webkit-mask-image:none!important;mask-image:none!important}
+.herobg::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 45%,#000 30%,transparent 80%);mask-image:radial-gradient(ellipse 70% 70% at 50% 45%,#000 30%,transparent 80%)}
+.herobg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 45% 40% at 50% 42%,rgba(255,59,74,.16),transparent 70%),linear-gradient(180deg,transparent 70%,var(--bg) 100%)}
+.wm{font:700 19px/1 Chakra;letter-spacing:.16em;color:#fff;display:inline-flex;align-items:center;white-space:nowrap}
+.wm .tri{display:inline-block;width:.82em;height:.72em;background:#FF3B4A;clip-path:polygon(50% 0,100% 100%,0 100%);margin:0 .16em 0 .02em;transform:translateY(-.02em)}
+.foot .wm{font-size:17px}
+.live{display:inline-flex;align-items:center;gap:6px;font:700 11px Plex;letter-spacing:.12em;color:#FF3B4A;border:1px solid #4a1a22;background:#ff3b4a14;border-radius:999px;padding:3px 9px;margin-right:8px;vertical-align:middle}
+.live i{width:7px;height:7px;border-radius:50%;background:#FF3B4A;box-shadow:0 0 0 0 #FF3B4A;animation:pu 1.6s infinite}
+.shead .live{margin-right:10px}
+.eyebrow{text-transform:uppercase}
+.lede b{color:#fff;font-weight:700}
+@media(max-width:600px){.wm{font-size:16px}.eyebrow{font-size:11px;line-height:1.8}}
+.shead .badge{margin-right:auto}.navin .btn{white-space:nowrap}
+@media(max-width:600px){.navin .btn.sm{padding-left:10px;padding-right:10px;font-size:13px}.look input{min-height:48px;width:100%}}
+@media(max-width:420px){.navin .btn.ghost{display:none}}
+.navin>.brand{margin-right:auto}
