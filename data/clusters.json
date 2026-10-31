@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:37:47.958709Z",
+ "generated": "2026-10-31T07:01:00.024033Z",
  "clusters": [
   {
    "id": "C001",
@@ -14287,7 +14287,6 @@
     "large value (230.1 ETH)",
     "large value (241.0 ETH)",
     "large value (298.7 ETH)",
-    "large value (403.9 ETH)",
     "large value (409.4 ETH)",
     "large value (456.0 ETH)",
     "large value (466.8 ETH)",
@@ -14297,7 +14296,6 @@
     "large value (498.7 ETH)",
     "large value (499.3 ETH)",
     "large value (88.4 ETH)",
-    "large value (93.9 ETH)",
     "received from a tracked address (1 hop)"
    ],
    "via": [
@@ -14378,18 +14376,6 @@
      "url": "https://eth.blockscout.com/tx/0x3675abd000f7e23f4210e3f7a8b7b22bf9b3ec080a070a7bac626f7b2dab3e6a",
      "value": 494.5420340875841,
      "time": "2023-02-07T14:08:59Z"
-    },
-    {
-     "tx": "0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
-     "url": "https://eth.blockscout.com/tx/0x18599526519df42f5a9be64cb4363bd992564115328afb9d858e5493242db6d2",
-     "value": 93.90239038487422,
-     "time": "2023-02-07T14:42:35Z"
-    },
-    {
-     "tx": "0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
-     "url": "https://eth.blockscout.com/tx/0x7f545964d687a23d7d7751311b0d747eab57731dee97b5206d0ce9b9ff1c8500",
-     "value": 403.93739305106806,
-     "time": "2023-02-07T14:14:11Z"
     },
     {
      "tx": "0xb518447528e5782fa3259655da0b3a4273699bf73965d706e11c7bb2720f394d",
