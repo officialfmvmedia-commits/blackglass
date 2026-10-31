@@ -104,3 +104,8 @@ html,body{overflow-x:clip}
 .ca .calab{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.12em;color:#ff3b4a;font-weight:700}
 .ca code{font-family:'IBM Plex Mono',monospace;font-size:14px;color:#f2f2f2;word-break:break-all}
 @media(max-width:520px){.ca code{font-size:12px}}
+.st{display:inline-block;font:600 10px/1 var(--mono,ui-monospace,monospace);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:3px;border:1px solid}
+.st.safe{color:#7fbf9a;border-color:#2c4a3a;background:#0f1a14}.st.mon{color:#e0a847;border-color:#4a3a1c;background:#1a140a}.st.risk{color:#FF3B4A;border-color:#5a1c22;background:#1c0b0d}
+.ar .basis{display:block;color:#8a8a96;font-size:12px;margin-top:3px}.ar .rs{font-size:11px;color:#8a8a96;font-family:var(--mono,ui-monospace,monospace)}
+#latesttxt .st{margin:0 4px;padding:2px 5px}
+.ar .rs{white-space:nowrap}

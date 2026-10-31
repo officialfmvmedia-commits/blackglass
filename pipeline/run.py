@@ -3,7 +3,7 @@
 import csv, io, json, os, re, time, html, datetime as dt, urllib.request, collections
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(ROOT,'data')
 UA={'User-Agent':'Mozilla/5.0 (hackwatch-osint)'}
-SITE=os.environ.get('SITE_URL','https://officialfmvmedia-commits.github.io/blackglass/')
+SITE=os.environ.get('SITE_URL','https://hackwatch.info/')
 def get(url,timeout=40,tries=3):
     for i in range(tries):
         try:
@@ -139,26 +139,27 @@ def short(a): return a[:6]+'…'+a[-4:]
 for x in txs:
     t=tracked[x['src']]; aid=x['chain']+':'+x['hash']
     if aid in old: continue
-    who=('An address OFAC lists under "'+t['label']+'"') if t['kind']=='sanctioned' else 'A wallet the FBI tied to the Bybit hack' if 'Bybit' in t['label'] else 'A wallet in an FBI attribution'
+    who=('OFAC-listed address ('+t['label']+')') if t['kind']=='sanctioned' else 'FBI-attributed Bybit-hack wallet' if 'Bybit' in t['label'] else 'FBI-attributed wallet'
     if x['chain']=='ETH':
         out=(x.get('from') or '').lower()==x['src']; tgt=x['to'] or ''; c=cand.get(tgt.lower())
         if out:
-            dest=('the mixer '+x['to_name']) if MIX.search(x['to_name']+x['method']) else (x['to_name'] or ('address '+short(tgt)))
-            msg=f"{who} just sent {x['value']:.4g} ETH to {dest}" + (f", 1 hop from cluster {t.get('cluster')}" if True else '') + (f". Resemblance score {c['score']}/100." if c else '.')
+            dest=('mixer '+x['to_name']) if MIX.search(x['to_name']+x['method']) else (x['to_name'] or ('address '+short(tgt)))
+            msg=f"{who} sent {x['value']:.4g} ETH to {dest} [cluster {t.get('cluster')}]." 
             if x['value']==0: msg=f"{who} called {x['method'] or 'a contract'} on {dest} (no ETH moved)."
         elif x['value']<0.001: continue  # skip dust / address-poisoning noise
         else: msg=f"{who} received {x['value']:.4g} ETH from {short(x.get('from') or '?')}."
         lvl=(c or {}).get('score',30 if out else 15)
     else:
         out=x['src'] in x['ins']; tot=sum(v for a,v in x['outs'] if a not in x['ins'])
-        if out: msg=f"{who} just spent BTC: {tot:.4g} BTC split across {len([o for o in x['outs'] if o[0] not in x['ins']])} output(s), 1 hop from cluster {t.get('cluster')}."; lvl=max([cand[a]['score'] for a,_ in x['outs'] if a in cand] or [30])
+        if out: msg=f"{who} spent {tot:.4g} BTC split across {len([o for o in x['outs'] if o[0] not in x['ins']])} output(s) [cluster {t.get('cluster')}]."; lvl=max([cand[a]['score'] for a,_ in x['outs'] if a in cand] or [30])
         else:
             v=sum(v for a,v in x['outs'] if a==x['src'])
             if v<0.0005: continue
             msg=f"{who} received {v:.4g} BTC."; lvl=15
     old[aid]={'id':aid,'time':iso(x['time']),'chain':x['chain'],'level':lvl,'cluster':t.get('cluster'),'message':msg,'tx_url':x['url'],
         'address':t['address'],'address_url':(f"https://mempool.space/address/{t['address']}" if x['chain']=='BTC' else f"https://eth.blockscout.com/address/{t['address']}"),'sources':t['sources'][:2]}
-alerts=sorted(old.values(),key=lambda a:a['time'],reverse=True)[:3000]
+import sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import verdict
+alerts=verdict.apply(sorted(old.values(),key=lambda a:a['time'],reverse=True)[:3000])
 gen=now().isoformat().replace('+00:00','Z')
 recent=[a for a in alerts if a['time']>(now()-dt.timedelta(days=30)).isoformat()]
 threat=min(100,round(sum(a['level'] for a in recent[:50])/max(1,min(50,len(recent)))*0.6+min(40,len(recent))))
@@ -169,9 +170,5 @@ W('alerts.json',{'generated':gen,'alerts':alerts})
 W('meta.json',{'generated':gen,'threat':threat,'counts':{'addresses':len(tracked),'clusters':len(clusters),'alerts':len(alerts),'candidates':len(cand),'alerts_30d':len(recent),'txs_scanned':len(txs)},'sources':sources,
     'disclaimer':'Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution.'})
 # feeds
-W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'HACKWATCH — Lazarus on-chain dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
-  'items':[{'id':a['id'],'url':a['tx_url'],'title':a['message'][:110],'content_text':a['message']+' Sources: '+', '.join(s['url'] for s in a['sources'])+' (heuristic, not attribution)','date_published':a['time']} for a in alerts[:100]]})
-e=lambda s:html.escape(s,quote=True)
-items=''.join(f"<entry><id>urn:glassbreak:{e(a['id'])}</id><title>{e(a['message'][:110])}</title><link href=\"{e(a['tx_url'])}\"/><updated>{a['time']}</updated><summary>{e(a['message'])} Source: {e(a['sources'][0]['url'])}. Heuristic score {a['level']}/100, not attribution.</summary></entry>" for a in alerts[:100])
-open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>HACKWATCH — Lazarus on-chain dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{gen}</updated>{items}</feed>')
+verdict.feeds(alerts,ROOT,SITE,gen)
 print(json.dumps({'counts':json.load(open(os.path.join(D,'meta.json')))['counts'],'threat':threat,'sources':[(s['name'],s['ok'],s.get('count')) for s in sources]},indent=1))

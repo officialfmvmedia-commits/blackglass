@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """HACKWATCH exchange + hack watch. Public, keyless sources only. Heuristic, not attribution."""
 import json, os, re, time, csv, io, html, collections, datetime as dt, urllib.request
+import sys; sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import verdict
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); D=os.path.join(ROOT,'data')
 UA={'User-Agent':'Mozilla/5.0 (hackwatch-osint)'}
-SITE=os.environ.get('SITE_URL','https://officialfmvmedia-commits.github.io/blackglass/')
+SITE=os.environ.get('SITE_URL','https://hackwatch.info/')
 BUDGET=float(os.environ.get('WATCH_BUDGET_S','420')); T0=time.time()
 def get(u,t=40,tries=2):
     e=None
@@ -124,7 +125,7 @@ def consider(chain,base,R,me,frm,to,tname,usd,amt,sym,ts,txh,meta):
     msg=f"{who} {'sent' if out else 'received'} {fmt(usd)} ({num(amt)} {sym}) {'to' if out else 'from'} {dest}"+ (f" on {chain}" if chain!='ETH' else '')+'.'
     lvl=min(100,20+(30 if 'hack' in tags else 0)+(20 if 'mixer' in tags else 0)+(10 if 'bridge' in tags else 0)+(15 if usd>=1e8 else 10 if usd>=WHALE else 0)+(10 if out and not ol_lab else 0))
     new.append({'id':f'{chain}:{txh}:{round(amt,4)}','type':'hack' if 'hack' in tags else 'exchange','tags':tags,'entity':w['entity'],'time':t.isoformat().replace('+00:00','Z'),'chain':chain,'usd':round(usd),
-      'level':lvl,'message':msg,'reasons':reasons,'tx_url':base+'/tx/'+txh,'address':me,'address_url':base+'/address/'+me,'sources':w.get('sources',[{'name':'incident','url':meta}])[:2],'cluster':w['entity']})
+      'level':lvl,'message':msg,'counterparty_label':dest,'direction':'out' if out else 'in','reasons':reasons,'tx_url':base+'/tx/'+txh,'address':me,'address_url':base+'/address/'+me,'sources':w.get('sources',[{'name':'incident','url':meta}])[:2],'cluster':w['entity']})
 def poll_evm(chain,api,base,R,addrs,nat):
   from concurrent.futures import ThreadPoolExecutor
   def one(a):
@@ -135,7 +136,7 @@ def poll_evm(chain,api,base,R,addrs,nat):
             if prev and prev>2e6 and bal<prev*0.6:
                 w=R.get(a.lower(),{'name':a,'entity':'?','sources':[]})
                 new.append({'id':f'drop:{key}:{NOW[:13]}','type':'exchange','tags':['anomaly'],'entity':w.get('entity','?'),'time':NOW,'chain':chain,'usd':round(prev-bal),'level':70,
-                  'message':f"Unusual outflow: {w.get('name') or a} native balance fell {100*(1-bal/prev):.0f}% ({fmt(prev)} → {fmt(bal)}) since the last check. That's the classic hot-wallet drain signature, though it's often just routine rebalancing.",
+                  'message':f"{w.get('name') or a} ({chain}) balance down {100*(1-bal/prev):.0f}%: {verdict.fm(prev)} → {verdict.fm(bal)} between checks.",
                   'reasons':['balance drop ≥40% between runs'],'tx_url':base+'/address/'+a,'address':a,'address_url':base+'/address/'+a,'sources':w.get('sources',[])[:2],'cluster':w.get('entity')})
             state['bal'][key]=bal
             for x in gj(f'{api}/addresses/{a}/transactions').get('items',[])[:50]:
@@ -172,7 +173,7 @@ def poll_inc(R,chain,api,base,nat):
                 seen.add(chain+x['hash']); o=(x.get('to') or {}) if out else (x.get('from') or {})
                 dst=lab(o.get('hash'),REG) or o.get('name') or 'an unlabeled address '+(o.get('hash') or '?')[:8]+'…'
                 new.append({'id':f"{chain}:{x['hash']}",'type':'hack','tags':['incident']+(['mixer'] if MIX.search(o.get('name') or '') else []),'entity':R[a]['entity'],'time':x['timestamp'],'chain':chain,'usd':round(v*px[nat]),'level':80 if out else 50,
-                  'message':f"{R[a]['name']} {'moved' if out else 'received'} {fmt(v*px[nat])} ({num(v)} {nat}) {'to' if out else 'from'} {dst}"+(f' on {chain}' if chain!='ETH' else '')+'.','reasons':['wallet named in a public post-mortem'],
+                  'counterparty_label':dst,'direction':'out' if out else 'in','message':f"{R[a]['name']} {'moved' if out else 'received'} {fmt(v*px[nat])} ({num(v)} {nat}) {'to' if out else 'from'} {dst}"+(f' on {chain}' if chain!='ETH' else '')+'.','reasons':['wallet named in a public post-mortem'],
                   'tx_url':f"{base}/tx/{x['hash']}",'address':a,'address_url':f'{base}/address/{a}','sources':R[a]['sources'],'cluster':R[a]['entity']})
             mon[chain+'-incident']+=1
         except Exception: fail[chain+'-incident']+=1
@@ -190,14 +191,14 @@ src('Blockscout Polygon (Polymarket incident wallets)','https://polygon.blocksco
 byw=collections.Counter((a['address'],a['time'][:13]) for a in new if 'unlabeled' in a['message'] and ' sent ' in a['message'])
 for (a,hr),n in byw.items():
     if n>=8: new.append({'id':f'fan:{a}:{hr}','type':'exchange','tags':['anomaly'],'entity':REG.get(a.lower(),{}).get('entity','?'),'time':hr+':00:00Z','chain':'ETH','usd':0,'level':75,
-      'message':f"Unusual outflows: {REG.get(a.lower(),{}).get('name',a)} sent {n} large transfers to unlabeled addresses within one hour. Fast fan-out to fresh wallets is a classic exchange-hack signature.",'reasons':['8+ large outflows to unlabeled addresses in 1h'],
+      'message':f"{REG.get(a.lower(),{}).get('name',a)}: {n} transfers ≥$1M to unlabeled addresses within one hour.",'reasons':['8+ large outflows to unlabeled addresses in 1h'],
       'tx_url':'https://eth.blockscout.com/address/'+a,'address':a,'address_url':'https://eth.blockscout.com/address/'+a,'sources':REG.get(a.lower(),{}).get('sources',[]),'cluster':REG.get(a.lower(),{}).get('entity')})
 # ---------- 5. write ----------
 state['seen']=list(seen)[-20000:]; W('state.json',state)
 al=L('alerts.json',{'alerts':[]})['alerts']
 for a in al: a.setdefault('type','lazarus')
 ids={a['id'] for a in al}; al+= [a for a in new if a['id'] not in ids]
-al.sort(key=lambda a:a['time'],reverse=True); al=al[:3000]; W('alerts.json',{'generated':NOW,'alerts':al})
+al.sort(key=lambda a:a['time'],reverse=True); al=verdict.apply(al[:3000]); W('alerts.json',{'generated':NOW,'alerts':al})
 regl=list(reg.values()); W('registry.json',{'generated':NOW,'wallets':regl})
 per=collections.defaultdict(lambda:{'wallets':0,'chains':collections.Counter(),'types':collections.Counter()})
 for w in regl: p=per[w['entity']]; p['wallets']+=1; p['chains'][w['chain']]+=1; p['types'][w['type']]+=1
@@ -216,8 +217,5 @@ m['sources']=[s for s in m.get('sources',[]) if not any(s['name']==x['name'] for
 c=collections.Counter(a.get('type') for a in al); m.setdefault('counts',{}).update({'alerts':len(al),'alerts_by_type':dict(c),'registry_wallets':len(regl),'exchanges':len(ex),'incidents':len(incidents),'new_this_run':len(new),'flagged_hack_addresses':len(flagged)})
 W('meta.json',m)
 e=lambda s:html.escape(str(s),quote=True)
-W('../feed.json',{'version':'https://jsonfeed.org/version/1.1','title':'HACKWATCH — hack & whale dispatches','home_page_url':SITE,'feed_url':SITE+'feed.json',
-  'items':[{'id':a['id'],'url':a['tx_url'],'title':a['message'][:120],'content_text':a['message']+' Sources: '+', '.join(s['url'] for s in a['sources'])+' (heuristic, not attribution)','date_published':a['time'],'tags':[a.get('type')]+a.get('tags',[])} for a in al[:150]]})
-items=''.join(f"<entry><id>urn:glassbreak:{e(a['id'])}</id><title>{e(a['message'][:120])}</title><link href=\"{e(a['tx_url'])}\"/><updated>{a['time']}</updated><category term=\"{e(a.get('type'))}\"/><summary>{e(a['message'])} Source: {e(a['sources'][0]['url'] if a['sources'] else a['tx_url'])}. Heuristic, not attribution.</summary></entry>" for a in al[:150])
-open(os.path.join(ROOT,'feed.xml'),'w').write(f'<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>HACKWATCH — hack &amp; whale dispatches</title><id>{SITE}</id><link href="{SITE}"/><link rel="self" href="{SITE}feed.xml"/><updated>{NOW}</updated>{items}</feed>')
+verdict.feeds(al,ROOT,SITE,NOW)
 print(json.dumps({'new':len(new),'by_type':dict(c),'monitored':dict(mon),'failed':dict(fail),'registry':len(regl),'per':{x['entity']:x['wallets'] for x in ex},'incidents':len(incidents),'secs':round(time.time()-T0)}))

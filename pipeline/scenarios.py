@@ -33,7 +33,7 @@ for cid,A in by.items():
     why=[]
     if mixer: why.append('Mixers hide where money goes next, which is a documented Lazarus laundering step.')
     if bridge: why.append('Bridges move funds to another chain, a common Lazarus hop.')
-    if flags.get('2-output peel-chain shape'): why.append('Peel-chain pattern: small amounts are peeled off step by step, a classic laundering shape.')
+    if flags.get('2-output peel-chain shape'): why.append('Peel-chain pattern: small amounts split off step by step.')
     if any(k.startswith('rapid fan-out') or k.startswith('part of') for k in flags): why.append('Fast fan-out: funds split across many wallets quickly.')
     if not why: why.append('These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.')
     top=max([a['level'] for a in W]+[0])

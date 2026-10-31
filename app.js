@@ -17,16 +17,11 @@ async function load(first){
  if(first){[...new Set(A.map(z=>z.chain))].sort().forEach(c=>$('#cfil').insertAdjacentHTML('beforeend',`<option>${esc(c)}</option>`))}
  render();
 }
-function why(a){const t=a.tags||[];
- if(t.includes('anomaly'))return 'A sudden drop or burst of outflows from an exchange hot wallet is how exchange hacks usually look at first. It can also be routine rebalancing.';
- if(a.type=='hack')return 'This wallet was named in a public hack write-up. Movements usually mean stolen funds are being laundered or cashed out.';
- if(t.includes('mixer'))return 'Mixers hide where money goes next. That is a common laundering step.';
- if(t.includes('e2e'))return 'Large exchange-to-exchange flows can signal market-moving trades or liquidity shifts.';
- if(a.type=='exchange')return a.usd>=1e8?'Transfers this size can move markets. Most are internal reshuffling, but drains start the same way.':'A large transfer from a labeled exchange wallet. Usually routine, worth watching if it repeats.';
- return 'This wallet is on an official US government list tied to North Korean hackers. Any movement can mean stolen funds are being moved.';}
-function row(a){const [c,l]=sev(a.level);return `<details class="ar"><summary><span class="sevc"><span class="sev ${c}">${l}</span></span><span class="msg">${isNew(a)?'<span class="new">NEW</span>':''}${esc(a.message)}</span><span class="amt">${usd(a.usd)}</span><span class="ch">${esc(a.chain)} · ${TL[a.type]||''}</span><span class="tm" title="${esc(a.time)}">${ago(a.time)}</span></summary>
-<div class="ad"><b>Why this matters:</b> ${esc(why(a))}${a.reasons&&a.reasons.length?`<br><span class="small">Flagged because: ${esc(a.reasons.join(' · '))}. Score ${a.level}/100 (pattern match, not proof).</span>`:`<br><span class="small">Score ${a.level}/100 (pattern match, not proof).</span>`}
-<div class="links"><a href="${esc(a.tx_url)}" target="_blank" rel="noopener">View transaction ↗</a><a href="${esc(a.address_url)}" target="_blank" rel="noopener">View wallet ↗</a>${(a.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">Source: ${esc(s.name)} ↗</a>`).join('')}<span class="mono small muted">${esc(a.time.slice(0,16).replace('T',' '))} UTC</span></div></div></details>`}
+const ST={SAFE:['safe','Safe'],MONITORING:['mon','Monitoring'],RISK:['risk','Risk']};
+const chip=a=>{const [c,l]=ST[a.status]||ST.MONITORING;return `<span class="st ${c}">${l}</span>`};
+function row(a){return `<details class="ar"><summary><span class="sevc">${chip(a)}</span><span class="msg">${isNew(a)?'<span class="new">NEW</span>':''}${esc(a.message)}<span class="basis">${esc(a.basis||'')}</span></span><span class="amt">${usd(a.usd)}</span><span class="ch">${esc(a.chain)} · ${TL[a.type]||''}<br><span class="rs">Risk ${a.level}/100</span></span><span class="tm" title="${esc(a.time)}">${ago(a.time)}</span></summary>
+<div class="ad"><b>Status:</b> ${esc(a.status||'MONITORING')}. ${esc(a.basis||'')}<br><span class="small">Risk score ${a.level}/100${a.reasons&&a.reasons.length?' · Triggers: '+esc(a.reasons.join(', ')):''}. Score is a pattern match; labels are heuristic, not attribution.</span>
+<div class="links"><a href="${esc(a.tx_url)}" target="_blank" rel="noopener">Transaction ↗</a><a href="${esc(a.address_url)}" target="_blank" rel="noopener">Wallet ↗</a>${(a.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">Label source: ${esc(s.name)} ↗</a>`).join('')}<span class="mono small muted">${esc(a.time.slice(0,16).replace('T',' '))} UTC</span></div></div></details>`}
 function heat(){const cv=$('#heat'),d=devicePixelRatio,w=cv.clientWidth,h=40;cv.width=w*d;cv.height=h*d;const x=cv.getContext('2d');x.scale(d,d);
  const N=168,b=new Array(N).fill(0),now=Date.now();A.forEach(a=>{const k=Math.floor((now-new Date(a.time))/36e5);if(k>=0&&k<N)b[N-1-k]+=1});const mx=Math.max(1,...b),bw=w/N;
  b.forEach((v,i)=>{x.fillStyle=v?`rgba(255,59,78,${.25+.75*v/mx})`:'#1a1a22';const bh=v?Math.max(4,h*v/mx):3;x.fillRect(i*bw+.5,h-bh,Math.max(1,bw-1),bh)});
@@ -34,30 +29,30 @@ function heat(){const cv=$('#heat'),d=devicePixelRatio,w=cv.clientWidth,h=40;cv.
 function render(){
  const n=M.counts||{};
  const hk=A.filter(a=>a.type=='hack'),an=A.filter(a=>(a.tags||[]).includes('anomaly')),lz=A.filter(a=>a.type=='lazarus'),ex=A.filter(a=>a.type=='exchange');
- const recInc=I.filter(i=>H(i.date+'T23:59:59Z')<72),hot=[...hk,...an].filter(a=>H(a.time)<6),warm=[...hk,...an,...lz].filter(a=>H(a.time)<72);
+ const recInc=I.filter(i=>H(i.date+'T23:59:59Z')<72),hot=A.filter(a=>a.status=='RISK'&&a.type!='lazarus'&&H(a.time)<6),warm=[...hk,...an,...lz].filter(a=>H(a.time)<72);
  const st=hot.length?'a':(warm.length||recInc.length)?'w':'q';$('#status').className='status '+st;
- $('#slab').textContent=st=='a'?'Active':st=='w'?'Watch':'All quiet';
+ $('#slab').textContent=st=='a'?'Risk':st=='w'?'Monitoring':'Normal';
  const big=recInc.slice().sort((a,b)=>b.amount_usd-a.amount_usd)[0];
- $('#shead').textContent=st=='a'?`${hot.length} hack or unusual-outflow alert${hot.length>1?'s':''} in the last 6 hours`:st=='w'?(recInc.length?`${recInc.length} hack${recInc.length>1?'s':''} reported in the last 3 days${big?`. The largest is ${big.name} (${usd(big.amount_usd)}).`:''}`:'Tracked hacker wallets moved in the last 3 days.'):'Nothing unusual in the last 72 hours.';
+ $('#shead').textContent=st=='a'?`${hot.length} risk alert${hot.length>1?'s':''} (hack or flagged wallet) in the last 6 hours`:st=='w'?(recInc.length?`${recInc.length} hack${recInc.length>1?'s':''} reported in the last 3 days${big?`. The largest is ${big.name} (${usd(big.amount_usd)}).`:''}`:'Tracked hacker wallets moved in the last 3 days.'):'No risk alerts in the last 72 hours.';
  const last=A.find(a=>a.type!='exchange'||(a.tags||[]).includes('anomaly'));
- $('#ssub').textContent=last?`Latest hack or Lazarus signal, ${ago(last.time)}: ${last.message}`:'';
+ $('#ssub').textContent=last?`Latest hack/Lazarus event, ${ago(last.time)}: [${last.status}] ${last.message}`:'';
  const mins=Math.round((Date.now()-new Date(M.generated))/6e4);$('#schk').textContent=`Last checked ${mins<1?'just now':mins<120?mins+' min ago':Math.round(mins/60)+' h ago'} · updates every few minutes`;
  const cell=(t,arr,ex)=>`<div>${t}<b>${arr.filter(a=>H(a.time)<24).length} alerts in 24h</b>${arr[0]?'Last '+ago(arr[0].time):'None yet'}${ex||''}</div>`;
  const an24=an.filter(a=>H(a.time)<24).length;
- $('#sgrid').innerHTML=cell('Exchanges',ex,an24?` · <span style="color:var(--a)">${an24} unusual</span>`:'')+cell('Hacks',hk,recInc.length?` · ${recInc.length} new incident${recInc.length>1?'s':''}`:'')+cell('Lazarus',lz);
- const la=A[0];$('#latesttxt').innerHTML=la?`<b>Latest alert</b> · ${ago(la.time)} · ${esc(la.message)}`:'No alerts yet';
+ $('#sgrid').innerHTML=cell('Exchanges',ex,an24?` · ${an24} balance anomal${an24>1?'ies':'y'}`:'')+cell('Hacks',hk,recInc.length?` · ${recInc.length} new incident${recInc.length>1?'s':''}`:'')+cell('Lazarus',lz);
+ const la=A[0];$('#latesttxt').innerHTML=la?`<b>Latest</b> · ${ago(la.time)} · ${chip(la)} ${esc(la.message)}`:'No alerts yet';
  heat();
  const chains=new Set([...(R.length?R:[]).map(w=>w.chain)]);
  const cov=[['Exchanges',n.exchanges||X.length],['Exchange wallets',n.registry_wallets],['Lazarus-linked addresses',n.addresses],['Hack-flagged addresses',n.flagged_hack_addresses],['Hacks logged',I.length],['Chains live-monitored','5 (ETH, BTC, OP, Polygon, + Lazarus BTC/ETH)'],['Update frequency','Every 10 min'],['Last updated',new Date(M.generated).toLocaleString([], {dateStyle:'medium',timeStyle:'short'})]];
  cov[5][1]='ETH · BTC · Optimism · Polygon';
  $('#cov').innerHTML=cov.map(([k,v])=>`<div><dt>${k}</dt><dd>${typeof v=='number'?v.toLocaleString():esc(v??'—')}</dd></div>`).join('');
  $('#gen').textContent=new Date(M.generated).toLocaleString();
- const LF=A.filter(a=>(tf=='all'||a.type==tf||(tf=='whale'&&a.usd>=1e7))&&(!cf||a.chain==cf)&&(a.usd||0)>=sf&&(!q||(a.message+a.address+(a.entity||'')).toLowerCase().includes(q)));
- const nw=LF.filter(isNew).length;$('#newnote').textContent=`${LF.length.toLocaleString()} alerts match · ${nw} new since your last visit or in the last 24h · click a row for details`;
+ const LF=A.filter(a=>(tf=='all'||a.type==tf||(tf=='risk'&&a.status=='RISK'))&&(!cf||a.chain==cf)&&(a.usd||0)>=sf&&(!q||(a.message+a.address+(a.entity||'')).toLowerCase().includes(q)));
+ const nw=LF.filter(isNew).length;$('#newnote').textContent=`${LF.length.toLocaleString()} alerts match · ${nw} new since your last visit or in the last 24h · select a row for details`;
  $('#arows').innerHTML=LF.slice(0,shown).map(row).join('')||'<p class="muted" style="padding:16px">No alerts match these filters.</p>';
  $('#more').style.display=LF.length>shown?'':'none';
  $('#exnote').textContent='Wallets from open label datasets. Net flow and biggest move cover the wallets checked in the latest run, not whole-exchange totals.';
- $('#extbl').innerHTML='<thead><tr><th>Exchange</th><th class="n">Wallets</th><th>Chains</th><th class="n">Net flow seen</th><th class="n">Alerts 24h</th><th>Biggest move seen</th><th>Status</th></tr></thead><tbody>'+X.map(e=>{const net=(e.flow_in_usd||0)-(e.flow_out_usd||0),has=e.flow_in_usd||e.flow_out_usd;return `<tr><td class="ex">${esc(e.entity)}</td><td class="n">${e.wallets}</td><td class="small muted">${Object.keys(e.chains).join(', ')}</td><td class="n ${has?(net<0?'neg':'pos'):''}">${has?(net<0?'−':'+')+usd(Math.abs(net)):'—'}</td><td class="n">${e.alerts_24h}</td><td class="bm">${e.biggest?`${usd(e.biggest.usd)} · ${esc(e.biggest.text)} <a href="${esc(e.biggest.tx)}" target="_blank" rel="noopener">tx ↗</a>`:'Not checked this run'}</td><td>${e.anomaly?'<span class="flag">Unusual</span>':'<span class="ok">Normal</span>'}</td></tr>`}).join('')+'</tbody>';
+ $('#extbl').innerHTML='<thead><tr><th>Exchange</th><th class="n">Wallets</th><th>Chains</th><th class="n">Net flow seen</th><th class="n">Alerts 24h</th><th>Biggest move seen</th><th>Status</th></tr></thead><tbody>'+X.map(e=>{const net=(e.flow_in_usd||0)-(e.flow_out_usd||0),has=e.flow_in_usd||e.flow_out_usd;return `<tr><td class="ex">${esc(e.entity)}</td><td class="n">${e.wallets}</td><td class="small muted">${Object.keys(e.chains).join(', ')}</td><td class="n ${has?(net<0?'neg':'pos'):''}">${has?(net<0?'−':'+')+usd(Math.abs(net)):'—'}</td><td class="n">${e.alerts_24h}</td><td class="bm">${e.biggest?`${usd(e.biggest.usd)} · ${esc(e.biggest.text)} <a href="${esc(e.biggest.tx)}" target="_blank" rel="noopener">tx ↗</a>`:'Not checked this run'}</td><td>${e.anomaly?'<span class="flag">Anomaly</span>':'<span class="ok">Normal</span>'}</td></tr>`}).join('')+'</tbody>';
  const AT={'Government-attributed':['gov','Government'],'Analyst-attributed':['ana','Analyst'],'Unattributed':['una','Unattributed']};
  $('#inc').innerHTML=I.slice(0,15).map(i=>{const live=A.filter(a=>a.type=='hack'&&a.entity&&a.entity.startsWith(i.name)),[ac,al]=AT[i.attribution]||AT.Unattributed,rec=H(i.date+'T23:59:59Z')<72;return `<div class="it${rec?' recent':''}"><div class="dt">${i.date}<br>${esc(i.chains.slice(0,3).join(', '))}${i.chains.length>3?' +'+(i.chains.length-3):''}</div><div><span class="tag ${ac}">${al}</span>${live.length?`<span class="tag live">Following ${i.addresses.length} wallets</span>`:''}<br><b>${esc(i.name)}</b><p>${esc((i.description||i.technique||'').slice(0,220))}${(i.description||'').length>220?'…':''}</p>${i.actor?`<p class="small">Blamed on: ${esc(i.actor)}</p>`:''}${live[0]?`<p class="small">Latest move ${ago(live[0].time)}: ${esc(live[0].message)}</p>`:''}<div class="links">${i.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join('')}</div></div><div class="amt">${i.amount_usd?usd(i.amount_usd):'—'}<div class="small muted">${esc(i.technique||'')}</div></div></div>`}).join('');
  $('#scen').innerHTML=S.filter(c=>c.type!='hack').slice(0,4).map(c=>`<div class="sc"><div class="top"><span class="sev ${c.confidence_label=='high'?'hi':c.confidence_label=='medium'?'md':'lo'}">${c.confidence_label} confidence</span><span>${esc(c.chain)}</span><span>${new Date(c.end).toDateString().slice(4)}</span></div><b>${esc(c.title)}</b><p>${esc(c.what)}</p><div class="lb">Why it matters</div><p>${esc(c.why)}</p><div class="links">${c.tx_links.slice(0,3).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">Tx ${i+1} ↗</a>`).join('')}${(c.sources||[]).slice(0,1).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`).join('')}</div></div>`).join('');
@@ -70,10 +65,10 @@ document.querySelectorAll('#tfil button').forEach(b=>b.onclick=()=>{document.que
 $('#cfil').onchange=e=>{cf=e.target.value;render()};$('#sfil').onchange=e=>{sf=+e.target.value;render()};
 $('#q').oninput=e=>{q=e.target.value.toLowerCase();shown=25;render()};$('#more').onclick=()=>{shown+=25;render()};
 addEventListener('beforeunload',()=>localStorage.bgLastVisit=Date.now());addEventListener('resize',()=>A.length&&heat());
-function toast(a){const t=document.createElement('div');t.className='toast';t.innerHTML=`<b>New ${TL[a.type]||''} alert</b>${esc(a.message)}`;$('#toasts').append(t);setTimeout(()=>t.remove(),9000)}
+function toast(a){const t=document.createElement('div');t.className='toast';t.innerHTML=`<b>${esc(a.status||'')} · ${TL[a.type]||''}</b>${esc(a.message)}`;$('#toasts').append(t);setTimeout(()=>t.remove(),9000)}
 async function en(){if(!('Notification'in window))return alert('Your browser does not support notifications.');const p=await Notification.requestPermission();['#notify','#notify2'].forEach(s=>$(s).textContent=p=='granted'?'Notifications on':'Notifications blocked')}
 $('#notify').onclick=en;$('#notify2').onclick=en;
-function notify(a){if(window.Notification&&Notification.permission=='granted')new Notification('HACKWATCH: '+(TL[a.type]||'')+' alert',{body:a.message,icon:'brand/mark-180.png'})}
+function notify(a){if(window.Notification&&Notification.permission=='granted')new Notification('HACKWATCH '+(a.status||'')+' · '+(TL[a.type]||''),{body:a.message+' '+(a.basis||''),icon:'brand/mark-180.png'})}
 // address lookup: registry, Lazarus list, hack-flagged list, connected wallets
 $('#look').onsubmit=async e=>{e.preventDefault();const v=$('#lq').value.trim();if(!v)return;const k=v.startsWith('0x')?v.toLowerCase():v,box=$('#lres');box.hidden=false;box.textContent='Checking…';
  try{if(!R.length)R=(await J('data/registry.json')).wallets;if(!LZ.length)LZ=(await J('data/addresses.json')).addresses;if(!FL)FL=(await J('data/flagged.json').catch(()=>({flagged:{}}))).flagged}catch(x){}
