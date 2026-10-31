@@ -77,3 +77,5 @@ h1{font:700 clamp(40px,6vw,72px)/1.02 Chakra;letter-spacing:-.01em}h1 em{font-st
 .hero h1,.hero .lede{text-shadow:0 2px 24px rgba(0,0,0,.85)}
 .brand img.mark{border-radius:6px}
 html,body{overflow-x:clip}
+.herobg{-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+@media(max-width:600px){.herobg{-webkit-mask-image:none;mask-image:none}}
