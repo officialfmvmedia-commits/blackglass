@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T19:12:19.891481Z",
+ "generated": "2026-11-01T19:51:59.072423Z",
  "clusters": [
   {
    "id": "C001",
@@ -242,7 +242,7 @@
     "ETH"
    ],
    "size": 8,
-   "children": 30,
+   "children": 37,
    "balance": {
     "BTC": 0,
     "ETH": 241.907
@@ -14717,6 +14717,7 @@
     "large value (135.9 ETH)",
     "large value (150.3 ETH)",
     "large value (204.5 ETH)",
+    "large value (241.7 ETH)",
     "large value (248.3 ETH)",
     "large value (282.6 ETH)",
     "large value (292.1 ETH)",
@@ -14725,6 +14726,7 @@
     "large value (305.3 ETH)",
     "large value (314.8 ETH)",
     "large value (349.3 ETH)",
+    "large value (355.8 ETH)",
     "large value (392.9 ETH)",
     "large value (447.1 ETH)",
     "large value (461.5 ETH)",
@@ -14792,6 +14794,18 @@
      "url": "https://eth.blockscout.com/tx/0xa6b78c0ded3477edb583067521f24001cbf5e0a9d695a1a6acd0b3018c03ba22",
      "value": 305.2601747676143,
      "time": "2023-02-07T13:22:35Z"
+    },
+    {
+     "tx": "0x8e080e05b2773e647967166b840eabd7b853117eb5e2a5015109b4456d09c5ff",
+     "url": "https://eth.blockscout.com/tx/0x8e080e05b2773e647967166b840eabd7b853117eb5e2a5015109b4456d09c5ff",
+     "value": 241.67297183014836,
+     "time": "2023-02-07T13:09:47Z"
+    },
+    {
+     "tx": "0xd832602ca99cabdf923d80df31fddd05f4cf98f5c94a6aeb7badf1ce7970515b",
+     "url": "https://eth.blockscout.com/tx/0xd832602ca99cabdf923d80df31fddd05f4cf98f5c94a6aeb7badf1ce7970515b",
+     "value": 355.826536211572,
+     "time": "2023-02-07T12:59:59Z"
     },
     {
      "tx": "0x7bbdea36a19dbe9e6e8c37e77e40ad6bf558508b05b1ba5f9561bd1fc4897325",
@@ -15491,6 +15505,32 @@
    "cluster": "C006"
   },
   {
+   "address": "0xf5806E5C1C9402DCc87E9ADf47Bc7BC2f18CF556",
+   "chain": "ETH",
+   "score": 65,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "large value (3003.3 ETH)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x8b5d0582f161410cfd9587899c771265d845f0fe80223b6809f5b4ccb2c14564",
+     "url": "https://eth.blockscout.com/tx/0x8b5d0582f161410cfd9587899c771265d845f0fe80223b6809f5b4ccb2c14564",
+     "value": 0.5,
+     "time": "2022-05-11T19:01:14Z"
+    },
+    {
+     "tx": "0x00705ab87ad4aa36da075ed97f563199638f5600a2bdb6d7d9461c57eff1b980",
+     "url": "https://eth.blockscout.com/tx/0x00705ab87ad4aa36da075ed97f563199638f5600a2bdb6d7d9461c57eff1b980",
+     "value": 3003.2999999999997,
+     "time": "2022-05-11T14:21:20Z"
+    }
+   ],
+   "parent": "0x35fb6f6db4fb05e6a4ce86f2c93691425626d4b1",
+   "cluster": "C006"
+  },
+  {
    "address": "0xa58b6105e208Cb23e7566D69120319e30a1A9EC4",
    "chain": "ETH",
    "score": 65,
@@ -15651,27 +15691,27 @@
    "cluster": "C006"
   },
   {
-   "address": "0xde4612757719829d1Df069213A5F4317bB7503e7",
+   "address": "0x93dF2C9C8786242b8fDcA3f96B3914b8b4a9f704",
    "chain": "ETH",
    "score": 65,
    "reasons": [
     "EOA recipient (possible fresh hop wallet)",
-    "large value (5505.7 ETH)",
+    "large value (4101.1 ETH)",
     "received from a tracked address (1 hop)"
    ],
    "via": [
     {
-     "tx": "0x38ae765c1919c681523c40294358a057a565b9fcd33d270f04b69e564a9b630d",
-     "url": "https://eth.blockscout.com/tx/0x38ae765c1919c681523c40294358a057a565b9fcd33d270f04b69e564a9b630d",
-     "value": 5505.700000000001,
-     "time": "2022-05-18T02:23:07Z"
+     "tx": "0x608100d60f5c12a946eb9a809340d3982519c1788dc0bae40d3add56a1b887ea",
+     "url": "https://eth.blockscout.com/tx/0x608100d60f5c12a946eb9a809340d3982519c1788dc0bae40d3add56a1b887ea",
+     "value": 4101.12,
+     "time": "2022-05-14T03:38:09Z"
     }
    ],
-   "parent": "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9",
+   "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
    "cluster": "C006"
   },
   {
-   "address": "0x9EC8433487939bC432e79fA471a8605610659E41",
+   "address": "0xFe4a0D465636BA3f6906818Af88c1E01ae0D9d6e",
    "chain": "ETH",
    "score": 65,
    "reasons": [
@@ -15681,33 +15721,13 @@
    ],
    "via": [
     {
-     "tx": "0x3ca3cded2e0c4d091c19267779b507055642f5ae2bf81dc4f732314507418edc",
-     "url": "https://eth.blockscout.com/tx/0x3ca3cded2e0c4d091c19267779b507055642f5ae2bf81dc4f732314507418edc",
+     "tx": "0x8f652dbbc76173a326b9396b2a5b8352eb4fa3478f1d7cff7f22aada24e1f278",
+     "url": "https://eth.blockscout.com/tx/0x8f652dbbc76173a326b9396b2a5b8352eb4fa3478f1d7cff7f22aada24e1f278",
      "value": 3003.2999999999997,
-     "time": "2022-05-17T07:53:15Z"
+     "time": "2022-05-13T08:58:34Z"
     }
    ],
-   "parent": "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9",
-   "cluster": "C006"
-  },
-  {
-   "address": "0x24B6694982843b03c75bb25E1FB74167B55B57b6",
-   "chain": "ETH",
-   "score": 65,
-   "reasons": [
-    "EOA recipient (possible fresh hop wallet)",
-    "large value (3003.3 ETH)",
-    "received from a tracked address (1 hop)"
-   ],
-   "via": [
-    {
-     "tx": "0x9aed464f573ccb654595c22f729db796b12b9dce1d33e85d2fb57cb9d463b4be",
-     "url": "https://eth.blockscout.com/tx/0x9aed464f573ccb654595c22f729db796b12b9dce1d33e85d2fb57cb9d463b4be",
-     "value": 3003.2999999999997,
-     "time": "2022-05-17T03:00:03Z"
-    }
-   ],
-   "parent": "0x3e37627deaa754090fbfbb8bd226c1ce66d255e9",
+   "parent": "0xf7b31119c2682c88d88d455dbb9d5932c65cf1be",
    "cluster": "C006"
   },
   {
