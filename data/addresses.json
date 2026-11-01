@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T09:38:34.518407Z",
+ "generated": "2026-11-01T10:03:44.246620Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -1743,6 +1743,7 @@
    ],
    "balance": 0.000305125761357188,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1756,8 +1757,7 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "balance": 0.000109836243166832,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1923,6 +1923,7 @@
    ],
    "balance": 0.000102829856149,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1953,6 +1954,7 @@
    ],
    "balance": 2.4152683040455e-05,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1966,8 +1968,7 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "balance": 9.56586278132e-05,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1981,8 +1982,7 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "balance": 6.32135406722e-05,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1998,6 +1998,7 @@
    ],
    "balance": 0.000597687249899912,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -2343,6 +2344,7 @@
    ],
    "balance": 8.683584227362083,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -3256,7 +3258,8 @@
      "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 5.276372928777082,
+   "tags": [],
    "cluster": "C001"
   },
   {
