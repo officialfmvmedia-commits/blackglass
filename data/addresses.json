@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:01:11.941809Z",
+ "generated": "2026-11-01T01:18:10.054362Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -2266,7 +2266,8 @@
      "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 0.002002190583027084,
+   "tags": [],
    "cluster": "C001"
   },
   {
@@ -2492,7 +2493,6 @@
    ],
    "balance": 0.000936858216890584,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2581,7 +2581,8 @@
      "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 0.00307167157861772,
+   "tags": [],
    "cluster": "C001"
   },
   {
