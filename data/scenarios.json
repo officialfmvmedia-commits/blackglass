@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:03:44.445013Z",
+ "generated": "2026-11-01T10:20:01.001307Z",
  "scenarios": [
   {
    "id": "Polymarket International incident-20261029",
@@ -200,7 +200,7 @@
    "end": "2025-03-03T18:13:47Z",
    "chain": "ETH",
    "events": 240,
-   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002]. About 4533 ETH went out to 20 new addresses one hop away.",
+   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002]. About 4756 ETH went out to 20 new addresses one hop away.",
    "why": "Fast fan-out: funds split across many wallets quickly.",
    "confidence": 80,
    "confidence_label": "high",

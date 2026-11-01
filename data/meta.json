@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-01T10:12:13.808552Z",
+ "generated": "2026-11-01T10:20:01.001307Z",
  "threat": 61,
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 1642,
-  "candidates": 1286,
+  "alerts": 1647,
+  "candidates": 1313,
   "alerts_30d": 95,
-  "txs_scanned": 2579,
+  "txs_scanned": 2779,
   "alerts_by_type": {
-   "exchange": 89,
+   "exchange": 94,
    "hack": 5,
    "lazarus": 1548
   },
   "registry_wallets": 457,
   "exchanges": 19,
   "incidents": 40,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "flagged_hack_addresses": 8454
  },
  "sources": [
@@ -55,8 +55,8 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 155,
-   "failed": 8
+   "count": 163,
+   "failed": 0
   },
   {
    "name": "etherscan-labels: etherscan",
@@ -128,13 +128,13 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 17
+   "count": 63
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
    "url": "https://optimism.blockscout.com/api/v2/",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 4
   },
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",

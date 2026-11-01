@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:03:44.246620Z",
+ "generated": "2026-11-01T10:20:00.803701Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -1743,7 +1743,6 @@
    ],
    "balance": 0.000305125761357188,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1757,7 +1756,8 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 0.000109836243166832,
+   "tags": [],
    "cluster": "C002"
   },
   {
@@ -1923,7 +1923,6 @@
    ],
    "balance": 0.000102829856149,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1954,7 +1953,6 @@
    ],
    "balance": 2.4152683040455e-05,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1968,7 +1966,8 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 9.56586278132e-05,
+   "tags": [],
    "cluster": "C002"
   },
   {
@@ -1982,7 +1981,8 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
+   "balance": 6.32135406722e-05,
+   "tags": [],
    "cluster": "C002"
   },
   {
@@ -1998,7 +1998,6 @@
    ],
    "balance": 0.000597687249899912,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -2344,7 +2343,6 @@
    ],
    "balance": 8.683584227362083,
    "tags": [],
-   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
