@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T12:38:08.698332Z",
+ "generated": "2026-11-01T12:47:47.783355Z",
  "alerts": [
   {
    "id": "ETH:0xf169b1609956ebff9e2f114f9559e697dfa66a2924e4eb040cae107735f65422:2757.2199",
@@ -57,6 +57,35 @@
    "cluster": "Bitfinex",
    "status": "SAFE",
    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0xdae385e3a204c24e2de1629bc165df845ca28fbfe5dc5efbb3c25a6861391ea4:100000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-01T12:28:23Z",
+   "chain": "ETH",
+   "usd": 99953700,
+   "level": 40,
+   "message": "Binance 28 sent $100.0M (100.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xdae385e3a204c24e2de1629bc165df845ca28fbfe5dc5efbb3c25a6861391ea4",
+   "address": "0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "address_url": "https://eth.blockscout.com/address/0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
   },
   {
    "id": "ETH:0xb67effe39d207910723953b8a8a5fec300a213a8cb89602aecdb130aa89c061f:9000000.0",
