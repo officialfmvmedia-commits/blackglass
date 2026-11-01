@@ -1,6 +1,34 @@
 {
- "generated": "2026-11-01T09:17:09.846574Z",
+ "generated": "2026-11-01T09:20:06.183368Z",
  "alerts": [
+  {
+   "id": "ETH:0x0406e3ca7897efa491e059fd6b32efefb60bc4043c179cf3864082079d134a06:7499997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-01T09:15:11Z",
+   "chain": "ETH",
+   "usd": 7496525,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $7.5M (7.50M USDT) to an unlabeled address 0xEd0C\u20264312.",
+   "counterparty_label": "an unlabeled address 0xEd0C\u20264312",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0406e3ca7897efa491e059fd6b32efefb60bc4043c179cf3864082079d134a06",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x5056bcad6b4a65ed00ccb727512566054345c76152cffef7f03184d26cea629b:7835416.662",
    "type": "exchange",
