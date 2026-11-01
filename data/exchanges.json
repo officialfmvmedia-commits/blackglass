@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:32:58.818270Z",
+ "generated": "2026-11-01T01:38:32.730816Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 7890,
-   "flow_out_usd": 351663,
+   "flow_in_usd": 1556,
+   "flow_out_usd": 4997667,
    "biggest": {
-    "usd": 347774.0,
-    "text": "347,774 USDC out to 0xA50dDa\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x5c9df2da7a8271df842ae7ebed18f07f30326cce445409c215739474795a1bfd"
+    "usd": 4997655.0,
+    "text": "5.00M USDT out to 0xA105a3\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x7b3767f7de3e16702d746558409a3ade52af2cfa8d5bd40dda057dfa2ceace80"
    },
    "alerts_24h": 7,
    "anomaly": false
@@ -121,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 357767,
-   "flow_out_usd": 13483,
+   "flow_in_usd": 26987,
+   "flow_out_usd": 39497,
    "biggest": {
-    "usd": 347774.0,
-    "text": "347,774 USDC in from 0xA50dDa\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x07f1fccf5521b76fe73b490a4f6fc1d233a3a1b5f446e452ab6e5d62d5251628"
+    "usd": 14374.01,
+    "text": "35,000 ONDO out to 0x0668C1\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x31d9bb7b8f6f675f7c5d3cb235667455680bfa2f06c38065aa545c95318e1405"
    },
    "alerts_24h": 7,
    "anomaly": true
