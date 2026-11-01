@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-01T11:55:40.692810Z",
+ "generated": "2026-11-01T12:07:38.255985Z",
  "threat": 62,
  "counts": {
   "addresses": 221,
   "clusters": 16,
   "alerts": 1648,
-  "candidates": 1313,
+  "candidates": 1311,
   "alerts_30d": 101,
-  "txs_scanned": 2779,
+  "txs_scanned": 2705,
   "alerts_by_type": {
    "exchange": 95,
    "hack": 5,
@@ -55,8 +55,8 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 163,
-   "failed": 0
+   "count": 159,
+   "failed": 4
   },
   {
    "name": "etherscan-labels: etherscan",
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 3
+   "count": 73
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
@@ -139,9 +139,8 @@
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",
    "url": "https://polygon.blockscout.com/api/v2/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 from box / runner"
+   "ok": true,
+   "count": 4
   }
  ],
  "disclaimer": "Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution.",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T11:43:57.705804Z",
+ "generated": "2026-11-01T12:07:38.042388Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -144,6 +144,7 @@
    ],
    "balance": 101.80892499211612,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C006"
   },
   {
@@ -789,6 +790,7 @@
    ],
    "balance": 0.059457156100269,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C009"
   },
   {
@@ -812,6 +814,7 @@
    ],
    "balance": 0.056556,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C009"
   },
   {
@@ -947,6 +950,7 @@
    ],
    "balance": 0.001,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C007"
   },
   {
