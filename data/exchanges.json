@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T15:25:52.958192Z",
+ "generated": "2026-11-01T15:28:35.638501Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
