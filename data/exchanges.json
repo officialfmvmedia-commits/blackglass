@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:43:26.414715Z",
+ "generated": "2026-11-01T01:45:55.711944Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -23,7 +23,11 @@
    "monitored": true,
    "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 0.0077395471207083195,
+    "text": "3.41e-06 ETH in from 0xEa5a20\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xb321352cbede22e09c1e429bd3a7a5d2e7c560340e1934fba75e58ff956d6ec2"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -61,12 +65,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 4124,
+   "flow_in_usd": 46,
+   "flow_out_usd": 1,
    "biggest": {
-    "usd": 4123.616767711318,
-    "text": "1.818 ETH out to 0xBceb72\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc0d96a2ea944ab5bb9eaf6bdff764538c9c0c72cb3b42f0cb200158684dded02"
+    "usd": 46.40772456449999,
+    "text": "46.43 USDT in from 0x358D69\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x9fce8ce07efb2bee872484db64be0c0cb1184e9835fe3ce7ff97d198f1724d04"
    },
    "alerts_24h": 7,
    "anomaly": false
@@ -121,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 127336,
-   "flow_out_usd": 123701,
+   "flow_in_usd": 776293,
+   "flow_out_usd": 84433,
    "biggest": {
-    "usd": 107955.11781179,
-    "text": "4.36M FORT in from 0x185da3\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xea0ac28736127a71f29279407a634cd76a895a63b132a69f49522b0ad72653bd"
+    "usd": 725093.8071000001,
+    "text": "5,415 AAVE in from 0xA7B6Ea\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x6a994f94e2f800703a9f3900d8edc2e39ce4e2d4067ff1f04b023cafdafaa1db"
    },
    "alerts_24h": 7,
    "anomaly": true
@@ -249,13 +253,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1618,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 1617.7338127943299,
-    "text": "201,771 BLUR in from 0xA2eDe2\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xfcfa56e6c436f98d4661b7d80a3fff8ce80f520582df3af7dd9004f1f0b7edea"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -354,13 +354,9 @@
     "unspecified": 1
    },
    "monitored": true,
-   "flow_in_usd": 629,
-   "flow_out_usd": 1417,
-   "biggest": {
-    "usd": 989.5356899999999,
-    "text": "990 USDT out to 0xc02136\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xffffa482a54baeff22b2e960bd205903b2eda52c317295ffe49d88fd31e69fce"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   }
