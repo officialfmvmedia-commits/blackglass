@@ -5,6 +5,40 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xd202c4705002859c278a5821825d173568a996c0ce0e9caafdd2263faeb949bb:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0xd202c4705002859c278a5821825d173568a996c0ce0e9caafdd2263faeb949bb",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T23:12:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xbd31811dcfd691f306cfda9095673cff6d2f14ea7b99f658a51fb43036f654d2:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0xbd31811dcfd691f306cfda9095673cff6d2f14ea7b99f658a51fb43036f654d2",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-10-31T23:11:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-10-31T18",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 55%: $13.2M \u2192 $5.99M between checks.",
@@ -2457,38 +2491,6 @@
    "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
    "date_published": "2025-06-17T18:14:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x6f436fa9f180ab444a0c43f5e607e53d34ba731b120df3719062eda1b96e4c91",
-   "url": "https://eth.blockscout.com/tx/0x6f436fa9f180ab444a0c43f5e607e53d34ba731b120df3719062eda1b96e4c91",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-17T18:13:23Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x7d513d098e2f442b5f52da16788b8cb5e1abee16c10a5fdaa0b923c5d1f32107",
-   "url": "https://eth.blockscout.com/tx/0x7d513d098e2f442b5f52da16788b8cb5e1abee16c10a5fdaa0b923c5d1f32107",
-   "title": "[MONITORING] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called deposit on VaultBeaconProxy (no ETH moved).",
-   "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called deposit on VaultBeaconProxy (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-17T14:11:23Z",
    "tags": [
     "lazarus",
     "MONITORING"
