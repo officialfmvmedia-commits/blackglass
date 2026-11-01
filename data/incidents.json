@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-01T19:51:59.229826Z",
+ "generated": "2026-11-01T22:08:50.591746Z",
  "incidents": [
+  {
+   "id": "H3497",
+   "name": "Premia V3",
+   "date": "2026-11-01",
+   "amount_usd": 437000,
+   "chains": [
+    "Arbitrum"
+   ],
+   "technique": "Withdrawal Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H5541",
    "name": "b14g",
@@ -931,35 +953,6 @@
     {
      "name": "DefiLlama hacks",
      "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H2352",
-   "name": "Bitget",
-   "date": "2026-09-24",
-   "amount_usd": 387000000,
-   "chains": [
-    "Ethereum",
-    "XRP",
-    "Tron",
-    "Zcash"
-   ],
-   "technique": "Hot Wallet Key Compromised",
-   "classification": "Key Compromise",
-   "description": "Bitget detected unauthorized transfers involving a limited number of hot wallets at 18:31 UTC on September 24. Subsequent tracing identified approximately $387.5M transferred to attacker-controlled addresses across Ethereum and other EVM networks, XRP Ledger, Zcash and Tron. Bitget states that the incident has been contained and no further unauthorized transfers are possible",
-   "returned": null,
-   "attribution": "Analyst-attributed",
-   "actor": "North Korea (per Chainalysis, referenced in Binance analysis)",
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    },
-    {
-     "name": "Chainalysis",
-     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
     }
    ],
    "addresses": []

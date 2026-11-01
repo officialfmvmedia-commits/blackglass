@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T19:51:59.072423Z",
+ "generated": "2026-11-01T22:08:50.388730Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -857,6 +857,7 @@
    ],
    "balance": 13.506304600561426,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C007"
   },
   {
@@ -870,8 +871,7 @@
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718"
     }
    ],
-   "balance": 0.0,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C007"
   },
   {
@@ -885,8 +885,7 @@
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718"
     }
    ],
-   "balance": 0.0,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C007"
   },
   {
@@ -962,6 +961,7 @@
    ],
    "balance": 0.05599461610507691,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C007"
   },
   {
@@ -1037,6 +1037,7 @@
    ],
    "balance": 0.00275796929850413,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C008"
   },
   {
@@ -1067,6 +1068,7 @@
    ],
    "balance": 96.05461613110998,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C008"
   },
   {
@@ -1261,8 +1263,7 @@
      "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ],
-   "balance": 4.494482815821e-05,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -1923,6 +1924,7 @@
    ],
    "balance": 0.000102829856149,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C002"
   },
   {
@@ -2433,6 +2435,7 @@
    ],
    "balance": 0.00327495020322454,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2493,6 +2496,7 @@
    ],
    "balance": 0.000936858216890584,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2598,6 +2602,7 @@
    ],
    "balance": 3.293243001585494,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2808,6 +2813,7 @@
    ],
    "balance": 0.001815729419596732,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
