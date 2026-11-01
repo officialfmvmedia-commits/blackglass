@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T09:38:34.731540Z",
+ "generated": "2026-11-01T09:41:54.620374Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 15064,
-   "flow_out_usd": 0,
+   "flow_in_usd": 0,
+   "flow_out_usd": 295288,
    "biggest": {
-    "usd": 11458.692168,
-    "text": "11,464 USDT in from 0xb579a1\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xca919601aa15c6fadc67bcf01cac77fc59ea35ca6c6f11cd550d8e9e5581909e"
+    "usd": 295287.867,
+    "text": "76.3 XAUT out to 0x84b38B\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xca50febe67f41b873d2fbfd191d446987e911dc859970373e228328fab48cd52"
    },
    "alerts_24h": 7,
    "anomaly": false
@@ -121,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 2977074,
-   "flow_out_usd": 77022,
+   "flow_in_usd": 2367859,
+   "flow_out_usd": 2031031,
    "biggest": {
-    "usd": 1999999.0,
-    "text": "2.00M USDC in from 0xaFC562\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x44964244daae120e74d00e19aedcb777fe9104a2bb1fec081fc46f66580a1464"
+    "usd": 2000000.0,
+    "text": "2.00M USDC out to CircleDeposit",
+    "tx": "https://eth.blockscout.com/tx/0x97a852459324a98d1707f46a25410b78eb1b4ca1c29b9e93b3aa568efc1e62de"
    },
    "alerts_24h": 19,
    "anomaly": true
