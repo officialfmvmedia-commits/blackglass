@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xa306ca8389f7b7c9b05d2288739a046c0ff9a3ed3d42850d3421868c03f44990:6255.5954",
+   "url": "https://eth.blockscout.com/tx/0xa306ca8389f7b7c9b05d2288739a046c0ff9a3ed3d42850d3421868c03f44990",
+   "title": "[SAFE] Coinbase 5 received $14.2M (6,256 ETH) from an unlabeled address 0xAae3\u20261Cfe.",
+   "content_text": "Coinbase 5 received $14.2M (6,256 ETH) from an unlabeled address 0xAae3\u20261Cfe. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T04:39:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
+  },
+  {
    "id": "ETH:0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d:10000000.0",
    "url": "https://eth.blockscout.com/tx/0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d",
    "title": "[MONITORING] KuCoin 15 sent $10.0M (10.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
@@ -2485,22 +2503,6 @@
     "status": "MONITORING",
     "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
     "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x6195fb022313c294f1a8bcd5662bf15f45251f28d7871045299e5e4f965e812a",
-   "url": "https://eth.blockscout.com/tx/0x6195fb022313c294f1a8bcd5662bf15f45251f28d7871045299e5e4f965e812a",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-23T15:20:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
    }
   }
  ]
