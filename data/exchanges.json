@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T14:18:29.521130Z",
+ "generated": "2026-11-01T14:45:20.581703Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -22,9 +22,13 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
-   "alerts_24h": 19,
+   "flow_out_usd": 367918881,
+   "biggest": {
+    "usd": 299844000.0,
+    "text": "300.00M USDT out to 0x690C3E\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x4cb103868762866f762e933becaf39a79a975fc22f3240ffea9e0ea25ba17a9e"
+   },
+   "alerts_24h": 21,
    "anomaly": true
   },
   {
@@ -61,12 +65,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 22324604,
-   "flow_out_usd": 628053,
+   "flow_in_usd": 20956,
+   "flow_out_usd": 223060,
    "biggest": {
-    "usd": 9332973.6087744,
-    "text": "9.34M USDT in from 0x386F6B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xb556d29df28477783550d18865aed23bd206cc1afd3818e575d63a7dbc04bb63"
+    "usd": 222990.02348767646,
+    "text": "98.27 ETH out to 0xB5c710\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xd3340b5974bb1015f22aba6d9ce462b489f675630688017e4d826ece14e493b3"
    },
    "alerts_24h": 9,
    "anomaly": false
@@ -86,12 +90,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 8255,
-   "flow_out_usd": 0,
+   "flow_in_usd": 4999,
+   "flow_out_usd": 8556,
    "biggest": {
-    "usd": 4999.635174987226,
-    "text": "5,000 USDC in from 0xD668E3\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0xc3c003362d1b825005a7feb8a3e41e8f80c5ea23f3085be1348c5581cde256ea"
+    "usd": 8555.60911818,
+    "text": "75,014 OP out to 0xE22A7a\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x093b024edcf00d912d100bd5ebf9e9e658749d43d9f7ff3e5c61eba1ed40ff8f"
    },
    "alerts_24h": 1,
    "anomaly": false
@@ -249,13 +253,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1004078,
-   "flow_out_usd": 15319,
-   "biggest": {
-    "usd": 999479.4003120001,
-    "text": "999,999 USDT in from 0x8CC2Ec\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xbea2f63fbb55992424880132499223a83aa66b52751926f544904fd84f5c9683"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
