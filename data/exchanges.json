@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:31:53.448225Z",
+ "generated": "2026-11-01T10:34:16.775574Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -23,7 +23,11 @@
    "monitored": true,
    "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 9.99537e-05,
+    "text": "0.0001 USDT in from 0x5A873E\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x5499d176275f9e1d3beaf3d73a187099f65d3cd9a20d478c426515ea9b6742a8"
+   },
    "alerts_24h": 18,
    "anomaly": true
   },
@@ -61,12 +65,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 225738,
-   "flow_out_usd": 295021,
+   "flow_in_usd": 1554,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 294900.858,
-    "text": "76.2 XAUT out to 0x84b38B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xab49ea2791c925da9efbf1a39b70e307d57e649295845777c13098700fc44b62"
+    "usd": 1553.583251760078,
+    "text": "1,554 USDT in from 0x0624bD\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x3542f45cdd70123eb1e0b0dbebea5b5e590cb8951fed77a611006d9cfc1f5e78"
    },
    "alerts_24h": 6,
    "anomaly": false
@@ -121,12 +125,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 37499,
-   "flow_out_usd": 1532044,
+   "flow_in_usd": 1400,
+   "flow_out_usd": 18526,
    "biggest": {
-    "usd": 1507579.954854794,
-    "text": "1.51M USDT out to 0x1b5c2E\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xe2d9a1fb9df101d72ed32034fdf4996948fb9971e52db6aabb000abf73275add"
+    "usd": 6037.5,
+    "text": "30 QNT out to 0x49Aa67\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x88d5a5934287731619f59d1b0670743b5f9feab6b91fa4ba53a6f9ecc45ce054"
    },
    "alerts_24h": 19,
    "anomaly": true
@@ -213,8 +217,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 45,
+   "biggest": {
+    "usd": 29.98611,
+    "text": "30 USDT out to 0x5F8030\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x18ce8183e852f14af4b789ac7139d7b081d39ffe854af9c394097edfc4c22a19"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
