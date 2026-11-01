@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T07:56:55.298243Z",
+ "generated": "2026-11-01T07:58:36.235732Z",
  "threat": 59,
  "counts": {
   "addresses": 221,
@@ -139,8 +139,9 @@
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",
    "url": "https://polygon.blockscout.com/api/v2/",
-   "ok": true,
-   "count": 2
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 from box / runner"
   }
  ],
  "disclaimer": "Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution.",
