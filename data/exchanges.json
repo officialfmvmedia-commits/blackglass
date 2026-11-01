@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T11:20:54.052923Z",
+ "generated": "2026-11-01T11:43:57.910251Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 3962628,
-   "flow_out_usd": 354987,
+   "flow_in_usd": 269504,
+   "flow_out_usd": 4792815,
    "biggest": {
-    "usd": 3870090.0,
-    "text": "1,000 XAUT in from 0x109EC8\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x42c6b981fd4d1538af285d8d9a20d44ad96853237cc9e0e9a921b059f95576a8"
+    "usd": 2498840.3530944777,
+    "text": "2.50M USDT out to 0x79e481\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x1e2ec6316f947a25f6ef5d02366aab40d9870bc516585bcacdf12da02ba3a878"
    },
    "alerts_24h": 6,
    "anomaly": false
@@ -86,13 +86,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 98019,
-   "flow_out_usd": 578250,
-   "biggest": {
-    "usd": 200400.0,
-    "text": "40.00B PEPE out to 0x58edF7\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xe68c553cb22cff1bfcca824df96e9b3a6383d8c72295308a7b7ba112e914d079"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 1,
    "anomaly": false
   },
@@ -125,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 102379,
-   "flow_out_usd": 20037,
+   "flow_in_usd": 62939,
+   "flow_out_usd": 37668,
    "biggest": {
-    "usd": 42527.25404628388,
-    "text": "18.74 ETH in from 0x0F1Fe8\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x3c95fb2a02e95fe1690b1b5e18c2bb10a5a03115fa70612302c0cb665f1f3c79"
+    "usd": 14278.789212812,
+    "text": "212,875 POWR in from 0x244d73\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x00a85b819d0c68803bd90567a7887f398b477eadeac84baa5d0cfb922970f228"
    },
    "alerts_24h": 19,
    "anomaly": true
@@ -253,9 +249,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
+   "flow_in_usd": 3317002,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 1999073.4002778,
+    "text": "2.00M USDT in from 0x099c01\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x96878cc66f81b3e1c4877752347d896ec2053a1550e966f4e6c21e55535c64d1"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
