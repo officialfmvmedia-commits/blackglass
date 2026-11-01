@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:21:45.489774Z",
+ "generated": "2026-11-01T01:23:25.811266Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -84,11 +84,7 @@
    "monitored": true,
    "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 0.01834306043515817,
-    "text": "8.102e-06 ETH out to 0x689C30\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xd9c384101b2a620eac94b56d8f00c161de736b00fbc7e5fe930530151e063aab"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -121,12 +117,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 5134,
+   "flow_in_usd": 36192,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 1951.080346,
-    "text": "1,951 USDC out to 0xB2AA25\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xf0bf2692bd2ae28621e488c7385a40add4e88ff5351de8755c03fdd3c7fea7e2"
+    "usd": 36192.19807683,
+    "text": "1.43M DIMO in from 0x6518FF\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x184beccdba6f9a6e7b98696cee1451e4c517792b44154ae549957ad021d8db1f"
    },
    "alerts_24h": 8,
    "anomaly": true
@@ -249,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 1739,
+   "flow_out_usd": 85099,
+   "biggest": {
+    "usd": 85098.9,
+    "text": "300,000 CRV out to 0x9642b2\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x6de2a75c8c3019cdc5811ebf0572091f666fb5fe546d9b75879809c50f06e6bb"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -350,9 +350,13 @@
     "unspecified": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 21148,
+   "flow_out_usd": 21849,
+   "biggest": {
+    "usd": 19990.62,
+    "text": "20,000 USDT out to 0x8861c9\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x08321f74a623c705830e11745041ece1d73f97eaaaadba3b3be78df5b02ae4cc"
+   },
    "alerts_24h": 0,
    "anomaly": false
   }
