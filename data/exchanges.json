@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T14:45:20.581703Z",
+ "generated": "2026-11-01T14:50:52.848583Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -22,12 +22,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 367918881,
-   "biggest": {
-    "usd": 299844000.0,
-    "text": "300.00M USDT out to 0x690C3E\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x4cb103868762866f762e933becaf39a79a975fc22f3240ffea9e0ea25ba17a9e"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 21,
    "anomaly": true
   },
@@ -65,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 20956,
-   "flow_out_usd": 223060,
+   "flow_in_usd": 11328,
+   "flow_out_usd": 987434,
    "biggest": {
-    "usd": 222990.02348767646,
-    "text": "98.27 ETH out to 0xB5c710\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xd3340b5974bb1015f22aba6d9ce462b489f675630688017e4d826ece14e493b3"
+    "usd": 344473.784421,
+    "text": "344,501 USDC out to 0xdC2692\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xfd8443307da6e732c912dcbfb2e51aa8520f67e9a2653ebc4f9e93019cf71705"
    },
    "alerts_24h": 9,
    "anomaly": false
@@ -90,13 +86,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 4999,
-   "flow_out_usd": 8556,
-   "biggest": {
-    "usd": 8555.60911818,
-    "text": "75,014 OP out to 0xE22A7a\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x093b024edcf00d912d100bd5ebf9e9e658749d43d9f7ff3e5c61eba1ed40ff8f"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 1,
    "anomaly": false
   },
@@ -129,9 +121,13 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 502512,
+   "flow_out_usd": 455125,
+   "biggest": {
+    "usd": 437637.4248119289,
+    "text": "437,672 USDC in from 0xA3a99d\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x811d3b71cff1bd81f0e63e98c1c92bfe832646e58c3b6877256abc6256361609"
+   },
    "alerts_24h": 19,
    "anomaly": true
   },
