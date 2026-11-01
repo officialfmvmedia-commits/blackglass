@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T00:47:38.929773Z",
+ "generated": "2026-11-01T00:49:36.194423Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,8 +62,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 1399,
+   "biggest": {
+    "usd": 1399.3728,
+    "text": "1,400 USDT out to 0x937b3A\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xabbc57bded37755a389468ca4a8ad3cb318922250a32f187657d981738853c5a"
+   },
    "alerts_24h": 16,
    "anomaly": false
   },
@@ -117,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 294344,
-   "flow_out_usd": 333380,
+   "flow_in_usd": 57759,
+   "flow_out_usd": 144171,
    "biggest": {
-    "usd": 149999.981258,
-    "text": "150,000 USDC in from 0xE282dC\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xa4e1ddbb435f7474141ad2d96add7129d59b0b8a77ae9613056b27ed020a5a11"
+    "usd": 90149.5269,
+    "text": "104,700 AXS out to 0x15Da75\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x0da66180c0435f2df4941e29a290f69e3a782e77b858d233002d7951f5d9af0c"
    },
    "alerts_24h": 8,
    "anomaly": true
@@ -174,13 +178,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 10821,
-   "flow_out_usd": 18313,
-   "biggest": {
-    "usd": 10821.0,
-    "text": "200,000 GHST in from Crypto.com 5",
-    "tx": "https://eth.blockscout.com/tx/0x676d9d13d447c2447b1aa0cb177cb7be031b4654c9df5b73b134480cb8d7dfeb"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
