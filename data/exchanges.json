@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T09:43:51.062436Z",
+ "generated": "2026-11-01T09:46:20.773130Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 326,
+   "flow_in_usd": 939,
    "flow_out_usd": 0,
    "biggest": {
-    "usd": 325.519114,
-    "text": "325.5 USDC in from 0x574AF3\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x05caa410cbf3f57c95be887d2692dcd4ce8d14818831bfc4902cb998be42ebc2"
+    "usd": 938.6591151290645,
+    "text": "199.71M SHIB in from 0xABe214\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x68212e3329d13deeb9d7da7bc52b4c99f5bca4755a8854948f3fc35781672701"
    },
    "alerts_24h": 7,
    "anomaly": false
@@ -245,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 6530509,
+   "flow_out_usd": 2564,
+   "biggest": {
+    "usd": 1999073.4002778,
+    "text": "2.00M USDT in from 0x099c01\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xc14a77d5e6358c7104522c6afbd6c04bb6646ff4813b25d36793b0b11667c21b"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
