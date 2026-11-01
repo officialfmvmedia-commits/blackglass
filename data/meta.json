@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T09:49:07.704166Z",
+ "generated": "2026-11-01T09:51:36.074487Z",
  "threat": 61,
  "counts": {
   "addresses": 221,
@@ -128,13 +128,13 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 35
+   "count": 55
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
    "url": "https://optimism.blockscout.com/api/v2/",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 4
   },
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",
