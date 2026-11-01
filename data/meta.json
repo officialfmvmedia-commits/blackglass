@@ -1,22 +1,22 @@
 {
- "generated": "2026-11-01T12:10:44.532676Z",
+ "generated": "2026-11-01T12:13:14.757269Z",
  "threat": 62,
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 1648,
+  "alerts": 1649,
   "candidates": 1311,
   "alerts_30d": 101,
   "txs_scanned": 2705,
   "alerts_by_type": {
-   "exchange": 95,
+   "exchange": 96,
    "hack": 5,
    "lazarus": 1548
   },
   "registry_wallets": 457,
   "exchanges": 19,
   "incidents": 40,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "flagged_hack_addresses": 8604
  },
  "sources": [
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 21
+   "count": 32
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
