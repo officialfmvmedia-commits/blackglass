@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T11:43:57.910251Z",
+ "generated": "2026-11-01T11:48:29.149483Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 269504,
-   "flow_out_usd": 4792815,
+   "flow_in_usd": 0,
+   "flow_out_usd": 37475,
    "biggest": {
-    "usd": 2498840.3530944777,
-    "text": "2.50M USDT out to 0x79e481\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x1e2ec6316f947a25f6ef5d02366aab40d9870bc516585bcacdf12da02ba3a878"
+    "usd": 37474.54060260003,
+    "text": "37,492 USDT out to 0x5555Ed\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x29bc866ae1fa516591b1a8397c757e1e9fc0c4d87e99ba937e0234a6bfb4027d"
    },
    "alerts_24h": 6,
    "anomaly": false
@@ -121,12 +121,12 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 62939,
-   "flow_out_usd": 37668,
+   "flow_in_usd": 1335972,
+   "flow_out_usd": 2241384,
    "biggest": {
-    "usd": 14278.789212812,
-    "text": "212,875 POWR in from 0x244d73\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x00a85b819d0c68803bd90567a7887f398b477eadeac84baa5d0cfb922970f228"
+    "usd": 2229182.548999,
+    "text": "2.23M USDC out to 0xB92775\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x260db4fa7f0154719f345b49314b470e89330c72ada2c70f3a5f99b86f06feb2"
    },
    "alerts_24h": 19,
    "anomaly": true
@@ -249,13 +249,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 3317002,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 1999073.4002778,
-    "text": "2.00M USDT in from 0x099c01\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x96878cc66f81b3e1c4877752347d896ec2053a1550e966f4e6c21e55535c64d1"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
