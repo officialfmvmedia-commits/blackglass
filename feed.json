@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0:14999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "content_text": "Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T04:58:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "ETH:0xa306ca8389f7b7c9b05d2288739a046c0ff9a3ed3d42850d3421868c03f44990:6255.5954",
    "url": "https://eth.blockscout.com/tx/0xa306ca8389f7b7c9b05d2288739a046c0ff9a3ed3d42850d3421868c03f44990",
    "title": "[SAFE] Coinbase 5 received $14.2M (6,256 ETH) from an unlabeled address 0xAae3\u20261Cfe.",
@@ -20,6 +38,23 @@
     "status": "SAFE",
     "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xbdecb95f6cc64cc38eadcafb9fb52d2be1fb7ce66fb09d7e7a0f9b323bfc1ad8:4411.0",
+   "url": "https://eth.blockscout.com/tx/0xbdecb95f6cc64cc38eadcafb9fb52d2be1fb7ce66fb09d7e7a0f9b323bfc1ad8",
+   "title": "[SAFE] Gate.io 5 sent $10.0M (4,411 ETH) to Gate.io.",
+   "content_text": "Gate.io 5 sent $10.0M (4,411 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T04:29:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
    }
   },
   {
@@ -2471,38 +2506,6 @@
     "status": "MONITORING",
     "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
     "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xed211e077b0817b7a0a2e27ed479709799888269451b8cba93c29b7d234b6de7",
-   "url": "https://eth.blockscout.com/tx/0xed211e077b0817b7a0a2e27ed479709799888269451b8cba93c29b7d234b6de7",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-27T13:27:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x8e8123171e3877235e9941506f4c54a9dd7b62bf0d27d385477c965298ff39d4",
-   "url": "https://eth.blockscout.com/tx/0x8e8123171e3877235e9941506f4c54a9dd7b62bf0d27d385477c965298ff39d4",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-27T13:25:35Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
    }
   }
  ]

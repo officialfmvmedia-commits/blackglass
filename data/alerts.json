@@ -1,6 +1,35 @@
 {
- "generated": "2026-11-01T04:40:24.600897Z",
+ "generated": "2026-11-01T06:46:37.152491Z",
  "alerts": [
+  {
+   "id": "ETH:0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0:14999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-01T04:58:35Z",
+   "chain": "ETH",
+   "usd": 14991808,
+   "level": 40,
+   "message": "Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "counterparty_label": "an unlabeled address 0xea6D\u2026aE1c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0xa306ca8389f7b7c9b05d2288739a046c0ff9a3ed3d42850d3421868c03f44990:6255.5954",
    "type": "exchange",
@@ -33,6 +62,34 @@
    "cluster": "Coinbase",
    "status": "SAFE",
    "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0xbdecb95f6cc64cc38eadcafb9fb52d2be1fb7ce66fb09d7e7a0f9b323bfc1ad8:4411.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Gate",
+   "time": "2026-11-01T04:29:11Z",
+   "chain": "ETH",
+   "usd": 9997282,
+   "level": 20,
+   "message": "Gate.io 5 sent $10.0M (4,411 ETH) to Gate.io.",
+   "counterparty_label": "Gate.io",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xbdecb95f6cc64cc38eadcafb9fb52d2be1fb7ce66fb09d7e7a0f9b323bfc1ad8",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate",
+   "status": "SAFE",
+   "basis": "Counterparty is Gate.io (same exchange). Internal transfer."
   },
   {
    "id": "ETH:0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d:10000000.0",
