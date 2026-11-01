@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:40:36.439696Z",
+ "generated": "2026-11-01T11:20:53.910362Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -2973,6 +2973,7 @@
    ],
    "balance": 8.53258025564566,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
