@@ -1,6 +1,38 @@
 {
- "generated": "2026-11-01T00:14:42.460346Z",
+ "generated": "2026-11-01T00:24:10.436660Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-11-01T00",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Bitstamp",
+   "time": "2026-11-01T00:24:10.436660Z",
+   "chain": "ETH",
+   "usd": 7058642,
+   "level": 70,
+   "message": "Bitstamp 2 (ETH) balance down 100%: $7.06M \u2192 $87 between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
+   "address": "0x1522900b6dafac587d499a862861c0869be6e428",
+   "address_url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitstamp",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
   {
    "id": "ETH:0xd202c4705002859c278a5821825d173568a996c0ce0e9caafdd2263faeb949bb:7999997.8521",
    "type": "exchange",
