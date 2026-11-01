@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T01:23:25.811266Z",
+ "generated": "2026-11-01T01:25:40.968216Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -117,14 +117,10 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 36192,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 36192.19807683,
-    "text": "1.43M DIMO in from 0x6518FF\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x184beccdba6f9a6e7b98696cee1451e4c517792b44154ae549957ad021d8db1f"
-   },
-   "alerts_24h": 8,
+   "biggest": null,
+   "alerts_24h": 7,
    "anomaly": true
   },
   {
@@ -245,13 +241,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1739,
-   "flow_out_usd": 85099,
-   "biggest": {
-    "usd": 85098.9,
-    "text": "300,000 CRV out to 0x9642b2\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x6de2a75c8c3019cdc5811ebf0572091f666fb5fe546d9b75879809c50f06e6bb"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -350,13 +342,9 @@
     "unspecified": 1
    },
    "monitored": true,
-   "flow_in_usd": 21148,
-   "flow_out_usd": 21849,
-   "biggest": {
-    "usd": 19990.62,
-    "text": "20,000 USDT out to 0x8861c9\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x08321f74a623c705830e11745041ece1d73f97eaaaadba3b3be78df5b02ae4cc"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   }
