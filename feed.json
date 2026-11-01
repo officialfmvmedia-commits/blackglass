@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1:14999999.0",
+   "url": "https://eth.blockscout.com/tx/0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1",
+   "title": "[SAFE] Coinbase 10 received $15.0M (15.00M USDC) from an unlabeled address 0xc3FA\u20268d70.",
+   "content_text": "Coinbase 10 received $15.0M (15.00M USDC) from an unlabeled address 0xc3FA\u20268d70. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T09:01:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
+  },
+  {
    "id": "ETH:0xf441089ef4f96f3f52e998c7d63c9f0ff83d6c378fb8679a5c9194e878092ba2:11320963.2513",
    "url": "https://eth.blockscout.com/tx/0xf441089ef4f96f3f52e998c7d63c9f0ff83d6c378fb8679a5c9194e878092ba2",
    "title": "[MONITORING] Coinbase 10 sent $11.3M (11.32M USDT) to an unlabeled address 0x05D5\u2026DE47.",
@@ -2522,22 +2540,6 @@
    "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
    "date_published": "2025-07-19T08:56:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
-   "url": "https://eth.blockscout.com/tx/0x8ed05fad554f7227db5a6db6daa0bced98812ed07d40cace6b7e500f82d3147d",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-19T08:38:23Z",
    "tags": [
     "lazarus",
     "MONITORING"

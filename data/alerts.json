@@ -1,6 +1,35 @@
 {
- "generated": "2026-11-01T09:02:42.370164Z",
+ "generated": "2026-11-01T09:05:12.141271Z",
  "alerts": [
+  {
+   "id": "ETH:0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1:14999999.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-01T09:01:11Z",
+   "chain": "ETH",
+   "usd": 14999999,
+   "level": 30,
+   "message": "Coinbase 10 received $15.0M (15.00M USDC) from an unlabeled address 0xc3FA\u20268d70.",
+   "counterparty_label": "an unlabeled address 0xc3FA\u20268d70",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "ETH:0xf441089ef4f96f3f52e998c7d63c9f0ff83d6c378fb8679a5c9194e878092ba2:11320963.2513",
    "type": "exchange",
