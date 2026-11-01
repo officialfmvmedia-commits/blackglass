@@ -1,6 +1,121 @@
 {
- "generated": "2026-11-01T08:41:30.911555Z",
+ "generated": "2026-11-01T08:43:44.052750Z",
  "alerts": [
+  {
+   "id": "ETH:0x95c6dbeb0fd2d3d8b9e9ba250c5a2fb610f5e581942b4c027d191e16228ee183:9999999.4",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-01T08:40:11Z",
+   "chain": "ETH",
+   "usd": 9994539,
+   "level": 20,
+   "message": "Coinbase 10 received $10.0M (10.00M USDT) from an unlabeled address 0xdbEC\u20269A81.",
+   "counterparty_label": "an unlabeled address 0xdbEC\u20269A81",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x95c6dbeb0fd2d3d8b9e9ba250c5a2fb610f5e581942b4c027d191e16228ee183",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5:20523167.9435",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-01T08:40:11Z",
+   "chain": "ETH",
+   "usd": 20511962,
+   "level": 40,
+   "message": "Coinbase 10 sent $20.5M (20.52M USDT) to an unlabeled address 0xc9b2\u202614DC.",
+   "counterparty_label": "an unlabeled address 0xc9b2\u202614DC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5:11431038.3186",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-01T08:40:11Z",
+   "chain": "ETH",
+   "usd": 11424797,
+   "level": 40,
+   "message": "Coinbase 10 sent $11.4M (11.43M USDT) to an unlabeled address 0xFa0c\u20262981.",
+   "counterparty_label": "an unlabeled address 0xFa0c\u20262981",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5:20524358.3208",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-01T08:40:11Z",
+   "chain": "ETH",
+   "usd": 20513152,
+   "level": 40,
+   "message": "Coinbase 10 sent $20.5M (20.52M USDT) to an unlabeled address 0xc9b2\u202614DC.",
+   "counterparty_label": "an unlabeled address 0xc9b2\u202614DC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xf22c5278b5ac96ebc6a026dc894bd76855590fcc49d1ab248128fe6c77dae0c5",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x69d1a22b4cc570280ca800ee513ce7f9535050b727211e238cb685f7ef9088bf:55506960.5775",
    "type": "exchange",
