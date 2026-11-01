@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T08:26:10.025414Z",
+ "generated": "2026-11-01T08:28:06.657620Z",
  "threat": 59,
  "counts": {
   "addresses": 221,
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 1
+   "count": 3
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
@@ -139,9 +139,8 @@
   {
    "name": "Blockscout Polygon (Polymarket incident wallets)",
    "url": "https://polygon.blockscout.com/api/v2/",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 from box / runner"
+   "ok": true,
+   "count": 1
   }
  ],
  "disclaimer": "Independent public-data OSINT. Not affiliated with any government. Scores are heuristic resemblance, not attribution.",
