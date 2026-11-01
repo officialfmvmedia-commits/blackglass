@@ -5,6 +5,41 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x31f38fb2118a0c4d8a5bbb2c862e489ac8c18e3f4bbd0c3bb125873900083bf8:5221955.0",
+   "url": "https://eth.blockscout.com/tx/0x31f38fb2118a0c4d8a5bbb2c862e489ac8c18e3f4bbd0c3bb125873900083bf8",
+   "title": "[SAFE] Coinbase 10 received $5.2M (5.22M USDC) from an unlabeled address 0xD1A4\u20268074.",
+   "content_text": "Coinbase 10 received $5.2M (5.22M USDC) from an unlabeled address 0xD1A4\u20268074. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T08:16:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0xa4863f07bb6d7ba03d8e3872ebec5b44a0d84163ec351fa85722bf487534e009:300000000.0",
+   "url": "https://eth.blockscout.com/tx/0xa4863f07bb6d7ba03d8e3872ebec5b44a0d84163ec351fa85722bf487534e009",
+   "title": "[MONITORING] Binance 28 sent $299.8M (300.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $299.8M (300.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T08:11:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
    "id": "ETH:0x7db58ec0f7aefd04200eb11095abddc05d8e03da4c5043c00005b746aebc115c:9478577.0942",
    "url": "https://eth.blockscout.com/tx/0x7db58ec0f7aefd04200eb11095abddc05d8e03da4c5043c00005b746aebc115c",
    "title": "[SAFE] Coinbase 10 received $9.5M (9.48M USDC) from an unlabeled address 0xc3FA\u20268d70.",
@@ -19,6 +54,131 @@
     "status": "SAFE",
     "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0xd8982d86e474c8f8b2c8f49845794527e0de02474d62881cbf7c42506918179c:100000000.0",
+   "url": "https://eth.blockscout.com/tx/0xd8982d86e474c8f8b2c8f49845794527e0de02474d62881cbf7c42506918179c",
+   "title": "[MONITORING] Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T07:37:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0xce6eb677675c079694286daaa9e4c318e63f0476e2a1e3c0f90e72a0c15955b6:100000000.0",
+   "url": "https://eth.blockscout.com/tx/0xce6eb677675c079694286daaa9e4c318e63f0476e2a1e3c0f90e72a0c15955b6",
+   "title": "[MONITORING] Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T07:19:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0x323e2601bfef5210fde39f1d4c69e0238e0f2be05b41a451b04b54c9bc84fe64:50000000.0",
+   "url": "https://eth.blockscout.com/tx/0x323e2601bfef5210fde39f1d4c69e0238e0f2be05b41a451b04b54c9bc84fe64",
+   "title": "[MONITORING] Binance 28 sent $50.0M (50.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $50.0M (50.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T07:12:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0xd4223817f560e2ec8a60f386857b5203438dec50c7976d795f7164e6dd8e5563:20000.0",
+   "url": "https://eth.blockscout.com/tx/0xd4223817f560e2ec8a60f386857b5203438dec50c7976d795f7164e6dd8e5563",
+   "title": "[MONITORING] Binance 28 sent $45.3M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $45.3M (20,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T07:11:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0xbeb5209076eef123bc4f56d3331c32cd5ff476916c9b26d13ab0aea96ea5abcf:800000000.0",
+   "url": "https://eth.blockscout.com/tx/0xbeb5209076eef123bc4f56d3331c32cd5ff476916c9b26d13ab0aea96ea5abcf",
+   "title": "[SAFE] Binance 28 received $799.6M (800.00M USDT) from an unlabeled address 0x2213\u2026BC9E.",
+   "content_text": "Binance 28 received $799.6M (800.00M USDT) from an unlabeled address 0x2213\u2026BC9E. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T06:43:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x814db953a28d648ffaa6601487f7a523cc7dab02f1d6abd129955c5eed3ea81b:10000.0",
+   "url": "https://eth.blockscout.com/tx/0x814db953a28d648ffaa6601487f7a523cc7dab02f1d6abd129955c5eed3ea81b",
+   "title": "[MONITORING] Binance 28 sent $22.7M (10,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $22.7M (10,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T06:18:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0x84edbda0e90edbfb1c325a0165ddbb65d7c75d40bf32bae6b8b67447a259fc46:10000000.0",
+   "url": "https://eth.blockscout.com/tx/0x84edbda0e90edbfb1c325a0165ddbb65d7c75d40bf32bae6b8b67447a259fc46",
+   "title": "[MONITORING] Binance 28 sent $10.0M (10.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $10.0M (10.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T06:16:59Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
    }
   },
   {
@@ -2355,150 +2515,6 @@
    "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
    "date_published": "2025-07-10T05:31:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
-   "url": "https://eth.blockscout.com/tx/0x9902c009088cf5168e47817cc8403b6051bee4d16058739285a8057afb0f09f3",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-10T05:12:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
-   "url": "https://eth.blockscout.com/tx/0x99790d75a63602a325d983c1798d381a812859e212762ffa741208d62815c85a",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-10T04:07:35Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xe0362c4444ac992a007cad814be9f866ad6dbd60eb3bb26a2f5d7cab0b6fdab9",
-   "url": "https://eth.blockscout.com/tx/0xe0362c4444ac992a007cad814be9f866ad6dbd60eb3bb26a2f5d7cab0b6fdab9",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-09T05:36:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xcbdb9cc34c6e556eabef817d651e2d4bccba2198639fd9976cd1f898ea6ba194",
-   "url": "https://eth.blockscout.com/tx/0xcbdb9cc34c6e556eabef817d651e2d4bccba2198639fd9976cd1f898ea6ba194",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-08T13:13:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x22e7336c0a162928d6900208a8d69653862a7ac43aa8c8cd86259d4c83a4ef27",
-   "url": "https://eth.blockscout.com/tx/0x22e7336c0a162928d6900208a8d69653862a7ac43aa8c8cd86259d4c83a4ef27",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-08T13:09:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x069e33a3ea5250ea63fcd6ee808305a62260914a27ef2defdbbe22410a69e8ad",
-   "url": "https://eth.blockscout.com/tx/0x069e33a3ea5250ea63fcd6ee808305a62260914a27ef2defdbbe22410a69e8ad",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-08T05:48:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xd4beb8fb139a0710b4fbc6698fb50552f9919f11f9454ed6f303275fde5fd4d8",
-   "url": "https://eth.blockscout.com/tx/0xd4beb8fb139a0710b4fbc6698fb50552f9919f11f9454ed6f303275fde5fd4d8",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-05T11:22:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x584e83d409b1cc1a11dcd4e453c92cc61242695bcce5dac838fa481908cf9ac3",
-   "url": "https://eth.blockscout.com/tx/0x584e83d409b1cc1a11dcd4e453c92cc61242695bcce5dac838fa481908cf9ac3",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-07-04T12:59:35Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x431098d638a6480d0445ad77c94b1eda705fd845b1c163e7bb71c3ba7a9a1827",
-   "url": "https://eth.blockscout.com/tx/0x431098d638a6480d0445ad77c94b1eda705fd845b1c163e7bb71c3ba7a9a1827",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-27T13:50:47Z",
    "tags": [
     "lazarus",
     "MONITORING"
