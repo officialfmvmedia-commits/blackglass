@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T22:08:50.591746Z",
+ "generated": "2026-11-01T23:06:35.797631Z",
  "scenarios": [
   {
    "id": "Polymarket International incident-20261029",
@@ -200,7 +200,7 @@
    "end": "2025-03-03T18:13:47Z",
    "chain": "ETH",
    "events": 240,
-   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002]. About 4978 ETH went out to 20 new addresses one hop away.",
+   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002]. About 4143 ETH went out to 20 new addresses one hop away.",
    "why": "Fast fan-out: funds split across many wallets quickly.",
    "confidence": 80,
    "confidence_label": "high",
@@ -251,7 +251,7 @@
    "end": "2024-06-25T17:47:35Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007].",
+   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007]. About 0.003538 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
