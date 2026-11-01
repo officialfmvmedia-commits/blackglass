@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d:10000000.0",
+   "url": "https://eth.blockscout.com/tx/0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d",
+   "title": "[MONITORING] KuCoin 15 sent $10.0M (10.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "content_text": "KuCoin 15 sent $10.0M (10.00M USDT) to an unlabeled address 0x83C4\u2026627e. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T01:46:59Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
    "id": "drop:ETH:0x1522900b6dafac587d499a862861c0869be6e428:2026-11-01T00",
    "url": "https://eth.blockscout.com/address/0x1522900b6dafac587d499a862861c0869be6e428",
    "title": "[MONITORING] Bitstamp 2 (ETH) balance down 100%: $7.06M \u2192 $87 between checks.",
@@ -2484,22 +2501,6 @@
     "status": "MONITORING",
     "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
     "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x0bea1890af7db960e696b1a2b7ed26b9d87a6fcc1f51adf03769043efdc84882",
-   "url": "https://eth.blockscout.com/tx/0x0bea1890af7db960e696b1a2b7ed26b9d87a6fcc1f51adf03769043efdc84882",
-   "title": "[MONITORING] OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved).",
-   "content_text": "OFAC-listed address (YUN, Song Guk) called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 75/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034 Labels are heuristic, not attribution.",
-   "date_published": "2025-06-23T15:17:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 75
    }
   }
  ]

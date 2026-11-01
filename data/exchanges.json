@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T03:38:49.497652Z",
+ "generated": "2026-11-01T03:40:37.325246Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -82,10 +82,14 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
-   "alerts_24h": 0,
+   "flow_in_usd": 22538,
+   "flow_out_usd": 10079491,
+   "biggest": {
+    "usd": 9995310.0,
+    "text": "10.00M USDT out to 0x83C413\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x4de13e062d86d18cfb5d34828b8ad3e4ed66dc6677aba40e3edb9db713df779d"
+   },
+   "alerts_24h": 1,
    "anomaly": false
   },
   {
@@ -117,9 +121,13 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 21013,
+   "flow_out_usd": 12090,
+   "biggest": {
+    "usd": 5939.561271839742,
+    "text": "2.62 ETH in from Coinbase: Miscellaneous",
+    "tx": "https://eth.blockscout.com/tx/0x8908a04471965e69aca7e99fe5127e4050148a4ec92808a9f3a4379ee02048e2"
+   },
    "alerts_24h": 7,
    "anomaly": true
   },
