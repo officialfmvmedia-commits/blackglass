@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T10:20:28.564501Z",
+ "generated": "2026-11-02T10:22:19.156619Z",
  "threat": 61,
  "counts": {
   "addresses": 221,
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 68
+   "count": 66
   },
   {
    "name": "Blockscout Optimism (exchange polling)",
