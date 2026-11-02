@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-02T11",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 91%: $5.60M \u2192 $0.52M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 91%: $5.60M \u2192 $0.52M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T11:39:51.813230Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
    "id": "ETH:0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b:4334.0",
    "url": "https://eth.blockscout.com/tx/0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b",
    "title": "[SAFE] Gate.io 5 sent $9.9M (4,334 ETH) to Gate.io.",
@@ -2587,22 +2604,6 @@
     "status": "MONITORING",
     "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
     "risk": 15
-   }
-  },
-  {
-   "id": "ETH:0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
-   "url": "https://eth.blockscout.com/tx/0xf6e34c3d34c90b40e97a25dcb86315ae678194e1be98935747089266c80dee1f",
-   "title": "[MONITORING] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
-   "date_published": "2025-08-28T01:12:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
    }
   }
  ]
