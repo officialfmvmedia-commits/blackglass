@@ -1,6 +1,60 @@
 {
- "generated": "2026-11-02T12:41:56.102622Z",
+ "generated": "2026-11-02T20:12:46.993763Z",
  "incidents": [
+  {
+   "id": "HMercado Bitcoin",
+   "name": "Mercado Bitcoin",
+   "date": "2026-11-02",
+   "amount_usd": 40000000,
+   "chains": [
+    "Bitcoin",
+    "Ethereum",
+    "Solana",
+    "TRON",
+    "Polygon",
+    "Arbitrum",
+    "Avalanche",
+    "BSC",
+    "Stellar",
+    "XDC"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 2, 2026, attackers compromised a system at Mercado Bitcoin and transferred more than $40 million in crypto from exchange-associated wallets across various blockchains. The exchange contained the incident and temporarily suspended deposits and withdrawals while investigating the transfers. Tether froze more than $4.5 million USDT associated with the theft. Mercado Bitcoin stated that customers would not incur losses and that no customer data was exposed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HBTCPay Server",
+   "name": "BTCPay Server",
+   "date": "2026-11-01",
+   "amount_usd": null,
+   "chains": [
+    "Bitcoin",
+    "Litecoin"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "On November 1, 2026, attackers exploited a vulnerability in BTCPay Server versions 2.4.1 and earlier to compromise self-hosted installations and steal BTC and LTC from their hot wallets. The vulnerability had been patched in version 2.4.2 in August, but outdated installations remained exposed. BTCPay Server urged affected operators to take their servers offline, migrate to fresh installations, replace compromised wallet seeds, and rotate potentially exposed credentials. Wallets whose spending keys were held off-server, including hardware wallets, were unaffected",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H3497",
    "name": "Premia V3",
@@ -897,55 +951,6 @@
    "technique": "Impersonation Scam",
    "classification": "Social Engineering",
    "description": "Scammers deployed a counterfeit OP Stack-style network impersonating GIWA, including an RPC endpoint, Ethereum bridge and batch-posting infrastructure. The fake network reported GIWA\u2019s expected mainnet Chain ID 9134, causing DYORSWAP and users to mistake it for the legitimate GIWA mainnet. Users voluntarily deposited ETH into the fraudulent bridge. After accumulating deposits, the scammers drained 766.25 ETH to an attacker-controlled address. GIWA\u2019s actual mainnet had not launched, and neither GIWA nor DYORSWAP\u2019s smart contracts were exploited",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H2001",
-   "name": "Demex Perp",
-   "date": "2026-09-25",
-   "amount_usd": 191929,
-   "chains": [
-    "Demex",
-    "Ethereum",
-    "BSC"
-   ],
-   "technique": "Cross-Chain Message Spoofing",
-   "classification": "Bridge & Cross-Chain",
-   "description": "Demex\u2019s bridge was exploited through insufficient verification between its bridge module and external-chain contract system. The attacker used a helper contract to falsify token-deployment reports, registering the low-value nLEND token against canonical WETH and WBNB contracts. Subsequent withdrawals released approximately $191,929 in bridge reserves despite deducting only $10.47 worth of nLEND. The withdrawal limiter also failed because it valued the deducted tokens rather than the assets released",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HDuelbits",
-   "name": "Duelbits",
-   "date": "2026-09-24",
-   "amount_usd": 7000000,
-   "chains": [
-    "Ethereum",
-    "BSC",
-    "Bitcoin",
-    "Tron"
-   ],
-   "technique": "Hot Wallet Key Compromised",
-   "classification": "Key Compromise",
-   "description": "Duelbits suffered unauthorized transfers from hot wallets across Ethereum, BSC, Bitcoin, and Tron. Stolen assets were rapidly moved, bridged and largely consolidated into ETH and DAI on Ethereum. Duelbits took its platform offline while investigating and stated that user funds were safe. Security researchers suspect compromise of hot-wallet private keys, but Duelbits has not yet published a technical root cause",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,

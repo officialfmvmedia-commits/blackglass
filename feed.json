@@ -5,6 +5,238 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xc849e0b18d96c801f428b3af5cd1d9c629846a0ec27dd02bafc03c1673fdb6db:2503.0307",
+   "url": "https://eth.blockscout.com/tx/0xc849e0b18d96c801f428b3af5cd1d9c629846a0ec27dd02bafc03c1673fdb6db",
+   "title": "[SAFE] Coinbase 10 received $5.6M (2,503 ETH) from Coinbase 5.",
+   "content_text": "Coinbase 10 received $5.6M (2,503 ETH) from Coinbase 5. Status: SAFE. Counterparty is Coinbase 5 (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T19:50:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Coinbase 5 (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0xe2382a510d362be53505ca748862c876e47ad1efd5756e9dc28b6696d647b100:177192675.2167",
+   "url": "https://eth.blockscout.com/tx/0xe2382a510d362be53505ca748862c876e47ad1efd5756e9dc28b6696d647b100",
+   "title": "[SAFE] Bitfinex: Hot Wallet sent $177.0M (177.19M USDT) to Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet sent $177.0M (177.19M USDT) to Bitfinex 2. Status: SAFE. Counterparty is Bitfinex 2 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T18:49:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer.",
+    "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x182d53fcd8181471f796b7b2d90ff4d1179c8c6037b610f807c8bc2f8608029c:270000000.0",
+   "url": "https://eth.blockscout.com/tx/0x182d53fcd8181471f796b7b2d90ff4d1179c8c6037b610f807c8bc2f8608029c",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $269.7M (270.00M USDT) from an unlabeled address 0x1897\u2026754a.",
+   "content_text": "Bitfinex: Hot Wallet received $269.7M (270.00M USDT) from an unlabeled address 0x1897\u2026754a. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T18:46:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x6b70ba4ecdc8c773bfe7666425e6bf869ca4148041c28e82a7a9df06900be87c:9000000.0",
+   "url": "https://eth.blockscout.com/tx/0x6b70ba4ecdc8c773bfe7666425e6bf869ca4148041c28e82a7a9df06900be87c",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T18:08:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0x0330b590d3f3793607534e5e54d6c1d97088e2a3f4c8b71d24ef8cc4aa8d71a0:20000.0",
+   "url": "https://eth.blockscout.com/tx/0x0330b590d3f3793607534e5e54d6c1d97088e2a3f4c8b71d24ef8cc4aa8d71a0",
+   "title": "[MONITORING] Binance 8 sent $44.9M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 8 sent $44.9M (20,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T18:08:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0x3b2491a51b0f553ab803e6b6a4f08a2627224407aa24a4500f3ccbd6e5f12c8b:468058035.6692",
+   "url": "https://eth.blockscout.com/tx/0x3b2491a51b0f553ab803e6b6a4f08a2627224407aa24a4500f3ccbd6e5f12c8b",
+   "title": "[MONITORING] Binance 8 sent $467.6M (468.06M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 8 sent $467.6M (468.06M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T17:51:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
+   "id": "ETH:0x78072c97db85751f95f15af1421db4ec34db0533ba7c75759eda0b98df425342:36443453.964",
+   "url": "https://eth.blockscout.com/tx/0x78072c97db85751f95f15af1421db4ec34db0533ba7c75759eda0b98df425342",
+   "title": "[SAFE] Binance 8 sent $36.4M (36.44M RLUSD) to Binance 28.",
+   "content_text": "Binance 8 sent $36.4M (36.44M RLUSD) to Binance 28. Status: SAFE. Counterparty is Binance 28 (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T17:15:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x4418ffd140d56dda0fef77e5fb4b69b8720d9821c954f9f7218177698ef92321:377285.463",
+   "url": "https://eth.blockscout.com/tx/0x4418ffd140d56dda0fef77e5fb4b69b8720d9821c954f9f7218177698ef92321",
+   "title": "[SAFE] Binance 8 sent $75.4M (377,285 QNT) to Binance 28.",
+   "content_text": "Binance 8 sent $75.4M (377,285 QNT) to Binance 28. Status: SAFE. Counterparty is Binance 28 (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T17:05:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xe2c3e3bf8224ed6292d45df192d522a0897977141ea2fd8ae3f2874e84f56c16:89117363.192",
+   "url": "https://eth.blockscout.com/tx/0xe2c3e3bf8224ed6292d45df192d522a0897977141ea2fd8ae3f2874e84f56c16",
+   "title": "[SAFE] Binance 8 sent $33.7M (89.12M WLD) to Binance 28.",
+   "content_text": "Binance 8 sent $33.7M (89.12M WLD) to Binance 28. Status: SAFE. Counterparty is Binance 28 (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T16:59:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xe65909a89854fbd1d9f517c84c0bfe6cad55a57de5736862725921ee6dc96a7f:104976778.9975",
+   "url": "https://eth.blockscout.com/tx/0xe65909a89854fbd1d9f517c84c0bfe6cad55a57de5736862725921ee6dc96a7f",
+   "title": "[SAFE] Binance 8 sent $104.8M (104.98M USDE) to Binance 28.",
+   "content_text": "Binance 8 sent $104.8M (104.98M USDE) to Binance 28. Status: SAFE. Counterparty is Binance 28 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T16:57:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
+    "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x4998c2a70013a2d7757121476dfd22253a938ed84277bab3e608e55a2beea491:200000000.0",
+   "url": "https://eth.blockscout.com/tx/0x4998c2a70013a2d7757121476dfd22253a938ed84277bab3e608e55a2beea491",
+   "title": "[MONITORING] Binance 28 sent $199.8M (200.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $199.8M (200.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T15:48:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
+   "id": "ETH:0x3322744608d1dad065dda1cf3a4821b37ad9c447ca3e6b516d33a3d1113ef787:300000000.0",
+   "url": "https://eth.blockscout.com/tx/0x3322744608d1dad065dda1cf3a4821b37ad9c447ca3e6b516d33a3d1113ef787",
+   "title": "[MONITORING] Binance 28 sent $299.7M (300.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $299.7M (300.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T13:49:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
+   "id": "ETH:0x2fbe6cac0b1b8135922f5402dcff1c2823ea028bb468d2671c51f667424d1c77:200000000.0",
+   "url": "https://eth.blockscout.com/tx/0x2fbe6cac0b1b8135922f5402dcff1c2823ea028bb468d2671c51f667424d1c77",
+   "title": "[MONITORING] Binance 28 sent $199.8M (200.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 28 sent $199.8M (200.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T13:24:47Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
    "id": "ETH:0x2f63af8f203190d0c0d43d3d8759a459451fcb8319faf6782ae79ed83bdf3db5:74371257.299",
    "url": "https://eth.blockscout.com/tx/0x2f63af8f203190d0c0d43d3d8759a459451fcb8319faf6782ae79ed83bdf3db5",
    "title": "[SAFE] Bitfinex: Hot Wallet sent $74.3M (74.37M USDT) to Bitfinex 2.",
@@ -1235,6 +1467,24 @@
    }
   },
   {
+   "id": "ETH:0x8d18549ef2ad8aa3b6378639e4ff34502aeccd4967edbc9ad553b5e585804d76:50000.0",
+   "url": "https://eth.blockscout.com/tx/0x8d18549ef2ad8aa3b6378639e4ff34502aeccd4967edbc9ad553b5e585804d76",
+   "title": "[SAFE] Binance 28 received $112.4M (50,000 ETH) from Binance 8.",
+   "content_text": "Binance 28 received $112.4M (50,000 ETH) from Binance 8. Status: SAFE. Counterparty is Binance 8 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-01T06:08:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Binance 8 (same exchange). Internal transfer.",
+    "risk": 35
+   }
+  },
+  {
    "id": "ETH:0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0:14999997.8521",
    "url": "https://eth.blockscout.com/tx/0x5a77a488053c7d849818ee0f7441b5bf4d49c8f57278acc0c0ae51c697495af0",
    "title": "[MONITORING] Bitfinex: Hot Wallet sent $15.0M (15.00M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
@@ -2392,230 +2642,6 @@
     "status": "RISK",
     "basis": "Sender is on the OFAC SDN list.",
     "risk": 55
-   }
-  },
-  {
-   "id": "ETH:0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
-   "url": "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b",
-   "title": "[MONITORING] OFAC-listed address (LAZARUS GROUP) received 0.006438 ETH from 0x36B4\u2026DE7a.",
-   "content_text": "OFAC-listed address (LAZARUS GROUP) received 0.006438 ETH from 0x36B4\u2026DE7a. Status: MONITORING. Inbound to a wallet on the OFAC SDN list. No outflow in this transaction. Risk score 15/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307 Labels are heuristic, not attribution.",
-   "date_published": "2026-10-01T13:34:11Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
-    "risk": 15
-   }
-  },
-  {
-   "id": "ETH:0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
-   "url": "https://eth.blockscout.com/tx/0x917f70691c6c910cdffff4c2216f310cc8516ba50ef6b0a663b0126d4502c127",
-   "title": "[MONITORING] FBI-attributed wallet called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
-   "content_text": "FBI-attributed wallet called collectReward on ERC1967ProxyWithReceive (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 50/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-03-27T13:45:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
-   "url": "https://eth.blockscout.com/tx/0xbee80a2c33d95dfe73101cfb9e25fb1b9b12d2024329f2ed9af939b6ecfa6b5a",
-   "title": "[RISK] FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001].",
-   "content_text": "FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001]. Status: RISK. Sender is on the FBI public attribution. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:39:35Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the FBI public attribution.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
-   "url": "https://eth.blockscout.com/tx/0xd07bd65702f01f46ca7db00f490e96b5f8ac74611ee512c22a72f6d265eaa1ed",
-   "title": "[RISK] FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001].",
-   "content_text": "FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001]. Status: RISK. Sender is on the FBI public attribution. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:39:11Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the FBI public attribution.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
-   "url": "https://eth.blockscout.com/tx/0xc8812ad235ed85e6da5a3fb001bc5d92c7808784832a5b8ce9cfd5b1c8b584ed",
-   "title": "[RISK] FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001].",
-   "content_text": "FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001]. Status: RISK. Sender is on the FBI public attribution. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:32:59Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the FBI public attribution.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
-   "url": "https://eth.blockscout.com/tx/0xff61ff6db16982515bd9425798cc496b22e7d4b4b2d99cf7c0849697a64b0dc3",
-   "title": "[RISK] FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001].",
-   "content_text": "FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001]. Status: RISK. Sender is on the FBI public attribution. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:32:11Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the FBI public attribution.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
-   "url": "https://eth.blockscout.com/tx/0xe600a08f34181a015e452dac0832605800654096e5a29d4de849e803d2c886b1",
-   "title": "[RISK] FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001].",
-   "content_text": "FBI-attributed wallet sent 1e-18 ETH to ConsolidationRequestPredeploy [cluster C001]. Status: RISK. Sender is on the FBI public attribution. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:30:11Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the FBI public attribution.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
-   "url": "https://eth.blockscout.com/tx/0x973ac036d8ecfc61b336646b8b3668354b862f229c63459f0b1e6e3b3f97e42d",
-   "title": "[MONITORING] FBI-attributed wallet called swap on MetaSwap (no ETH moved).",
-   "content_text": "FBI-attributed wallet called swap on MetaSwap (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 75/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:16:35Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 75
-   }
-  },
-  {
-   "id": "ETH:0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
-   "url": "https://eth.blockscout.com/tx/0xfc165536c60d3bf42f0a296aea4678797676d78c86f4decef17500e86534ff80",
-   "title": "[MONITORING] FBI-attributed wallet called approve on ether.fi Staked ETH (no ETH moved).",
-   "content_text": "FBI-attributed wallet called approve on ether.fi Staked ETH (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 65/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:16:35Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 65
-   }
-  },
-  {
-   "id": "ETH:0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
-   "url": "https://eth.blockscout.com/tx/0xaa306a2fc65a464df203cfd69d37dc2b799acbb95bdac893a36046a6aec55616",
-   "title": "[MONITORING] FBI-attributed wallet called claimWithdraw on UUPSProxy (no ETH moved).",
-   "content_text": "FBI-attributed wallet called claimWithdraw on UUPSProxy (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 65/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-29T12:09:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 65
-   }
-  },
-  {
-   "id": "BTC:5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
-   "url": "https://mempool.space/tx/5e5793145db3335fa12b1a962d4db50ac0ed3d1e3a9a37a9c9fbcc929232799c",
-   "title": "[RISK] OFAC-listed address (LI, Jiadong) spent 0.0008602 BTC split across 1 output(s) [cluster C003].",
-   "content_text": "OFAC-listed address (LI, Jiadong) spent 0.0008602 BTC split across 1 output(s) [cluster C003]. Status: RISK. Sender is on the OFAC SDN list. Risk score 60/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28264 Labels are heuristic, not attribution.",
-   "date_published": "2026-01-16T06:14:28Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the OFAC SDN list.",
-    "risk": 60
-   }
-  },
-  {
-   "id": "ETH:0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
-   "url": "https://eth.blockscout.com/tx/0x6d5ed39104938295312c476a60b07cdab94e5c04978bf8e9acf4094e1a9d0d03",
-   "title": "[MONITORING] FBI-attributed wallet called requestWithdraw on UUPSProxy (no ETH moved).",
-   "content_text": "FBI-attributed wallet called requestWithdraw on UUPSProxy (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 50/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-13T12:16:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
-   "url": "https://eth.blockscout.com/tx/0xcc5d1cf9f34d0738ba531525bd009ccb33742a2bf5a148c8528fcd1218a46e79",
-   "title": "[MONITORING] FBI-attributed wallet called approve on ether.fi Staked ETH (no ETH moved).",
-   "content_text": "FBI-attributed wallet called approve on ether.fi Staked ETH (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 65/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-13T12:11:23Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 65
-   }
-  },
-  {
-   "id": "ETH:0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
-   "url": "https://eth.blockscout.com/tx/0xb4ab42d2cc48b00b4d67afe95477e7a2f39d5649461c25456e054e2e18968e6b",
-   "title": "[MONITORING] FBI-attributed wallet called collectReward on ERC1967ProxyWithReceive (no ETH moved).",
-   "content_text": "FBI-attributed wallet called collectReward on ERC1967ProxyWithReceive (no ETH moved). Status: MONITORING. Contract call by a wallet on the FBI public attribution. No value transferred. Risk score 50/100. Sources: https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft Labels are heuristic, not attribution.",
-   "date_published": "2026-01-13T11:40:59Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
-    "risk": 50
    }
   }
  ]
