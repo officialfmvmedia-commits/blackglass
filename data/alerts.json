@@ -1,6 +1,161 @@
 {
- "generated": "2026-11-02T02:25:47.565891Z",
+ "generated": "2026-11-02T05:06:47.208092Z",
  "alerts": [
+  {
+   "id": "ETH:0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-02T04:09:11Z",
+   "chain": "ETH",
+   "usd": 7993238,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x7243dc9d78329c440cc776d446a098170905d662e33561eaaf357c6746a6650c:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-02T04:08:23Z",
+   "chain": "ETH",
+   "usd": 7993238,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x7243dc9d78329c440cc776d446a098170905d662e33561eaaf357c6746a6650c",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x7378097db8e80bcf691ffb314e942ddae08857b1291296c549dcfabea8419f8d:50000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T03:49:35Z",
+   "chain": "ETH",
+   "usd": 114504641,
+   "level": 35,
+   "message": "Binance 8 sent $114.5M (50,000 ETH) to Binance 28.",
+   "counterparty_label": "Binance 28",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x7378097db8e80bcf691ffb314e942ddae08857b1291296c549dcfabea8419f8d",
+   "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+   "address_url": "https://eth.blockscout.com/address/0xf977814e90da44bfa03b6295a0616a897441acec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "SAFE",
+   "basis": "Counterparty is Binance 28 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0x51f2e7b2e9e26e48fa026bb2c358dba9e0b24bad176436bed03a5935da52bda3:20000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T03:49:23Z",
+   "chain": "ETH",
+   "usd": 45801857,
+   "level": 40,
+   "message": "Binance 8 sent $45.8M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x51f2e7b2e9e26e48fa026bb2c358dba9e0b24bad176436bed03a5935da52bda3",
+   "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+   "address_url": "https://eth.blockscout.com/address/0xf977814e90da44bfa03b6295a0616a897441acec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x29e817754fbdbd6c7e46ed4aa3f58e84bc08e9c5966326774aa0b23c1754ca08:30000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T03:48:47Z",
+   "chain": "ETH",
+   "usd": 68702785,
+   "level": 40,
+   "message": "Binance 8 sent $68.7M (30,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x29e817754fbdbd6c7e46ed4aa3f58e84bc08e9c5966326774aa0b23c1754ca08",
+   "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+   "address_url": "https://eth.blockscout.com/address/0xf977814e90da44bfa03b6295a0616a897441acec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x8f9de2b45c5e5acd69b8a85974d8c9459ecea8bbd13b997110132288ddfa52cc:7999997.8521",
    "type": "exchange",
