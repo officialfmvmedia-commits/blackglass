@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:31:27.698932Z",
+ "generated": "2026-11-02T11:50:18.028685Z",
  "scenarios": [
   {
    "id": "Polymarket International incident-20261029",
@@ -128,7 +128,7 @@
    "end": "2025-09-13T15:30:35Z",
    "chain": "ETH",
    "events": 2,
-   "what": "2 logged movements on Sep 13, 2025. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 4 ETH to address 0x1AB4\u20268F23 [cluster C008]. About 4 ETH went out to 1 new address one hop away.",
+   "what": "2 logged movements on Sep 13, 2025. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 4 ETH to address 0x1AB4\u20268F23 [cluster C008].",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
