@@ -5,6 +5,42 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xac01818dc97ab74fd438d574236335eb2f8e7b61094cc076f4de605531614b57:172700000.0",
+   "url": "https://eth.blockscout.com/tx/0xac01818dc97ab74fd438d574236335eb2f8e7b61094cc076f4de605531614b57",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $172.5M (172.70M USDT) from an unlabeled address 0x1897\u2026754a.",
+   "content_text": "Bitfinex: Hot Wallet received $172.5M (172.70M USDT) from an unlabeled address 0x1897\u2026754a. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T12:34:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x648055afbf472cbcf478dfa4751d47dc6856ee43946ab468765fea9b082454e8:2000000000.0",
+   "url": "https://eth.blockscout.com/tx/0x648055afbf472cbcf478dfa4751d47dc6856ee43946ab468765fea9b082454e8",
+   "title": "[SAFE] Bitfinex: MultiSig 2 received $2.00B (2.00B USDT) from an unlabeled address 0x5754\u2026B949.",
+   "content_text": "Bitfinex: MultiSig 2 received $2.00B (2.00B USDT) from an unlabeled address 0x5754\u2026B949. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T12:27:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 35
+   }
+  },
+  {
    "id": "ETH:0xfea3b35454ffc9828297734101eca2ca126b79a3497b4b0e6d7fb18a7662598a:15499997.8521",
    "url": "https://eth.blockscout.com/tx/0xfea3b35454ffc9828297734101eca2ca126b79a3497b4b0e6d7fb18a7662598a",
    "title": "[MONITORING] Bitfinex: Hot Wallet sent $15.5M (15.50M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
@@ -2578,38 +2614,6 @@
     "status": "RISK",
     "basis": "Sender is on the OFAC SDN list.",
     "risk": 55
-   }
-  },
-  {
-   "id": "ETH:0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
-   "url": "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db",
-   "title": "[MONITORING] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) received 4 ETH from 0x9Be5\u20265573.",
-   "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) received 4 ETH from 0x9Be5\u20265573. Status: MONITORING. Inbound to a wallet on the OFAC SDN list. No outflow in this transaction. Risk score 15/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
-   "date_published": "2025-09-13T15:25:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
-    "risk": 15
-   }
-  },
-  {
-   "id": "ETH:0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
-   "url": "https://eth.blockscout.com/tx/0x280f25a6e5b5680c3377b7d84e2a07b7e7296e04b72063ec3e0d8fdde7eba882",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-09-09T08:48:23Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
    }
   }
  ]
