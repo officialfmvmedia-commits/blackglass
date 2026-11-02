@@ -5,6 +5,57 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x8f9de2b45c5e5acd69b8a85974d8c9459ecea8bbd13b997110132288ddfa52cc:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x8f9de2b45c5e5acd69b8a85974d8c9459ecea8bbd13b997110132288ddfa52cc",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T02:06:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xcaf73a0d01d15e918c5254cfbfbe4918ab5d7652d2777257bc6e3d26eeb1b8fa:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0xcaf73a0d01d15e918c5254cfbfbe4918ab5d7652d2777257bc6e3d26eeb1b8fa",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T02:05:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x5c575f5eacae73629744fe267e7ee5f85162c43d8e085f8562526ee6a6fd7b18:8562433.68",
+   "url": "https://eth.blockscout.com/tx/0x5c575f5eacae73629744fe267e7ee5f85162c43d8e085f8562526ee6a6fd7b18",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $8.6M (8.56M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $8.6M (8.56M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T01:09:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-02T00",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 74%: $9.88M \u2192 $2.60M between checks.",
@@ -2543,54 +2594,6 @@
     "status": "MONITORING",
     "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
     "risk": 15
-   }
-  },
-  {
-   "id": "BTC:d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
-   "url": "https://mempool.space/tx/d263f71d0810e265589dcd4d769550c53cb3b48cbc1be3dae105e9e62b7e9c67",
-   "title": "[MONITORING] OFAC-listed address (ANDREYEV, Vitaliy Sergeyevich) received 0.103 BTC.",
-   "content_text": "OFAC-listed address (ANDREYEV, Vitaliy Sergeyevich) received 0.103 BTC. Status: MONITORING. Inbound to a wallet on the OFAC SDN list. No outflow in this transaction. Risk score 15/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065 Labels are heuristic, not attribution.",
-   "date_published": "2025-08-12T14:38:20Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
-    "risk": 15
-   }
-  },
-  {
-   "id": "ETH:0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
-   "url": "https://eth.blockscout.com/tx/0x4f8030a467bd93426e9ec87cc182ed0ece2b34864fcc90d5ceec8205a04af637",
-   "title": "[RISK] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.05389 ETH to address 0xa1ab\u2026DF09 [cluster C010].",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.05389 ETH to address 0xa1ab\u2026DF09 [cluster C010]. Status: RISK. Sender is on the OFAC SDN list. Risk score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-08-10T02:04:11Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the OFAC SDN list.",
-    "risk": 55
-   }
-  },
-  {
-   "id": "ETH:0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
-   "url": "https://eth.blockscout.com/tx/0x1d170c9a1390a93c88a0879ab1c67551b97ff1524606efdf0f306b1d25493df1",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on USDC (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on USDC (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-08-07T00:53:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
    }
   }
  ]
