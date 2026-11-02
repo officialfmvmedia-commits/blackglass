@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T06:54:13.296545Z",
+ "generated": "2026-11-02T06:56:19.934208Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,8 +62,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 6,
+   "biggest": {
+    "usd": 5.54969454,
+    "text": "7.089e-05 WBTC out to 0x933D54\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xcca18a46b50507883426241cc2283d886652f0c8b514bbb3013b47537cb27cb0"
+   },
    "alerts_24h": 17,
    "anomaly": false
   },
@@ -241,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 2730288,
+   "flow_out_usd": 310,
+   "biggest": {
+    "usd": 1698296.6,
+    "text": "1.70M USDT in from 0xd1f6a0\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x79a03b756b8cd3eb077f9a81a794e67324aaa7659e6a44519afd4569bbb2c9cc"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
