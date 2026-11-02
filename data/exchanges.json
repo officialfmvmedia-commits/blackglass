@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T08:54:19.767855Z",
+ "generated": "2026-11-02T09:02:17.504594Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 625,
-   "flow_out_usd": 0,
+   "flow_in_usd": 50,
+   "flow_out_usd": 59571,
    "biggest": {
-    "usd": 475.523048,
-    "text": "476 USDT in from 0xb579a1\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xa84423c6f48b828f38f704874f8d4443c1937ae4a6dbabc1d8dd18d566702c88"
+    "usd": 33614.1369521958,
+    "text": "33,648 USDT out to 0xF06dD7\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xc75a3d1caec783b4c7c59b9fdb93b86262a60e9b2aad3227c315be4e3845ea76"
    },
    "alerts_24h": 17,
    "anomaly": false
@@ -124,7 +124,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 5,
+   "alerts_24h": 4,
    "anomaly": true
   },
   {
@@ -245,13 +245,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 371,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 162.2815355425514,
-    "text": "0.0415 PAXG in from 0xE9A440\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc3ce515089a030934056f664cb334f65ce19270b154f85759a30d206101074c6"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
