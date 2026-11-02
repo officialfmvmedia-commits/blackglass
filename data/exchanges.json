@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T08:50:23.768513Z",
+ "generated": "2026-11-02T08:52:38.582236Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,12 +62,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 128169,
-   "biggest": {
-    "usd": 128168.6628701864,
-    "text": "128,226 USDC out to 0xa4470a\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x2920472c8eff94a20f22ecc2213223b69d2d8bc3e9fd2b1ac9322df230464b38"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 17,
    "anomaly": false
   },
