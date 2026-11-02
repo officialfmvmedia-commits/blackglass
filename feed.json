@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xfea3b35454ffc9828297734101eca2ca126b79a3497b4b0e6d7fb18a7662598a:15499997.8521",
+   "url": "https://eth.blockscout.com/tx/0xfea3b35454ffc9828297734101eca2ca126b79a3497b4b0e6d7fb18a7662598a",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $15.5M (15.50M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "content_text": "Bitfinex: Hot Wallet sent $15.5M (15.50M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T12:11:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-02T11",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 91%: $5.60M \u2192 $0.52M between checks.",
@@ -2588,22 +2606,6 @@
     "status": "MONITORING",
     "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
     "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
-   "url": "https://eth.blockscout.com/tx/0xa13179aa8312543b13e55ff180f6344205d5cc745fc80ef61a67433e1ec95179",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) received 0.018 ETH from 0xab97\u2026ee2B.",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) received 0.018 ETH from 0xab97\u2026ee2B. Status: MONITORING. Inbound to a wallet on the OFAC SDN list. No outflow in this transaction. Risk score 15/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2025-09-06T20:53:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Inbound to a wallet on the OFAC SDN list. No outflow in this transaction.",
-    "risk": 15
    }
   }
  ]
