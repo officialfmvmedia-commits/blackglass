@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:50:18.028685Z",
+ "generated": "2026-11-02T11:52:04.049240Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 1998551,
-   "flow_out_usd": 5506,
+   "flow_in_usd": 4520,
+   "flow_out_usd": 300087,
    "biggest": {
-    "usd": 1997935.4006191997,
-    "text": "2.00M USDT in from 0x33caDF\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x006a890a74a4deb65a69813c18ced89b7d84b414a3f512e92e6dc116686f3903"
+    "usd": 300086.6427550328,
+    "text": "300,397 USDT out to 0xA294cC\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x5428f611022308d239d8aba56c06198d14963622547c3b7c24b58a53b4fa2239"
    },
    "alerts_24h": 16,
    "anomaly": false
@@ -209,12 +209,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 1187,
-   "biggest": {
-    "usd": 1187.0210427182,
-    "text": "59,736 GRT out to 0x950929\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x9d04866e8e846fb4ad1dfbfb3c1031519b88fb22aaa3fb0b5a56f8a6f71e19a1"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
