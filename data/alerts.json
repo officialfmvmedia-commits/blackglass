@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T12:27:12.904902Z",
+ "generated": "2026-11-02T12:33:47.469004Z",
  "alerts": [
   {
    "id": "ETH:0xfea3b35454ffc9828297734101eca2ca126b79a3497b4b0e6d7fb18a7662598a:15499997.8521",
@@ -27,6 +27,64 @@
     }
    ],
    "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x0e2d1f8744bfc760bcd753a11a4e726a06912367e531484c9b6ee4caf7bfa9c9:20000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T12:00:47Z",
+   "chain": "ETH",
+   "usd": 45770677,
+   "level": 40,
+   "message": "Binance 28 sent $45.8M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0e2d1f8744bfc760bcd753a11a4e726a06912367e531484c9b6ee4caf7bfa9c9",
+   "address": "0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "address_url": "https://eth.blockscout.com/address/0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x6aa4e8b80be2464f993bc684729edbfd62cbf232f2fb0bf013b5d5a3f23a5657:100000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T12:00:23Z",
+   "chain": "ETH",
+   "usd": 99896800,
+   "level": 40,
+   "message": "Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x6aa4e8b80be2464f993bc684729edbfd62cbf232f2fb0bf013b5d5a3f23a5657",
+   "address": "0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "address_url": "https://eth.blockscout.com/address/0x5a52e96bacdabb82fd05763e25335261b270efcb",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Binance",
    "status": "MONITORING",
    "basis": "Destination is unlabeled. Not linked to any flagged wallet."
   },
