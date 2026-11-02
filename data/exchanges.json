@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T08:38:25.606627Z",
+ "generated": "2026-11-02T08:40:23.049454Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,12 +61,12 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 2286,
+   "flow_in_usd": 277,
    "flow_out_usd": 0,
    "biggest": {
-    "usd": 1616.8019275648242,
-    "text": "1,618 USDT in from 0x0624bD\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x78957cc24d3574215c317e6cd2bde73a3379bce39d926a15f3699d6ced4254f5"
+    "usd": 277.0722950996,
+    "text": "277.4 USDT in from 0xe17234\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xbc3ac405b15efae37b31d0bf20eeda7744487f094071b86926ba6c041a1db223"
    },
    "alerts_24h": 17,
    "anomaly": false
@@ -86,13 +86,9 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 2031408,
+   "flow_in_usd": 0,
    "flow_out_usd": 0,
-   "biggest": {
-    "usd": 1999108.0,
-    "text": "2.00M USDC in from 0xf97DeB\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x5e3fcdaa4dfba0691b512c82a13cfa947bdb09169edb95437d4bd21fd4048ca5"
-   },
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -128,7 +124,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 10,
+   "alerts_24h": 6,
    "anomaly": true
   },
   {
@@ -249,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 242790,
+   "flow_out_usd": 8,
+   "biggest": {
+    "usd": 117760.245876,
+    "text": "989,898 KNC in from 0x532374\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x5254e98fb2700b8986d28837ce046f6228f56a2f23b3d6397523ffa6651593c2"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
