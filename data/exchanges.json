@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T10:37:03.069279Z",
+ "generated": "2026-11-02T10:40:05.263688Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -62,11 +62,11 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 9010,
+   "flow_out_usd": 325126,
    "biggest": {
-    "usd": 9010.25680892,
-    "text": "9,020 USDT out to 0x51dBd9\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xbeeccdea8c1691dacd4d6ad2e131d05338b22b6a5a3b64623da4d9d43932b91b"
+    "usd": 300102.6262430328,
+    "text": "300,413 USDT out to 0xA294cC\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x82fa96d9f29faf8639235ad7966649f7103ac1b30797c1ad632f4ae09fd4d6f1"
    },
    "alerts_24h": 16,
    "anomaly": false
@@ -245,9 +245,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
+   "flow_in_usd": 961,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 585.720119844,
+    "text": "4,942 KNC in from 0xf6E411\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x790ea16ae2760a2c3311f901120a83e24fd8c257966737ee2707d4288f72816b"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
