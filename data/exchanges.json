@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T12:35:44.780724Z",
+ "generated": "2026-11-02T12:37:25.697088Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,13 +61,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 2170457774,
-   "flow_out_usd": 300075,
-   "biggest": {
-    "usd": 1997936000.0,
-    "text": "2.00B USDT in from 0x575428\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x648055afbf472cbcf478dfa4751d47dc6856ee43946ab468765fea9b082454e8"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 17,
    "anomaly": false
   },
@@ -261,9 +257,13 @@
     "unspecified": 9
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 1498,
+   "flow_out_usd": 2530718,
+   "biggest": {
+    "usd": 1445832.02845741,
+    "text": "1.45M RLUSD out to 0x7f604D\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xf8621c3163abe59b3ea4731d36d0cef16ef8905bc12cd2f6e0ed09080a342387"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
