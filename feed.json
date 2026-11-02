@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x2f63af8f203190d0c0d43d3d8759a459451fcb8319faf6782ae79ed83bdf3db5:74371257.299",
+   "url": "https://eth.blockscout.com/tx/0x2f63af8f203190d0c0d43d3d8759a459451fcb8319faf6782ae79ed83bdf3db5",
+   "title": "[SAFE] Bitfinex: Hot Wallet sent $74.3M (74.37M USDT) to Bitfinex 2.",
+   "content_text": "Bitfinex: Hot Wallet sent $74.3M (74.37M USDT) to Bitfinex 2. Status: SAFE. Counterparty is Bitfinex 2 (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T12:39:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer.",
+    "risk": 30
+   }
+  },
+  {
    "id": "ETH:0xac01818dc97ab74fd438d574236335eb2f8e7b61094cc076f4de605531614b57:172700000.0",
    "url": "https://eth.blockscout.com/tx/0xac01818dc97ab74fd438d574236335eb2f8e7b61094cc076f4de605531614b57",
    "title": "[SAFE] Bitfinex: Hot Wallet received $172.5M (172.70M USDT) from an unlabeled address 0x1897\u2026754a.",
@@ -2598,22 +2616,6 @@
     "status": "MONITORING",
     "basis": "Contract call by a wallet on the FBI public attribution. No value transferred.",
     "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
-   "url": "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
-   "title": "[RISK] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 4 ETH to address 0x1AB4\u20268F23 [cluster C008].",
-   "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 4 ETH to address 0x1AB4\u20268F23 [cluster C008]. Status: RISK. Sender is on the OFAC SDN list. Risk score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
-   "date_published": "2025-09-13T15:30:35Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the OFAC SDN list.",
-    "risk": 55
    }
   }
  ]
