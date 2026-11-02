@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b:4334.0",
+   "url": "https://eth.blockscout.com/tx/0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b",
+   "title": "[SAFE] Gate.io 5 sent $9.9M (4,334 ETH) to Gate.io.",
+   "content_text": "Gate.io 5 sent $9.9M (4,334 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T04:29:11Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
    "id": "ETH:0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008:7999997.8521",
    "url": "https://eth.blockscout.com/tx/0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008",
    "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
@@ -2578,22 +2595,6 @@
    "title": "[MONITORING] OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved).",
    "content_text": "OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) called transfer on TetherToken (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056 Labels are heuristic, not attribution.",
    "date_published": "2025-08-28T01:12:47Z",
-   "tags": [
-    "lazarus",
-    "MONITORING"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Contract call by a wallet on the OFAC SDN list. No value transferred.",
-    "risk": 50
-   }
-  },
-  {
-   "id": "ETH:0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
-   "url": "https://eth.blockscout.com/tx/0x43015a049a6673a68e2696da3377661679e36f618bfcf9b97e3d2e90fb53db43",
-   "title": "[MONITORING] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved).",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) called transfer on Dai (no ETH moved). Status: MONITORING. Contract call by a wallet on the OFAC SDN list. No value transferred. Risk score 50/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886 Labels are heuristic, not attribution.",
-   "date_published": "2025-08-25T05:17:35Z",
    "tags": [
     "lazarus",
     "MONITORING"
