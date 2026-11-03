@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-03T02:38:31.801730Z",
- "threat": 62,
+ "generated": "2026-11-03T10:40:45.639139Z",
+ "threat": 61,
  "counts": {
   "addresses": 221,
   "clusters": 16,
-  "alerts": 1702,
+  "alerts": 1707,
   "candidates": 1313,
-  "alerts_30d": 150,
+  "alerts_30d": 155,
   "txs_scanned": 2779,
   "alerts_by_type": {
-   "exchange": 149,
+   "exchange": 154,
    "hack": 5,
    "lazarus": 1548
   },
@@ -17,7 +17,7 @@
   "exchanges": 19,
   "incidents": 40,
   "new_this_run": 5,
-  "flagged_hack_addresses": 10053
+  "flagged_hack_addresses": 10902
  },
  "sources": [
   {
@@ -116,7 +116,7 @@
    "name": "Elliptic Binance-hack blocklist (CSV)",
    "url": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
    "ok": true,
-   "count": 10052
+   "count": 10901
   },
   {
    "name": "DefiLlama coin prices",
