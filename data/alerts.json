@@ -1,6 +1,123 @@
 {
- "generated": "2026-11-02T20:12:46.993763Z",
+ "generated": "2026-11-03T02:38:31.801730Z",
  "alerts": [
+  {
+   "id": "ETH:0xead2df67dffe68392a3db2e30f6c72fca70d339c771addfaba2f5a3f3d41523c:9000000.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-03T01:08:35Z",
+   "chain": "ETH",
+   "usd": 8988282,
+   "level": 20,
+   "message": "Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "counterparty_label": "an unlabeled address 0x386F\u20267F03",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xead2df67dffe68392a3db2e30f6c72fca70d339c771addfaba2f5a3f3d41523c",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x00d5bdaf7765afe905185938903755978109679123f33ee2287580ea10dc9e6c:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-03T00:25:35Z",
+   "chain": "ETH",
+   "usd": 7989582,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x00d5bdaf7765afe905185938903755978109679123f33ee2287580ea10dc9e6c",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x6ba049b81d27e2ebb42b18bd968ec119325e302243c31cb734c59e5b3715d41c:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-03T00:24:59Z",
+   "chain": "ETH",
+   "usd": 7989582,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x6ba049b81d27e2ebb42b18bd968ec119325e302243c31cb734c59e5b3715d41c",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x9221591206b94ffcbe0b028723dba07072a74882b7447e4631ae20069fec05ca:30000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Binance",
+   "time": "2026-11-02T22:35:11Z",
+   "chain": "ETH",
+   "usd": 67756572,
+   "level": 40,
+   "message": "Binance 8 sent $67.8M (30,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "counterparty_label": "an unlabeled address 0x690C\u202691cC",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x9221591206b94ffcbe0b028723dba07072a74882b7447e4631ae20069fec05ca",
+   "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+   "address_url": "https://eth.blockscout.com/address/0xf977814e90da44bfa03b6295a0616a897441acec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0xc849e0b18d96c801f428b3af5cd1d9c629846a0ec27dd02bafc03c1673fdb6db:2503.0307",
    "type": "exchange",
@@ -312,6 +429,39 @@
    "cluster": "Binance",
    "status": "SAFE",
    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0x48f509e06ec81bf22729ac9de53c813e9d44bd464f6c7a3bea4028f6d966f247:75006871.1719",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-02T16:19:47Z",
+   "chain": "ETH",
+   "usd": 74909212,
+   "level": 30,
+   "message": "Bitfinex 2 sent $74.9M (75.01M USDT) to Bitfinex: Hot Wallet.",
+   "counterparty_label": "Bitfinex: Hot Wallet",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x48f509e06ec81bf22729ac9de53c813e9d44bd464f6c7a3bea4028f6d966f247",
+   "address": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "address_url": "https://eth.blockscout.com/address/0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer."
   },
   {
    "id": "ETH:0x4998c2a70013a2d7757121476dfd22253a938ed84277bab3e608e55a2beea491:200000000.0",

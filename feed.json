@@ -5,6 +5,75 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xead2df67dffe68392a3db2e30f6c72fca70d339c771addfaba2f5a3f3d41523c:9000000.0",
+   "url": "https://eth.blockscout.com/tx/0xead2df67dffe68392a3db2e30f6c72fca70d339c771addfaba2f5a3f3d41523c",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-03T01:08:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0x00d5bdaf7765afe905185938903755978109679123f33ee2287580ea10dc9e6c:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x00d5bdaf7765afe905185938903755978109679123f33ee2287580ea10dc9e6c",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-03T00:25:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x6ba049b81d27e2ebb42b18bd968ec119325e302243c31cb734c59e5b3715d41c:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x6ba049b81d27e2ebb42b18bd968ec119325e302243c31cb734c59e5b3715d41c",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-03T00:24:59Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x9221591206b94ffcbe0b028723dba07072a74882b7447e4631ae20069fec05ca:30000.0",
+   "url": "https://eth.blockscout.com/tx/0x9221591206b94ffcbe0b028723dba07072a74882b7447e4631ae20069fec05ca",
+   "title": "[MONITORING] Binance 8 sent $67.8M (30,000 ETH) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 8 sent $67.8M (30,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T22:35:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "ETH:0xc849e0b18d96c801f428b3af5cd1d9c629846a0ec27dd02bafc03c1673fdb6db:2503.0307",
    "url": "https://eth.blockscout.com/tx/0xc849e0b18d96c801f428b3af5cd1d9c629846a0ec27dd02bafc03c1673fdb6db",
    "title": "[SAFE] Coinbase 10 received $5.6M (2,503 ETH) from Coinbase 5.",
@@ -180,6 +249,24 @@
     "status": "SAFE",
     "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
     "risk": 35
+   }
+  },
+  {
+   "id": "ETH:0x48f509e06ec81bf22729ac9de53c813e9d44bd464f6c7a3bea4028f6d966f247:75006871.1719",
+   "url": "https://eth.blockscout.com/tx/0x48f509e06ec81bf22729ac9de53c813e9d44bd464f6c7a3bea4028f6d966f247",
+   "title": "[SAFE] Bitfinex 2 sent $74.9M (75.01M USDT) to Bitfinex: Hot Wallet.",
+   "content_text": "Bitfinex 2 sent $74.9M (75.01M USDT) to Bitfinex: Hot Wallet. Status: SAFE. Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-02T16:19:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer.",
+    "risk": 30
    }
   },
   {
@@ -2556,92 +2643,6 @@
     "status": "RISK",
     "basis": "Wallet is named in a public hack post-mortem.",
     "risk": 80
-   }
-  },
-  {
-   "id": "POLYGON:0x269f47684f7c88a157df151ef48d2abd9aef5b66f4716cae3a3a65567a1c9bcd",
-   "url": "https://polygonscan.com/tx/0x269f47684f7c88a157df151ef48d2abd9aef5b66f4716cae3a3a65567a1c9bcd",
-   "title": "[RISK] Polymarket International hack wallet (onward wallet) moved $103,799 (1.09M POL) to an unlabeled address 0x3f7019\u2026 on POLYGON.",
-   "content_text": "Polymarket International hack wallet (onward wallet) moved $103,799 (1.09M POL) to an unlabeled address 0x3f7019\u2026 on POLYGON. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://ohey.ca/research/polymarket-debugbear-wallet-drainer/ Labels are heuristic, not attribution.",
-   "date_published": "2026-10-29T18:30:34.000000Z",
-   "tags": [
-    "hack",
-    "RISK",
-    "incident"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Wallet is named in a public hack post-mortem.",
-    "risk": 80
-   }
-  },
-  {
-   "id": "POLYGON:0x2629289569ea8be042b6706ba0a9e0d76f069247bb115f973fcedc556e8a4f88",
-   "url": "https://polygonscan.com/tx/0x2629289569ea8be042b6706ba0a9e0d76f069247bb115f973fcedc556e8a4f88",
-   "title": "[RISK] Polymarket International hack wallet (drainer recipient) moved $1.8M (18.61M POL) to a wallet flagged in the Polymarket International",
-   "content_text": "Polymarket International hack wallet (drainer recipient) moved $1.8M (18.61M POL) to a wallet flagged in the Polymarket International hack on POLYGON. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://ohey.ca/research/polymarket-debugbear-wallet-drainer/ Labels are heuristic, not attribution.",
-   "date_published": "2026-10-29T18:28:32.000000Z",
-   "tags": [
-    "hack",
-    "RISK",
-    "incident"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Wallet is named in a public hack post-mortem.",
-    "risk": 80
-   }
-  },
-  {
-   "id": "ETH:0xf2feb4d0e246571edbd08aa4b8a963f32fe0b716d941452d33f1cf63e10732be:1600000000.0",
-   "url": "https://eth.blockscout.com/tx/0xf2feb4d0e246571edbd08aa4b8a963f32fe0b716d941452d33f1cf63e10732be",
-   "title": "[SAFE] Binance 28 sent $1.60B (1.60B USDT) to Binance 14.",
-   "content_text": "Binance 28 sent $1.60B (1.60B USDT) to Binance 14. Status: SAFE. Counterparty is Binance 14 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-10-29T13:01:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Binance 14 (same exchange). Internal transfer.",
-    "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0x1e2be6061323a0e9233af1aac7f90fca306af3d4e624c208ab96353399ca3783:15000000.0",
-   "url": "https://eth.blockscout.com/tx/0x1e2be6061323a0e9233af1aac7f90fca306af3d4e624c208ab96353399ca3783",
-   "title": "[MONITORING] KuCoin 15 sent $15.0M (15.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
-   "content_text": "KuCoin 15 sent $15.0M (15.00M USDT) to an unlabeled address 0x83C4\u2026627e. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-10-29T09:44:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
-   "url": "https://eth.blockscout.com/tx/0xd41105f4227700ab9d6f6c6c44c70fd5e9d83e8029829e6c3320f364b43198d9",
-   "title": "[RISK] OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.03118 ETH to address 0x6242\u2026dc9f [cluster C010].",
-   "content_text": "OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.03118 ETH to address 0x6242\u2026dc9f [cluster C010]. Status: RISK. Sender is on the OFAC SDN list. Risk score 55/100. Sources: https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886, https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889 Labels are heuristic, not attribution.",
-   "date_published": "2026-10-13T14:56:23Z",
-   "tags": [
-    "lazarus",
-    "RISK"
-   ],
-   "_hackwatch": {
-    "status": "RISK",
-    "basis": "Sender is on the OFAC SDN list.",
-    "risk": 55
    }
   }
  ]
