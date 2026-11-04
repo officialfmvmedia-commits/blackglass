@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:03:25.957356Z",
+ "generated": "2026-11-04T20:49:03.525623Z",
  "incidents": [
   {
    "id": "HMercado Bitcoin",
@@ -21,6 +21,30 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "On November 2, 2026, attackers compromised a system at Mercado Bitcoin and transferred more than $40 million in crypto from exchange-associated wallets across various blockchains. The exchange contained the incident and temporarily suspended deposits and withdrawals while investigating the transfers. Tether froze more than $4.5 million USDT associated with the theft. Mercado Bitcoin stated that customers would not incur losses and that no customer data was exposed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H3577",
+   "name": "BitMart",
+   "date": "2026-11-02",
+   "amount_usd": 391000,
+   "chains": [
+    "Base",
+    "Arbitrum",
+    "Optimism"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 2, 2026, attackers breached BitMart and transferred approximately $391,000 in cryptocurrency from exchange-associated wallets on Base, Arbitrum, and Optimism. Blockchain investigators traced portions of the stolen funds to addresses associated with the Mercado Bitcoin exploit, which occurred on the same day. BitMart founder Sheldon Xia confirmed the breach and said the exchange had investigated the incident and strengthened its security measures. The initial access method remains unidentified",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -929,28 +953,6 @@
    "technique": "Swap Logic Flaw",
    "classification": "Protocol Logic",
    "description": "SKYDAO\u2019s taxed sell flow called its pool controller before the seller\u2019s net tokens were credited to the PancakeSwap V2 pair. The controller sold the 35% tax, moved the gross sell amount from the pair to the dead address through controlburn(), and called pair.sync(), causing the pair to record an almost-zero SKYDAO reserve. When the original transfer subsequently credited the net SKYDAO to the pair without updating that recorded reserve, the attacker exploited the balance/reserve mismatch through pair.swap() to extract USDT liquidity",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HFake GIWA Bridge",
-   "name": "Fake GIWA Bridge",
-   "date": "2026-09-27",
-   "amount_usd": 2080000,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Impersonation Scam",
-   "classification": "Social Engineering",
-   "description": "Scammers deployed a counterfeit OP Stack-style network impersonating GIWA, including an RPC endpoint, Ethereum bridge and batch-posting infrastructure. The fake network reported GIWA\u2019s expected mainnet Chain ID 9134, causing DYORSWAP and users to mistake it for the legitimate GIWA mainnet. Users voluntarily deposited ETH into the fraudulent bridge. After accumulating deposits, the scammers drained 766.25 ETH to an attacker-controlled address. GIWA\u2019s actual mainnet had not launched, and neither GIWA nor DYORSWAP\u2019s smart contracts were exploited",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
