@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T20:49:03.393745Z",
+ "generated": "2026-11-05T01:28:33.462904Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -247,7 +247,7 @@
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
     }
    ],
-   "balance": 3.2972312046098833,
+   "balance": 3.300231204609883,
    "tags": [],
    "cluster": "C006"
   },

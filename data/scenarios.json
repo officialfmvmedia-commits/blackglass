@@ -1,6 +1,29 @@
 {
- "generated": "2026-11-04T20:49:03.525623Z",
+ "generated": "2026-11-05T01:28:33.646904Z",
  "scenarios": [
+  {
+   "id": "C006-20261104",
+   "cluster": "C006",
+   "title": "OFAC-sanctioned wallets: LAZARUS GROUP",
+   "start": "2026-11-04T22:35:23Z",
+   "end": "2026-11-04T22:35:23Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Nov 4, 2026. Latest: OFAC-listed address (LAZARUS GROUP) received 0.003 ETH from 0x6bF6\u20262c1E.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 15,
+   "confidence_label": "low",
+   "type": "lazarus",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xa6d37d73908d7d64b1afb889a30d06b38655a6ecc9cd5d61c9d22b4d63355a00"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #27307 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
+    }
+   ]
+  },
   {
    "id": "Polymarket International incident-20261029",
    "cluster": "Polymarket International incident",
@@ -48,29 +71,6 @@
     {
      "name": "OFAC SDN #58886 (DPRK2)",
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
-    }
-   ]
-  },
-  {
-   "id": "C006-20261001",
-   "cluster": "C006",
-   "title": "OFAC-sanctioned wallets: LAZARUS GROUP",
-   "start": "2026-10-01T13:34:11Z",
-   "end": "2026-10-01T13:34:11Z",
-   "chain": "ETH",
-   "events": 1,
-   "what": "1 logged movement on Oct 1, 2026. Latest: OFAC-listed address (LAZARUS GROUP) received 0.006438 ETH from 0x36B4\u2026DE7a.",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
-   "confidence": 15,
-   "confidence_label": "low",
-   "type": "lazarus",
-   "tx_links": [
-    "https://eth.blockscout.com/tx/0xc9617ba91041a5730856dab8464328d7d6b7f12f060927cf3e6aa74759018f2b"
-   ],
-   "sources": [
-    {
-     "name": "OFAC SDN #27307 (DPRK3)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
     }
    ]
   },
