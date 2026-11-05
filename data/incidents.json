@@ -1,6 +1,50 @@
 {
- "generated": "2026-11-05T16:45:21.768615Z",
+ "generated": "2026-11-05T22:40:09.806813Z",
  "incidents": [
+  {
+   "id": "HTENDRIL",
+   "name": "TENDRIL",
+   "date": "2026-11-05",
+   "amount_usd": 550000,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Swap Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "On November 5, 2026, an attacker exploited TENDRIL's token sell logic to drain approximately 550,000 USDT from its PancakeSwap V2 liquidity pool on BSC. Each sell triggered PoolControl.sellToken(), which called TENDRIL.controlburn() to burn tokens directly from the liquidity pair and synchronize its reserves before the seller's remaining tokens arrived. The attacker used flash-loan-funded transactions to exploit the resulting reserve imbalance and withdraw nearly all the pool's USDT liquidity. ExVul estimated the attacker's campaign profit at no more than 181,910 USDT after observed purchases and gas costs, excluding an unresolved LP-position basis",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H6461",
+   "name": "Loopscale Lending",
+   "date": "2026-11-05",
+   "amount_usd": null,
+   "chains": [
+    "Solana"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "In late October and early November 2026, Loopscale was targeted by a sustained attack campaign involving more than 30,000 malicious API requests per day, primarily directed at its SOL and USDC Genesis Vaults on Solana. On November 5, the protocol paused operations after detecting an escalation in the activity. Loopscale stated that the affected vaults had been made whole and that no user deposits incurred losses, but did not disclose whether funds had been stolen or explain the attack mechanism. The protocol remained paused pending further investigation and security improvements",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HMercado Bitcoin",
    "name": "Mercado Bitcoin",
@@ -909,50 +953,6 @@
    "technique": "Improper Access Control",
    "classification": "Access Control",
    "description": "FlashLoopAdapter\u2019s open()/close() authorization trusted any caller whose isModuleEnabled() response returned true, allowing an attacker-controlled fake Safe to pass the check. The attacker then supplied each real victim Safe as swapRouter and encoded execTransactionFromModule(...) as arbitrary swapCalldata. Because FlashLoopAdapter was already an enabled module on those Safes, they accepted the calls and transferred or withdrew collateral to the attacker",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H6225",
-   "name": "NEAR Intents",
-   "date": "2026-10-01",
-   "amount_usd": 3800000,
-   "chains": [
-    "BSC"
-   ],
-   "technique": "Bridge Logic Flaw",
-   "classification": "Bridge & Cross-Chain",
-   "description": "NEAR Intents was exploited through a bug in the interaction between its Omni deposit and withdrawal infrastructure and the NEAR Intents smart contract, allowing unauthorized withdrawals. The team stopped services, patched the contract-side vulnerability, and temporarily suspended deposits and withdrawals across multiple networks while completing fixes to the Omni infrastructure. The stolen funds were traced toward KuCoin and then BTC, and NEAR Intents said the losses would be compensated in full",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HSKYDAO",
-   "name": "SKYDAO",
-   "date": "2026-09-30",
-   "amount_usd": 183482.88,
-   "chains": [
-    "BSC"
-   ],
-   "technique": "Swap Logic Flaw",
-   "classification": "Protocol Logic",
-   "description": "SKYDAO\u2019s taxed sell flow called its pool controller before the seller\u2019s net tokens were credited to the PancakeSwap V2 pair. The controller sold the 35% tax, moved the gross sell amount from the pair to the dead address through controlburn(), and called pair.sync(), causing the pair to record an almost-zero SKYDAO reserve. When the original transfer subsequently credited the net SKYDAO to the pair without updating that recorded reserve, the attacker exploited the balance/reserve mismatch through pair.swap() to extract USDT liquidity",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
