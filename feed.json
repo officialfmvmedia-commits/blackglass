@@ -5,6 +5,42 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x5f23d53919ca9cc0eba7e661d7d0b288567bdf7c36143954cdb87d9641b953cf:200000000.0",
+   "url": "https://eth.blockscout.com/tx/0x5f23d53919ca9cc0eba7e661d7d0b288567bdf7c36143954cdb87d9641b953cf",
+   "title": "[MONITORING] Binance 8 sent $199.9M (200.00M USDT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 8 sent $199.9M (200.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-05T14:03:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 45
+   }
+  },
+  {
+   "id": "ETH:0x8b7332d2757d55f8386b07d39fc1067216753b9359cc482b151235c6e78ca819:10034.0",
+   "url": "https://eth.blockscout.com/tx/0x8b7332d2757d55f8386b07d39fc1067216753b9359cc482b151235c6e78ca819",
+   "title": "[MONITORING] Binance 8 sent $41.1M (10,034 XAUT) to an unlabeled address 0x690C\u202691cC.",
+   "content_text": "Binance 8 sent $41.1M (10,034 XAUT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-05T14:02:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-05T08",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 64%: $6.45M \u2192 $2.31M between checks.",
@@ -990,6 +1026,23 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x41c4cfd17b67e071cd856624654b0d60e97e789c8bf6b2f296927f8506fd4ade:3314.3615",
+   "url": "https://eth.blockscout.com/tx/0x41c4cfd17b67e071cd856624654b0d60e97e789c8bf6b2f296927f8506fd4ade",
+   "title": "[SAFE] Gate.io 5 sent $7.5M (3,314 ETH) to Gate.io.",
+   "content_text": "Gate.io 5 sent $7.5M (3,314 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-04T04:29:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
    }
   },
   {
@@ -2582,59 +2635,6 @@
    "_hackwatch": {
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x5056bcad6b4a65ed00ccb727512566054345c76152cffef7f03184d26cea629b:7835416.662",
-   "url": "https://eth.blockscout.com/tx/0x5056bcad6b4a65ed00ccb727512566054345c76152cffef7f03184d26cea629b",
-   "title": "[MONITORING] Coinbase 10 sent $7.8M (7.84M USDC) to an unlabeled address 0x5435\u2026C58f.",
-   "content_text": "Coinbase 10 sent $7.8M (7.84M USDC) to an unlabeled address 0x5435\u2026C58f. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-01T09:11:11Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0xe6c36c89ea93a98e16cef4a229270f18f54e14cbeab0e7ddc5a34a1180750c85:300000000.0",
-   "url": "https://eth.blockscout.com/tx/0xe6c36c89ea93a98e16cef4a229270f18f54e14cbeab0e7ddc5a34a1180750c85",
-   "title": "[MONITORING] Binance 28 sent $299.9M (300.00M USDT) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $299.9M (300.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-01T09:08:35Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 45
-   }
-  },
-  {
-   "id": "ETH:0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1:14999999.0",
-   "url": "https://eth.blockscout.com/tx/0xe13feacf28b4473df4d4b1df5761f3c4091f79ad32990db5d58f56706898b0f1",
-   "title": "[SAFE] Coinbase 10 received $15.0M (15.00M USDC) from an unlabeled address 0xc3FA\u20268d70.",
-   "content_text": "Coinbase 10 received $15.0M (15.00M USDC) from an unlabeled address 0xc3FA\u20268d70. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-01T09:01:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 30
    }
   }
