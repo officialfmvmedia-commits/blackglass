@@ -1,6 +1,205 @@
 {
- "generated": "2026-11-05T22:40:09.806813Z",
+ "generated": "2026-11-06T03:21:55.725507Z",
  "alerts": [
+  {
+   "id": "ETH:0x0d205dbd8e256c456e31f775546312de1b31d41c5ae28eca4d4db249d24f12f2:30000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-06T03:17:11Z",
+   "chain": "ETH",
+   "usd": 29968020,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $30.0M (30.00M USDT) from an unlabeled address 0x5754\u2026B949.",
+   "counterparty_label": "an unlabeled address 0x5754\u2026B949",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0d205dbd8e256c456e31f775546312de1b31d41c5ae28eca4d4db249d24f12f2",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x98f42e09d3eed72834fb51e1ed2017f12b2803fd37b020c8951e6df190f43822:120000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-06T03:02:11Z",
+   "chain": "ETH",
+   "usd": 119872080,
+   "level": 35,
+   "message": "Bitfinex: Hot Wallet received $119.9M (120.00M USDT) from an unlabeled address 0x5754\u2026B949.",
+   "counterparty_label": "an unlabeled address 0x5754\u2026B949",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x98f42e09d3eed72834fb51e1ed2017f12b2803fd37b020c8951e6df190f43822",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0xad39f77ca78d2d348bcaf8465ef640030a30f4268adb2883158e2df50dc2d387:206200000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-06T02:51:47Z",
+   "chain": "ETH",
+   "usd": 205980191,
+   "level": 45,
+   "message": "Bitfinex: Hot Wallet sent $206.0M (206.20M USDT) to an unlabeled address 0x5754\u2026B949.",
+   "counterparty_label": "an unlabeled address 0x5754\u2026B949",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xad39f77ca78d2d348bcaf8465ef640030a30f4268adb2883158e2df50dc2d387",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x137a5c6fb709714a1a6af9c5e537a82ba1fd20307f7637443e5b9844c6cbf538:8000000.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "KuCoin",
+   "time": "2026-11-06T02:21:59Z",
+   "chain": "ETH",
+   "usd": 7991472,
+   "level": 30,
+   "message": "KuCoin 15 sent $8.0M (8.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "counterparty_label": "an unlabeled address 0x83C4\u2026627e",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x137a5c6fb709714a1a6af9c5e537a82ba1fd20307f7637443e5b9844c6cbf538",
+   "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "address_url": "https://eth.blockscout.com/address/0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "KuCoin",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x7c3fb7bd7b2725512f07208713fcb2de4fa2f8b4c1a8c917d97ce569db4143b6:9000000.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "KuCoin",
+   "time": "2026-11-06T02:21:59Z",
+   "chain": "ETH",
+   "usd": 8990406,
+   "level": 30,
+   "message": "KuCoin 15 sent $9.0M (9.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "counterparty_label": "an unlabeled address 0x83C4\u2026627e",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x7c3fb7bd7b2725512f07208713fcb2de4fa2f8b4c1a8c917d97ce569db4143b6",
+   "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "address_url": "https://eth.blockscout.com/address/0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "KuCoin",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xaa9b669c39bfffbdb0020e89c3b753602d5b6804ec62e51497aa86952626bbf8:6768200.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "KuCoin",
+   "time": "2026-11-06T01:12:35Z",
+   "chain": "ETH",
+   "usd": 6760985,
+   "level": 30,
+   "message": "KuCoin 15 sent $6.8M (6.77M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "counterparty_label": "an unlabeled address 0x83C4\u2026627e",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xaa9b669c39bfffbdb0020e89c3b753602d5b6804ec62e51497aa86952626bbf8",
+   "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "address_url": "https://eth.blockscout.com/address/0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "KuCoin",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x9462b5dbc967a27401aa6827dc3c3e5d7b280f64300e64706f14e0eeaa02c5b2:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-06T00:38:23Z",
+   "chain": "ETH",
+   "usd": 7991470,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x9462b5dbc967a27401aa6827dc3c3e5d7b280f64300e64706f14e0eeaa02c5b2",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x5f23d53919ca9cc0eba7e661d7d0b288567bdf7c36143954cdb87d9641b953cf:200000000.0",
    "type": "exchange",
@@ -1425,6 +1624,35 @@
    "cluster": "Binance",
    "status": "SAFE",
    "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0xbe125eb5c862ae1a0c77253d5e04177294e166c29202092abc24e37c02936bbd:10786000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "KuCoin",
+   "time": "2026-11-04T07:29:59Z",
+   "chain": "ETH",
+   "usd": 10774502,
+   "level": 40,
+   "message": "KuCoin 15 sent $10.8M (10.79M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "counterparty_label": "an unlabeled address 0x83C4\u2026627e",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xbe125eb5c862ae1a0c77253d5e04177294e166c29202092abc24e37c02936bbd",
+   "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "address_url": "https://eth.blockscout.com/address/0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "KuCoin",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
   },
   {
    "id": "ETH:0xb8db97765656259a244fba8b7d0ea3e7a3420a5449734a566a76ee96d10d3c76:91807914.675",
