@@ -1,6 +1,35 @@
 {
- "generated": "2026-11-06T18:19:53.287696Z",
+ "generated": "2026-11-06T23:29:17.562738Z",
  "alerts": [
+  {
+   "id": "ETH:0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4:108000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-06T18:38:59Z",
+   "chain": "ETH",
+   "usd": 107889408,
+   "level": 35,
+   "message": "Bitfinex: Hot Wallet received $107.9M (108.00M USDT) from an unlabeled address 0x1897\u2026754a.",
+   "counterparty_label": "an unlabeled address 0x1897\u2026754a",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-06T18",
    "type": "exchange",

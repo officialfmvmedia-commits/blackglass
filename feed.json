@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4:108000000.0",
+   "url": "https://eth.blockscout.com/tx/0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $107.9M (108.00M USDT) from an unlabeled address 0x1897\u2026754a.",
+   "content_text": "Bitfinex: Hot Wallet received $107.9M (108.00M USDT) from an unlabeled address 0x1897\u2026754a. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-06T18:38:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 35
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-06T18",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 84%: $15.9M \u2192 $2.61M between checks.",
@@ -2625,24 +2643,6 @@
     "status": "SAFE",
     "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
     "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0x51f2e7b2e9e26e48fa026bb2c358dba9e0b24bad176436bed03a5935da52bda3:20000.0",
-   "url": "https://eth.blockscout.com/tx/0x51f2e7b2e9e26e48fa026bb2c358dba9e0b24bad176436bed03a5935da52bda3",
-   "title": "[MONITORING] Binance 8 sent $45.8M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 8 sent $45.8M (20,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-02T03:49:23Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
    }
   }
  ]
