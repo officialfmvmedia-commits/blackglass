@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T11:26:43.971840Z",
+ "generated": "2026-11-06T18:19:53.287696Z",
  "incidents": [
   {
    "id": "HTENDRIL",
@@ -583,6 +583,28 @@
    "addresses": []
   },
   {
+   "id": "H6324",
+   "name": "GarudaDefi",
+   "date": "2026-10-20",
+   "amount_usd": null,
+   "chains": [
+    "Terra Classic"
+   ],
+   "technique": "Private Key Compromised",
+   "classification": "Key Compromise",
+   "description": "Between October 20 and 31, 2026, Garuda DeFi suffered multiple security breaches affecting its NFT staking, cross-staking, governance, treasury, frontend and CW20 staking systems on Terra Classic. Attackers migrated staking contracts to malicious code, transferred user assets and rewards, compromised developer wallets to obtain administrative privileges, and injected malicious wallet approval prompts into the protocol's website. The incidents affected 1,114 NFTs and numerous staking tokens, while the total financial loss remains undisclosed. Garuda restored parts of its infrastructure, introduced multisignature administration and began preparing a recovery plan for affected users",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
    "id": "H7911",
    "name": "Vara Bridge",
    "date": "2026-10-19",
@@ -931,28 +953,6 @@
    "technique": "Incorrect Share Accounting",
    "classification": "Token & Share Accounting",
    "description": "GoldPesa\u2019s GPXHooks rebalanced protocol-owned GPX/USDC liquidity through Uniswap v4\u2019s shared PositionManager without ensuring its currency deltas were isolated and settled. An attacker created an unpaid WETH/USDC position within the same PoolManager unlock and then triggered GoldPesa\u2019s hourly rebalance. Because TAKE_PAIR operated on the PositionManager\u2019s net credit, GoldPesa\u2019s legitimate USDC credit offset the attacker\u2019s outstanding debt, allowing the attacker to burn their position and withdraw the resulting USDC. Uniswap v4 itself behaved as designed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HFlashLoopAdapter",
-   "name": "FlashLoopAdapter",
-   "date": "2026-10-01",
-   "amount_usd": 305000,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Improper Access Control",
-   "classification": "Access Control",
-   "description": "FlashLoopAdapter\u2019s open()/close() authorization trusted any caller whose isModuleEnabled() response returned true, allowing an attacker-controlled fake Safe to pass the check. The attacker then supplied each real victim Safe as swapRouter and encoded execTransactionFromModule(...) as arbitrary swapCalldata. Because FlashLoopAdapter was already an enabled module on those Safes, they accepted the calls and transferred or withdrew collateral to the attacker",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
