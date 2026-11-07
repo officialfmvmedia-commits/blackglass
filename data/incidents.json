@@ -1,6 +1,26 @@
 {
- "generated": "2026-11-07T16:50:16.548424Z",
+ "generated": "2026-11-07T20:48:17.061291Z",
  "incidents": [
+  {
+   "id": "HKeplr Wallet (Web3Auth)",
+   "name": "Keplr Wallet (Web3Auth)",
+   "date": "2026-11-06",
+   "amount_usd": null,
+   "chains": [],
+   "technique": "Supply Chain Attack",
+   "classification": "Frontend & Infrastructure",
+   "description": "In November 2026, attackers conducted unauthorized transactions from Keplr wallets created using Google or Apple social login, affecting accounts that relied on Web3Auth's third-party authentication and key-management infrastructure. Keplr and Web3Auth launched a joint investigation and suspended affected login services. Wallets created using recovery phrases or hardware wallets were not believed to be affected. The exact vulnerability, total funds stolen, and affected blockchain networks remained undisclosed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HTENDRIL",
    "name": "TENDRIL",
@@ -931,28 +951,6 @@
    "technique": "Improper Access Control",
    "classification": "Access Control",
    "description": "A dormant third-party MakerDAO ETH-A liquidation keeper had an unprotected drain routine that lacked ds-auth authorization. Any caller could invoke the function and provide the withdrawal recipient. The attacker triggered Flipper.deal() for four auctions the keeper had won in 2020, causing 200 WETH of previously unclaimed collateral to move through Vat.flux to the keeper, then used GemJoin.exit() to send it to an attacker-controlled recipient and unwrap it to ETH. MakerDAO\u2019s core contracts behaved as designed; the vulnerability was in the third-party keeper",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HGoldPesa",
-   "name": "GoldPesa",
-   "date": "2026-10-02",
-   "amount_usd": 114900,
-   "chains": [
-    "Base"
-   ],
-   "technique": "Incorrect Share Accounting",
-   "classification": "Token & Share Accounting",
-   "description": "GoldPesa\u2019s GPXHooks rebalanced protocol-owned GPX/USDC liquidity through Uniswap v4\u2019s shared PositionManager without ensuring its currency deltas were isolated and settled. An attacker created an unpaid WETH/USDC position within the same PoolManager unlock and then triggered GoldPesa\u2019s hourly rebalance. Because TAKE_PAIR operated on the PositionManager\u2019s net credit, GoldPesa\u2019s legitimate USDC credit offset the attacker\u2019s outstanding debt, allowing the attacker to burn their position and withdraw the resulting USDC. Uniswap v4 itself behaved as designed",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
