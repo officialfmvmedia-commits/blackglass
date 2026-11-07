@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0x0d0707963952f2fba59dd06f2b425ace40b492fe:2026-11-07T03",
+   "url": "https://eth.blockscout.com/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+   "title": "[MONITORING] Gate.io (ETH) balance down 43%: $57.6M \u2192 $32.6M between checks.",
+   "content_text": "Gate.io (ETH) balance down 43%: $57.6M \u2192 $32.6M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-07T03:06:56.174645Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
    "id": "ETH:0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4:108000000.0",
    "url": "https://eth.blockscout.com/tx/0x709d49396dff2b0196322668712e91e140614a690615df97edfaaedd9ca142a4",
    "title": "[SAFE] Bitfinex: Hot Wallet received $107.9M (108.00M USDT) from an unlabeled address 0x1897\u2026754a.",
@@ -251,6 +268,24 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0x36b2e1af61d8de868ce09fda1dca0298331ca07582314b2db3bb3e0607975b1e:7911.0733",
+   "url": "https://eth.blockscout.com/tx/0x36b2e1af61d8de868ce09fda1dca0298331ca07582314b2db3bb3e0607975b1e",
+   "title": "[SAFE] Gate.io 5 received $17.8M (7,911 ETH) from Gate.io.",
+   "content_text": "Gate.io 5 received $17.8M (7,911 ETH) from Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-06T04:30:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 30
    }
   },
   {
@@ -2608,41 +2643,6 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x7243dc9d78329c440cc776d446a098170905d662e33561eaaf357c6746a6650c:7999997.8521",
-   "url": "https://eth.blockscout.com/tx/0x7243dc9d78329c440cc776d446a098170905d662e33561eaaf357c6746a6650c",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
-   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-02T04:08:23Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x7378097db8e80bcf691ffb314e942ddae08857b1291296c549dcfabea8419f8d:50000.0",
-   "url": "https://eth.blockscout.com/tx/0x7378097db8e80bcf691ffb314e942ddae08857b1291296c549dcfabea8419f8d",
-   "title": "[SAFE] Binance 8 sent $114.5M (50,000 ETH) to Binance 28.",
-   "content_text": "Binance 8 sent $114.5M (50,000 ETH) to Binance 28. Status: SAFE. Counterparty is Binance 28 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-02T03:49:35Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Binance 28 (same exchange). Internal transfer.",
-    "risk": 35
    }
   }
  ]
