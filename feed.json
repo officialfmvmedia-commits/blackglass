@@ -5,6 +5,41 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-07T10",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 49%: $3.85M \u2192 $1.96M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 49%: $3.85M \u2192 $1.96M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-07T10:39:35.767161Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
+   "id": "ETH:0xbc7c1c9de704b0b740b029aade9d5ac1c81fb7f6d6f2503ab97316f2793e036e:10580321.37",
+   "url": "https://eth.blockscout.com/tx/0xbc7c1c9de704b0b740b029aade9d5ac1c81fb7f6d6f2503ab97316f2793e036e",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $10.6M (10.58M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $10.6M (10.58M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-07T10:08:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 30
+   }
+  },
+  {
    "id": "drop:ETH:0x0d0707963952f2fba59dd06f2b425ace40b492fe:2026-11-07T03",
    "url": "https://eth.blockscout.com/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
    "title": "[MONITORING] Gate.io (ETH) balance down 43%: $57.6M \u2192 $32.6M between checks.",
@@ -2609,40 +2644,6 @@
     "status": "MONITORING",
     "basis": "No matching internal transfer found in logged activity. Destination not identified.",
     "risk": 70
-   }
-  },
-  {
-   "id": "ETH:0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b:4334.0",
-   "url": "https://eth.blockscout.com/tx/0x95634f6f041c198ad2d1d27506b7467a5864da17713a5ce91e80df41c799057b",
-   "title": "[SAFE] Gate.io 5 sent $9.9M (4,334 ETH) to Gate.io.",
-   "content_text": "Gate.io 5 sent $9.9M (4,334 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-02T04:29:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008:7999997.8521",
-   "url": "https://eth.blockscout.com/tx/0x0ed4e9bdb3ac4ffaf4295dfb494987ad0dd049df32fa59e57fb55524c2850008",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
-   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-02T04:09:11Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
    }
   }
  ]
