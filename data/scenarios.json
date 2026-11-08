@@ -1,6 +1,29 @@
 {
- "generated": "2026-11-08T00:21:39.665553Z",
+ "generated": "2026-11-08T06:37:00.588069Z",
  "scenarios": [
+  {
+   "id": "C008-20261108",
+   "cluster": "C008",
+   "title": "OFAC-sanctioned wallets: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+   "start": "2026-11-08T03:28:23Z",
+   "end": "2026-11-08T03:28:23Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Nov 8, 2026. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 0.1071 ETH to address 0x690C\u202691cC [cluster C008]. About 0.1071 ETH went out to 1 new address one hop away.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xfdf77c43ff3ca78c615a2c67c89d6c0c20b17f314bda67487d558bef307a6db6"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+    }
+   ]
+  },
   {
    "id": "C006-20261104",
    "cluster": "C006",
@@ -117,30 +140,6 @@
     {
      "name": "OFAC SDN #28263 (DPRK3] [CYBER2)",
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28263"
-    }
-   ]
-  },
-  {
-   "id": "C008-20250913",
-   "cluster": "C008",
-   "title": "OFAC-sanctioned wallets: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
-   "start": "2025-09-13T15:25:47Z",
-   "end": "2025-09-13T15:30:35Z",
-   "chain": "ETH",
-   "events": 2,
-   "what": "2 logged movements on Sep 13, 2025. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 4 ETH to address 0x1AB4\u20268F23 [cluster C008].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
-   "confidence": 55,
-   "confidence_label": "medium",
-   "type": "lazarus",
-   "tx_links": [
-    "https://eth.blockscout.com/tx/0xf8652917616138f21d2c3f96322306e23332be727b8f077d45371a7047163547",
-    "https://eth.blockscout.com/tx/0x804899180a792f4bafbd3bef7afb1c0cacb51dd98467147a42345f796509c8db"
-   ],
-   "sources": [
-    {
-     "name": "OFAC SDN #57056 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
     }
    ]
   },

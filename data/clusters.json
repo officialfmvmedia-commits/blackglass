@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T00:21:39.534895Z",
+ "generated": "2026-11-08T06:37:00.356109Z",
  "clusters": [
   {
    "id": "C001",
@@ -303,10 +303,10 @@
     "TRX"
    ],
    "size": 7,
-   "children": 3,
+   "children": 4,
    "balance": {
     "BTC": 0,
-    "ETH": 96.1665
+    "ETH": 96.0594
    },
    "sources": [
     {
@@ -17649,6 +17649,25 @@
    ],
    "parent": "0x95584c303fcd48af5c6b9873015f2ad0ca84eae3",
    "cluster": "C013"
+  },
+  {
+   "address": "0x690C3Eebf6ee237f00fc96f9766282F096C191cC",
+   "chain": "ETH",
+   "score": 55,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0xfdf77c43ff3ca78c615a2c67c89d6c0c20b17f314bda67487d558bef307a6db6",
+     "url": "https://eth.blockscout.com/tx/0xfdf77c43ff3ca78c615a2c67c89d6c0c20b17f314bda67487d558bef307a6db6",
+     "value": 0.10709687628932467,
+     "time": "2026-11-08T03:28:23Z"
+    }
+   ],
+   "parent": "0x0330070fd38ec3bb94f58fa55d40368271e9e54a",
+   "cluster": "C008"
   },
   {
    "address": "0x95fCFe064Aeff40CAa8cE392ddaB64fBb98bcb1f",
