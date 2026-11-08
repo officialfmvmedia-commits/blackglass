@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T19:04:45.942921Z",
+ "generated": "2026-11-08T22:54:39.042012Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -24,7 +24,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 1,
+   "alerts_24h": 0,
    "anomaly": false
   },
   {
@@ -61,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 6388299,
-   "flow_out_usd": 23657310,
+   "flow_in_usd": 33846364,
+   "flow_out_usd": 4381706,
    "biggest": {
-    "usd": 7992165.854202794,
-    "text": "8.00M USDT out to 0x14681E\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x7082dc33964773fff18b368887a7dbc1981790db031effd453959fd5ed0d41aa"
+    "usd": 19982600.0,
+    "text": "20.00M USDT in from 0xC06E41\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x2dccefcdeaac63950620c1dd390a1acee2949e9d7b9b91e210386bfa21aecc45"
    },
-   "alerts_24h": 4,
+   "alerts_24h": 6,
    "anomaly": false
   },
   {
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 13402,
-   "flow_out_usd": 971,
+   "flow_in_usd": 4620,
+   "flow_out_usd": 2001,
    "biggest": {
-    "usd": 4174.518764701894,
-    "text": "1.87 ETH in from 0x05b6ac\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x83eb700e3865dfe08d04801d1e2fa7debfd8ce42432b0569269a8c3c37e362cb"
+    "usd": 1998.339412559964,
+    "text": "1,999 USDC in from 0xCF51cC\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x0f7b6ac72f855b22fc04264c8169386628ed807cb76eaaf787719179cc417a4e"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -128,7 +128,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 2,
+   "alerts_24h": 1,
    "anomaly": true
   },
   {
@@ -283,13 +283,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 12858464,
-   "flow_out_usd": 13105834,
-   "biggest": {
-    "usd": 3451453.5647446765,
-    "text": "324,385 LINK in from Gate.io",
-    "tx": "https://eth.blockscout.com/tx/0x84a062c83e038773ca908366ce9f045d136fc10164d5a4cda621e235c18bb80f"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
