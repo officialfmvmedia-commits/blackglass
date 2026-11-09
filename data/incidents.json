@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-09T10:20:00.588278Z",
+ "generated": "2026-11-09T21:08:45.524764Z",
  "incidents": [
+  {
+   "id": "HAnkr Bridge",
+   "name": "Ankr Bridge",
+   "date": "2026-11-09",
+   "amount_usd": 304500,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Cross-Chain Message Spoofing",
+   "classification": "Bridge & Cross-Chain",
+   "description": "On November 9, 2026, an attacker exploited Ankr's cross-chain bridge on Ethereum by submitting five forged withdrawal receipts referencing a single Optimism deposit that had already been redeemed. The attacker modified the recipients, assets, and withdrawal amounts, while presenting valid signatures from the bridge's trusted consensus signer. The bridge accepted the falsified receipts and released approximately $304,500 in assets, including ankrETH, ankrPOL, ANKR, and other staking tokens. The origin of the unauthorized signatures remains under investigation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H208",
+   "name": "ACryptoS",
+   "date": "2026-11-08",
+   "amount_usd": 665429,
+   "chains": [
+    "Arbitrum",
+    "BSC",
+    "Polygon",
+    "Base",
+    "Optimism"
+   ],
+   "technique": "Missing Input Validation",
+   "classification": "Input Validation",
+   "description": "On November 8, 2026, attackers exploited a missing input validation check in ACryptoS's concentrated-liquidity vaults across Arbitrum, BSC, Polygon, Base, and Optimism, stealing approximately $665,429 from 77 vaults. The vulnerable depositMulti() function accepted an incomplete token-amount array, causing the vault to undervalue its existing assets and mint disproportionately large amounts of shares for minimal deposits",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HKeplr Wallet (Web3Auth)",
    "name": "Keplr Wallet (Web3Auth)",
@@ -144,6 +192,28 @@
    "addresses": []
   },
   {
+   "id": "H329",
+   "name": "Sovryn Dex",
+   "date": "2026-11-01",
+   "amount_usd": 538749,
+   "chains": [
+    "Rootstock"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 1, 2026, an attacker exploited Sovryn's XUSD/WRBTC AMM pool on Rootstock, receiving approximately 541,456 XUSD ($538,749) in an attacker-controlled wallet. Portions of the proceeds were subsequently converted into BTC and ETH, while other assets remained under protocol control. Sovryn implemented emergency fee-control changes, delisted the affected pool on November 2, and began reconciling the impact on liquidity providers. The underlying vulnerability and final realized losses remain under investigation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
    "id": "H3497",
    "name": "Premia V3",
    "date": "2026-11-01",
@@ -154,6 +224,28 @@
    "technique": "Withdrawal Logic Flaw",
    "classification": "Protocol Logic",
    "description": "",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H2843",
+   "name": "Sovryn Lend",
+   "date": "2026-10-31",
+   "amount_usd": 914000,
+   "chains": [
+    "Rootstock"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On October 31, 2026, attackers exploited Sovryn's lending and margin contracts on Rootstock through three transactions, extracting approximately $914,000 in XUSD and WRBTC. Sovryn paused its core protocol and lending pools after detecting the incident. A 24-hour withdrawal delay enabled the team to block seven additional withdrawals totaling approximately 66,134 XUSD before the funds reached the attackers. The underlying vulnerability remains undisclosed while the team completes security repairs and reconciles affected positions",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -863,94 +955,6 @@
    "technique": "Withdrawal Logic Flaw",
    "classification": "Protocol Logic",
    "description": "BitBay\u2019s vault contained a vulnerability in _withdraw() that transferred the contract\u2019s entire token balance whenever liquidity == 0, without restricting withdrawals to the user\u2019s proportional entitlement. The attacker triggered this condition through reposition() and subsequently redeemed one minimal share unit, receiving approximately 14,838.47 DAI belonging to the vault",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H5092",
-   "name": "Ethervista",
-   "date": "2026-10-08",
-   "amount_usd": 18600,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Arithmetic Error",
-   "classification": "Token & Share Accounting",
-   "description": "EtherVista\u2019s EtherVistaPair.swap() contained an integer overflow vulnerability in its constant-product invariant check. Because the contract multiplied two uint112 reserves without sufficient overflow protection, the calculation could wrap around and incorrectly validate swaps that reduced the pool\u2019s actual reserve product. An attacker registered a malicious contract as an authorized router and executed two crafted swaps to withdraw WETH and VISTA from the pool",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H3371",
-   "name": "Locus Finance",
-   "date": "2026-10-07",
-   "amount_usd": 18000,
-   "chains": [
-    "Arbitrum"
-   ],
-   "technique": null,
-   "classification": null,
-   "description": "",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H266",
-   "name": "Set Protocol",
-   "date": "2026-10-06",
-   "amount_usd": 21872.67,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Rounding Error",
-   "classification": "Token & Share Accounting",
-   "description": "ETHMACOAPY\u2019s actualizeFee() rounded redemption backing upward even when no fee was payable. Attackers donated collateral to trigger recalculation, temporarily acquired Set tokens, then redeemed them for more collateral than they contributed, with the difference coming from existing holders\u2019 backing. Two separate EOAs repeated the process across two transactions, draining approximately 8.11 WETH",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HMakerDAO ETH-A Liquidation Keeper Bot",
-   "name": "MakerDAO ETH-A Liquidation Keeper Bot",
-   "date": "2026-10-06",
-   "amount_usd": 538000,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Improper Access Control",
-   "classification": "Access Control",
-   "description": "A dormant third-party MakerDAO ETH-A liquidation keeper had an unprotected drain routine that lacked ds-auth authorization. Any caller could invoke the function and provide the withdrawal recipient. The attacker triggered Flipper.deal() for four auctions the keeper had won in 2020, causing 200 WETH of previously unclaimed collateral to move through Vat.flux to the keeper, then used GemJoin.exit() to send it to an attacker-controlled recipient and unwrap it to ETH. MakerDAO\u2019s core contracts behaved as designed; the vulnerability was in the third-party keeper",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,

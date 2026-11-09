@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T10:20:00.588278Z",
+ "generated": "2026-11-09T21:08:45.524764Z",
  "scenarios": [
   {
    "id": "C008-20261108",
@@ -250,7 +250,7 @@
    "end": "2024-06-25T17:47:35Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007]. About 0.003538 ETH went out to 1 new address one hop away.",
+   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007].",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
