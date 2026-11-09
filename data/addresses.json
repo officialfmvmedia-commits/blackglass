@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T22:54:38.796619Z",
+ "generated": "2026-11-09T02:39:26.126055Z",
  "addresses": [
   {
    "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -202,8 +202,7 @@
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
     }
    ],
-   "balance": 2.7964008819547623,
-   "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C006"
   },
   {
@@ -2148,6 +2147,7 @@
    ],
    "balance": 0.00250460445664978,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
@@ -2328,6 +2328,7 @@
    ],
    "balance": 7.248377102113297,
    "tags": [],
+   "fetch_error": "HTTP Error 500: Internal Server Error",
    "cluster": "C001"
   },
   {
