@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-10T11:44:21.560353Z",
+ "generated": "2026-11-10T19:34:48.108332Z",
  "incidents": [
+  {
+   "id": "Hchain#initia",
+   "name": "Initia",
+   "date": "2026-11-10",
+   "amount_usd": 615000,
+   "chains": [
+    "Initia"
+   ],
+   "technique": "Private Key Compromised",
+   "classification": "Key Compromise",
+   "description": "On November 10, 2026, an attacker used compromised rollup infrastructure keys to fabricate IBC transfers and withdraw assets from escrow accounts on Initia's Layer 1 that held funds bridged to multiple rollups. Approximately $615,000 in assets, including 605,000 USDC, was transferred out through Noble before validators halted the Initia network at 06:18 UTC. Additional assets were moved from the affected escrow accounts but remained on the halted blockchain. Initia began investigating the compromise with security teams and exchanges, while the full scope of the incident and recovery status remained undetermined",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HAnkr Bridge",
    "name": "Ankr Bridge",
@@ -933,28 +955,6 @@
    "technique": "Supply Chain Attack",
    "classification": "Frontend & Infrastructure",
    "description": "Attackers purchased genuine Ledger hardware wallets, installed concealed components capable of capturing recovery phrases, and redistributed the modified devices through resellers. The implants monitored the wallets\u2019 displays during initialization and transmitted captured recovery phrases through cellular connections. Attackers subsequently derived users\u2019 private keys and drained their cryptocurrency holdings. Ledger confirmed that its Secure Element, operating system, and internal infrastructure were not compromised",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HBitBay",
-   "name": "BitBay",
-   "date": "2026-10-08",
-   "amount_usd": 14838.47,
-   "chains": [
-    "Polygon"
-   ],
-   "technique": "Withdrawal Logic Flaw",
-   "classification": "Protocol Logic",
-   "description": "BitBay\u2019s vault contained a vulnerability in _withdraw() that transferred the contract\u2019s entire token balance whenever liquidity == 0, without restricting withdrawals to the user\u2019s proportional entitlement. The attacker triggered this condition through reposition() and subsequently redeemed one minimal share unit, receiving approximately 14,838.47 DAI belonging to the vault",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
