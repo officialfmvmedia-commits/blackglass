@@ -1,6 +1,226 @@
 {
- "generated": "2026-11-09T21:08:45.524764Z",
+ "generated": "2026-11-10T03:36:10.843198Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-10T03",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-10T03:36:10.843198Z",
+   "chain": "ETH",
+   "usd": 13057249,
+   "level": 70,
+   "message": "Coinbase 10 (ETH) balance down 71%: $18.3M \u2192 $5.27M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "drop:ETH:0x46340b20830761efd32832a74d7169b29feb9758:2026-11-10T03",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Crypto.com",
+   "time": "2026-11-10T03:36:10.843198Z",
+   "chain": "ETH",
+   "usd": 2378103,
+   "level": 70,
+   "message": "Crypto.com 2 (ETH) balance down 43%: $5.47M \u2192 $3.09M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0x46340b20830761efd32832a74d7169b29feb9758",
+   "address": "0x46340b20830761efd32832a74d7169b29feb9758",
+   "address_url": "https://eth.blockscout.com/address/0x46340b20830761efd32832a74d7169b29feb9758",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Crypto.com",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0xd0b7df5702911746f902ec1006ef1370568addea8b17520c2ad2dccd30bec5cb:3030.0742",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-10T01:12:11Z",
+   "chain": "ETH",
+   "usd": 6404972,
+   "level": 30,
+   "message": "Coinbase 5 sent $6.4M (3,030 ETH) to an unlabeled address 0x5779\u20261462.",
+   "counterparty_label": "an unlabeled address 0x5779\u20261462",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xd0b7df5702911746f902ec1006ef1370568addea8b17520c2ad2dccd30bec5cb",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xb20b590f74391df0c425611043f216c0890c6351fb171b5c90c6e9e838ea183a:4479.3969",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-09T23:54:11Z",
+   "chain": "ETH",
+   "usd": 9468550,
+   "level": 20,
+   "message": "Coinbase 5 received $9.5M (4,479 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
+   "counterparty_label": "an unlabeled address 0x6Bb9\u2026bc4c",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xb20b590f74391df0c425611043f216c0890c6351fb171b5c90c6e9e838ea183a",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x31c1f13404ab785f0162abf6c78e7446b50bec50b3aff5d94bf206b431ca1e2d:2811.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-09T23:48:59Z",
+   "chain": "ETH",
+   "usd": 5941893,
+   "level": 20,
+   "message": "Coinbase 5 received $5.9M (2,811 ETH) from an unlabeled address 0x72a4\u20264caD.",
+   "counterparty_label": "an unlabeled address 0x72a4\u20264caD",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x31c1f13404ab785f0162abf6c78e7446b50bec50b3aff5d94bf206b431ca1e2d",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x8e93064bd1f3e2a6bfe3cb88607e7716a1b77daeb946e6b6d69b9759a46c43c2:2723.1388",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-09T23:15:11Z",
+   "chain": "ETH",
+   "usd": 5756171,
+   "level": 20,
+   "message": "Coinbase 5 sent $5.8M (2,723 ETH) to Coinbase 10.",
+   "counterparty_label": "Coinbase 10",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x8e93064bd1f3e2a6bfe3cb88607e7716a1b77daeb946e6b6d69b9759a46c43c2",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Counterparty is Coinbase 10 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0x4d1b93ca6d3fc0522fe0b51efd0fb3536529c76ff3a9b0ed6085c4905a6bd06e:4217.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-09T23:03:11Z",
+   "chain": "ETH",
+   "usd": 8913896,
+   "level": 20,
+   "message": "Coinbase 5 received $8.9M (4,217 ETH) from an unlabeled address 0xbDbb\u202610B9.",
+   "counterparty_label": "an unlabeled address 0xbDbb\u202610B9",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x4d1b93ca6d3fc0522fe0b51efd0fb3536529c76ff3a9b0ed6085c4905a6bd06e",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "drop:ETH:0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec:2026-11-09T21",
    "type": "exchange",
