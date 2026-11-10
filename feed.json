@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x77f143f6a94608096e4434fd572c7c3954540e4bd18bbc1486668b9016cfe47d:3900.4542",
+   "url": "https://eth.blockscout.com/tx/0x77f143f6a94608096e4434fd572c7c3954540e4bd18bbc1486668b9016cfe47d",
+   "title": "[SAFE] Gate.io 5 received $8.2M (3,900 ETH) from Gate.io.",
+   "content_text": "Gate.io 5 received $8.2M (3,900 ETH) from Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-10T04:30:47Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-10T03",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 71%: $18.3M \u2192 $5.27M between checks.",
@@ -475,6 +492,23 @@
     "status": "SAFE",
     "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x31604e08b449f5418e8d19ae9b511345ccffe48fa9df9d8fd44528f0b19de20a:3274.1854",
+   "url": "https://eth.blockscout.com/tx/0x31604e08b449f5418e8d19ae9b511345ccffe48fa9df9d8fd44528f0b19de20a",
+   "title": "[SAFE] Gate.io 5 received $6.8M (3,274 ETH) from Gate.io.",
+   "content_text": "Gate.io 5 received $6.8M (3,274 ETH) from Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-09T04:30:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 20
    }
   },
   {
@@ -2606,40 +2640,6 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x2c84692e797717b6922da47bef963347addde7a6869485c8a786afb4823550a4:7999997.8521",
-   "url": "https://eth.blockscout.com/tx/0x2c84692e797717b6922da47bef963347addde7a6869485c8a786afb4823550a4",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
-   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-04T04:30:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x41c4cfd17b67e071cd856624654b0d60e97e789c8bf6b2f296927f8506fd4ade:3314.3615",
-   "url": "https://eth.blockscout.com/tx/0x41c4cfd17b67e071cd856624654b0d60e97e789c8bf6b2f296927f8506fd4ade",
-   "title": "[SAFE] Gate.io 5 sent $7.5M (3,314 ETH) to Gate.io.",
-   "content_text": "Gate.io 5 sent $7.5M (3,314 ETH) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-04T04:29:59Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
-    "risk": 20
    }
   }
  ]
