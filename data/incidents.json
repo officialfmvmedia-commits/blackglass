@@ -1,6 +1,50 @@
 {
- "generated": "2026-11-11T00:18:09.179534Z",
+ "generated": "2026-11-11T07:02:48.220161Z",
  "incidents": [
+  {
+   "id": "H8141",
+   "name": "Arcus Perps",
+   "date": "2026-11-10",
+   "amount_usd": 2234391,
+   "chains": [
+    "Robinhood Chain"
+   ],
+   "technique": "Withdrawal Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "On November 10, 2026 (UTC), an attacker exploited an accounting flaw in Arcus Perps on Robinhood Chain that allowed transfers between subaccounts to artificially inflate an account's recorded balance. The attacker used the inflated balance to withdraw 2,234,391 USDG, while an additional $3 million in withdrawal requests was blocked by the bridge's rate limit and later reversed. Arcus patched the vulnerability, restricted the exploiter's accounts, and covered the entire shortfall from its company treasury, leaving user balances unaffected",
+   "returned": 2234391,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H1207",
+   "name": "Across",
+   "date": "2026-11-10",
+   "amount_usd": null,
+   "chains": [
+    "Plasma"
+   ],
+   "technique": "DNS Hijack",
+   "classification": "Frontend & Infrastructure",
+   "description": "On November 10, 2026, an attacker compromised Across Protocol's domain through a social engineering attack targeting its registrar, Namecheap, redirecting users to a malicious website designed to steal cryptocurrency through fraudulent wallet interactions. Multiple users reported unauthorized withdrawals after interacting with the compromised interface. Across took its frontend and API offline, worked to block access to the malicious domain, and committed to compensating affected users. The total amount stolen remains undisclosed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "Hchain#initia",
    "name": "Initia",
@@ -34,6 +78,29 @@
    "technique": "Cross-Chain Message Spoofing",
    "classification": "Bridge & Cross-Chain",
    "description": "On November 9, 2026, an attacker exploited Ankr's cross-chain bridge on Ethereum by submitting five forged withdrawal receipts referencing a single Optimism deposit that had already been redeemed. The attacker modified the recipients, assets, and withdrawal amounts, while presenting valid signatures from the bridge's trusted consensus signer. The bridge accepted the falsified receipts and released approximately $304,500 in assets, including ankrETH, ankrPOL, ANKR, and other staking tokens. The origin of the unauthorized signatures remains under investigation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HLNbits",
+   "name": "LNbits",
+   "date": "2026-11-08",
+   "amount_usd": null,
+   "chains": [
+    "Bitcoin",
+    "Lightning Network"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 8, 2026, attackers exploited vulnerabilities in LNbits, an open-source Bitcoin Lightning wallet management platform, to create unauthorized accounts and withdraw funds from affected installations. One confirmed operator reported losing 2,285,545 satoshis, while the aggregate loss across other instances remained undisclosed. LNbits instructed operators to shut down their servers and subsequently released version 1.7.0 on November 10 to address the vulnerabilities. The project also advised operators to rotate wallet keys and funding-source credentials, with the exact attack mechanism pending a full technical report",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -884,77 +951,6 @@
    "technique": "Incorrect Share Accounting",
    "classification": "Token & Share Accounting",
    "description": "An attacker exploited UNCX Vesting V2\u2019s shared token accounting by creating vesting positions, releasing a large position, donating tokens into the pool, and cancelling a topped-up vest. This sequence allowed a small remaining vesting position to withdraw tokens belonging to other users. UNCX confirmed additional affected assets across four chains and introduced emergency fees and restrictions to contain the exploit",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HGamdom",
-   "name": "Gamdom",
-   "date": "2026-10-13",
-   "amount_usd": 4208000,
-   "chains": [
-    "Ethereum",
-    "BSC",
-    "Polygon",
-    "Arbitrum",
-    "Optimism",
-    "Solana",
-    "TRON",
-    "Bitcoin"
-   ],
-   "technique": "Key Leaked via Infrastructure",
-   "classification": "Frontend & Infrastructure",
-   "description": "Gamdom suffered a multichain hot-wallet compromise following unauthorized access to an automation server. Investigators traced approximately $4.21M in stolen assets across eight networks. The attacker subsequently bridged, swapped, and distributed funds through multiple wallets and services, including Mayan, Hyperliquid, and THORChain. The precise mechanism used to obtain control of the wallets remains unconfirmed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H9065",
-   "name": "Papertrade",
-   "date": "2026-10-10",
-   "amount_usd": 1280000,
-   "chains": [
-    "Hyperliquid L1"
-   ],
-   "technique": "Spot Price Manipulation",
-   "classification": "Oracle Manipulation",
-   "description": "Papertrade, a perpetual trading protocol on HyperEVM, reportedly suffered an oracle manipulation attack shortly after launch. The attacker manipulated Hyperliquid\u2019s ETH order-book midpoint through external trades while opening and closing highly leveraged synthetic positions on Papertrade. Because the protocol used the instantaneous BBO midpoint without TWAP, deviation limits, or independent price validation, manipulated prices were accepted for execution and PnL settlement, transferring approximately $1.28M from the Martingaler LP",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HLedger (Supply Chain)",
-   "name": "Ledger (Supply Chain)",
-   "date": "2026-10-09",
-   "amount_usd": 93000000,
-   "chains": [],
-   "technique": "Supply Chain Attack",
-   "classification": "Frontend & Infrastructure",
-   "description": "Attackers purchased genuine Ledger hardware wallets, installed concealed components capable of capturing recovery phrases, and redistributed the modified devices through resellers. The implants monitored the wallets\u2019 displays during initialization and transmitted captured recovery phrases through cellular connections. Attackers subsequently derived users\u2019 private keys and drained their cryptocurrency holdings. Ledger confirmed that its Secure Element, operating system, and internal infrastructure were not compromised",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
