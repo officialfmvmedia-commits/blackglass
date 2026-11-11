@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-11T22",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 45%: $2.77M \u2192 $1.53M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 45%: $2.77M \u2192 $1.53M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-11T22:11:45.251578Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
    "id": "ETH:0xb1149dd2c80678d770922084ace2279df2c8665fa13f5bb72c764d4110c4acf9:80000000.0",
    "url": "https://eth.blockscout.com/tx/0xb1149dd2c80678d770922084ace2279df2c8665fa13f5bb72c764d4110c4acf9",
    "title": "[MONITORING] Binance 28 sent $79.9M (80.00M USDT) to an unlabeled address 0x690C\u202691cC.",
@@ -2610,24 +2627,6 @@
    "title": "[MONITORING] Binance 28 sent $36.2M (15,000 ETH) to an unlabeled address 0x690C\u202691cC.",
    "content_text": "Binance 28 sent $36.2M (15,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
    "date_published": "2026-11-04T15:23:35Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0xb463879abd8f55d032c6bcd0ff59fc97fa5439f191bd182f7984481d3e259f6e:100000000.0",
-   "url": "https://eth.blockscout.com/tx/0xb463879abd8f55d032c6bcd0ff59fc97fa5439f191bd182f7984481d3e259f6e",
-   "title": "[MONITORING] Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $99.9M (100.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-04T15:21:59Z",
    "tags": [
     "exchange",
     "MONITORING",

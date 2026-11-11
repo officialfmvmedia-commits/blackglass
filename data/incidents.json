@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-11T15:06:47.640167Z",
+ "generated": "2026-11-11T22:11:45.251578Z",
  "incidents": [
+  {
+   "id": "H8396",
+   "name": "Rujira AMM Strategies",
+   "date": "2026-11-11",
+   "amount_usd": 200000,
+   "chains": [
+    "THORChain"
+   ],
+   "technique": "Swap Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "On November 10, 2026, an attacker exploited a flaw in the skew calculations of Rujira's Custom Concentrated Liquidity (CCL) strategy on THORChain, manipulating trading activity in the BTC/USDC orderbook and imbalancing existing liquidity positions. The exploit caused approximately $200,000 in losses, including $175,000 from Liquidy Finance's positions and $25,000 from other users. Rujira halted the CosmWasm application layer and announced plans to remove the vulnerable skew parameter and fully reimburse affected users before resuming operations",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H8141",
    "name": "Arcus Perps",
@@ -144,9 +166,9 @@
    "date": "2026-11-06",
    "amount_usd": null,
    "chains": [],
-   "technique": "Supply Chain Attack",
+   "technique": "Key Leaked via Infrastructure",
    "classification": "Frontend & Infrastructure",
-   "description": "In November 2026, attackers conducted unauthorized transactions from Keplr wallets created using Google or Apple social login, affecting accounts that relied on Web3Auth's third-party authentication and key-management infrastructure. Keplr and Web3Auth launched a joint investigation and suspended affected login services. Wallets created using recovery phrases or hardware wallets were not believed to be affected. The exact vulnerability, total funds stolen, and affected blockchain networks remained undisclosed",
+   "description": "In November 2026, attackers exploited a vulnerability in Web3Auth's infrastructure that exposed private keys belonging to Keplr wallets created using Google or Apple login, allowing unauthorized transactions from affected accounts. Web3Auth and Keplr suspended the affected services and initiated a recovery operation using the same vulnerability to transfer approximately $5.6 million from exposed wallets into secure addresses before attackers could steal the funds. The total amount stolen before the recovery operation remains undisclosed, and the teams are working to return the secured assets to their owners",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -926,31 +948,6 @@
    "technique": "Unbacked Mint",
    "classification": "Token & Share Accounting",
    "description": "Affluent\u2019s lending vaults reportedly suffered unauthorized share minting that allowed attackers to redeem vault assets without providing corresponding deposits. The supplied analysis identifies suspicious transactions on September 30, October 12, and October 16, 2026, involving multiple wallets. Extracted assets were reportedly transferred through exchanges, swaps, and cross-chain services",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H1765",
-   "name": "UNCX Network V2",
-   "date": "2026-10-14",
-   "amount_usd": 86000,
-   "chains": [
-    "Ethereum",
-    "Base",
-    "BSC",
-    "Robinhood Chain"
-   ],
-   "technique": "Incorrect Share Accounting",
-   "classification": "Token & Share Accounting",
-   "description": "An attacker exploited UNCX Vesting V2\u2019s shared token accounting by creating vesting positions, releasing a large position, donating tokens into the pool, and cancelling a topped-up vest. This sequence allowed a small remaining vesting position to withdraw tokens belonging to other users. UNCX confirmed additional affected assets across four chains and introduced emergency fees and restrictions to contain the exploit",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
