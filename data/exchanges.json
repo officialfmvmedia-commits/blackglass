@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T11:45:57.819074Z",
+ "generated": "2026-11-12T19:46:46.252047Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -22,13 +22,13 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 9999250,
+   "flow_out_usd": 0,
    "biggest": {
-    "usd": 9999250.0,
-    "text": "10.00M RLUSD out to 0x690C3E\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xac8254b62157c8e995f554fcadd22e768edcb4fd65a87c7693461a08f75d8e9f"
+    "usd": 0.06446410153196473,
+    "text": "3.206e-05 ETH in from 0xCF0cEd\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xe4488dce6da04bd28ecb01d189b62aa188cfd2e573df7a2df9d067cbefdf99e6"
    },
-   "alerts_24h": 3,
+   "alerts_24h": 1,
    "anomaly": false
   },
   {
@@ -65,15 +65,15 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 815119,
-   "flow_out_usd": 4444531,
+   "flow_in_usd": 26753523,
+   "flow_out_usd": 27267940,
    "biggest": {
-    "usd": 2997246.0,
-    "text": "3.00M USDT out to 0x3E0d0b\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x8f1f3779cbd062dd2cdda27d5d485e1247341e26b8a59d7a4c7b62bedafc2e36"
+    "usd": 22683270.1,
+    "text": "22.70M USDT in from 0x189736\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xc4560c21643da0a89f06b76e6e50523d5011ae1a7f6395017dc04a5e15bc4302"
    },
    "alerts_24h": 5,
-   "anomaly": false
+   "anomaly": true
   },
   {
    "entity": "KuCoin",
@@ -90,15 +90,15 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 329518,
-   "flow_out_usd": 131769,
+   "flow_in_usd": 411807,
+   "flow_out_usd": 9783,
    "biggest": {
-    "usd": 152617.5,
-    "text": "500,000 WLD in from ERC1967Proxy",
-    "tx": "https://optimism.blockscout.com/tx/0x20aafdf1c890f3f845db4dd896880d9b30e916737b9930f80fb64e37ea0f8268"
+    "usd": 301422.0,
+    "text": "1.00M WLD in from ERC1967Proxy",
+    "tx": "https://optimism.blockscout.com/tx/0x86fa26e8039fbe29ecc8296a7bfb22a2d8507fbb91f6bd8efdf234a7309a7e69"
    },
-   "alerts_24h": 0,
-   "anomaly": false
+   "alerts_24h": 1,
+   "anomaly": true
   },
   {
    "entity": "OKX",
@@ -129,14 +129,14 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 233479,
-   "flow_out_usd": 145726,
+   "flow_in_usd": 7789718,
+   "flow_out_usd": 307333,
    "biggest": {
-    "usd": 227278.63553750623,
-    "text": "112.2 ETH in from 0xB1d605\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xa7cf567bf5400d7fd0ee4fdfe324f3fea478499f676a229d3147cbf42816dffb"
+    "usd": 6133153.532051,
+    "text": "6.14M USDT in from 0x5f2d3A\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xeee7ed04f7657d023f4850c772aab0475b7408e2b9ebd7eda2f6d453b60430ed"
    },
-   "alerts_24h": 1,
+   "alerts_24h": 2,
    "anomaly": true
   },
   {

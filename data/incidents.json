@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-12T11:45:57.819074Z",
+ "generated": "2026-11-12T19:46:46.252047Z",
  "incidents": [
+  {
+   "id": "H7578",
+   "name": "Edel",
+   "date": "2026-11-12",
+   "amount_usd": 300000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "In November 2026, Edel Finance reported that approximately $300,000 worth of EDEL tokens had been stolen and sold on the market. The team began investigating the theft and coordinating with authorities and cryptocurrency exchanges to trace the stolen assets and block the attackers. The source of the stolen tokens, initial attack method, affected blockchain and recovery status remain undisclosed.",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H8396",
    "name": "Rujira AMM Strategies",
@@ -926,28 +948,6 @@
    "technique": "Unbacked Mint",
    "classification": "Token & Share Accounting",
    "description": "Pirate Chain suffered an exploit in the transparent supply-accounting layer introduced with its Ironwood upgrade. Two transaction-validation failures reportedly allowed an attacker to bypass issuance restrictions and exploit incorrect output-script interpretation, creating approximately 39.8 million unauthorized ARRR. The tokens were transferred into the Sapling shielded pool, obscuring subsequent transfers. The team initially proposed a blockchain rollback but later confirmed that it could not execute one unilaterally",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H5726",
-   "name": "Affluent",
-   "date": "2026-10-16",
-   "amount_usd": 1053000,
-   "chains": [
-    "TON"
-   ],
-   "technique": "Unbacked Mint",
-   "classification": "Token & Share Accounting",
-   "description": "Affluent\u2019s lending vaults reportedly suffered unauthorized share minting that allowed attackers to redeem vault assets without providing corresponding deposits. The supplied analysis identifies suspicious transactions on September 30, October 12, and October 16, 2026, involving multiple wallets. Extracted assets were reportedly transferred through exchanges, swaps, and cross-chain services",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
