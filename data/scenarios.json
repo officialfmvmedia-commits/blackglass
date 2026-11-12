@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-12T03:18:33.302070Z",
+ "generated": "2026-11-12T11:45:57.819074Z",
  "scenarios": [
   {
    "id": "C008-20261108",
    "cluster": "C008",
-   "title": "OFAC-sanctioned wallets: KIM, Sang Man",
+   "title": "OFAC-sanctioned wallets: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
    "start": "2026-11-08T03:28:23Z",
    "end": "2026-11-08T03:28:23Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Nov 8, 2026. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 0.1071 ETH to address 0x690C\u202691cC [cluster C008].",
+   "what": "1 logged movement on Nov 8, 2026. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 0.1071 ETH to address 0x690C\u202691cC [cluster C008]. About 0.1071 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
@@ -19,15 +19,15 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #43377 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=43377"
+     "name": "OFAC SDN #57056 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
     }
    ]
   },
   {
    "id": "C006-20261104",
    "cluster": "C006",
-   "title": "OFAC-sanctioned wallets: SEMENOV, Roman",
+   "title": "OFAC-sanctioned wallets: LAZARUS GROUP",
    "start": "2026-11-04T22:35:23Z",
    "end": "2026-11-04T22:35:23Z",
    "chain": "ETH",
@@ -42,8 +42,8 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #44718 (DPRK3)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718"
+     "name": "OFAC SDN #27307 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=27307"
     }
    ]
   },
@@ -77,12 +77,12 @@
   {
    "id": "C010-20261013",
    "cluster": "C010",
-   "title": "OFAC-sanctioned wallets: OBERTAS, Vitold Viktorovich",
+   "title": "OFAC-sanctioned wallets: BOYKOV, Ilya Aleksandrovich",
    "start": "2026-10-13T14:56:23Z",
    "end": "2026-10-13T14:56:23Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Oct 13, 2026. Latest: OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.03118 ETH to address 0x6242\u2026dc9f [cluster C010].",
+   "what": "1 logged movement on Oct 13, 2026. Latest: OFAC-listed address (BOYKOV, Ilya Aleksandrovich) sent 0.03118 ETH to address 0x6242\u2026dc9f [cluster C010]. About 0.03118 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
@@ -92,15 +92,15 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #58889 (DPRK2)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58889"
+     "name": "OFAC SDN #58886 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
     }
    ]
   },
   {
    "id": "C001-20260327",
    "cluster": "C001",
-   "title": "Bybit hack funds (FBI-published wallets)",
+   "title": "Harmony bridge hack funds (FBI-published wallets)",
    "start": "2026-03-27T13:45:59Z",
    "end": "2026-03-27T13:45:59Z",
    "chain": "ETH",
@@ -115,15 +115,15 @@
    ],
    "sources": [
     {
-     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
-     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
+     "name": "FBI Harmony Horizon attribution (Jan 2023)",
+     "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
     }
    ]
   },
   {
    "id": "C003-20260116",
    "cluster": "C003",
-   "title": "OFAC-sanctioned wallets: WU, Huihui",
+   "title": "OFAC-sanctioned wallets: TIAN, Yinyin",
    "start": "2026-01-16T06:14:28Z",
    "end": "2026-01-16T06:14:28Z",
    "chain": "BTC",
@@ -138,15 +138,15 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #42496 (DPRK3)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=42496"
+     "name": "OFAC SDN #28263 (DPRK3] [CYBER2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28263"
     }
    ]
   },
   {
    "id": "C014-20250812",
    "cluster": "C014",
-   "title": "OFAC-sanctioned wallets: HOANG, Minh Quang",
+   "title": "OFAC-sanctioned wallets: ANDREYEV, Vitaliy Sergeyevich",
    "start": "2025-08-12T14:38:20Z",
    "end": "2025-08-12T16:53:36Z",
    "chain": "BTC",
@@ -163,20 +163,20 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #57035 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57035"
+     "name": "OFAC SDN #55065 (DPRK2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
     }
    ]
   },
   {
    "id": "C013-20250728",
    "cluster": "C013",
-   "title": "OFAC-sanctioned wallets: ANDREYEV, Vitaliy Sergeyevich",
+   "title": "OFAC-sanctioned wallets: YUN, Song Guk",
    "start": "2025-07-28T13:41:35Z",
    "end": "2025-07-28T13:41:35Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Jul 28, 2025. Latest: OFAC-listed address (YUN, Song Guk) sent 0.002 ETH to address 0xB42a\u20267D89 [cluster C013].",
+   "what": "1 logged movement on Jul 28, 2025. Latest: OFAC-listed address (YUN, Song Guk) sent 0.002 ETH to address 0xB42a\u20267D89 [cluster C013]. About 0.002 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
@@ -186,21 +186,21 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #55065 (DPRK2)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
     }
    ]
   },
   {
    "id": "C002-20250303",
    "cluster": "C002",
-   "title": "OFAC-sanctioned wallets: TIAN, Yinyin",
+   "title": "Bybit hack funds (FBI-published wallets)",
    "start": "2025-02-25T07:52:59Z",
    "end": "2025-03-03T18:13:47Z",
    "chain": "ETH",
    "events": 240,
-   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "what": "240 logged movements between Feb 25, 2025 \u2013 Mar 3, 2025. Latest: FBI-attributed Bybit-hack wallet sent 135.7 ETH to address 0x5c8C\u2026Cffa [cluster C002]. About 4756 ETH went out to 20 new addresses one hop away.",
+   "why": "Fast fan-out: funds split across many wallets quickly.",
    "confidence": 80,
    "confidence_label": "high",
    "type": "lazarus",
@@ -213,15 +213,15 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #28263 (DPRK3] [CYBER2)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=28263"
+     "name": "FBI IC3 PSA250226 (Bybit, Feb 2025)",
+     "url": "https://www.ic3.gov/PSA/2025/PSA250226"
     }
    ]
   },
   {
    "id": "C016-20240910",
    "cluster": "C016",
-   "title": "C016",
+   "title": "OFAC-sanctioned wallets: KIM, Ki Hyok",
    "start": "2024-09-09T06:52:11Z",
    "end": "2024-09-10T09:39:35Z",
    "chain": "ETH",
@@ -245,12 +245,12 @@
   {
    "id": "C007-20240625",
    "cluster": "C007",
-   "title": "OFAC-sanctioned wallets: AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY",
+   "title": "OFAC-sanctioned wallets: SEMENOV, Roman",
    "start": "2024-06-25T17:47:35Z",
    "end": "2024-06-25T17:47:35Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007].",
+   "what": "1 logged movement on Jun 25, 2024. Latest: OFAC-listed address (SEMENOV, Roman) sent 0.003538 ETH to address 0x6C9F\u20261a24 [cluster C007]. About 0.003538 ETH went out to 1 new address one hop away.",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
@@ -260,21 +260,21 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #57056 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57056"
+     "name": "OFAC SDN #44718 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44718"
     }
    ]
   },
   {
    "id": "C015-20240620",
    "cluster": "C015",
-   "title": "OFAC-sanctioned wallets: KIM, Ki Hyok",
+   "title": "OFAC-sanctioned wallets: HOANG, Minh Quang",
    "start": "2024-06-20T15:56:53Z",
    "end": "2024-06-20T15:56:53Z",
    "chain": "BTC",
    "events": 1,
-   "what": "1 logged movement on Jun 20, 2024. Latest: OFAC-listed address (HOANG, Minh Quang) spent 0.0001368 BTC split across 1 output(s) [cluster C015].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "what": "1 logged movement on Jun 20, 2024. Latest: OFAC-listed address (HOANG, Minh Quang) spent 0.0001368 BTC split across 1 output(s) [cluster C015]. About 0.0001368 BTC went out to 1 new address one hop away.",
+   "why": "Peel-chain pattern: small amounts split off step by step.",
    "confidence": 65,
    "confidence_label": "medium",
    "type": "lazarus",
@@ -283,21 +283,21 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #58887 (DPRK2)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58887"
+     "name": "OFAC SDN #57035 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57035"
     }
    ]
   },
   {
    "id": "C012-20240216",
    "cluster": "C012",
-   "title": "OFAC-sanctioned wallets: YUN, Song Guk",
+   "title": "OFAC-sanctioned wallets: SINBAD",
    "start": "2024-02-16T11:18:35Z",
    "end": "2024-02-16T11:18:35Z",
    "chain": "BTC",
    "events": 1,
-   "what": "1 logged movement on Feb 16, 2024. Latest: OFAC-listed address (SINBAD) spent 0.3511 BTC split across 2 output(s) [cluster C012].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "what": "1 logged movement on Feb 16, 2024. Latest: OFAC-listed address (SINBAD) spent 0.3511 BTC split across 2 output(s) [cluster C012]. About 0.3511 BTC went out to 2 new addresses one hop away.",
+   "why": "Peel-chain pattern: small amounts split off step by step.",
    "confidence": 65,
    "confidence_label": "medium",
    "type": "lazarus",
@@ -306,21 +306,21 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #57034 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+     "name": "OFAC SDN #44437 (DPRK3] [CYBER2)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=44437"
     }
    ]
   },
   {
    "id": "C004-20230415",
    "cluster": "C004",
-   "title": "OFAC-sanctioned wallets: CHEIL CREDIT BANK",
+   "title": "OFAC-sanctioned wallets: WU, Huihui",
    "start": "2023-04-15T02:29:56Z",
    "end": "2023-04-15T02:29:56Z",
    "chain": "BTC",
    "events": 1,
-   "what": "1 logged movement on Apr 15, 2023. Latest: OFAC-listed address (WU, Huihui) spent 0.06 BTC split across 1 output(s) [cluster C004].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "what": "1 logged movement on Apr 15, 2023. Latest: OFAC-listed address (WU, Huihui) spent 0.06 BTC split across 1 output(s) [cluster C004]. About 0.06 BTC went out to 1 new address one hop away.",
+   "why": "Peel-chain pattern: small amounts split off step by step.",
    "confidence": 75,
    "confidence_label": "high",
    "type": "lazarus",
@@ -329,21 +329,21 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #22985 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=22985"
+     "name": "OFAC SDN #42496 (DPRK3)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=42496"
     }
    ]
   },
   {
    "id": "C009-20220314",
    "cluster": "C009",
-   "title": "OFAC-sanctioned wallets: BOYKOV, Ilya Aleksandrovich",
+   "title": "OFAC-sanctioned wallets: KIM, Sang Man",
    "start": "2022-03-14T14:21:20Z",
    "end": "2022-03-14T14:21:20Z",
    "chain": "BTC",
    "events": 1,
-   "what": "1 logged movement on Mar 14, 2022. Latest: OFAC-listed address (KIM, Sang Man) spent 100.1 BTC split across 2 output(s) [cluster C009].",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "what": "1 logged movement on Mar 14, 2022. Latest: OFAC-listed address (KIM, Sang Man) spent 100.1 BTC split across 2 output(s) [cluster C009]. About 100.1 BTC went out to 2 new addresses one hop away.",
+   "why": "Peel-chain pattern: small amounts split off step by step.",
    "confidence": 85,
    "confidence_label": "high",
    "type": "lazarus",
@@ -352,8 +352,8 @@
    ],
    "sources": [
     {
-     "name": "OFAC SDN #58886 (DPRK2)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=58886"
+     "name": "OFAC SDN #43377 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=43377"
     }
    ]
   }
