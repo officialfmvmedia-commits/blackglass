@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T07:50:22.522386Z",
+ "generated": "2026-11-13T16:04:32.787209Z",
  "clusters": [
   {
    "id": "C001",
@@ -17901,12 +17901,6 @@
      "url": "https://eth.blockscout.com/tx/0x48d753725010836d4878fb57eaf42e5d6ff1b65069e7be05ff0ccc4eebfe0a74",
      "value": 0.0,
      "time": "2022-04-28T16:48:02Z"
-    },
-    {
-     "tx": "0xe6e7af96cb6c472599413a97339dda102af04d4fbf89ebc53b8edcad18601708",
-     "url": "https://eth.blockscout.com/tx/0xe6e7af96cb6c472599413a97339dda102af04d4fbf89ebc53b8edcad18601708",
-     "value": 0.0,
-     "time": "2022-04-28T11:01:45Z"
     },
     {
      "tx": "0x4b0c69053bd80d05c090e85ef29eb82b380943112b1dccfb39340535ccc9d395",
