@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T16:04:32.787209Z",
+ "generated": "2026-11-13T22:00:46.417724Z",
  "clusters": [
   {
    "id": "C001",
@@ -13718,9 +13718,7 @@
    "reasons": [
     "DEX/swap router (SwapRouter)",
     "large value (308.3 ETH)",
-    "large value (332.9 ETH)",
     "large value (346.3 ETH)",
-    "large value (65.3 ETH)",
     "rapid fan-out: 5+ outgoing tx within one hour",
     "received from a tracked address (1 hop)"
    ],
@@ -13730,18 +13728,6 @@
      "url": "https://eth.blockscout.com/tx/0x4b5d1c3c0d6c36735477a14b5bcdc00b7ce469148e0fa35ae24742bc84208d72",
      "value": 0.0,
      "time": "2021-09-17T21:21:03Z"
-    },
-    {
-     "tx": "0x6d90c8bd972be40127d339b6b31c5695afadfe70d0b11dd10c1d03ae1d4ef347",
-     "url": "https://eth.blockscout.com/tx/0x6d90c8bd972be40127d339b6b31c5695afadfe70d0b11dd10c1d03ae1d4ef347",
-     "value": 65.33978876228987,
-     "time": "2023-02-14T09:06:59Z"
-    },
-    {
-     "tx": "0x34498823bd94bb20a33d7fdfb5568175a99c12631aa8d9915fcac74fb2925396",
-     "url": "https://eth.blockscout.com/tx/0x34498823bd94bb20a33d7fdfb5568175a99c12631aa8d9915fcac74fb2925396",
-     "value": 332.87891968142213,
-     "time": "2023-02-14T08:34:11Z"
     },
     {
      "tx": "0xc4930c5e66c05f37e6138ad61533fb554330528e3974524be78b5853b9ca360b",

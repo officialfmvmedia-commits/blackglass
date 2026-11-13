@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-13T16:04:32.967312Z",
+ "generated": "2026-11-13T22:00:46.627038Z",
  "incidents": [
+  {
+   "id": "H8575",
+   "name": "Pennysia",
+   "date": "2026-11-13",
+   "amount_usd": 5131,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Arbitrary External Call",
+   "classification": "Access Control",
+   "description": "On November 12, 2026, an attacker exploited an arbitrary external call vulnerability in Pennysia's Settlement contract on Ethereum, stealing approximately $5,131 from four users. The attacker deployed malicious tokens to bypass spending checks in the executeSwap() function, then abused existing ERC-20 allowances to transfer USDC, wstETH and YUNO directly from users' wallets through the vulnerable contract",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H7578",
    "name": "Edel",
@@ -926,28 +948,6 @@
    "technique": "Weak Key Generation",
    "classification": "Key Compromise",
    "description": "An attacker exploited predictable wallet seeds generated with insufficient randomness in Qubic\u2019s wallet software, compromising 1,404 user wallets and stealing approximately 2.94 trillion QU. The vulnerability affected certain wallets created on Apple devices and Safari browsers. Qubic halted its network at tick 85,371,949, while MEXC froze the account receiving the remaining stolen funds. Seed generation was corrected in wallet version 4.26.4",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HPirate Chain",
-   "name": "Pirate Chain",
-   "date": "2026-10-16",
-   "amount_usd": null,
-   "chains": [
-    "Pirate Chain"
-   ],
-   "technique": "Unbacked Mint",
-   "classification": "Token & Share Accounting",
-   "description": "Pirate Chain suffered an exploit in the transparent supply-accounting layer introduced with its Ironwood upgrade. Two transaction-validation failures reportedly allowed an attacker to bypass issuance restrictions and exploit incorrect output-script interpretation, creating approximately 39.8 million unauthorized ARRR. The tokens were transferred into the Sapling shielded pool, obscuring subsequent transfers. The team initially proposed a blockchain rollback but later confirmed that it could not execute one unilaterally",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
