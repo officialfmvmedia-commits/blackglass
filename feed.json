@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x76c27a33c975813d8614d7ec5225002f1ceb8cf51f0e89f1c76d8e1c81e21b96:50000000.06",
+   "url": "https://eth.blockscout.com/tx/0x76c27a33c975813d8614d7ec5225002f1ceb8cf51f0e89f1c76d8e1c81e21b96",
+   "title": "[MONITORING] Coinbase 10 sent $50.0M (50.00M USDC) to an unlabeled address 0xC0a2\u2026265a.",
+   "content_text": "Coinbase 10 sent $50.0M (50.00M USDC) to an unlabeled address 0xC0a2\u2026265a. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-14T09:17:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "drop:ETH:0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec:2026-11-14T02",
    "url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
    "title": "[MONITORING] Bitfinex: Hot Wallet (ETH) balance down 68%: $5.37M \u2192 $1.70M between checks.",
@@ -2619,23 +2637,6 @@
     "status": "SAFE",
     "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0x7d9b1e4c1cbc30a5500748b12817c0e3c387047657ef6d9911b8539f1ff0cc26:9259340.497",
-   "url": "https://eth.blockscout.com/tx/0x7d9b1e4c1cbc30a5500748b12817c0e3c387047657ef6d9911b8539f1ff0cc26",
-   "title": "[SAFE] Binance 28 received $9.3M (9.26M RLUSD) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $9.3M (9.26M RLUSD) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-06T00:25:23Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
    }
   }
  ]
