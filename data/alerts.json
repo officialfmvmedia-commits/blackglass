@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T09:20:35.294884Z",
+ "generated": "2026-11-14T16:03:54.037971Z",
  "alerts": [
   {
    "id": "ETH:0x76c27a33c975813d8614d7ec5225002f1ceb8cf51f0e89f1c76d8e1c81e21b96:50000000.06",
@@ -266,6 +266,34 @@
     }
    ],
    "cluster": "Binance",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xc5aba5ba077c59f6b7a3af2b5df4ea4d657df3f4e42f50cefe98081797fee024:6000000.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "KuCoin",
+   "time": "2026-11-13T12:13:11Z",
+   "chain": "ETH",
+   "usd": 5996382,
+   "level": 30,
+   "message": "KuCoin 15 sent $6.0M (6.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "counterparty_label": "an unlabeled address 0x83C4\u2026627e",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xc5aba5ba077c59f6b7a3af2b5df4ea4d657df3f4e42f50cefe98081797fee024",
+   "address": "0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "address_url": "https://eth.blockscout.com/address/0xb8e6d31e7b212b2b7250ee9c26c56cebbfbe6b23",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "KuCoin",
    "status": "MONITORING",
    "basis": "Destination is unlabeled. Not linked to any flagged wallet."
   },

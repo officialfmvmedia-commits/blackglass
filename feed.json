@@ -162,6 +162,23 @@
    }
   },
   {
+   "id": "ETH:0xc5aba5ba077c59f6b7a3af2b5df4ea4d657df3f4e42f50cefe98081797fee024:6000000.0",
+   "url": "https://eth.blockscout.com/tx/0xc5aba5ba077c59f6b7a3af2b5df4ea4d657df3f4e42f50cefe98081797fee024",
+   "title": "[MONITORING] KuCoin 15 sent $6.0M (6.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
+   "content_text": "KuCoin 15 sent $6.0M (6.00M USDT) to an unlabeled address 0x83C4\u2026627e. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-13T12:13:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
    "id": "drop:ETH:0x5a52e96bacdabb82fd05763e25335261b270efcb:2026-11-13T07",
    "url": "https://eth.blockscout.com/address/0x5a52e96bacdabb82fd05763e25335261b270efcb",
    "title": "[MONITORING] Binance 28 (ETH) balance down 44%: $248.8M \u2192 $140.3M between checks.",
@@ -2619,24 +2636,6 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0xa3c645939c8b47e8ca7d2adca0b892d959bf6ebc9d07569864fcb5545b27dace:174837631.258",
-   "url": "https://eth.blockscout.com/tx/0xa3c645939c8b47e8ca7d2adca0b892d959bf6ebc9d07569864fcb5545b27dace",
-   "title": "[SAFE] Binance 28 received $174.7M (174.84M USDT) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $174.7M (174.84M USDT) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-06T00:25:35Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 35
    }
   }
  ]

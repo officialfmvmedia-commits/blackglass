@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T09:20:35.294884Z",
+ "generated": "2026-11-14T16:03:54.037971Z",
  "scenarios": [
   {
    "id": "C008-20261108",
@@ -9,7 +9,7 @@
    "end": "2026-11-08T03:28:23Z",
    "chain": "ETH",
    "events": 1,
-   "what": "1 logged movement on Nov 8, 2026. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 0.1071 ETH to address 0x690C\u202691cC [cluster C008]. About 0.1071 ETH went out to 1 new address one hop away.",
+   "what": "1 logged movement on Nov 8, 2026. Latest: OFAC-listed address (AMNOKGANG TECHNOLOGY DEVELOPMENT COMPANY) sent 0.1071 ETH to address 0x690C\u202691cC [cluster C008].",
    "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
    "confidence": 55,
    "confidence_label": "medium",
