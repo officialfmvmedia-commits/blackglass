@@ -5,6 +5,23 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-15T20",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 45%: $18.1M \u2192 $9.89M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 45%: $18.1M \u2192 $9.89M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-15T20:35:32.732955Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
    "id": "drop:ETH:0x0d0707963952f2fba59dd06f2b425ace40b492fe:2026-11-15T15",
    "url": "https://eth.blockscout.com/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
    "title": "[MONITORING] Gate.io (ETH) balance down 53%: $30.2M \u2192 $14.2M between checks.",
@@ -2604,24 +2621,6 @@
    "title": "[SAFE] Bitfinex: Hot Wallet received $25.0M (25.03M USDT) from an unlabeled address 0x56F4\u202644C7.",
    "content_text": "Bitfinex: Hot Wallet received $25.0M (25.03M USDT) from an unlabeled address 0x56F4\u202644C7. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
    "date_published": "2026-11-06T16:11:35Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0xae2d1a8249cf391b21ecb93ccc132510b216a621562622abdfe5d1c0420abb2b:13286.333",
-   "url": "https://eth.blockscout.com/tx/0xae2d1a8249cf391b21ecb93ccc132510b216a621562622abdfe5d1c0420abb2b",
-   "title": "[SAFE] Binance 28 received $29.7M (13,286 ETH) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $29.7M (13,286 ETH) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-06T15:36:35Z",
    "tags": [
     "exchange",
     "SAFE",
