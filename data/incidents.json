@@ -1,6 +1,50 @@
 {
- "generated": "2026-11-14T20:40:56.320028Z",
+ "generated": "2026-11-15T01:02:21.226868Z",
  "incidents": [
+  {
+   "id": "H7289",
+   "name": "Hyprearn Perps",
+   "date": "2026-11-14",
+   "amount_usd": null,
+   "chains": [
+    "Hyperliquid L1"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 14, 2026, HyprEarn disclosed reports of unauthorized trading activity affecting a small number of Hyperliquid accounts that had previously authorized its API agent wallets. The team revoked its existing trading agents on its side and instructed affected users to remove their approvals directly through Hyperliquid before authorizing replacement agents. Because the agents could execute trades but not withdraw assets, any financial impact would have resulted from unauthorized trading activity rather than direct wallet withdrawals. The cause of the activity, number of affected accounts and total losses remain undisclosed.",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H140",
+   "name": "Kava Lend",
+   "date": "2026-11-14",
+   "amount_usd": 3700000,
+   "chains": [
+    "Kava"
+   ],
+   "technique": "Arithmetic Error",
+   "classification": "Token & Share Accounting",
+   "description": "On November 14, 2026, attackers exploited an arithmetic flaw in Kava Lend's BUSD market that allowed its supply interest index to increase approximately 243,000-fold when calculated against an extremely small effective supply. The attackers used the resulting inflated collateral claims to repeatedly borrow KAVA, then liquidated the loans through a process that erased the debt without recovering sufficient collateral. Approximately 53.9 million KAVA, worth $3.7 million before the subsequent market selloff, was stolen from the lending protocol. The attackers bridged and sold much of the stolen KAVA on BNB Chain, while approximately 612,416 USDT in laundering proceeds was blocked at the Relay bridge",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H8575",
    "name": "Pennysia",
@@ -193,6 +237,28 @@
    "technique": "Missing Input Validation",
    "classification": "Input Validation",
    "description": "On November 8, 2026, attackers exploited a missing input validation check in ACryptoS's concentrated-liquidity vaults across Arbitrum, BSC, Polygon, Base, and Optimism, stealing approximately $665,429 from 77 vaults. The vulnerable depositMulti() function accepted an incomplete token-amount array, causing the vault to undervalue its existing assets and mint disproportionately large amounts of shares for minimal deposits",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H7104",
+   "name": "LiquidCore",
+   "date": "2026-11-07",
+   "amount_usd": 136664,
+   "chains": [
+    "Hyperliquid L1"
+   ],
+   "technique": "Deployer Key Compromised",
+   "classification": "Key Compromise",
+   "description": "On November 7, 2026, an attacker reportedly compromised a LiquidCore deployer wallet and used its upgrade privileges to modify two liquidity pool contracts on HyperEVM. The attacker subsequently drained approximately $136,664 in USD\u20ae0, WHYPE and UETH from the affected pools. The stolen assets were transferred to an attacker-controlled address and subsequently routed through cross-chain services, including Mayan and LI.FI. The extent of the deployer-key compromise, recovery status and plans to reimburse affected liquidity providers remain unconfirmed",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -882,72 +948,6 @@
    "technique": "Proof Verifier Bug",
    "classification": "Bridge & Cross-Chain",
    "description": "An attacker reportedly exploited Vara Bridge's cross-chain proof verification process to submit fraudulent Merkle roots representing outbound messages from Vara. These roots allegedly enabled unauthorized messages to be processed on Ethereum, resulting in approximately $12,776 in losses",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HAlpsCon AI Trade Hub",
-   "name": "AlpsCon AI Trade Hub",
-   "date": "2026-10-19",
-   "amount_usd": 152809.36,
-   "chains": [
-    "BSC"
-   ],
-   "technique": "Incorrect Share Accounting",
-   "classification": "Token & Share Accounting",
-   "description": "AlpsCon AI Trade Hub\u2019s V7\u2013V9 contracts incorrectly applied accumulated historical profit-per-share values to balances imported from preceding versions, allowing newly deposited funds to claim rewards accrued before the deposits existed. The attacker used a flash loan to create temporary ALPS service credits and exploited the accounting flaw to extract USDC. The attack was facilitated by an authorization whitelist containing a publicly known Hardhat test account, which the attacker used through EIP-7702 delegation",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H7798",
-   "name": "Coffer",
-   "date": "2026-10-18",
-   "amount_usd": 0.7,
-   "chains": [
-    "Solana"
-   ],
-   "technique": "Rounding Error",
-   "classification": "Token & Share Accounting",
-   "description": "Coffer\u2019s BTC pool incorrectly rounded tiny deposits to zero while still minting LP tokens, allowing an attacker to repeatedly obtain shares without providing equivalent assets. The attacker submitted thousands of minimal deposits, diluting existing liquidity providers and minting approximately $18 in illegitimate LP tokens. Coffer paused its pools on October 18, preventing further withdrawals, and deployed a fix on October 19",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "Hchain#qubic",
-   "name": "Qubic",
-   "date": "2026-10-17",
-   "amount_usd": 1300000,
-   "chains": [
-    "Qubic"
-   ],
-   "technique": "Weak Key Generation",
-   "classification": "Key Compromise",
-   "description": "An attacker exploited predictable wallet seeds generated with insufficient randomness in Qubic\u2019s wallet software, compromising 1,404 user wallets and stealing approximately 2.94 trillion QU. The vulnerability affected certain wallets created on Apple devices and Safari browsers. Qubic halted its network at tick 85,371,949, while MEXC froze the account receiving the remaining stolen funds. Seed generation was corrected in wallet version 4.26.4",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
