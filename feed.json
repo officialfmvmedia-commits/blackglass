@@ -5,6 +5,40 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-17T10",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 59%: $5.95M \u2192 $2.42M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 59%: $5.95M \u2192 $2.42M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-17T10:35:33.290351Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
+   "id": "ETH:0x5027ef006fff8e3f4f11f641299a104165187fcd41a59727724ff2fd593d6a8d:6999998.0",
+   "url": "https://eth.blockscout.com/tx/0x5027ef006fff8e3f4f11f641299a104165187fcd41a59727724ff2fd593d6a8d",
+   "title": "[SAFE] Gate.io received $7.0M (7.00M USDC) from an unlabeled address 0x42A1\u2026B5AE.",
+   "content_text": "Gate.io received $7.0M (7.00M USDC) from an unlabeled address 0x42A1\u2026B5AE. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-17T10:34:59Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
    "id": "ETH:0xee7c4ceb149e77eb4fdb988656c8534f953c66e06dc69b6697dceb763221d1f4:7999997.8521",
    "url": "https://eth.blockscout.com/tx/0xee7c4ceb149e77eb4fdb988656c8534f953c66e06dc69b6697dceb763221d1f4",
    "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
@@ -2591,41 +2625,6 @@
     "status": "MONITORING",
     "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
     "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x856d466baf9184a8b5274acc9d705364d8e40f2c15a2c49746779b0828b79bdd:20000000.0",
-   "url": "https://eth.blockscout.com/tx/0x856d466baf9184a8b5274acc9d705364d8e40f2c15a2c49746779b0828b79bdd",
-   "title": "[MONITORING] Binance 28 sent $20.0M (20.00M USDT) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $20.0M (20.00M USDT) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-07T16:29:23Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x8f0fd462285e788f367f7f223133cf41993296e6cca270fa2751e8adc6ec5e57:9000000.0",
-   "url": "https://eth.blockscout.com/tx/0x8f0fd462285e788f367f7f223133cf41993296e6cca270fa2751e8adc6ec5e57",
-   "title": "[MONITORING] Binance 28 sent $9.0M (9.00M USD1) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $9.0M (9.00M USD1) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-07T16:28:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
    }
   }
  ]

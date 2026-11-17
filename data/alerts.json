@@ -1,6 +1,66 @@
 {
- "generated": "2026-11-17T02:03:22.480192Z",
+ "generated": "2026-11-17T10:35:33.290351Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-17T10",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-17T10:35:33.290351Z",
+   "chain": "ETH",
+   "usd": 3529951,
+   "level": 70,
+   "message": "Coinbase 10 (ETH) balance down 59%: $5.95M \u2192 $2.42M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0x5027ef006fff8e3f4f11f641299a104165187fcd41a59727724ff2fd593d6a8d:6999998.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Gate",
+   "time": "2026-11-17T10:34:59Z",
+   "chain": "ETH",
+   "usd": 6997611,
+   "level": 20,
+   "message": "Gate.io received $7.0M (7.00M USDC) from an unlabeled address 0x42A1\u2026B5AE.",
+   "counterparty_label": "an unlabeled address 0x42A1\u2026B5AE",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x5027ef006fff8e3f4f11f641299a104165187fcd41a59727724ff2fd593d6a8d",
+   "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+   "address_url": "https://eth.blockscout.com/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Gate",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "ETH:0xee7c4ceb149e77eb4fdb988656c8534f953c66e06dc69b6697dceb763221d1f4:7999997.8521",
    "type": "exchange",
