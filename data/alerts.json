@@ -1,6 +1,67 @@
 {
- "generated": "2026-11-17T10:35:33.290351Z",
+ "generated": "2026-11-17T19:44:56.478950Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0xd69b0089d9ca950640f5dc9931a41a5965f00303:2026-11-17T19",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Gemini",
+   "time": "2026-11-17T19:44:56.478950Z",
+   "chain": "ETH",
+   "usd": 27427916,
+   "level": 70,
+   "message": "Gemini 7 (ETH) balance down 59%: $46.3M \u2192 $18.9M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "address_url": "https://eth.blockscout.com/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Gemini",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0x3493188f6215f181c1c611d58d27f0b2b9051ac148272988b677d3d711daec98:126300000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-17T19:01:23Z",
+   "chain": "ETH",
+   "usd": 126214621,
+   "level": 35,
+   "message": "Bitfinex: Hot Wallet received $126.2M (126.30M USDT) from an unlabeled address 0x1897\u2026754a.",
+   "counterparty_label": "an unlabeled address 0x1897\u2026754a",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x3493188f6215f181c1c611d58d27f0b2b9051ac148272988b677d3d711daec98",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-17T10",
    "type": "exchange",

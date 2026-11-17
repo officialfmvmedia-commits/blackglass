@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T10:35:33.290351Z",
+ "generated": "2026-11-17T19:44:56.478950Z",
  "incidents": [
   {
    "id": "H6751",
@@ -34,6 +34,32 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "On November 16, 2026, an attacker exploited MORE Markets on Flow EVM, draining approximately $308,000 in WFLOW from its lending reserve. The attacker used flash loans to establish e-mode positions involving ankrFLOW and WFLOW, then repeatedly self-liquidated those positions, leaving unbacked WFLOW debt in the protocol",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HOptimizely (OPTIMJACK)",
+   "name": "Optimizely (OPTIMJACK)",
+   "date": "2026-11-16",
+   "amount_usd": 2260,
+   "chains": [
+    "Bitcoin",
+    "Litecoin",
+    "TRON",
+    "Ethereum",
+    "BSC"
+   ],
+   "technique": "Supply Chain Attack",
+   "classification": "Frontend & Infrastructure",
+   "description": "On November 16, 2026, an attacker exploited a vulnerability in Optimizely's web experimentation platform to inject malicious JavaScript into scripts used by 178 organizations, including Ledger, HSBC, BBC and Zoom. The injected code replaced cryptocurrency wallet addresses with attacker-controlled addresses, redirecting approximately $2,260 in suspected victim payments across Bitcoin, Litecoin, Tron, Ethereum and BSC. The malware also attempted to steal payment-card information, cookies and screenshots, and delivered exploit kits targeting iOS devices. Optimizely removed the injected code and patched the vulnerability, while the full extent of data theft and additional financial losses remained unknown",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -921,30 +947,6 @@
    "technique": "Infinite Mint",
    "classification": "Token & Share Accounting",
    "description": "Initia suffered a security incident involving the unauthorized minting of multiple assets on its L1. The attacker reportedly transferred and converted some of the minted assets into Ethereum-based holdings. Initia halted its L1 and rollups while investigating the vulnerability and coordinating with validators, exchanges, and security teams",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HWAX Multi-Chain Bridge",
-   "name": "WAX Multi-Chain Bridge",
-   "date": "2026-10-22",
-   "amount_usd": 90500,
-   "chains": [
-    "Solana",
-    "Ethereum",
-    "WAX"
-   ],
-   "technique": "Missing Input Validation",
-   "classification": "Input Validation",
-   "description": "WAX\u2019s eth.token::withdraw function failed to validate that max_fee was nonnegative. By setting max_fee = -quantity, the attacker reduced the total account debit to zero while retaining the full withdrawal amount. Because the configured withdrawal fee was zero, the fee check did not reject the transaction. The resulting withdrawal logs triggered real payouts from the bridge on Solana and Ethereum",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
