@@ -1,6 +1,94 @@
 {
- "generated": "2026-11-16T18:10:19.765833Z",
+ "generated": "2026-11-17T02:03:22.480192Z",
  "incidents": [
+  {
+   "id": "H6751",
+   "name": "Lighter Perps",
+   "date": "2026-11-16",
+   "amount_usd": 10393057,
+   "chains": [
+    "zkLighter"
+   ],
+   "technique": "API Key Compromised",
+   "classification": "Frontend & Infrastructure",
+   "description": "On November 16, 2026, an attacker exploited a leaked API key belonging to a trader on Lighter, enabling unauthorized activity that resulted in the withdrawal of approximately 10.39 million USDC from the platform. The stolen funds were transferred to an attacker-controlled Ethereum wallet, exchanged for ETH through CoW Swap, and partially routed to Hyperliquid. Lighter confirmed that its protocol and smart contracts were not compromised, temporarily suspended withdrawals and liquidity pool creation, and activated Guardian mode to prevent further unauthorized withdrawals. An additional attempted withdrawal remained under investigation, with the full scope and recovery status unconfirmed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H5320",
+   "name": "MORE Markets",
+   "date": "2026-11-16",
+   "amount_usd": 308000,
+   "chains": [
+    "Flow"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 16, 2026, an attacker exploited MORE Markets on Flow EVM, draining approximately $308,000 in WFLOW from its lending reserve. The attacker used flash loans to establish e-mode positions involving ankrFLOW and WFLOW, then repeatedly self-liquidated those positions, leaving unbacked WFLOW debt in the protocol",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HChain Games",
+   "name": "Chain Games",
+   "date": "2026-11-15",
+   "amount_usd": 20000,
+   "chains": [
+    "Polygon"
+   ],
+   "technique": "Reward Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "On November 15, 2026, attackers exploited a reward accounting flaw in Chain Games' delegation staking contracts on Polygon, stealing approximately 37.98 million CHAIN ($20,000). The contracts failed to synchronize reward checkpoints during share transfers, allowing attackers to repeatedly claim historical rewards through restake() and inflate their staking positions over 360 cycles. The inflated shares were subsequently redeemed for CHAIN from the staking pool. Chain Games disabled delegation across its validators and committed to fully compensating affected stakers and delegators",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HLuxor Commander",
+   "name": "Luxor Commander",
+   "date": "2026-11-15",
+   "amount_usd": null,
+   "chains": [
+    "Bitcoin"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 15, 2026 (UTC), attackers compromised Luxor Technology's Commander mining-fleet management platform and redirected Bitcoin mining hashrate from more than a dozen client accounts to the OCEAN mining pool using an attacker-designated payout address. Approximately 13 EH/s of mining power was affected, generating unauthorized Bitcoin mining rewards of an undetermined total value. Luxor patched the vulnerability within two hours of detection, began restoring affected mining configurations and committed to fully compensating impacted clients. The underlying vulnerability remains undisclosed, while Luxor confirmed that its mining pool and LuxOS firmware were unaffected",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H7289",
    "name": "Hyprearn Perps",
@@ -857,97 +945,6 @@
    "technique": "Missing Input Validation",
    "classification": "Input Validation",
    "description": "WAX\u2019s eth.token::withdraw function failed to validate that max_fee was nonnegative. By setting max_fee = -quantity, the attacker reduced the total account debit to zero while retaining the full withdrawal amount. Because the configured withdrawal fee was zero, the fee check did not reject the transaction. The resulting withdrawal logs triggered real payouts from the bridge on Solana and Ethereum",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HSwell",
-   "name": "Swell",
-   "date": "2026-10-21",
-   "amount_usd": null,
-   "chains": [
-    "Ethereum",
-    "Arbitrum",
-    "Base",
-    "Hyperliquid L1"
-   ],
-   "technique": "Hot Wallet Key Compromised",
-   "classification": "Key Compromise",
-   "description": "An attacker gained control of approximately 30 Swell operational keys across multiple networks, including the swETH/rswETH oracle bot. The attacker drained wallet balances, artificially increased swETH and rswETH exchange rates by submitting unbacked reserve values, and redirected EigenLayer reward claims. They also deployed malicious upgrade contracts capable of draining approximately 2,513 ETH, although these upgrades had not been approved or executed when the investigation was published",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H4042",
-   "name": "CoinDCX",
-   "date": "2026-10-21",
-   "amount_usd": 16000000,
-   "chains": [
-    "TRON"
-   ],
-   "technique": "Hot Wallet Key Compromised",
-   "classification": "Key Compromise",
-   "description": "CoinDCX experienced approximately $16 million in suspicious outflows from TRON addresses associated with its exchange infrastructure. The exchange attributed the incident to addresses compromised during its July 2025 security breach, which continued receiving deposits after being deprecated. CoinDCX acknowledged that its deposit-sweeping process failed temporarily and stated that it absorbed the resulting losses while crediting affected users. Investigators disputed whether the addresses had genuinely been removed from active operations",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H6324",
-   "name": "GarudaDefi",
-   "date": "2026-10-20",
-   "amount_usd": null,
-   "chains": [
-    "Terra Classic"
-   ],
-   "technique": "Private Key Compromised",
-   "classification": "Key Compromise",
-   "description": "Between October 20 and 31, 2026, Garuda DeFi suffered multiple security breaches affecting its NFT staking, cross-staking, governance, treasury, frontend and CW20 staking systems on Terra Classic. Attackers migrated staking contracts to malicious code, transferred user assets and rewards, compromised developer wallets to obtain administrative privileges, and injected malicious wallet approval prompts into the protocol's website. The incidents affected 1,114 NFTs and numerous staking tokens, while the total financial loss remains undisclosed. Garuda restored parts of its infrastructure, introduced multisignature administration and began preparing a recovery plan for affected users",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H7911",
-   "name": "Vara Bridge",
-   "date": "2026-10-19",
-   "amount_usd": 12776,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Proof Verifier Bug",
-   "classification": "Bridge & Cross-Chain",
-   "description": "An attacker reportedly exploited Vara Bridge's cross-chain proof verification process to submit fraudulent Merkle roots representing outbound messages from Vara. These roots allegedly enabled unauthorized messages to be processed on Ethereum, resulting in approximately $12,776 in losses",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
