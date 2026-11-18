@@ -1,6 +1,62 @@
 {
- "generated": "2026-11-17T19:44:56.478950Z",
+ "generated": "2026-11-18T02:19:00.736032Z",
  "alerts": [
+  {
+   "id": "ETH:0x319412916bdb206b15824cd5a7aa61611c241ed22ade7bd946686605ba4c6272:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-17T23:47:23Z",
+   "chain": "ETH",
+   "usd": 7994094,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x319412916bdb206b15824cd5a7aa61611c241ed22ade7bd946686605ba4c6272",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x31d06f1a7b5b2dbf41814051540a9f1d799c21c2839e107ad67a249d84d85e75:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-17T23:46:35Z",
+   "chain": "ETH",
+   "usd": 7994094,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x31d06f1a7b5b2dbf41814051540a9f1d799c21c2839e107ad67a249d84d85e75",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "drop:ETH:0xd69b0089d9ca950640f5dc9931a41a5965f00303:2026-11-17T19",
    "type": "exchange",

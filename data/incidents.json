@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-17T19:44:56.478950Z",
+ "generated": "2026-11-18T02:19:00.736032Z",
  "incidents": [
+  {
+   "id": "HB18 TimeBank",
+   "name": "B18 TimeBank",
+   "date": "2026-11-17",
+   "amount_usd": 404540,
+   "chains": [
+    "Base"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "On November 17, 2026, an attacker exploited B18 TimeBank's level-reward voucher redemption mechanism on Base, withdrawing approximately $404,540 in USDC from the protocol's settlement contract. The attacker redeemed signed reward vouchers to trigger the unauthorized withdrawal in a single identified transaction",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H6751",
    "name": "Lighter Perps",
@@ -214,6 +236,28 @@
    "technique": "Swap Logic Flaw",
    "classification": "Protocol Logic",
    "description": "On November 10, 2026, an attacker exploited a flaw in the skew calculations of Rujira's Custom Concentrated Liquidity (CCL) strategy on THORChain, manipulating trading activity in the BTC/USDC orderbook and imbalancing existing liquidity positions. The exploit caused approximately $200,000 in losses, including $175,000 from Liquidy Finance's positions and $25,000 from other users. Rujira halted the CosmWasm application layer and announced plans to remove the vulnerable skew parameter and fully reimburse affected users before resuming operations",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HCurve Finance (CowSwapBurner)",
+   "name": "Curve Finance (CowSwapBurner)",
+   "date": "2026-11-10",
+   "amount_usd": 38206,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Signature Verification Flaw",
+   "classification": "Input Validation",
+   "description": "On November 10, 2026, an attacker exploited a signature verification flaw in Curve Finance's CowSwapBurner contract on Ethereum, stealing approximately $38,206 in accumulated DAO fee revenue. The contract's isValidSignature() function validated an order description without verifying that it matched the order hash being executed, allowing the attacker to submit 138 fraudulent CoW Protocol orders and redirect proceeds from 135 fee tokens to their own address. Curve's Emergency DAO disabled the affected burner later that day and proposed replacing it with a contract that correctly validates order hashes. No user funds were affected, and the stolen revenue has not been recovered",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -903,50 +947,6 @@
    "technique": "Malicious Proposal",
    "classification": "Governance",
    "description": "YapeSwap\u2019s WorkersUnion governance contract allowed proposals to pass with zero quorum, enabling an attacker controlling approximately 0.000055% of voting power to transfer YapeFactory\u2019s feeToSetter role to themselves. The attacker then installed a malicious Registry that returned fake vault addresses through latestVault(), while vaults() continued listing legitimate vaults. This redirected deposits into attacker-controlled destinations while YapePair incorrectly accounted for them as farming assets, resulting in approximately $21,900 in losses",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HX100",
-   "name": "X100",
-   "date": "2026-10-24",
-   "amount_usd": 4750000,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Flashloan Governance Attack",
-   "classification": "Governance",
-   "description": "X100\u2019s governance system allowed an attacker to obtain two of three Senate seats using flash-loan-funded X tokens. The attacker immediately used this majority to approve and execute a malicious treasury proposal within the same transaction. The proposal forced the Freezer to swap 400,000 X tokens into an attacker-controlled liquidity pool with zero minimum output, allowing the attacker to extract treasury value through a manipulated trade",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "Hchain#initia",
-   "name": "Initia",
-   "date": "2026-10-23",
-   "amount_usd": 2600000,
-   "chains": [
-    "Initia"
-   ],
-   "technique": "Infinite Mint",
-   "classification": "Token & Share Accounting",
-   "description": "Initia suffered a security incident involving the unauthorized minting of multiple assets on its L1. The attacker reportedly transferred and converted some of the minted assets into Ethereum-based holdings. Initia halted its L1 and rollups while investigating the vulnerability and coordinating with validators, exchanges, and security teams",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
