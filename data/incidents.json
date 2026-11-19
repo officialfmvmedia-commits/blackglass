@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T01:31:03.928618Z",
+ "generated": "2026-11-19T09:25:38.538501Z",
  "incidents": [
   {
    "id": "HGonka AI",
@@ -601,6 +601,28 @@
    "addresses": []
   },
   {
+   "id": "Hchain#defichain",
+   "name": "DeFiChain",
+   "date": "2026-11-03",
+   "amount_usd": null,
+   "chains": [
+    "DefiChain"
+   ],
+   "technique": "Arithmetic Error",
+   "classification": "Token & Share Accounting",
+   "description": "An attacker exploited an arithmetic overflow in DeFiChain's native account-to-account transfer mechanism, causing the blockchain to deduct only one satoshi of DFI from the sender while crediting recipients with the full transfer amounts. The vulnerability was exploited at least twice, creating approximately 184.47 billion unauthorized DFI across two addresses, more than 140 times the intended maximum supply. The development contributors contacted declined to implement a fix or rollback, leaving the vulnerability and inflated supply unaddressed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
    "id": "HMercado Bitcoin",
    "name": "Mercado Bitcoin",
    "date": "2026-11-02",
@@ -923,28 +945,6 @@
    "technique": "Malicious Proposal",
    "classification": "Governance",
    "description": "An attacker acquired HIFI governance tokens and used four coordinated votes shortly before voting closed to pass a malicious governance proposal. Proposal 21 would upgrade Hifi\u2019s BalanceSheet contract to introduce a function that incorrectly treats existing collateral as untracked funds, allowing it to be transferred to an attacker-controlled Safe. The proposal would also mint 25 million HIFI tokens to the attacker. At the time of reporting, the proposal was queued but had not been executed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H6201",
-   "name": "Fence Finance",
-   "date": "2026-10-27",
-   "amount_usd": 1010000,
-   "chains": [
-    "Avalanche"
-   ],
-   "technique": "Incorrect Share Accounting",
-   "classification": "Token & Share Accounting",
-   "description": "An attacker exploited a tranche vault associated with Fence Finance and Valinor Digital by using a flash loan to obtain an inflated allocation of vault shares. The attacker subsequently redeemed those shares to withdraw approximately $1.01 million in USDC from the vault",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
