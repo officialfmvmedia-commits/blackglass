@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:25:38.538501Z",
+ "generated": "2026-11-19T18:41:44.253258Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -22,12 +22,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 29799,
-   "biggest": {
-    "usd": 25111.629999999997,
-    "text": "23 MKR out to Binance 28",
-    "tx": "https://eth.blockscout.com/tx/0x6a1059c8694d66912c06df74879bd285daad98a81e4fa5de5e8d6da3a39b6bad"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -65,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 13022868,
-   "flow_out_usd": 49944584,
+   "flow_in_usd": 17895254,
+   "flow_out_usd": 6445134,
    "biggest": {
-    "usd": 18872086.553988997,
-    "text": "18.89M USDT out to 0xea6DF8\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc8e1d80d381d59ce9fe75a114dc83682779b37fe54fd8c1ad3f527763ae25d21"
+    "usd": 4995945.0,
+    "text": "5.00M USDT in from 0xf28E79\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xbfb51470c7e6604cc653443495da5aa83afce3e52f3d120081aa1724bcb5646c"
    },
-   "alerts_24h": 15,
+   "alerts_24h": 12,
    "anomaly": false
   },
   {
@@ -90,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 123272,
-   "flow_out_usd": 7624,
+   "flow_in_usd": 29726,
+   "flow_out_usd": 143557,
    "biggest": {
-    "usd": 86258.04650969594,
-    "text": "86,345 USDT0 in from 0xFED968\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x12be6e5821f0c7618f32357815b38c5689c7dcd20cbca08b1acbd26902913e81"
+    "usd": 117460.15254813952,
+    "text": "117,573 USDT0 out to ERC1967Proxy",
+    "tx": "https://optimism.blockscout.com/tx/0xa2bff300126b2e13525118718d0199be0c617b79734cdec018592b8d889d7d0e"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -129,14 +125,10 @@
     "deposit": 2
    },
    "monitored": true,
-   "flow_in_usd": 204169,
-   "flow_out_usd": 310343,
-   "biggest": {
-    "usd": 102255.25031082139,
-    "text": "56.78 ETH out to Coinbase 10",
-    "tx": "https://eth.blockscout.com/tx/0x93ca323ec5d219367ddda0a714744178fe3acd18b452744b7b140192ca635170"
-   },
-   "alerts_24h": 2,
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
+   "alerts_24h": 3,
    "anomaly": true
   },
   {
@@ -204,12 +196,8 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 27,
-   "biggest": {
-    "usd": 0.5403089999999999,
-    "text": "0.0003 ETH out to 0x27562B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x8a31ee4cd39e65211cb2f558968d314223c33ffc0e13fa2a00385e53f0bdafc0"
-   },
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -224,9 +212,13 @@
     "unspecified": 12
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 8977,
+   "flow_out_usd": 3282838,
+   "biggest": {
+    "usd": 2598928.8000000003,
+    "text": "2.60M USDC out to 0x53E9Ed\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x28a6dd4d5cc5062504ba98881944f6bbd38f038d344fbdf0716d4162a047fba7"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -277,13 +269,9 @@
     "unspecified": 9
    },
    "monitored": true,
-   "flow_in_usd": 136924,
-   "flow_out_usd": 1000498,
-   "biggest": {
-    "usd": 433702.4012331,
-    "text": "433,871 USDC out to 0x7f604D\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x822708e9e26e113ac4a26d900ca42598aa5d3f9598809b2465c2f8c3affde27d"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -299,9 +287,13 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_in_usd": 8022918,
+   "flow_out_usd": 10457390,
+   "biggest": {
+    "usd": 1014929.3154761905,
+    "text": "3.72M DRV out to Gate.io",
+    "tx": "https://eth.blockscout.com/tx/0x7fb716ff092d3662f8b4b3a726d28d8ac9812f2c7e03841d0a99aa24075af67f"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
