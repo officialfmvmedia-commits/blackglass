@@ -5,6 +5,160 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-19T01",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 65%: $9.73M \u2192 $3.38M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 65%: $9.73M \u2192 $3.38M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-19T01:31:03.928618Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
+   "id": "ETH:0x97aca2fc41fc61d69758092de25d3a9885ebcd520ab73c621a4f81a2512bcdcb:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x97aca2fc41fc61d69758092de25d3a9885ebcd520ab73c621a4f81a2512bcdcb",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-19T01:30:11Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x5adeb4a59cc0e66d2e5249ca9e97080d4980078bafa3d62914a3a24b20c27771:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x5adeb4a59cc0e66d2e5249ca9e97080d4980078bafa3d62914a3a24b20c27771",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-19T01:29:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x978462ff15c7b948d02aad4e6526a08b8ea16ab89a58a4cc6f09ca79624ddc1f:49999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x978462ff15c7b948d02aad4e6526a08b8ea16ab89a58a4cc6f09ca79624ddc1f",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $50.0M (50.00M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "content_text": "Bitfinex: Hot Wallet sent $50.0M (50.00M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-19T01:24:59Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
+   "id": "ETH:0x759e769055e8b3f271549c693bfeb7db8bf4fe6ce9cae92c20559680fc7ca76a:5880227.33",
+   "url": "https://eth.blockscout.com/tx/0x759e769055e8b3f271549c693bfeb7db8bf4fe6ce9cae92c20559680fc7ca76a",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $5.9M (5.88M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $5.9M (5.88M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-19T01:09:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0x3b0013840d845e6e86f6ad3b0ea885d071b2b3e5ac4294cab646c619fe282db4:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x3b0013840d845e6e86f6ad3b0ea885d071b2b3e5ac4294cab646c619fe282db4",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-18T22:44:23Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x57fa90dc2941888767a429793a0268a74b19a0d86632f2b2d54196bdd4a97a7d:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x57fa90dc2941888767a429793a0268a74b19a0d86632f2b2d54196bdd4a97a7d",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-18T22:43:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x2dcd092b51e150a759540772ae262566c6a7033d6e703506690fd9734e279c44:5684976.68",
+   "url": "https://eth.blockscout.com/tx/0x2dcd092b51e150a759540772ae262566c6a7033d6e703506690fd9734e279c44",
+   "title": "[SAFE] Bitfinex: Hot Wallet received $5.7M (5.68M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "content_text": "Bitfinex: Hot Wallet received $5.7M (5.68M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-18T22:08:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Inbound deposit. Funds entered exchange custody.",
+    "risk": 20
+   }
+  },
+  {
+   "id": "ETH:0x7f702863478edb00416e4c51bad01271279977705fa0875db8919836c9f0487a:5390802.3166",
+   "url": "https://eth.blockscout.com/tx/0x7f702863478edb00416e4c51bad01271279977705fa0875db8919836c9f0487a",
+   "title": "[SAFE] Bitfinex 2 received $5.4M (5.39M USDT) from Bitfinex: Hot Wallet.",
+   "content_text": "Bitfinex 2 received $5.4M (5.39M USDT) from Bitfinex: Hot Wallet. Status: SAFE. Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
+   "date_published": "2026-11-18T20:09:23Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer.",
+    "risk": 20
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-18T19",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 51%: $20.0M \u2192 $9.73M between checks.",
@@ -2469,164 +2623,6 @@
     "status": "SAFE",
     "basis": "Inbound deposit. Funds entered exchange custody.",
     "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0xd46c5735fa1f3a7868f4637fe7eb7156f2ee9c939c83e3f74dd15881330d86c7:15953394.512",
-   "url": "https://eth.blockscout.com/tx/0xd46c5735fa1f3a7868f4637fe7eb7156f2ee9c939c83e3f74dd15881330d86c7",
-   "title": "[SAFE] Binance 28 received $16.0M (15.95M RLUSD) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $16.0M (15.95M RLUSD) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T06:45:47Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x4377378359fcd5c6e312c926e9f792730c24b23e4e8bf2df25542af9d6c2d461:15000.0",
-   "url": "https://eth.blockscout.com/tx/0x4377378359fcd5c6e312c926e9f792730c24b23e4e8bf2df25542af9d6c2d461",
-   "title": "[MONITORING] Binance 28 sent $31.5M (15,000 ETH) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $31.5M (15,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T06:23:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x6b0fd00f9829f0b19077d5070cdf4f1c6a19b66129a87bb561f6ba23cdd6b2dd:7690017.0",
-   "url": "https://eth.blockscout.com/tx/0x6b0fd00f9829f0b19077d5070cdf4f1c6a19b66129a87bb561f6ba23cdd6b2dd",
-   "title": "[SAFE] Mexc.com 3 received $7.7M (7.69M USDC) from an unlabeled address 0x45ce\u2026e1aC.",
-   "content_text": "Mexc.com 3 received $7.7M (7.69M USDC) from an unlabeled address 0x45ce\u2026e1aC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T06:17:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x49b88ba8d0372fbbe5c8b4dbfda6ca40edd4a34d35d4f74d189428d44bfe8e74:20000.0",
-   "url": "https://eth.blockscout.com/tx/0x49b88ba8d0372fbbe5c8b4dbfda6ca40edd4a34d35d4f74d189428d44bfe8e74",
-   "title": "[MONITORING] Binance 28 sent $42.0M (20,000 ETH) to an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 sent $42.0M (20,000 ETH) to an unlabeled address 0x690C\u202691cC. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T05:22:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x3a406fbf2aee8ccaa6eda28399b3d94df855d68ff859a8eecb551533cbacc3de:16590.957",
-   "url": "https://eth.blockscout.com/tx/0x3a406fbf2aee8ccaa6eda28399b3d94df855d68ff859a8eecb551533cbacc3de",
-   "title": "[SAFE] Binance 28 received $34.8M (16,591 ETH) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $34.8M (16,591 ETH) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T04:35:35Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x31604e08b449f5418e8d19ae9b511345ccffe48fa9df9d8fd44528f0b19de20a:3274.1854",
-   "url": "https://eth.blockscout.com/tx/0x31604e08b449f5418e8d19ae9b511345ccffe48fa9df9d8fd44528f0b19de20a",
-   "title": "[SAFE] Gate.io 5 received $6.8M (3,274 ETH) from Gate.io.",
-   "content_text": "Gate.io 5 received $6.8M (3,274 ETH) from Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T04:30:35Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0xb934a0b0415ca981592b85c62db0803a66b25ca6befb1e8d31d1ebd1eaa101a4:9000000.0",
-   "url": "https://eth.blockscout.com/tx/0xb934a0b0415ca981592b85c62db0803a66b25ca6befb1e8d31d1ebd1eaa101a4",
-   "title": "[SAFE] Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03.",
-   "content_text": "Bitfinex: Hot Wallet received $9.0M (9.00M USDT) from an unlabeled address 0x386F\u20267F03. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T02:10:59Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x876bb66d1299894c8838e8c7e0262e44914273c6a1cce97dd3cc5adcbef5ce33:15000000.0",
-   "url": "https://eth.blockscout.com/tx/0x876bb66d1299894c8838e8c7e0262e44914273c6a1cce97dd3cc5adcbef5ce33",
-   "title": "[MONITORING] KuCoin 15 sent $15.0M (15.00M USDT) to an unlabeled address 0x83C4\u2026627e.",
-   "content_text": "KuCoin 15 sent $15.0M (15.00M USDT) to an unlabeled address 0x83C4\u2026627e. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T01:52:11Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x660abd54ba220b69f1e5967c749c376bf1f7b47eb9ee9e83403571dd2a093569:7999997.8521",
-   "url": "https://eth.blockscout.com/tx/0x660abd54ba220b69f1e5967c749c376bf1f7b47eb9ee9e83403571dd2a093569",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
-   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T00:06:59Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
    }
   }
  ]

@@ -1,6 +1,114 @@
 {
- "generated": "2026-11-18T19:27:02.395816Z",
+ "generated": "2026-11-19T01:31:03.928618Z",
  "incidents": [
+  {
+   "id": "HGonka AI",
+   "name": "Gonka AI",
+   "date": "2026-11-18",
+   "amount_usd": 1050000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Bridge Logic Flaw",
+   "classification": "Bridge & Cross-Chain",
+   "description": "An attacker reportedly replaced the epoch BLS group key used by Gonka AI's Ethereum bridge to authorize cross-chain withdrawals and WGNK minting. Using the substituted signing authority, the attacker executed unauthorized withdrawals that depleted the bridge's remaining USDT and USDC reserves and minted WGNK without corresponding GNK escrow on Gonka. The incident resulted in approximately $1.05M\u2013$1.06M in reported losses, while the mechanism that allowed the unauthorized group-key replacement remains under investigation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H9188",
+   "name": "RNT Lend",
+   "date": "2026-11-18",
+   "amount_usd": 954703,
+   "chains": [
+    "Polygon"
+   ],
+   "technique": "Private Key Compromised",
+   "classification": "Key Compromise",
+   "description": "An attacker used a privileged Reental administrator account to upgrade RNT Lend's USDT0 and USDC aToken proxies to malicious implementations permitting unrestricted withdrawals. Two MEV bots exploited the upgraded contracts to drain approximately $454.8K in stablecoin reserves, while the administrator account extracted another $499.9K from Reental-associated wallets and Safes. Approximately $49.34M in property tokens was also transferred but subsequently reclaimed by Reental using its token manager",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H6205",
+   "name": "K3 Capital",
+   "date": "2026-11-18",
+   "amount_usd": 3420000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "Attackers exploited an accounting discrepancy in K3 Capital's sBOLD vault that excluded WETH collateral below a configured threshold from share valuations. Using flash-loaned capital, they minted sBOLD shares while the collateral was undervalued, triggered swaps that converted the uncounted collateral into BOLD, and redeemed their shares at the increased valuation. Repeating this process across 97 transactions drained approximately $3.42M in BOLD from the vault.",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H4063",
+   "name": "Peapods Finance",
+   "date": "2026-11-18",
+   "amount_usd": null,
+   "chains": [],
+   "technique": "Deployer Key Compromised",
+   "classification": "Key Compromise",
+   "description": "Peapods Finance reported a suspected compromise of its deployer key, which was used to assign minting permissions on L2 PEAS contracts. The attacker minted unauthorized PEAS, bridged the tokens to Ethereum mainnet, and sold them into market liquidity. The team removed approximately 98\u201399% of L2 liquidity to limit further losses and warned users to withdraw LP and leveraged yield farming positions while investigating the compromise",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HLUKSO",
+   "name": "LUKSO",
+   "date": "2026-11-18",
+   "amount_usd": 496000,
+   "chains": [
+    "LUKSO"
+   ],
+   "technique": "Improper Access Control",
+   "classification": "Access Control",
+   "description": "Between November 17 and 18, 2026, an attacker exploited a security vulnerability in the backend of LUKSO's email-based Universal Profile recovery service, gaining unauthorized control over approximately 300 user accounts. The attacker abused the recovery service's permissions to add a malicious controller key to affected profiles and withdraw approximately 1.4 million LYX. The stolen tokens were subsequently bridged to Ethereum and exchanged for approximately 50 ETH ($95,000). LUKSO disabled the compromised recovery service, confirmed that its blockchain and Universal Profile smart contracts were unaffected, and began developing a reimbursement solution for affected users",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HB18 TimeBank",
    "name": "B18 TimeBank",
@@ -837,116 +945,6 @@
    "technique": "Incorrect Share Accounting",
    "classification": "Token & Share Accounting",
    "description": "An attacker exploited a tranche vault associated with Fence Finance and Valinor Digital by using a flash loan to obtain an inflated allocation of vault shares. The attacker subsequently redeemed those shares to withdraw approximately $1.01 million in USDC from the vault",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HZilliqa X-Bridge",
-   "name": "Zilliqa X-Bridge",
-   "date": "2026-10-27",
-   "amount_usd": null,
-   "chains": [
-    "Zilliqa"
-   ],
-   "technique": "Private Key Compromised",
-   "classification": "Key Compromise",
-   "description": "Zilliqa confirmed a security incident affecting its X-Bridge and ZRC2 proxy contracts associated with certain liquidity pools, including PlunderSwap. The affected assets include zUSDT, SEED, kUSD, and Zoge, while native ZIL and the Zilliqa EVM network reportedly remain unaffected. X-Bridge remains paused while operational keys are rotated and investigations continue",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H5129",
-   "name": "Predict Fun",
-   "date": "2026-10-27",
-   "amount_usd": 400000,
-   "chains": [
-    "BSC"
-   ],
-   "technique": "Frontend Compromise",
-   "classification": "Frontend & Infrastructure",
-   "description": "Several Predict.fun users experienced unauthorized wallet transfers totaling approximately 400,000 USDT. Preliminary findings suggest a possible compromise of the project\u2019s API documentation website, which was hosted by a third-party provider. Predict.fun took the documentation site offline as a precaution and committed to reimbursing affected users",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H5806",
-   "name": "Bloom Trading Bot",
-   "date": "2026-10-26",
-   "amount_usd": 953000,
-   "chains": [
-    "Solana"
-   ],
-   "technique": "Supply Chain Attack",
-   "classification": "Frontend & Infrastructure",
-   "description": "An attacker exploited a reported remote code execution vulnerability in a third-party software module used by Bloom\u2019s trading infrastructure, enabling unauthorized transfers from user wallets. Approximately 9,408 SOL was drained from 48 wallets belonging to nine traders within 94 seconds. Bloom attributed the incident to the third-party module and denied that private keys were exposed, while Bitquery confirmed that the transactions were signed using the affected wallets\u2019 keys",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H6649",
-   "name": "Myriad Markets",
-   "date": "2026-10-26",
-   "amount_usd": 0,
-   "chains": [
-    "BSC"
-   ],
-   "technique": "Key Leaked via Infrastructure",
-   "classification": "Frontend & Infrastructure",
-   "description": "An attacker exploited a previously exposed private key belonging to Myriad\u2019s automated market management wallet. The key had reportedly been leaked through a vulnerability in a third-party library used by a backend service. The attacker used the wallet\u2019s privileges to manipulate positions and force incorrect resolutions across 10 prediction markets on BNB Chain. Myriad revoked the wallet\u2019s permissions, secured the remaining funds, and announced that all affected markets would be voided and users refunded",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H478",
-   "name": "Yapeswap",
-   "date": "2026-10-25",
-   "amount_usd": 21900,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Malicious Proposal",
-   "classification": "Governance",
-   "description": "YapeSwap\u2019s WorkersUnion governance contract allowed proposals to pass with zero quorum, enabling an attacker controlling approximately 0.000055% of voting power to transfer YapeFactory\u2019s feeToSetter role to themselves. The attacker then installed a malicious Registry that returned fake vault addresses through latestVault(), while vaults() continued listing legitimate vaults. This redirected deposits into attacker-controlled destinations while YapePair incorrectly accounted for them as farming assets, resulting in approximately $21,900 in losses",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
