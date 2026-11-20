@@ -5,6 +5,346 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0x38a131ec76314b014958626b85a199abc774e00a368b6dbf15280740c24bc8a9:5699997.8521",
+   "url": "https://eth.blockscout.com/tx/0x38a131ec76314b014958626b85a199abc774e00a368b6dbf15280740c24bc8a9",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $5.7M (5.70M USDT) to an unlabeled address 0x7914\u20260f99.",
+   "content_text": "Bitfinex: Hot Wallet sent $5.7M (5.70M USDT) to an unlabeled address 0x7914\u20260f99. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T09:00:47Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xe267fa69038c4d8c84fb44f64d614a28a877ba54c437e54155e312a2e2dca7b5:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0xe267fa69038c4d8c84fb44f64d614a28a877ba54c437e54155e312a2e2dca7b5",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:37:35Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0x405769ff75a104cf83af517d9d382b73c60993d151bbaa6207e3f598d4d57a82:7999997.8521",
+   "url": "https://eth.blockscout.com/tx/0x405769ff75a104cf83af517d9d382b73c60993d151bbaa6207e3f598d4d57a82",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "content_text": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:36:59Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 30
+   }
+  },
+  {
+   "id": "ETH:0xf8d964d803aca29ebb81f43107b44f3993a8c1680d2b05ab2c4139bff522f56a",
+   "url": "https://eth.blockscout.com/tx/0xf8d964d803aca29ebb81f43107b44f3993a8c1680d2b05ab2c4139bff522f56a",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $9.5M (5,460 ETH) to a wallet flagged in the Binance CEX hack.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $9.5M (5,460 ETH) to a wallet flagged in the Binance CEX hack. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:28:35.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x34ce520651029e8523d2b3d8621e1cc35a7ec966c504e2282ffa1f7366f63f8b",
+   "url": "https://eth.blockscout.com/tx/0x34ce520651029e8523d2b3d8621e1cc35a7ec966c504e2282ffa1f7366f63f8b",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x552327\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x552327\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:27:11.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x703c04df939f97006eff0ee52fbd0054734a938fd89a952355c9dff0d54df9c6",
+   "url": "https://eth.blockscout.com/tx/0x703c04df939f97006eff0ee52fbd0054734a938fd89a952355c9dff0d54df9c6",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x800AD4\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x800AD4\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:26:23.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xc56ed447e8a58ea9d8d354a573c62d46e88656c087ec02e734cbf10001ee1eeb",
+   "url": "https://eth.blockscout.com/tx/0xc56ed447e8a58ea9d8d354a573c62d46e88656c087ec02e734cbf10001ee1eeb",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x54a16b\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x54a16b\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:25:23.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xf1f98b4b96d621522c183a52397261fe0bc0b84254c4d7599d3d5ff69a1494e5",
+   "url": "https://eth.blockscout.com/tx/0xf1f98b4b96d621522c183a52397261fe0bc0b84254c4d7599d3d5ff69a1494e5",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x3E79D4\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x3E79D4\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:24:35.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x05267ecfb4303fc2f06e2615e2368c165c5ba238f32ac5a9b7b48049b669b48c",
+   "url": "https://eth.blockscout.com/tx/0x05267ecfb4303fc2f06e2615e2368c165c5ba238f32ac5a9b7b48049b669b48c",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xdbEdeF\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xdbEdeF\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:23:47.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x8aca18db416276557f1e693fe287a06283b09416f172615e2b0d307a08c04cbf",
+   "url": "https://eth.blockscout.com/tx/0x8aca18db416276557f1e693fe287a06283b09416f172615e2b0d307a08c04cbf",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xAC59F8\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xAC59F8\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:22:47.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x592f40535610719292e81b703bee48b63a4979e4feca3a9664d78d4ba10d5020",
+   "url": "https://eth.blockscout.com/tx/0x592f40535610719292e81b703bee48b63a4979e4feca3a9664d78d4ba10d5020",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBda2b8\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBda2b8\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:21:59.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x4c4318efc0012c74c5be5281e37f8923803103881ada7eec3b166b6c7acdd71a",
+   "url": "https://eth.blockscout.com/tx/0x4c4318efc0012c74c5be5281e37f8923803103881ada7eec3b166b6c7acdd71a",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x9e6b21\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x9e6b21\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:21:11.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x441fe3d7d52a093f9200c2678f9e1cf8f01ad387f3da6c7144a85dc5311e513d",
+   "url": "https://eth.blockscout.com/tx/0x441fe3d7d52a093f9200c2678f9e1cf8f01ad387f3da6c7144a85dc5311e513d",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x913cA7\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x913cA7\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:20:23.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xa608610d13755225b0d2894d3c4bf502360949a69a123721cf0d89286ad5a5bd",
+   "url": "https://eth.blockscout.com/tx/0xa608610d13755225b0d2894d3c4bf502360949a69a123721cf0d89286ad5a5bd",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x536ec1\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x536ec1\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:19:23.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x5b3bffaa96d4721c41a6e6c2af5800ae728ec50667ed827faf8cf00ed27bf603",
+   "url": "https://eth.blockscout.com/tx/0x5b3bffaa96d4721c41a6e6c2af5800ae728ec50667ed827faf8cf00ed27bf603",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xC09DA1\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xC09DA1\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:18:35.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xeecc4222599cb92f084da45376eb0da72139bb6fa7a0b43b69cd26c379f641de",
+   "url": "https://eth.blockscout.com/tx/0xeecc4222599cb92f084da45376eb0da72139bb6fa7a0b43b69cd26c379f641de",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x581d7f\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x581d7f\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:17:47.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x3a01b70f76a2c2fc1a87021472704b3071030cd049a7aa63cd9ec5d6866d103e",
+   "url": "https://eth.blockscout.com/tx/0x3a01b70f76a2c2fc1a87021472704b3071030cd049a7aa63cd9ec5d6866d103e",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x673682\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x673682\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:16:23.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xfdd759a2669940e20f426a630684db5bdb02be31cda33062e4dc4c9b2a644018",
+   "url": "https://eth.blockscout.com/tx/0xfdd759a2669940e20f426a630684db5bdb02be31cda33062e4dc4c9b2a644018",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBeFE16\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBeFE16\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:15:35.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0x1638f7bf7dac0c65633539569047b35a3714a88d093ef092972b6027fa2b566f",
+   "url": "https://eth.blockscout.com/tx/0x1638f7bf7dac0c65633539569047b35a3714a88d093ef092972b6027fa2b566f",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xE6547F\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xE6547F\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:14:59.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
+   "id": "ETH:0xe5e43d18284ea26672a34822226a364e0400ea72b5ef3ae72b4a6653029ed6ee",
+   "url": "https://eth.blockscout.com/tx/0xe5e43d18284ea26672a34822226a364e0400ea72b5ef3ae72b4a6653029ed6ee",
+   "title": "[RISK] Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x053A8F\u2026.",
+   "content_text": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x053A8F\u2026. Status: RISK. Wallet is named in a public hack post-mortem. Risk score 80/100. Sources: https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/, https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/ Labels are heuristic, not attribution.",
+   "date_published": "2026-11-20T08:12:47.000000Z",
+   "tags": [
+    "hack",
+    "RISK",
+    "incident"
+   ],
+   "_hackwatch": {
+    "status": "RISK",
+    "basis": "Wallet is named in a public hack post-mortem.",
+    "risk": 80
+   }
+  },
+  {
    "id": "ETH:0xddaaff76279926c9b01d995d86c0e9d3c655d0ad2b7953eefe41f00c1c90597f:7515395.04",
    "url": "https://eth.blockscout.com/tx/0xddaaff76279926c9b01d995d86c0e9d3c655d0ad2b7953eefe41f00c1c90597f",
    "title": "[SAFE] Bitfinex: Hot Wallet received $7.5M (7.52M USDT) from an unlabeled address 0x386F\u20267F03.",
@@ -2272,357 +2612,6 @@
     "status": "SAFE",
     "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer.",
     "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0xa53ec91927569936d46bebbc7b3b11ec00ac0364287ae6a3be5e93c3755eb5e9:149700000.0",
-   "url": "https://eth.blockscout.com/tx/0xa53ec91927569936d46bebbc7b3b11ec00ac0364287ae6a3be5e93c3755eb5e9",
-   "title": "[SAFE] Bitfinex: Hot Wallet received $149.6M (149.70M USDT) from an unlabeled address 0x1897\u2026754a.",
-   "content_text": "Bitfinex: Hot Wallet received $149.6M (149.70M USDT) from an unlabeled address 0x1897\u2026754a. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T18:55:23Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0xd3aee140433170fb6dabbd04f5cd7d16cae32b859a6e200050cd4d0b606d7b70:2700.0",
-   "url": "https://eth.blockscout.com/tx/0xd3aee140433170fb6dabbd04f5cd7d16cae32b859a6e200050cd4d0b606d7b70",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $10.8M (2,700 XAUT) to an unlabeled address 0xF815\u2026f665.",
-   "content_text": "Bitfinex: Hot Wallet sent $10.8M (2,700 XAUT) to an unlabeled address 0xF815\u2026f665. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T18:17:23Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0xf0362909a6af9c66ab260a2579d157cb032414f8e74e67fa50c6c57863c372b4:47674847.8521",
-   "url": "https://eth.blockscout.com/tx/0xf0362909a6af9c66ab260a2579d157cb032414f8e74e67fa50c6c57863c372b4",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $47.6M (47.67M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
-   "content_text": "Bitfinex: Hot Wallet sent $47.6M (47.67M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T18:09:11Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
-   }
-  },
-  {
-   "id": "ETH:0x6ebe6a563dfc472ef342626b1d8044ca487fcb022ec689fafa401954516d3c3d:10722.21",
-   "url": "https://eth.blockscout.com/tx/0x6ebe6a563dfc472ef342626b1d8044ca487fcb022ec689fafa401954516d3c3d",
-   "title": "[SAFE] Binance 28 received $22.0M (10,722 ETH) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $22.0M (10,722 ETH) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T17:27:23Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x2e66ae9909ef1915de155687bc93327565fe7895075799dcd095e4f45b7d01b8:8744.057",
-   "url": "https://eth.blockscout.com/tx/0x2e66ae9909ef1915de155687bc93327565fe7895075799dcd095e4f45b7d01b8",
-   "title": "[SAFE] Binance 28 received $17.9M (8,744 ETH) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $17.9M (8,744 ETH) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T17:08:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x90e9ad7e45931de09f08ef18ea01c8760c22f5c1c38dcd74466f1199e0be43b0:8578.494",
-   "url": "https://eth.blockscout.com/tx/0x90e9ad7e45931de09f08ef18ea01c8760c22f5c1c38dcd74466f1199e0be43b0",
-   "title": "[SAFE] Binance 28 received $17.6M (8,578 ETH) from an unlabeled address 0x690C\u202691cC.",
-   "content_text": "Binance 28 received $17.6M (8,578 ETH) from an unlabeled address 0x690C\u202691cC. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T07:46:47Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x77f143f6a94608096e4434fd572c7c3954540e4bd18bbc1486668b9016cfe47d:3900.4542",
-   "url": "https://eth.blockscout.com/tx/0x77f143f6a94608096e4434fd572c7c3954540e4bd18bbc1486668b9016cfe47d",
-   "title": "[SAFE] Gate.io 5 received $8.2M (3,900 ETH) from Gate.io.",
-   "content_text": "Gate.io 5 received $8.2M (3,900 ETH) from Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T04:30:47Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-10T03",
-   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
-   "title": "[MONITORING] Coinbase 10 (ETH) balance down 71%: $18.3M \u2192 $5.27M between checks.",
-   "content_text": "Coinbase 10 (ETH) balance down 71%: $18.3M \u2192 $5.27M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T03:36:10.843198Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "anomaly"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
-    "risk": 70
-   }
-  },
-  {
-   "id": "drop:ETH:0x46340b20830761efd32832a74d7169b29feb9758:2026-11-10T03",
-   "url": "https://eth.blockscout.com/address/0x46340b20830761efd32832a74d7169b29feb9758",
-   "title": "[MONITORING] Crypto.com 2 (ETH) balance down 43%: $5.47M \u2192 $3.09M between checks.",
-   "content_text": "Crypto.com 2 (ETH) balance down 43%: $5.47M \u2192 $3.09M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T03:36:10.843198Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "anomaly"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
-    "risk": 70
-   }
-  },
-  {
-   "id": "ETH:0xd0b7df5702911746f902ec1006ef1370568addea8b17520c2ad2dccd30bec5cb:3030.0742",
-   "url": "https://eth.blockscout.com/tx/0xd0b7df5702911746f902ec1006ef1370568addea8b17520c2ad2dccd30bec5cb",
-   "title": "[MONITORING] Coinbase 5 sent $6.4M (3,030 ETH) to an unlabeled address 0x5779\u20261462.",
-   "content_text": "Coinbase 5 sent $6.4M (3,030 ETH) to an unlabeled address 0x5779\u20261462. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-10T01:12:11Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0xb20b590f74391df0c425611043f216c0890c6351fb171b5c90c6e9e838ea183a:4479.3969",
-   "url": "https://eth.blockscout.com/tx/0xb20b590f74391df0c425611043f216c0890c6351fb171b5c90c6e9e838ea183a",
-   "title": "[SAFE] Coinbase 5 received $9.5M (4,479 ETH) from an unlabeled address 0x6Bb9\u2026bc4c.",
-   "content_text": "Coinbase 5 received $9.5M (4,479 ETH) from an unlabeled address 0x6Bb9\u2026bc4c. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T23:54:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x31c1f13404ab785f0162abf6c78e7446b50bec50b3aff5d94bf206b431ca1e2d:2811.0",
-   "url": "https://eth.blockscout.com/tx/0x31c1f13404ab785f0162abf6c78e7446b50bec50b3aff5d94bf206b431ca1e2d",
-   "title": "[SAFE] Coinbase 5 received $5.9M (2,811 ETH) from an unlabeled address 0x72a4\u20264caD.",
-   "content_text": "Coinbase 5 received $5.9M (2,811 ETH) from an unlabeled address 0x72a4\u20264caD. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T23:48:59Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x8e93064bd1f3e2a6bfe3cb88607e7716a1b77daeb946e6b6d69b9759a46c43c2:2723.1388",
-   "url": "https://eth.blockscout.com/tx/0x8e93064bd1f3e2a6bfe3cb88607e7716a1b77daeb946e6b6d69b9759a46c43c2",
-   "title": "[SAFE] Coinbase 5 sent $5.8M (2,723 ETH) to Coinbase 10.",
-   "content_text": "Coinbase 5 sent $5.8M (2,723 ETH) to Coinbase 10. Status: SAFE. Counterparty is Coinbase 10 (same exchange). Internal transfer. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T23:15:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Coinbase 10 (same exchange). Internal transfer.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "ETH:0x4d1b93ca6d3fc0522fe0b51efd0fb3536529c76ff3a9b0ed6085c4905a6bd06e:4217.0",
-   "url": "https://eth.blockscout.com/tx/0x4d1b93ca6d3fc0522fe0b51efd0fb3536529c76ff3a9b0ed6085c4905a6bd06e",
-   "title": "[SAFE] Coinbase 5 received $8.9M (4,217 ETH) from an unlabeled address 0xbDbb\u202610B9.",
-   "content_text": "Coinbase 5 received $8.9M (4,217 ETH) from an unlabeled address 0xbDbb\u202610B9. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 20/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T23:03:11Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 20
-   }
-  },
-  {
-   "id": "drop:ETH:0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec:2026-11-09T21",
-   "url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
-   "title": "[SAFE] Bitfinex: Hot Wallet (ETH) balance down 90%: $16.5M \u2192 $1.65M between checks.",
-   "content_text": "Bitfinex: Hot Wallet (ETH) balance down 90%: $16.5M \u2192 $1.65M between checks. Status: SAFE. Outflow of 184.58M USDT ($184.4M) went to Bitfinex 2 (same exchange). Internal transfer. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T21:08:45.524764Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "anomaly"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Outflow of 184.58M USDT ($184.4M) went to Bitfinex 2 (same exchange). Internal transfer.",
-    "risk": 70
-   }
-  },
-  {
-   "id": "ETH:0x22c1f93a5bf4e8fd6b9ac9fda174183908cd4b537a289cdab577041ac539fdf1:184578517.2764",
-   "url": "https://eth.blockscout.com/tx/0x22c1f93a5bf4e8fd6b9ac9fda174183908cd4b537a289cdab577041ac539fdf1",
-   "title": "[SAFE] Bitfinex: Hot Wallet sent $184.4M (184.58M USDT) to Bitfinex 2.",
-   "content_text": "Bitfinex: Hot Wallet sent $184.4M (184.58M USDT) to Bitfinex 2. Status: SAFE. Counterparty is Bitfinex 2 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T21:04:23Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer.",
-    "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0xd794b2bdd08ba882069afdd76d1e39dcf219d5f96859aa4b244a6d6b19c6e1e2:234120120.12",
-   "url": "https://eth.blockscout.com/tx/0xd794b2bdd08ba882069afdd76d1e39dcf219d5f96859aa4b244a6d6b19c6e1e2",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $233.9M (234.12M USDT) to an unlabeled address 0x5754\u2026B949.",
-   "content_text": "Bitfinex: Hot Wallet sent $233.9M (234.12M USDT) to an unlabeled address 0x5754\u2026B949. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T21:03:47Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 45
-   }
-  },
-  {
-   "id": "ETH:0x2048223c65f7a2d9845a43f546e84a1f93ac0560dba32535837dc66155c040dd:200000000.0",
-   "url": "https://eth.blockscout.com/tx/0x2048223c65f7a2d9845a43f546e84a1f93ac0560dba32535837dc66155c040dd",
-   "title": "[SAFE] Bitfinex: Hot Wallet received $199.8M (200.00M USDT) from an unlabeled address 0x5754\u2026B949.",
-   "content_text": "Bitfinex: Hot Wallet received $199.8M (200.00M USDT) from an unlabeled address 0x5754\u2026B949. Status: SAFE. Inbound deposit. Funds entered exchange custody. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T21:02:59Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Inbound deposit. Funds entered exchange custody.",
-    "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0x649ef2018c2849c7f23e3097b25b37a40cd7116e4d76cfdc439bc96826a83cbc:270828604.2848",
-   "url": "https://eth.blockscout.com/tx/0x649ef2018c2849c7f23e3097b25b37a40cd7116e4d76cfdc439bc96826a83cbc",
-   "title": "[SAFE] Bitfinex: Hot Wallet received $270.6M (270.83M USDT) from Bitfinex 2.",
-   "content_text": "Bitfinex: Hot Wallet received $270.6M (270.83M USDT) from Bitfinex 2. Status: SAFE. Counterparty is Bitfinex 2 (same exchange). Internal transfer. Risk score 35/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T21:01:59Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer.",
-    "risk": 35
-   }
-  },
-  {
-   "id": "ETH:0x54cde4bf13bfc965de9c061639d8d2fbc09465a567e59bdefb48000eaad1911d:161400000.0",
-   "url": "https://eth.blockscout.com/tx/0x54cde4bf13bfc965de9c061639d8d2fbc09465a567e59bdefb48000eaad1911d",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $161.3M (161.40M USDT) to an unlabeled address 0x5754\u2026B949.",
-   "content_text": "Bitfinex: Hot Wallet sent $161.3M (161.40M USDT) to an unlabeled address 0x5754\u2026B949. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 45/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-09T20:51:47Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 45
    }
   }
  ]

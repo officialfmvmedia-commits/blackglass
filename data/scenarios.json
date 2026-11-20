@@ -1,6 +1,37 @@
 {
- "generated": "2026-11-20T01:16:22.849883Z",
+ "generated": "2026-11-20T09:06:54.969641Z",
  "scenarios": [
+  {
+   "id": "Binance CEX incident-20261120",
+   "cluster": "Binance CEX incident",
+   "title": "Binance CEX incident",
+   "start": "2026-11-20T08:12:47Z",
+   "end": "2026-11-20T08:28:35.000000Z",
+   "chain": "ETH",
+   "events": 17,
+   "what": "17 logged movements on Nov 20, 2026. Latest: Binance CEX hack wallet (parked ETH) moved $9.5M (5,460 ETH) to a wallet flagged in the Binance CEX hack.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 80,
+   "confidence_label": "high",
+   "type": "hack",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0xf8d964d803aca29ebb81f43107b44f3993a8c1680d2b05ab2c4139bff522f56a",
+    "https://eth.blockscout.com/tx/0x34ce520651029e8523d2b3d8621e1cc35a7ec966c504e2282ffa1f7366f63f8b",
+    "https://eth.blockscout.com/tx/0x703c04df939f97006eff0ee52fbd0054734a938fd89a952355c9dff0d54df9c6",
+    "https://eth.blockscout.com/tx/0xc56ed447e8a58ea9d8d354a573c62d46e88656c087ec02e734cbf10001ee1eeb",
+    "https://eth.blockscout.com/tx/0xf1f98b4b96d621522c183a52397261fe0bc0b84254c4d7599d3d5ff69a1494e5"
+   ],
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ]
+  },
   {
    "id": "C008-20261108",
    "cluster": "C008",

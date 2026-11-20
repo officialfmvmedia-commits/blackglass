@@ -1,6 +1,49 @@
 {
- "generated": "2026-11-20T01:16:22.849883Z",
+ "generated": "2026-11-20T09:06:54.969641Z",
  "incidents": [
+  {
+   "id": "HFluidkey",
+   "name": "Fluidkey",
+   "date": "2026-11-19",
+   "amount_usd": null,
+   "chains": [],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "Fluidkey reported a security incident involving unauthorized transactions affecting users of its self-custodial privacy wallet. The team took its website, application and services offline at 18:05 UTC on November 19, after which it reported no further unauthorized transactions. Fluidkey is investigating the attack with SEAL 911 and tracing the affected funds. The attack vector and total financial losses remain undisclosed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H2439",
+   "name": "CALC",
+   "date": "2026-11-19",
+   "amount_usd": 26900,
+   "chains": [
+    "Ethereum",
+    "Hyperliquid L1"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "CALC reported that its operational treasury was almost entirely drained during the Web3Auth/Keplr social-login wallet compromise. A vulnerability in Web3Auth's legacy infrastructure exposed wallet signing credentials, enabling unauthorized withdrawals from affected accounts. CALC used a Keplr hot wallet to fund its off-chain infrastructure expenses and reported losing 99.9888% of its treasury, with only a small amount identified by the recovery operation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HGonka AI",
    "name": "Gonka AI",
@@ -911,50 +954,6 @@
      "role": "parked ETH"
     }
    ]
-  },
-  {
-   "id": "H4335",
-   "name": "zkLink Nova",
-   "date": "2026-10-28",
-   "amount_usd": 783100,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Cross-Chain Message Spoofing",
-   "classification": "Bridge & Cross-Chain",
-   "description": "An attacker exploited zkLink\u2019s Arbitrator contract, which failed to clear a previously authenticated message hash after processing a claim. By reusing that hash through the publicly accessible SyncL2TxHashRelayer, the attacker impersonated an authorized gateway message and installed a malicious L2 logs root. The attacker then submitted forged withdrawal proofs against the compromised root to drain approximately $783,100 from zkLink\u2019s Ethereum bridge",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HHifi Finance",
-   "name": "Hifi Finance",
-   "date": "2026-10-28",
-   "amount_usd": null,
-   "chains": [
-    "Ethereum"
-   ],
-   "technique": "Malicious Proposal",
-   "classification": "Governance",
-   "description": "An attacker acquired HIFI governance tokens and used four coordinated votes shortly before voting closed to pass a malicious governance proposal. Proposal 21 would upgrade Hifi\u2019s BalanceSheet contract to introduce a function that incorrectly treats existing collateral as untracked funds, allowing it to be transferred to an attacker-controlled Safe. The proposal would also mint 25 million HIFI tokens to the attacker. At the time of reporting, the proposal was queued but had not been executed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
   }
  ]
 }

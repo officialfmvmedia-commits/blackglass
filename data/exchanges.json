@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:16:22.849883Z",
+ "generated": "2026-11-20T09:06:54.969641Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 150073432,
-   "flow_out_usd": 278187772,
+   "flow_in_usd": 15739222,
+   "flow_out_usd": 39248732,
    "biggest": {
-    "usd": 229680215.60000002,
-    "text": "229.90M USDT out to 0x575428\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xe0b9d606b73a2c7db61f968d77e53ed43fe54f483e75bbbb2efdcd843fad00d0"
+    "usd": 7993013.853975116,
+    "text": "8.00M USDT out to 0x14681E\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xe267fa69038c4d8c84fb44f64d614a28a877ba54c437e54155e312a2e2dca7b5"
    },
-   "alerts_24h": 11,
+   "alerts_24h": 8,
    "anomaly": false
   },
   {
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 20164,
-   "flow_out_usd": 63090,
+   "flow_in_usd": 12100,
+   "flow_out_usd": 23066,
    "biggest": {
-    "usd": 59934.6,
-    "text": "60,000 USDT0 out to 0x07527f\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x00f2b0a16d5f29b7507bc8e6855b4eba53119a98d0f24e59b8fee5e4ae8b50b0"
+    "usd": 5537.86759054253,
+    "text": "5,544 USDT0 in from 0xFED968\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x47f7c1260e76fbc7c9ef7a95412c47aafeecbe9acc1735973c3c1e9e1c191ca3"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -128,7 +128,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 2,
+   "alerts_24h": 1,
    "anomaly": true
   },
   {
@@ -161,9 +161,13 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 0,
+   "flow_in_usd": 20,
    "flow_out_usd": 0,
-   "biggest": null,
+   "biggest": {
+    "usd": 20.004144123121,
+    "text": "20.02 USDT in from 0x0668C9\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x00cc5dc0036c55634db619bda7f861d217e39b15bc44513bcee7fb0f0ef32d07"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },

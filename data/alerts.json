@@ -1,6 +1,668 @@
 {
- "generated": "2026-11-20T01:16:22.849883Z",
+ "generated": "2026-11-20T09:06:54.969641Z",
  "alerts": [
+  {
+   "id": "ETH:0x38a131ec76314b014958626b85a199abc774e00a368b6dbf15280740c24bc8a9:5699997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T09:00:47Z",
+   "chain": "ETH",
+   "usd": 5695022,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $5.7M (5.70M USDT) to an unlabeled address 0x7914\u20260f99.",
+   "counterparty_label": "an unlabeled address 0x7914\u20260f99",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x38a131ec76314b014958626b85a199abc774e00a368b6dbf15280740c24bc8a9",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xe267fa69038c4d8c84fb44f64d614a28a877ba54c437e54155e312a2e2dca7b5:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T08:37:35Z",
+   "chain": "ETH",
+   "usd": 7993014,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xe267fa69038c4d8c84fb44f64d614a28a877ba54c437e54155e312a2e2dca7b5",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x405769ff75a104cf83af517d9d382b73c60993d151bbaa6207e3f598d4d57a82:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T08:36:59Z",
+   "chain": "ETH",
+   "usd": 7993014,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x405769ff75a104cf83af517d9d382b73c60993d151bbaa6207e3f598d4d57a82",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xf8d964d803aca29ebb81f43107b44f3993a8c1680d2b05ab2c4139bff522f56a",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:28:35.000000Z",
+   "chain": "ETH",
+   "usd": 9532241,
+   "level": 80,
+   "counterparty_label": "a wallet flagged in the Binance CEX hack",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $9.5M (5,460 ETH) to a wallet flagged in the Binance CEX hack.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xf8d964d803aca29ebb81f43107b44f3993a8c1680d2b05ab2c4139bff522f56a",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x34ce520651029e8523d2b3d8621e1cc35a7ec966c504e2282ffa1f7366f63f8b",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:27:11.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x552327\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x552327\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x34ce520651029e8523d2b3d8621e1cc35a7ec966c504e2282ffa1f7366f63f8b",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x703c04df939f97006eff0ee52fbd0054734a938fd89a952355c9dff0d54df9c6",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:26:23.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x800AD4\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x800AD4\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x703c04df939f97006eff0ee52fbd0054734a938fd89a952355c9dff0d54df9c6",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xc56ed447e8a58ea9d8d354a573c62d46e88656c087ec02e734cbf10001ee1eeb",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:25:23.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x54a16b\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x54a16b\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xc56ed447e8a58ea9d8d354a573c62d46e88656c087ec02e734cbf10001ee1eeb",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xf1f98b4b96d621522c183a52397261fe0bc0b84254c4d7599d3d5ff69a1494e5",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:24:35.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x3E79D4\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x3E79D4\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xf1f98b4b96d621522c183a52397261fe0bc0b84254c4d7599d3d5ff69a1494e5",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x05267ecfb4303fc2f06e2615e2368c165c5ba238f32ac5a9b7b48049b669b48c",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:23:47.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xdbEdeF\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xdbEdeF\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x05267ecfb4303fc2f06e2615e2368c165c5ba238f32ac5a9b7b48049b669b48c",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x8aca18db416276557f1e693fe287a06283b09416f172615e2b0d307a08c04cbf",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:22:47.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xAC59F8\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xAC59F8\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x8aca18db416276557f1e693fe287a06283b09416f172615e2b0d307a08c04cbf",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x592f40535610719292e81b703bee48b63a4979e4feca3a9664d78d4ba10d5020",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:21:59.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xBda2b8\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBda2b8\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x592f40535610719292e81b703bee48b63a4979e4feca3a9664d78d4ba10d5020",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x4c4318efc0012c74c5be5281e37f8923803103881ada7eec3b166b6c7acdd71a",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:21:11.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x9e6b21\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x9e6b21\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x4c4318efc0012c74c5be5281e37f8923803103881ada7eec3b166b6c7acdd71a",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x441fe3d7d52a093f9200c2678f9e1cf8f01ad387f3da6c7144a85dc5311e513d",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:20:23.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x913cA7\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x913cA7\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x441fe3d7d52a093f9200c2678f9e1cf8f01ad387f3da6c7144a85dc5311e513d",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xa608610d13755225b0d2894d3c4bf502360949a69a123721cf0d89286ad5a5bd",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:19:23.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x536ec1\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x536ec1\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xa608610d13755225b0d2894d3c4bf502360949a69a123721cf0d89286ad5a5bd",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x5b3bffaa96d4721c41a6e6c2af5800ae728ec50667ed827faf8cf00ed27bf603",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:18:35.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xC09DA1\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xC09DA1\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x5b3bffaa96d4721c41a6e6c2af5800ae728ec50667ed827faf8cf00ed27bf603",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xeecc4222599cb92f084da45376eb0da72139bb6fa7a0b43b69cd26c379f641de",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:17:47.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x581d7f\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x581d7f\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xeecc4222599cb92f084da45376eb0da72139bb6fa7a0b43b69cd26c379f641de",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x3a01b70f76a2c2fc1a87021472704b3071030cd049a7aa63cd9ec5d6866d103e",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:16:23.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x673682\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x673682\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x3a01b70f76a2c2fc1a87021472704b3071030cd049a7aa63cd9ec5d6866d103e",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xfdd759a2669940e20f426a630684db5bdb02be31cda33062e4dc4c9b2a644018",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:15:35.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xBeFE16\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xBeFE16\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xfdd759a2669940e20f426a630684db5bdb02be31cda33062e4dc4c9b2a644018",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0x1638f7bf7dac0c65633539569047b35a3714a88d093ef092972b6027fa2b566f",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:14:59.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0xE6547F\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0xE6547F\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0x1638f7bf7dac0c65633539569047b35a3714a88d093ef092972b6027fa2b566f",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
+  {
+   "id": "ETH:0xe5e43d18284ea26672a34822226a364e0400ea72b5ef3ae72b4a6653029ed6ee",
+   "type": "hack",
+   "tags": [
+    "incident"
+   ],
+   "entity": "Binance CEX incident",
+   "time": "2026-11-20T08:12:47.000000Z",
+   "chain": "ETH",
+   "usd": 20950019,
+   "level": 80,
+   "counterparty_label": "an unlabeled address 0x053A8F\u2026",
+   "direction": "out",
+   "message": "Binance CEX hack wallet (parked ETH) moved $21.0M (12,000 ETH) to an unlabeled address 0x053A8F\u2026.",
+   "reasons": [
+    "wallet named in a public post-mortem"
+   ],
+   "tx_url": "https://eth.blockscout.com/tx/0xe5e43d18284ea26672a34822226a364e0400ea72b5ef3ae72b4a6653029ed6ee",
+   "address": "0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "address_url": "https://eth.blockscout.com/address/0x8532fa14acaf483729c449b8458aeddb900543d4",
+   "sources": [
+    {
+     "name": "Chainalysis",
+     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
+    },
+    {
+     "name": "Elliptic",
+     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
+    }
+   ],
+   "cluster": "Binance CEX incident",
+   "status": "RISK",
+   "basis": "Wallet is named in a public hack post-mortem."
+  },
   {
    "id": "ETH:0xddaaff76279926c9b01d995d86c0e9d3c655d0ad2b7953eefe41f00c1c90597f:7515395.04",
    "type": "exchange",
