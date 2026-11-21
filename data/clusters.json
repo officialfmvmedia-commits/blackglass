@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T23:57:22.922475Z",
+ "generated": "2026-11-21T06:28:00.647982Z",
  "clusters": [
   {
    "id": "C001",
@@ -435,10 +435,10 @@
     "ETH"
    ],
    "size": 2,
-   "children": 3,
+   "children": 4,
    "balance": {
     "BTC": 0,
-    "ETH": 0.0282
+    "ETH": 0.0231
    },
    "sources": [
     {
@@ -17599,6 +17599,25 @@
    ],
    "parent": "0x6be0ae71e6c41f2f9d0d1a3b8d0f75e6f6a0b46e",
    "cluster": "C007"
+  },
+  {
+   "address": "0xED9Ab5BC05A0152B9dC2f7902e8369Af7bC18771",
+   "chain": "ETH",
+   "score": 55,
+   "reasons": [
+    "EOA recipient (possible fresh hop wallet)",
+    "received from a tracked address (1 hop)"
+   ],
+   "via": [
+    {
+     "tx": "0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1",
+     "url": "https://eth.blockscout.com/tx/0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1",
+     "value": 0.005010334562,
+     "time": "2026-11-21T06:19:35Z"
+    }
+   ],
+   "parent": "0xb637f84b66876ebf609c2a4208905f9ddac9d075",
+   "cluster": "C013"
   },
   {
    "address": "0x1AB4973a48dc892Cd9971ECE8e01DcC7688f8F23",

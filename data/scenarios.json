@@ -1,6 +1,29 @@
 {
- "generated": "2026-11-20T23:57:23.061814Z",
+ "generated": "2026-11-21T06:28:00.775461Z",
  "scenarios": [
+  {
+   "id": "C013-20261121",
+   "cluster": "C013",
+   "title": "OFAC-sanctioned wallets: YUN, Song Guk",
+   "start": "2026-11-21T06:19:35Z",
+   "end": "2026-11-21T06:19:35Z",
+   "chain": "ETH",
+   "events": 1,
+   "what": "1 logged movement on Nov 21, 2026. Latest: OFAC-listed address (YUN, Song Guk) sent 0.00501 ETH to address 0xED9A\u20268771 [cluster C013]. About 0.00501 ETH went out to 1 new address one hop away.",
+   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
+   "confidence": 55,
+   "confidence_label": "medium",
+   "type": "lazarus",
+   "tx_links": [
+    "https://eth.blockscout.com/tx/0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1"
+   ],
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ]
+  },
   {
    "id": "Binance CEX incident-20261120",
    "cluster": "Binance CEX incident",
@@ -196,29 +219,6 @@
     {
      "name": "OFAC SDN #55065 (DPRK2)",
      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55065"
-    }
-   ]
-  },
-  {
-   "id": "C013-20250728",
-   "cluster": "C013",
-   "title": "OFAC-sanctioned wallets: YUN, Song Guk",
-   "start": "2025-07-28T13:41:35Z",
-   "end": "2025-07-28T13:41:35Z",
-   "chain": "ETH",
-   "events": 1,
-   "what": "1 logged movement on Jul 28, 2025. Latest: OFAC-listed address (YUN, Song Guk) sent 0.002 ETH to address 0xB42a\u20267D89 [cluster C013]. About 0.002 ETH went out to 1 new address one hop away.",
-   "why": "These wallets are on official public lists, so any movement is worth watching. Nothing here matched a laundering pattern.",
-   "confidence": 55,
-   "confidence_label": "medium",
-   "type": "lazarus",
-   "tx_links": [
-    "https://eth.blockscout.com/tx/0xe3f77a67b464d2ad7f4ebcc65acd5f67e96093d1444d08fd004158ac994f84d1"
-   ],
-   "sources": [
-    {
-     "name": "OFAC SDN #57034 (DPRK4)",
-     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
     }
    ]
   },

@@ -1,6 +1,54 @@
 {
- "generated": "2026-11-20T23:57:23.061814Z",
+ "generated": "2026-11-21T06:28:00.775461Z",
  "alerts": [
+  {
+   "id": "ETH:0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1",
+   "time": "2026-11-21T06:19:35Z",
+   "chain": "ETH",
+   "level": 55,
+   "cluster": "C013",
+   "message": "OFAC-listed address (YUN, Song Guk) sent 0.00501 ETH to address 0xED9A\u20268771 [cluster C013].",
+   "tx_url": "https://eth.blockscout.com/tx/0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1",
+   "address": "0xb637f84b66876ebf609c2a4208905f9ddac9d075",
+   "address_url": "https://eth.blockscout.com/address/0xb637f84b66876ebf609c2a4208905f9ddac9d075",
+   "sources": [
+    {
+     "name": "OFAC SDN #57034 (DPRK4)",
+     "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=57034"
+    }
+   ],
+   "type": "lazarus",
+   "status": "RISK",
+   "basis": "Sender is on the OFAC SDN list."
+  },
+  {
+   "id": "ETH:0x7fd733590c5bcc4eb39deeb018760a3d84806dc3e3b4f1b1c804244af61e6588:9690000.0",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-21T06:12:59Z",
+   "chain": "ETH",
+   "usd": 9678469,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $9.7M (9.69M USDT) to an unlabeled address 0xc29b\u202656fe.",
+   "counterparty_label": "an unlabeled address 0xc29b\u202656fe",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x7fd733590c5bcc4eb39deeb018760a3d84806dc3e3b4f1b1c804244af61e6588",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x5365d1081c44aa89dec8e8e848fdfac5e3711277d5b85ce6d432559c0dc8c407:100.0",
    "type": "exchange",
@@ -114,6 +162,39 @@
    "cluster": "Binance",
    "status": "MONITORING",
    "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x6e3b8815d126fc1e34842024d034bf8cac28b2ccef0059e8986e91878fd43eec:87432773.8481",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T18:54:23Z",
+   "chain": "ETH",
+   "usd": 87328729,
+   "level": 30,
+   "message": "Bitfinex 2 received $87.3M (87.43M USDT) from Bitfinex: Hot Wallet.",
+   "counterparty_label": "Bitfinex: Hot Wallet",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x6e3b8815d126fc1e34842024d034bf8cac28b2ccef0059e8986e91878fd43eec",
+   "address": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "address_url": "https://eth.blockscout.com/address/0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer."
   },
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-20T17",
@@ -343,6 +424,38 @@
    "basis": "Destination is unlabeled. Not linked to any flagged wallet."
   },
   {
+   "id": "ETH:0x8378689d599bd24d306ed8cc1e5f00c48c5ba13a7d60fc9ed91350be2e5541ba:7045857.8114",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T16:14:23Z",
+   "chain": "ETH",
+   "usd": 7037473,
+   "level": 20,
+   "message": "Bitfinex 2 received $7.0M (7.05M USDT) from Bitfinex: Hot Wallet.",
+   "counterparty_label": "Bitfinex: Hot Wallet",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x8378689d599bd24d306ed8cc1e5f00c48c5ba13a7d60fc9ed91350be2e5541ba",
+   "address": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "address_url": "https://eth.blockscout.com/address/0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer."
+  },
+  {
    "id": "ETH:0x1279699d40789ea2540cf01ec1e776dc69279615ce857b34b803d186f4432020:8171.902",
    "type": "exchange",
    "tags": [
@@ -370,6 +483,39 @@
    "cluster": "Binance",
    "status": "SAFE",
    "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
+   "id": "ETH:0x2025ea28e7f46d2296739f1a3bbef14fe4123cf4beb27e6e94bdb9c40fc1a63c:50555529.7301",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T15:29:23Z",
+   "chain": "ETH",
+   "usd": 50495369,
+   "level": 30,
+   "message": "Bitfinex 2 received $50.5M (50.56M USDT) from Bitfinex: Hot Wallet.",
+   "counterparty_label": "Bitfinex: Hot Wallet",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x2025ea28e7f46d2296739f1a3bbef14fe4123cf4beb27e6e94bdb9c40fc1a63c",
+   "address": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "address_url": "https://eth.blockscout.com/address/0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer."
   },
   {
    "id": "ETH:0x38a131ec76314b014958626b85a199abc774e00a368b6dbf15280740c24bc8a9:5699997.8521",
@@ -1210,6 +1356,39 @@
    "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer."
   },
   {
+   "id": "ETH:0x10b4096cf126090e27d82fa1fb92c081dfedf7f30b7269e0a6c6944185b11238:4000000000.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-20T01:01:35Z",
+   "chain": "ETH",
+   "usd": 3995240000,
+   "level": 35,
+   "message": "Bitfinex: MultiSig 2 received $4.00B (4.00B USDT) from an unlabeled address 0x5754\u2026B949.",
+   "counterparty_label": "an unlabeled address 0x5754\u2026B949",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x10b4096cf126090e27d82fa1fb92c081dfedf7f30b7269e0a6c6944185b11238",
+   "address": "0xc6cde7c39eb2f0f0095f41570af89efc2c1ea828",
+   "address_url": "https://eth.blockscout.com/address/0xc6cde7c39eb2f0f0095f41570af89efc2c1ea828",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
+  {
    "id": "ETH:0xb70a5a599ca41fc3cc81d5cd002b4f71dfae569dc3f94f4d99cfa330c624f0b0:47580176.8521",
    "type": "exchange",
    "tags": [
@@ -1294,6 +1473,39 @@
    "cluster": "Coinbase",
    "status": "MONITORING",
    "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0x0ff14d952e1d458335661d913f10acbc39476de40dfa79aea8c9d4a8038181d2:67033898.5043",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-19T11:59:23Z",
+   "chain": "ETH",
+   "usd": 66954128,
+   "level": 30,
+   "message": "Bitfinex 2 received $67.0M (67.03M USDT) from Bitfinex: Hot Wallet.",
+   "counterparty_label": "Bitfinex: Hot Wallet",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x0ff14d952e1d458335661d913f10acbc39476de40dfa79aea8c9d4a8038181d2",
+   "address": "0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "address_url": "https://eth.blockscout.com/address/0x742d35cc6634c0532925a3b844bc454e4438f44e",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer."
   },
   {
    "id": "ETH:0x7788ab5e338bcb2aae5b996656a8217869ef6acd27414047e34961865f3b9b00:9499997.8521",
