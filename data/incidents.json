@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-20T17:52:03.477577Z",
+ "generated": "2026-11-20T23:57:23.061814Z",
  "incidents": [
+  {
+   "id": "HWagyu (XMR1)",
+   "name": "Wagyu (XMR1)",
+   "date": "2026-11-20",
+   "amount_usd": 13510000,
+   "chains": [
+    "Hyperliquid L1"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "An attacker reportedly obtained Wagyu's XMR1 deployer signing key through a breach of third-party hosting infrastructure that retained files from a previously deleted server. The attacker transferred 5.2M XMR1 from the deployer account to a newly created wallet and sold approximately 369,623 tokens into Hyperliquid's spot order book for $13.51M USDC, causing XMR1 to lose approximately 99.8% of its market value. The proceeds were converted into ETH and transferred across Arbitrum and Ethereum",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HFluidkey",
    "name": "Fluidkey",
@@ -891,67 +913,6 @@
     {
      "address": "0xc91ee0574a14446de200923729c349b9cae19b60",
      "role": "onward wallet"
-    }
-   ]
-  },
-  {
-   "id": "H2269",
-   "name": "Binance CEX",
-   "date": "2026-10-29",
-   "amount_usd": 6360000000,
-   "chains": [
-    "Ethereum",
-    "Bitcoin",
-    "TRON",
-    "Avalanche",
-    "Optimism",
-    "Arbitrum",
-    "Base"
-   ],
-   "technique": "Key Leaked via Infrastructure",
-   "classification": "Frontend & Infrastructure",
-   "description": "On October 29, attackers exploited Binance\u2019s operational infrastructure to execute unauthorized withdrawals across multiple blockchains, resulting in approximately $6.3 billion in losses. Binance\u2019s preliminary investigation identified a potentially compromised DevOps engineer\u2019s laptop that allowed access to a service container, with no evidence of wallet private key leakage. Approximately $3 billion in stolen assets were later frozen with help from industry partners. Binance committed to covering all losses using its SAFU fund and company reserves",
-   "returned": null,
-   "attribution": "Analyst-attributed",
-   "actor": "TraderTraitor / DPRK (per Chainalysis, Elliptic)",
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    },
-    {
-     "name": "Chainalysis",
-     "url": "https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/"
-    },
-    {
-     "name": "Elliptic",
-     "url": "https://www.elliptic.co/insights/free-binance-exploit-blocklist-available-from-elliptic-for-the-crypto-community-to-screen-against-the-attributed-addresses-now/"
-    },
-    {
-     "name": "Blockaid",
-     "url": "https://blockaid.io/blog/binance-55b-hack-using-advanced-ai-models-blockaid-detects-the-biggest-theft-in-crypto-history"
-    },
-    {
-     "name": "HaskDetect Case 001",
-     "url": "https://hasky00.github.io/haskDetect/"
-    }
-   ],
-   "addresses": [
-    {
-     "address": "0x7C8601d4645b93cea45F71e118A729332e6B5CA0",
-     "role": "operator (funded via Tornado Cash)"
-    },
-    {
-     "address": "0x63e842B054Bd624a465454D533C33F573e9c6fAe",
-     "role": "sweeper contract"
-    },
-    {
-     "address": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
-     "role": "collection address (USDT frozen)"
-    },
-    {
-     "address": "0x8532FA14ACAf483729C449b8458aedDb900543D4",
-     "role": "parked ETH"
     }
    ]
   }
