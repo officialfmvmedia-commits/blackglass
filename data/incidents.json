@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-21T15:03:21.572864Z",
+ "generated": "2026-11-21T20:58:22.853474Z",
  "incidents": [
+  {
+   "id": "H3702",
+   "name": "CyberConnect",
+   "date": "2026-11-21",
+   "amount_usd": 968000,
+   "chains": [
+    "Solana",
+    "Ethereum"
+   ],
+   "technique": "Cross-Chain Message Spoofing",
+   "classification": "Bridge & Cross-Chain",
+   "description": "An attacker exploited an as-yet-unidentified authorization vulnerability affecting Cyber's cross-chain token bridge, unexpectedly minting 5.213 million CYBER on Solana and triggering the release of an equivalent amount from the Ethereum lockbox through LayerZero messaging. The attacker sold most of the released CYBER through decentralized exchanges for approximately $968K in ETH. The exact mechanism that permitted unauthorized minting and cross-chain redemption remains under investigation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H3853",
+   "name": "Chainflip AMM",
+   "date": "2026-11-21",
+   "amount_usd": 4860000,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Validator Key Compromised",
+   "classification": "Key Compromise",
+   "description": "An attacker drained Chainflip's Ethereum vault using a valid Schnorr signature associated with the protocol's aggregate validator signing key. The malicious transferBatch request used an anomalous nonce outside the normal signing sequence, indicating that the signature was generated outside Chainflip's usual authorization process. The attacker withdrew approximately $4.86M in ETH, USDC and USDT, converted the stablecoins to ETH, and deposited 2,909 ETH into Tornado Cash. A compromise of the validator signing system is suspected, but the exact root cause remains unconfirmed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HWagyu (XMR1)",
    "name": "Wagyu (XMR1)",
@@ -852,69 +897,6 @@
     }
    ],
    "addresses": []
-  },
-  {
-   "id": "H4952",
-   "name": "Troves",
-   "date": "2026-10-31",
-   "amount_usd": 666935,
-   "chains": [],
-   "technique": "Improper Access Control",
-   "classification": "Access Control",
-   "description": "On October 31, an attacker exploited permissions retained by a legacy rebalancing contract after it had been replaced, resulting in approximately 8.6 BTC in losses from Troves' xWBTC/WBTC vault. Troves revoked the legacy contract's permissions and paused three vaults as a precaution. No impact on other vaults has been identified",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H711",
-   "name": "Polymarket International",
-   "date": "2026-10-29",
-   "amount_usd": 2700000,
-   "chains": [
-    "Polygon"
-   ],
-   "technique": "Supply Chain Attack",
-   "classification": "Frontend & Infrastructure",
-   "description": "Attackers reportedly compromised a third-party website monitoring service used by Polymarket, allowing malicious JavaScript to execute on its international trading platform. The script hijacked authenticated trading sessions to sell prediction-market positions and transfer assets to attacker-controlled wallets. Polymarket temporarily suspended trading, removed the affected integration, and committed to reimbursing impacted users",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    },
-    {
-     "name": "ohey.ca research",
-     "url": "https://ohey.ca/research/polymarket-debugbear-wallet-drainer/"
-    }
-   ],
-   "addresses": [
-    {
-     "address": "0x3F99139F1C5854bb628c2e576Aaf638e99dFfc18",
-     "role": "drainer recipient"
-    },
-    {
-     "address": "0xe4c4c39c1733e1c7c06b79f97ed442b68df41ec6",
-     "role": "onward wallet"
-    },
-    {
-     "address": "0x5392587814ce8c6af6789764f88e5e9ab0b9962c",
-     "role": "onward wallet"
-    },
-    {
-     "address": "0xc91ee0574a14446de200923729c349b9cae19b60",
-     "role": "onward wallet"
-    }
-   ]
   }
  ]
 }
