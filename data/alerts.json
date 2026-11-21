@@ -1,6 +1,122 @@
 {
- "generated": "2026-11-21T06:28:00.775461Z",
+ "generated": "2026-11-21T15:03:21.572864Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-21T15",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-21T15:03:21.572864Z",
+   "chain": "ETH",
+   "usd": 25060945,
+   "level": 70,
+   "message": "Coinbase 10 (ETH) balance down 94%: $26.7M \u2192 $1.65M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "address_url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "drop:ETH:0xd69b0089d9ca950640f5dc9931a41a5965f00303:2026-11-21T15",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Gemini",
+   "time": "2026-11-21T15:03:21.572864Z",
+   "chain": "ETH",
+   "usd": 17911176,
+   "level": 70,
+   "message": "Gemini 7 (ETH) balance down 95%: $18.8M \u2192 $0.92M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "address": "0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "address_url": "https://eth.blockscout.com/address/0xd69b0089d9ca950640f5dc9931a41a5965f00303",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Gemini",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0xf9d94851339ffd44d6462fcfd1dc19bcb5bae8acf2cbe1c372dcdc9a5248123e:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-21T14:18:47Z",
+   "chain": "ETH",
+   "usd": 7990190,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xf9d94851339ffd44d6462fcfd1dc19bcb5bae8acf2cbe1c372dcdc9a5248123e",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x9d02c7a8354f61075bc6fbc3bd1d5935d130a1302d0d1781f46ac4b1ccfaa7d0:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-21T14:18:11Z",
+   "chain": "ETH",
+   "usd": 7990190,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x9d02c7a8354f61075bc6fbc3bd1d5935d130a1302d0d1781f46ac4b1ccfaa7d0",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
   {
    "id": "ETH:0x179307d00dd11b84b3bc43964fc7837afb4895e125373541b2053d40229919f1",
    "time": "2026-11-21T06:19:35Z",
@@ -48,6 +164,39 @@
    "cluster": "Bitfinex",
    "status": "MONITORING",
    "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x3d1b005571152b80c4a656b8cd91fbc94fc138c843bfff0a65cea1a1b3307cd3:8499.3163",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Coinbase",
+   "time": "2026-11-21T04:42:11Z",
+   "chain": "ETH",
+   "usd": 14337651,
+   "level": 30,
+   "message": "Coinbase 5 received $14.3M (8,499 ETH) from an unlabeled address 0xC2BF\u2026CE87.",
+   "counterparty_label": "an unlabeled address 0xC2BF\u2026CE87",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x3d1b005571152b80c4a656b8cd91fbc94fc138c843bfff0a65cea1a1b3307cd3",
+   "address": "0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "address_url": "https://eth.blockscout.com/address/0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    },
+    {
+     "name": "dawsbot/eth-labels (exchange, MIT)",
+     "url": "https://github.com/dawsbot/eth-labels"
+    }
+   ],
+   "cluster": "Coinbase",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
   },
   {
    "id": "ETH:0x5365d1081c44aa89dec8e8e848fdfac5e3711277d5b85ce6d432559c0dc8c407:100.0",
