@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T20:58:22.853474Z",
+ "generated": "2026-11-22T01:12:01.297057Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -24,7 +24,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 4,
+   "alerts_24h": 0,
    "anomaly": false
   },
   {
@@ -61,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 296552568,
-   "flow_out_usd": 215255537,
+   "flow_in_usd": 6174047,
+   "flow_out_usd": 95938157,
    "biggest": {
-    "usd": 212848859.60000002,
-    "text": "213.20M USDT out to 0x575428\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x5ba18dfa11b6333d4296bf62620f076fd46181c2877ae8a41e5d60e92deab79a"
+    "usd": 38347000.5012416,
+    "text": "38.40M USDT out to 0xea6DF8\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xa0aab515051ba35269f3975c4bed727813ef818d6d0adaeff98ccb4335233d44"
    },
-   "alerts_24h": 7,
+   "alerts_24h": 12,
    "anomaly": false
   },
   {
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 1276,
-   "flow_out_usd": 79392,
+   "flow_in_usd": 113518,
+   "flow_out_usd": 2356,
    "biggest": {
-    "usd": 39912.52,
-    "text": "40,000 USDT0 out to 0x07527f\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0xb6b5e121ecf670d93c9d3ab9b2d3495ebe6cb359b1f93c12d4b022b88f1a6817"
+    "usd": 51955.95250004292,
+    "text": "52,056 USDT0 in from 0xFED968\u2026",
+    "tx": "https://optimism.blockscout.com/tx/0x9d153150a57ec0ddcfb41f74766602d3ecb9ab74e020b5198c51918ba348af2b"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -283,13 +283,9 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 8483011,
-   "flow_out_usd": 18596295,
-   "biggest": {
-    "usd": 4814000.386092001,
-    "text": "2,862 ETH out to 0x2cc81B\u2026",
-    "tx": "https://eth.blockscout.com/tx/0x5e950e5e71cbddfcd96c3fb636c325dcf83707ed3b97d5c7fa991c9a99ffe1de"
-   },
+   "flow_in_usd": 0,
+   "flow_out_usd": 0,
+   "biggest": null,
    "alerts_24h": 0,
    "anomaly": false
   },
