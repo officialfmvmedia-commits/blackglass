@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T01:12:01.297057Z",
+ "generated": "2026-11-22T08:46:49.328494Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -61,14 +61,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 6174047,
-   "flow_out_usd": 95938157,
+   "flow_in_usd": 5549204,
+   "flow_out_usd": 2258781,
    "biggest": {
-    "usd": 38347000.5012416,
-    "text": "38.40M USDT out to 0xea6DF8\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xa0aab515051ba35269f3975c4bed727813ef818d6d0adaeff98ccb4335233d44"
+    "usd": 1415083.0573831128,
+    "text": "842 ETH in from 0x7f8233\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x41b2b9285db23b2758f1e50c56fbbdf59747f493e04c57b2fa079da31e6737a1"
    },
-   "alerts_24h": 12,
+   "alerts_24h": 11,
    "anomaly": false
   },
   {
@@ -86,12 +86,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 113518,
-   "flow_out_usd": 2356,
+   "flow_in_usd": 94923,
+   "flow_out_usd": 191454,
    "biggest": {
-    "usd": 51955.95250004292,
-    "text": "52,056 USDT0 in from 0xFED968\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x9d153150a57ec0ddcfb41f74766602d3ecb9ab74e020b5198c51918ba348af2b"
+    "usd": 91316.61966349272,
+    "text": "91,495 USDT0 out to ERC1967Proxy",
+    "tx": "https://optimism.blockscout.com/tx/0xe2f844c79e93ee8f015bf6b8566a10e67e5369cf101da59bfc90aef5bd84438a"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -109,8 +109,12 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 0,
-   "biggest": null,
+   "flow_out_usd": 1,
+   "biggest": {
+    "usd": 0.39099652566975,
+    "text": "0.0002326 ETH out to 0xA9Ac43\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xf9d98452053c0e099f5908bc243618cbd6172e329e43e10b2dc79f6e135d1d43"
+   },
    "alerts_24h": 0,
    "anomaly": false
   },
@@ -128,7 +132,7 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 2,
+   "alerts_24h": 1,
    "anomaly": true
   },
   {
