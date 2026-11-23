@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-22T22:30:40.313652Z",
+ "generated": "2026-11-23T03:08:15.765204Z",
  "incidents": [
+  {
+   "id": "H4585",
+   "name": "Endurance Bridge",
+   "date": "2026-11-22",
+   "amount_usd": 1040000,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Unbacked Cross-Chain Mint",
+   "classification": "Bridge & Cross-Chain",
+   "description": "An attacker exploited privileged minting authority associated with Fusionist's Endurance Bridge to create unbacked ACE tokens on BSC. The attacker sold the unauthorized tokens through decentralized exchanges, extracting approximately $1.04M in stablecoins across dozens of transactions. The origin of the unauthorized minting authority remains unknown, and Fusionist advised users to suspend ACE transfers, trading and bridging on BSC while investigating",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H3702",
    "name": "CyberConnect",
@@ -28,13 +50,14 @@
    "id": "H3853",
    "name": "Chainflip AMM",
    "date": "2026-11-21",
-   "amount_usd": 4860000,
+   "amount_usd": 11960000,
    "chains": [
-    "Ethereum"
+    "Ethereum",
+    "Bitcoin"
    ],
    "technique": "Validator Key Compromised",
    "classification": "Key Compromise",
-   "description": "An attacker drained Chainflip's Ethereum vault using a valid Schnorr signature associated with the protocol's aggregate validator signing key. The malicious transferBatch request used an anomalous nonce outside the normal signing sequence, indicating that the signature was generated outside Chainflip's usual authorization process. The attacker withdrew approximately $4.86M in ETH, USDC and USDT, converted the stablecoins to ETH, and deposited 2,909 ETH into Tornado Cash. A compromise of the validator signing system is suspected, but the exact root cause remains unconfirmed",
+   "description": "An attacker exploited a vulnerability affecting Chainflip's aggregate validator signing system to authorize unauthorized withdrawals from its Bitcoin and Ethereum vaults. Approximately 122.86 BTC was stolen from the Bitcoin vault, followed by 520.22 ETH, 3.25M USDC and 758K USDT from the Ethereum vault, totaling approximately $12M. The Ethereum proceeds were converted to ETH and sent through Tornado Cash. Chainflip subsequently disclosed that it had identified the mechanism of signing-key exposure and implemented measures to prevent recurrence, but has not publicly detailed the technical root cause",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -72,11 +95,18 @@
    "id": "HFluidkey",
    "name": "Fluidkey",
    "date": "2026-11-19",
-   "amount_usd": null,
-   "chains": [],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "Fluidkey reported a security incident involving unauthorized transactions affecting users of its self-custodial privacy wallet. The team took its website, application and services offline at 18:05 UTC on November 19, after which it reported no further unauthorized transactions. Fluidkey is investigating the attack with SEAL 911 and tracing the affected funds. The attack vector and total financial losses remain undisclosed",
+   "amount_usd": 1600000,
+   "chains": [
+    "Ethereum",
+    "Base",
+    "Binance",
+    "Polygon",
+    "Optimism",
+    "Arbitrum"
+   ],
+   "technique": "Database Breach",
+   "classification": "Frontend & Infrastructure",
+   "description": "An attacker exploited two vulnerabilities in Fluidkey's self-hosted SigNoz logging infrastructure to access internal logs containing user session tokens. Using those tokens, the attacker created and approved fraudulent transfer requests and increased two-factor spending limits. When affected users unlocked their applications, the apps signed the prepared transfers, allowing approximately $1.6M to be stolen from 52 accounts across six chains. Users' private spending keys were not compromised",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -100,6 +130,29 @@
    "technique": "Key Leaked via Infrastructure",
    "classification": "Frontend & Infrastructure",
    "description": "CALC reported that its operational treasury was almost entirely drained during the Web3Auth/Keplr social-login wallet compromise. A vulnerability in Web3Auth's legacy infrastructure exposed wallet signing credentials, enabling unauthorized withdrawals from affected accounts. CALC used a Keplr hot wallet to fund its off-chain infrastructure expenses and reported losing 99.9888% of its treasury, with only a small amount identified by the recovery operation",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H9098",
+   "name": "The Moats",
+   "date": "2026-11-19",
+   "amount_usd": 600000,
+   "chains": [
+    "Avalanche",
+    "Robinhood Chain"
+   ],
+   "technique": "Key Leaked via Infrastructure",
+   "classification": "Frontend & Infrastructure",
+   "description": "An attacker brute-forced a Moats team member's Hetzner hosting account and gained access to the backend server storing private keys for the protocol's automated-rewards administrator wallets. Using the compromised administrative privileges, the attacker withdrew rewards, staked assets and locked tokens from Moats with automated rewards enabled on Avalanche and Robinhood Chain, causing approximately $600K in losses. The smart contracts themselves were not exploited; the incident originated from compromised hosting infrastructure and privileged keys stored on the server",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -843,50 +896,6 @@
    "technique": "Withdrawal Logic Flaw",
    "classification": "Protocol Logic",
    "description": "",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H2843",
-   "name": "Sovryn Lend",
-   "date": "2026-10-31",
-   "amount_usd": 914000,
-   "chains": [
-    "Rootstock"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On October 31, 2026, attackers exploited Sovryn's lending and margin contracts on Rootstock through three transactions, extracting approximately $914,000 in XUSD and WRBTC. Sovryn paused its core protocol and lending pools after detecting the incident. A 24-hour withdrawal delay enabled the team to block seven additional withdrawals totaling approximately 66,134 XUSD before the funds reached the attackers. The underlying vulnerability remains undisclosed while the team completes security repairs and reconciles affected positions",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H5541",
-   "name": "b14g",
-   "date": "2026-10-31",
-   "amount_usd": null,
-   "chains": [
-    "CORE"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On October 31, 2026, an attacker withdrew approximately 97 million CORE from assets staked through b14g and transferred them to attacker-controlled addresses. The protocol paused the affected contracts and coordinated with security partners and exchanges to trace the stolen funds. Approximately 68 million CORE remained on Core, while exchanges froze another 9 million CORE. BTC staked through b14g was unaffected and remained time-locked on Bitcoin",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
