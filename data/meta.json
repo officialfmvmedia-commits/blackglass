@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-24T10:28:59.256442Z",
+ "generated": "2026-11-24T20:53:55.161384Z",
  "threat": 61,
  "counts": {
-  "addresses": 221,
-  "clusters": 16,
-  "alerts": 2107,
-  "candidates": 1315,
-  "alerts_30d": 557,
-  "txs_scanned": 2753,
+  "addresses": 135,
+  "clusters": 15,
+  "alerts": 2111,
+  "candidates": 1279,
+  "alerts_30d": 559,
+  "txs_scanned": 2109,
   "alerts_by_type": {
-   "exchange": 534,
+   "exchange": 538,
    "lazarus": 1551,
    "hack": 22
   },
   "registry_wallets": 457,
   "exchanges": 19,
   "incidents": 40,
-  "new_this_run": 2,
-  "flagged_hack_addresses": 41514
+  "new_this_run": 4,
+  "flagged_hack_addresses": 42486
  },
  "sources": [
   {
@@ -35,8 +35,8 @@
   {
    "name": "FBI Harmony Horizon attribution (Jan 2023)",
    "url": "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft",
-   "ok": true,
-   "count": 86
+   "ok": false,
+   "error": "HTTP Error 503: Service Unavailable"
   },
   {
    "name": "FBI Atomic Wallet / 2023 heists PSA",
@@ -55,7 +55,7 @@
    "name": "Blockscout Ethereum API",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 161,
+   "count": 75,
    "failed": 2
   },
   {
@@ -110,13 +110,13 @@
    "name": "DefiLlama hacks API",
    "url": "https://api.llama.fi/hacks",
    "ok": true,
-   "count": 1375
+   "count": 1376
   },
   {
    "name": "Elliptic Binance-hack blocklist (CSV)",
    "url": "https://data-cdn.elliptic.co/blocklists/binance-hack-blocklist.csv",
    "ok": true,
-   "count": 41514
+   "count": 42486
   },
   {
    "name": "DefiLlama coin prices",
@@ -128,7 +128,7 @@
    "name": "Blockscout Ethereum (exchange + incident polling)",
    "url": "https://eth.blockscout.com/api/v2/",
    "ok": true,
-   "count": 62
+   "count": 61
   },
   {
    "name": "Blockscout Optimism (exchange polling)",

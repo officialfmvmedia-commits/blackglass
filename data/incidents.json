@@ -1,6 +1,28 @@
 {
- "generated": "2026-11-24T10:28:59.256442Z",
+ "generated": "2026-11-24T20:53:55.161384Z",
  "incidents": [
+  {
+   "id": "HBullpen",
+   "name": "Bullpen",
+   "date": "2026-11-24",
+   "amount_usd": 2570000,
+   "chains": [
+    "Solana"
+   ],
+   "technique": "Unknown",
+   "classification": "Protocol Logic",
+   "description": "Bullpen disclosed unauthorized transfers affecting approximately 18\u201319 accounts created during its April\u2013June 2024 early beta. One affected user, Ansem, reported that his Solana wallet had been compromised, potentially through unauthorized access to his Bullpen profile, where its private key had been imported. Approximately $2.57M in assets was transferred or liquidated from the wallet and moved to Arbitrum through Relay. Bullpen disabled the affected test service while investigating the access vector and determining the full extent of user losses",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "H4585",
    "name": "Endurance Bridge",
@@ -29,12 +51,11 @@
    "date": "2026-11-21",
    "amount_usd": 968000,
    "chains": [
-    "Solana",
-    "Ethereum"
+    "Solana"
    ],
-   "technique": "Cross-Chain Message Spoofing",
-   "classification": "Bridge & Cross-Chain",
-   "description": "An attacker exploited an as-yet-unidentified authorization vulnerability affecting Cyber's cross-chain token bridge, unexpectedly minting 5.213 million CYBER on Solana and triggering the release of an equivalent amount from the Ethereum lockbox through LayerZero messaging. The attacker sold most of the released CYBER through decentralized exchanges for approximately $968K in ETH. The exact mechanism that permitted unauthorized minting and cross-chain redemption remains under investigation",
+   "technique": "Private Key Compromised",
+   "classification": "Key Compromise",
+   "description": "An attacker used compromised LayerZero route-verifier signing authority to authorize fraudulent cross-chain messages, minting 5.213M unbacked CYBER on Solana. The tokens were subsequently burned and redeemed for CYBER held in the Ethereum bridge lockbox, with most proceeds sold for approximately 575 ETH. Cyber stopped the exploit and announced that its treasury would cover all unauthorized CYBER minting, while keeping the bridge paused for a security review",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -874,28 +895,6 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "On November 1, 2026, an attacker exploited Sovryn's XUSD/WRBTC AMM pool on Rootstock, receiving approximately 541,456 XUSD ($538,749) in an attacker-controlled wallet. Portions of the proceeds were subsequently converted into BTC and ETH, while other assets remained under protocol control. Sovryn implemented emergency fee-control changes, delisted the affected pool on November 2, and began reconciling the impact on liquidity providers. The underlying vulnerability and final realized losses remain under investigation",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H3497",
-   "name": "Premia V3",
-   "date": "2026-11-01",
-   "amount_usd": 437000,
-   "chains": [
-    "Arbitrum"
-   ],
-   "technique": "Withdrawal Logic Flaw",
-   "classification": "Protocol Logic",
-   "description": "",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
