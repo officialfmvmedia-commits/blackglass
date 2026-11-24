@@ -1,6 +1,176 @@
 {
- "generated": "2026-11-23T12:23:35.619659Z",
+ "generated": "2026-11-24T00:23:52.066115Z",
  "alerts": [
+  {
+   "id": "drop:ETH:0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec:2026-11-24T00",
+   "type": "exchange",
+   "tags": [
+    "anomaly"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-24T00:23:52.066115Z",
+   "chain": "ETH",
+   "usd": 25209793,
+   "level": 70,
+   "message": "Bitfinex: Hot Wallet (ETH) balance down 83%: $30.2M \u2192 $4.98M between checks.",
+   "reasons": [
+    "balance drop \u226540% between runs"
+   ],
+   "tx_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "No matching internal transfer found in logged activity. Destination not identified."
+  },
+  {
+   "id": "ETH:0x88dd81e3d0cd28fa36d117775fa5471770d8cb6102db4029ad4748ce69455d6b:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-23T22:40:35Z",
+   "chain": "ETH",
+   "usd": 7993470,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x88dd81e3d0cd28fa36d117775fa5471770d8cb6102db4029ad4748ce69455d6b",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x252a8d0087f99f1b14e7647a5917e43588071a12843f68aef53df9c9d672f76a:7999997.8521",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-23T22:39:59Z",
+   "chain": "ETH",
+   "usd": 7993470,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet sent $8.0M (8.00M USDT) to an unlabeled address 0x1468\u2026B65c.",
+   "counterparty_label": "an unlabeled address 0x1468\u2026B65c",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x252a8d0087f99f1b14e7647a5917e43588071a12843f68aef53df9c9d672f76a",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0x9aa7c2a122eef481ddf425f0e6825d23b45bcdbcbf625b9fa6bd5b16c9a4e1b5:8400.0",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-23T21:41:23Z",
+   "chain": "ETH",
+   "usd": 14351929,
+   "level": 40,
+   "message": "Bitfinex: Hot Wallet sent $14.4M (8,400 ETH) to an unlabeled address 0xEd0C\u20264312.",
+   "counterparty_label": "an unlabeled address 0xEd0C\u20264312",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x9aa7c2a122eef481ddf425f0e6825d23b45bcdbcbf625b9fa6bd5b16c9a4e1b5",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "MONITORING",
+   "basis": "Destination is unlabeled. Not linked to any flagged wallet."
+  },
+  {
+   "id": "ETH:0xbf56cbd7250bc99edf57bcaf53ea8a77bc7e9d1b6415ae1b7126fdeb748507ec:8788292.3673",
+   "type": "exchange",
+   "tags": [
+    "large"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-23T21:09:23Z",
+   "chain": "ETH",
+   "usd": 8781121,
+   "level": 20,
+   "message": "Bitfinex: Hot Wallet sent $8.8M (8.79M USDT) to Bitfinex 2.",
+   "counterparty_label": "Bitfinex 2",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xbf56cbd7250bc99edf57bcaf53ea8a77bc7e9d1b6415ae1b7126fdeb748507ec",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Counterparty is Bitfinex 2 (same exchange). Internal transfer."
+  },
+  {
+   "id": "ETH:0x617f413901102975d72f63bec83ce43f5196e3537f4d8e47dcdc0e0b8b754409:10128659.18",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Bitfinex",
+   "time": "2026-11-23T21:08:35Z",
+   "chain": "ETH",
+   "usd": 10120394,
+   "level": 30,
+   "message": "Bitfinex: Hot Wallet received $10.1M (10.13M USDT) from an unlabeled address 0x386F\u20267F03.",
+   "counterparty_label": "an unlabeled address 0x386F\u20267F03",
+   "direction": "in",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0x617f413901102975d72f63bec83ce43f5196e3537f4d8e47dcdc0e0b8b754409",
+   "address": "0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "address_url": "https://eth.blockscout.com/address/0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Bitfinex",
+   "status": "SAFE",
+   "basis": "Inbound deposit. Funds entered exchange custody."
+  },
   {
    "id": "ETH:0x1816c81a032951b1f04ec22bcc1a977a53da00ec5634c4b424aa88a654c423c4:97000000.0",
    "type": "exchange",
