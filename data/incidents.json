@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T04:09:15.148700Z",
+ "generated": "2026-11-25T14:21:34.921292Z",
  "incidents": [
   {
    "id": "HBullpen",
@@ -12,6 +12,28 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "Bullpen disclosed unauthorized transfers affecting approximately 18\u201319 accounts created during its April\u2013June 2024 early beta. One affected user, Ansem, reported that his Solana wallet had been compromised, potentially through unauthorized access to his Bullpen profile, where its private key had been imported. Approximately $2.57M in assets was transferred or liquidated from the wallet and moved to Arbitrum through Relay. Bullpen disabled the affected test service while investigating the access vector and determining the full extent of user losses",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H3188",
+   "name": "Biswap V3",
+   "date": "2026-11-24",
+   "amount_usd": 51000,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Incorrect Share Accounting",
+   "classification": "Token & Share Accounting",
+   "description": "An attacker exploited a liquidity accounting flaw in Biswap V3's burn() function on BSC. When both withdrawal components at the current price point evaluated to zero due to rounding, the function skipped decrementing active liquidity. By repeatedly burning their position, the attacker removed the underlying liquidity while leaving phantom liquidity recorded in the pool, which was then exploited through a subsequent swap to extract approximately $51K",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -873,28 +895,6 @@
    "technique": "Key Leaked via Infrastructure",
    "classification": "Frontend & Infrastructure",
    "description": "On November 1, 2026, attackers exploited a vulnerability in BTCPay Server versions 2.4.1 and earlier to compromise self-hosted installations and steal BTC and LTC from their hot wallets. The vulnerability had been patched in version 2.4.2 in August, but outdated installations remained exposed. BTCPay Server urged affected operators to take their servers offline, migrate to fresh installations, replace compromised wallet seeds, and rotate potentially exposed credentials. Wallets whose spending keys were held off-server, including hardware wallets, were unaffected",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H329",
-   "name": "Sovryn Dex",
-   "date": "2026-11-01",
-   "amount_usd": 538749,
-   "chains": [
-    "Rootstock"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On November 1, 2026, an attacker exploited Sovryn's XUSD/WRBTC AMM pool on Rootstock, receiving approximately 541,456 XUSD ($538,749) in an attacker-controlled wallet. Portions of the proceeds were subsequently converted into BTC and ETH, while other assets remained under protocol control. Sovryn implemented emergency fee-control changes, delisted the affected pool on November 2, and began reconciling the impact on liquidity providers. The underlying vulnerability and final realized losses remain under investigation",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
