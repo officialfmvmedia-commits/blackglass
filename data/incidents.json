@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T23:21:46.802165Z",
+ "generated": "2026-11-26T05:28:44.856959Z",
  "incidents": [
   {
    "id": "HBullpen",
@@ -255,13 +255,13 @@
    "id": "H6205",
    "name": "K3 Capital",
    "date": "2026-11-18",
-   "amount_usd": 3420000,
+   "amount_usd": 3428800,
    "chains": [
     "Ethereum"
    ],
-   "technique": "Incorrect Share Accounting",
-   "classification": "Token & Share Accounting",
-   "description": "Attackers exploited an accounting discrepancy in K3 Capital's sBOLD vault that excluded WETH collateral below a configured threshold from share valuations. Using flash-loaned capital, they minted sBOLD shares while the collateral was undervalued, triggered swaps that converted the uncounted collateral into BOLD, and redeemed their shares at the increased valuation. Repeating this process across 97 transactions drained approximately $3.42M in BOLD from the vault.",
+   "technique": "Missing Input Validation",
+   "classification": "Input Validation",
+   "description": "Attackers exploited missing input validation in K3 Capital's sBOLD vault swap function, which accepted caller-supplied 1inch swap calldata without verifying that the approved collateral was actually spent. By supplying fraudulent swap instructions, attackers increased the vault's share price, redeemed sBOLD for excess BOLD, and used leftover router approvals to reclaim their collateral. Repeated across 99 transactions, the exploit drained approximately $3.43M from the vault",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
