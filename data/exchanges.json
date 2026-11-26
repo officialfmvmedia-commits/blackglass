@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T05:28:44.856959Z",
+ "generated": "2026-11-26T15:47:41.958808Z",
  "note": "Flows are sums of transfers seen in recently polled wallets this run (last ~50 tx per wallet), not full exchange totals.",
  "exchanges": [
   {
@@ -22,11 +22,11 @@
    },
    "monitored": true,
    "flow_in_usd": 0,
-   "flow_out_usd": 1887,
+   "flow_out_usd": 40583,
    "biggest": {
-    "usd": 1885.98,
-    "text": "1 WBETH out to 0x690C3E\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xc2288aaaa2f95be5431c318c45aec5416b1627a22667f43d3a9e36d770cf8ac2"
+    "usd": 40583.24620225767,
+    "text": "6.41M MOVE out to 0x690C3E\u2026",
+    "tx": "https://eth.blockscout.com/tx/0xa70a35be856fd9aedfdfc7dd432543397faa239788788079701068419780e470"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -65,14 +65,14 @@
     "deposit": 1
    },
    "monitored": true,
-   "flow_in_usd": 28843132,
-   "flow_out_usd": 182050081,
+   "flow_in_usd": 9514880,
+   "flow_out_usd": 13729593,
    "biggest": {
-    "usd": 165321591.0,
-    "text": "165.50M USDT out to 0x575428\u2026",
-    "tx": "https://eth.blockscout.com/tx/0xb693567b31ccad2278bef55a4d413b16ea94ba58f20734071890554a7305fd6a"
+    "usd": 4895335.2,
+    "text": "4.90M USDT out to 0x95e94e\u2026",
+    "tx": "https://eth.blockscout.com/tx/0x0f10f2e403be35b0e10148d1386aedca3916b465439a7a30e512c7dd81b2b1e5"
    },
-   "alerts_24h": 13,
+   "alerts_24h": 10,
    "anomaly": false
   },
   {
@@ -90,12 +90,12 @@
     "hot": 1
    },
    "monitored": true,
-   "flow_in_usd": 238510,
-   "flow_out_usd": 0,
+   "flow_in_usd": 137971,
+   "flow_out_usd": 287658,
    "biggest": {
-    "usd": 105341.67709663871,
-    "text": "105,478 USDT0 in from 0xFED968\u2026",
-    "tx": "https://optimism.blockscout.com/tx/0x36c3a701cfe9f1c02c41e721eda9fb9842b7bc4bcc30607da781a5657ff03e49"
+    "usd": 155196.6926166643,
+    "text": "155,375 USDT0 out to ERC1967Proxy",
+    "tx": "https://optimism.blockscout.com/tx/0xcacbdb56a9ee86253027bca0f175fa9be90c3b03aad7daeb50d3b0b8de02ef05"
    },
    "alerts_24h": 0,
    "anomaly": false
@@ -132,8 +132,8 @@
    "flow_in_usd": 0,
    "flow_out_usd": 0,
    "biggest": null,
-   "alerts_24h": 1,
-   "anomaly": true
+   "alerts_24h": 0,
+   "anomaly": false
   },
   {
    "entity": "Poloniex",
