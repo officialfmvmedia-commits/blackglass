@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T15:47:41.958808Z",
+ "generated": "2026-11-27T00:35:09.376241Z",
  "incidents": [
   {
    "id": "HBullpen",
@@ -326,6 +326,28 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "On November 17, 2026, an attacker exploited B18 TimeBank's level-reward voucher redemption mechanism on Base, withdrawing approximately $404,540 in USDC from the protocol's settlement contract. The attacker redeemed signed reward vouchers to trigger the unauthorized withdrawal in a single identified transaction",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "H128",
+   "name": "Hegic",
+   "date": "2026-11-17",
+   "amount_usd": 1000000,
+   "chains": [
+    "Arbitrum"
+   ],
+   "technique": "Oracle Misconfiguration",
+   "classification": "Oracle Manipulation",
+   "description": "An attacker exploited incorrect prices supplied by Hegic's off-chain pricing module on November 17, 2026, to purchase mispriced ETH put options with a profit zone below $1,600. The malicious positions generated more than $1M in payouts from the operational pool, while some options remained active. Hegic suspended options trading, reported no smart-contract vulnerabilities, and committed to fully compensating affected Stake & Cover participants",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
@@ -872,29 +894,6 @@
    "technique": "Unknown",
    "classification": "Protocol Logic",
    "description": "On November 2, 2026, attackers breached BitMart and transferred approximately $391,000 in cryptocurrency from exchange-associated wallets on Base, Arbitrum, and Optimism. Blockchain investigators traced portions of the stolen funds to addresses associated with the Mercado Bitcoin exploit, which occurred on the same day. BitMart founder Sheldon Xia confirmed the breach and said the exchange had investigated the incident and strengthened its security measures. The initial access method remains unidentified",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HBTCPay Server",
-   "name": "BTCPay Server",
-   "date": "2026-11-01",
-   "amount_usd": null,
-   "chains": [
-    "Bitcoin",
-    "Litecoin"
-   ],
-   "technique": "Key Leaked via Infrastructure",
-   "classification": "Frontend & Infrastructure",
-   "description": "On November 1, 2026, attackers exploited a vulnerability in BTCPay Server versions 2.4.1 and earlier to compromise self-hosted installations and steal BTC and LTC from their hot wallets. The vulnerability had been patched in version 2.4.2 in August, but outdated installations remained exposed. BTCPay Server urged affected operators to take their servers offline, migrate to fresh installations, replace compromised wallet seeds, and rotate potentially exposed credentials. Wallets whose spending keys were held off-server, including hardware wallets, were unaffected",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
