@@ -1,6 +1,35 @@
 {
- "generated": "2026-11-28T01:57:19.544118Z",
+ "generated": "2026-11-28T10:08:23.974226Z",
  "alerts": [
+  {
+   "id": "ETH:0xc20e954d6ccd91a5672f1f9c869d8a677c5773695b72490000d229da20b02e88:12671809.3845",
+   "type": "exchange",
+   "tags": [
+    "large",
+    "whale"
+   ],
+   "entity": "Gate",
+   "time": "2026-11-28T07:18:35Z",
+   "chain": "ETH",
+   "usd": 12614634,
+   "level": 30,
+   "message": "Gate.io 5 sent $12.6M (12.67M USD1) to Gate.io.",
+   "counterparty_label": "Gate.io",
+   "direction": "out",
+   "reasons": [],
+   "tx_url": "https://eth.blockscout.com/tx/0xc20e954d6ccd91a5672f1f9c869d8a677c5773695b72490000d229da20b02e88",
+   "address": "0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "address_url": "https://eth.blockscout.com/address/0xc882b111a75c0c657fc507c04fbfcd2cc984f071",
+   "sources": [
+    {
+     "name": "brianleect/etherscan-labels (etherscan, MIT)",
+     "url": "https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan"
+    }
+   ],
+   "cluster": "Gate",
+   "status": "SAFE",
+   "basis": "Counterparty is Gate.io (same exchange). Internal transfer."
+  },
   {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-28T01",
    "type": "exchange",

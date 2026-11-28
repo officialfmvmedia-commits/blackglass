@@ -5,6 +5,24 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "ETH:0xc20e954d6ccd91a5672f1f9c869d8a677c5773695b72490000d229da20b02e88:12671809.3845",
+   "url": "https://eth.blockscout.com/tx/0xc20e954d6ccd91a5672f1f9c869d8a677c5773695b72490000d229da20b02e88",
+   "title": "[SAFE] Gate.io 5 sent $12.6M (12.67M USD1) to Gate.io.",
+   "content_text": "Gate.io 5 sent $12.6M (12.67M USD1) to Gate.io. Status: SAFE. Counterparty is Gate.io (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-28T07:18:35Z",
+   "tags": [
+    "exchange",
+    "SAFE",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "SAFE",
+    "basis": "Counterparty is Gate.io (same exchange). Internal transfer.",
+    "risk": 30
+   }
+  },
+  {
    "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-28T01",
    "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
    "title": "[MONITORING] Coinbase 10 (ETH) balance down 54%: $8.56M \u2192 $3.90M between checks.",
@@ -2602,24 +2620,6 @@
     "status": "MONITORING",
     "basis": "No matching internal transfer found in logged activity. Destination not identified.",
     "risk": 70
-   }
-  },
-  {
-   "id": "ETH:0x0ff14d952e1d458335661d913f10acbc39476de40dfa79aea8c9d4a8038181d2:67033898.5043",
-   "url": "https://eth.blockscout.com/tx/0x0ff14d952e1d458335661d913f10acbc39476de40dfa79aea8c9d4a8038181d2",
-   "title": "[SAFE] Bitfinex 2 received $67.0M (67.03M USDT) from Bitfinex: Hot Wallet.",
-   "content_text": "Bitfinex 2 received $67.0M (67.03M USDT) from Bitfinex: Hot Wallet. Status: SAFE. Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan, https://github.com/dawsbot/eth-labels Labels are heuristic, not attribution.",
-   "date_published": "2026-11-19T11:59:23Z",
-   "tags": [
-    "exchange",
-    "SAFE",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "SAFE",
-    "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer.",
-    "risk": 30
    }
   }
  ]
