@@ -5,6 +5,41 @@
  "feed_url": "https://hackwatch.info/feed.json",
  "items": [
   {
+   "id": "drop:ETH:0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43:2026-11-28T01",
+   "url": "https://eth.blockscout.com/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+   "title": "[MONITORING] Coinbase 10 (ETH) balance down 54%: $8.56M \u2192 $3.90M between checks.",
+   "content_text": "Coinbase 10 (ETH) balance down 54%: $8.56M \u2192 $3.90M between checks. Status: MONITORING. No matching internal transfer found in logged activity. Destination not identified. Risk score 70/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-28T01:57:19.544118Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "anomaly"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "No matching internal transfer found in logged activity. Destination not identified.",
+    "risk": 70
+   }
+  },
+  {
+   "id": "ETH:0x2eb7d0cd6a73c1ee5e71dee55ce1672968a3784e69a36d28f4a0465efd8e4b9e:42546567.8521",
+   "url": "https://eth.blockscout.com/tx/0x2eb7d0cd6a73c1ee5e71dee55ce1672968a3784e69a36d28f4a0465efd8e4b9e",
+   "title": "[MONITORING] Bitfinex: Hot Wallet sent $42.5M (42.55M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
+   "content_text": "Bitfinex: Hot Wallet sent $42.5M (42.55M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
+   "date_published": "2026-11-28T00:48:47Z",
+   "tags": [
+    "exchange",
+    "MONITORING",
+    "large",
+    "whale"
+   ],
+   "_hackwatch": {
+    "status": "MONITORING",
+    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
+    "risk": 40
+   }
+  },
+  {
    "id": "ETH:0x1df5b786e5c6eb6ab7f144ae48cb5a1a868153efa83aa690fbf948af2e7e5865:33345587.1758",
    "url": "https://eth.blockscout.com/tx/0x1df5b786e5c6eb6ab7f144ae48cb5a1a868153efa83aa690fbf948af2e7e5865",
    "title": "[SAFE] Bitfinex: Hot Wallet sent $33.3M (33.35M USDT) to Bitfinex 2.",
@@ -2585,41 +2620,6 @@
     "status": "SAFE",
     "basis": "Counterparty is Bitfinex: Hot Wallet (same exchange). Internal transfer.",
     "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0x7788ab5e338bcb2aae5b996656a8217869ef6acd27414047e34961865f3b9b00:9499997.8521",
-   "url": "https://eth.blockscout.com/tx/0x7788ab5e338bcb2aae5b996656a8217869ef6acd27414047e34961865f3b9b00",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $9.5M (9.50M USDT) to an unlabeled address 0x1468\u2026B65c.",
-   "content_text": "Bitfinex: Hot Wallet sent $9.5M (9.50M USDT) to an unlabeled address 0x1468\u2026B65c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 30/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-19T08:24:47Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 30
-   }
-  },
-  {
-   "id": "ETH:0xc8e1d80d381d59ce9fe75a114dc83682779b37fe54fd8c1ad3f527763ae25d21:18886515.8521",
-   "url": "https://eth.blockscout.com/tx/0xc8e1d80d381d59ce9fe75a114dc83682779b37fe54fd8c1ad3f527763ae25d21",
-   "title": "[MONITORING] Bitfinex: Hot Wallet sent $18.9M (18.89M USDT) to an unlabeled address 0xea6D\u2026aE1c.",
-   "content_text": "Bitfinex: Hot Wallet sent $18.9M (18.89M USDT) to an unlabeled address 0xea6D\u2026aE1c. Status: MONITORING. Destination is unlabeled. Not linked to any flagged wallet. Risk score 40/100. Sources: https://github.com/brianleect/etherscan-labels/tree/main/data/etherscan Labels are heuristic, not attribution.",
-   "date_published": "2026-11-19T08:19:35Z",
-   "tags": [
-    "exchange",
-    "MONITORING",
-    "large",
-    "whale"
-   ],
-   "_hackwatch": {
-    "status": "MONITORING",
-    "basis": "Destination is unlabeled. Not linked to any flagged wallet.",
-    "risk": 40
    }
   }
  ]

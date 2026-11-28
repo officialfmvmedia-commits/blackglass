@@ -1,6 +1,50 @@
 {
- "generated": "2026-11-27T18:58:01.379638Z",
+ "generated": "2026-11-28T01:57:19.544118Z",
  "incidents": [
+  {
+   "id": "HAtoshi Bridge",
+   "name": "Atoshi Bridge",
+   "date": "2026-11-27",
+   "amount_usd": 60300,
+   "chains": [
+    "Ethereum"
+   ],
+   "technique": "Deployer Key Compromised",
+   "classification": "Key Compromise",
+   "description": "An attacker reportedly compromised Atoshi's deployer signing key and used its upgrade authority to replace the Ethereum bridge router proxy's implementation with a malicious contract. The replacement implementation transferred approximately 201.05M ATOS from the bridge to an attacker-controlled wallet, which sold the tokens through KyberSwap for approximately $60.3K in stablecoins. The original method of obtaining control over the deployer account remains unconfirmed",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
+  {
+   "id": "HSVT",
+   "name": "SVT",
+   "date": "2026-11-26",
+   "amount_usd": 56800,
+   "chains": [
+    "BSC"
+   ],
+   "technique": "Swap Logic Flaw",
+   "classification": "Protocol Logic",
+   "description": "An attacker exploited SVT's deflationary token logic, which burned tokens directly from its PancakeSwap liquidity pool on sells and synchronized the reduced reserves. By routing transfers through PancakeSwap's router to bypass buy restrictions, the attacker repeatedly triggered the burn mechanism across 185 iterations, reducing the pool's SVT reserves while preserving its WBNB reserves. The resulting price distortion allowed the attacker to sell accumulated SVT and extract approximately 102.44 WBNB ($56.8K)",
+   "returned": null,
+   "attribution": "Unattributed",
+   "actor": null,
+   "sources": [
+    {
+     "name": "DefiLlama hacks",
+     "url": "https://defillama.com/hacks"
+    }
+   ],
+   "addresses": []
+  },
   {
    "id": "HBullpen",
    "name": "Bullpen",
@@ -839,61 +883,6 @@
    "technique": "Arithmetic Error",
    "classification": "Token & Share Accounting",
    "description": "An attacker exploited an arithmetic overflow in DeFiChain's native account-to-account transfer mechanism, causing the blockchain to deduct only one satoshi of DFI from the sender while crediting recipients with the full transfer amounts. The vulnerability was exploited at least twice, creating approximately 184.47 billion unauthorized DFI across two addresses, more than 140 times the intended maximum supply. The development contributors contacted declined to implement a fix or rollback, leaving the vulnerability and inflated supply unaddressed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "HMercado Bitcoin",
-   "name": "Mercado Bitcoin",
-   "date": "2026-11-02",
-   "amount_usd": 40000000,
-   "chains": [
-    "Bitcoin",
-    "Ethereum",
-    "Solana",
-    "TRON",
-    "Polygon",
-    "Arbitrum",
-    "Avalanche",
-    "BSC",
-    "Stellar",
-    "XDC"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On November 2, 2026, attackers compromised a system at Mercado Bitcoin and transferred more than $40 million in crypto from exchange-associated wallets across various blockchains. The exchange contained the incident and temporarily suspended deposits and withdrawals while investigating the transfers. Tether froze more than $4.5 million USDT associated with the theft. Mercado Bitcoin stated that customers would not incur losses and that no customer data was exposed",
-   "returned": null,
-   "attribution": "Unattributed",
-   "actor": null,
-   "sources": [
-    {
-     "name": "DefiLlama hacks",
-     "url": "https://defillama.com/hacks"
-    }
-   ],
-   "addresses": []
-  },
-  {
-   "id": "H3577",
-   "name": "BitMart",
-   "date": "2026-11-02",
-   "amount_usd": 391000,
-   "chains": [
-    "Base",
-    "Arbitrum",
-    "Optimism"
-   ],
-   "technique": "Unknown",
-   "classification": "Protocol Logic",
-   "description": "On November 2, 2026, attackers breached BitMart and transferred approximately $391,000 in cryptocurrency from exchange-associated wallets on Base, Arbitrum, and Optimism. Blockchain investigators traced portions of the stolen funds to addresses associated with the Mercado Bitcoin exploit, which occurred on the same day. BitMart founder Sheldon Xia confirmed the breach and said the exchange had investigated the incident and strengthened its security measures. The initial access method remains unidentified",
    "returned": null,
    "attribution": "Unattributed",
    "actor": null,
